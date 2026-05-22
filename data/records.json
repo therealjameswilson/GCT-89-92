@@ -1,0 +1,4125 @@
+[
+  {
+    "id": "conversation-428079863",
+    "recordSet": "Presidential conversation",
+    "date": "1989-02-24",
+    "sortDate": "1989-02-24",
+    "type": "Memcon",
+    "title": "President's Meeting with Prime Minister Turgut Ozal of Turkey, February 24, 1989",
+    "documentTitle": "President's Meeting with Prime Minister Turgut Ozal of Turkey, February 24, 1989",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428079863",
+    "catalogUrl": "https://catalog.archives.gov/id/428079863",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-02-24--Ozal.pdf",
+    "objectFilename": "1989-02-24--Ozal.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428079863",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, President's Meeting with Prime Minister Turgut Ozal of Turkey, February 24, 1989. NAID 428079863. Full. Digital object: 1989-02-24--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428079863."
+  },
+  {
+    "id": "conversation-428082487",
+    "recordSet": "Presidential conversation",
+    "date": "1989-05-29",
+    "sortDate": "1989-05-29",
+    "type": "No Memcon",
+    "title": "Meeting with Prime Minister Turgut Ozal of Turkey, May 29, 1989 (no Memcon)",
+    "documentTitle": "Meeting with Prime Minister Turgut Ozal of Turkey, May 29, 1989 (no Memcon)",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Marker / no memorandum listed",
+    "naid": "428082487",
+    "catalogUrl": "https://catalog.archives.gov/id/428082487",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-05-29--Ozal.pdf",
+    "objectFilename": "1989-05-29--Ozal.pdf",
+    "pageCount": 2,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082487",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Meeting with Prime Minister Turgut Ozal of Turkey, May 29, 1989 (no Memcon). NAID 428082487. Marker / no memorandum listed. Digital object: 1989-05-29--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082487."
+  },
+  {
+    "id": "conversation-428082497",
+    "recordSet": "Presidential conversation",
+    "date": "1989-05-30",
+    "sortDate": "1989-05-30",
+    "type": "Memcon",
+    "title": "Meeting with Andreas Papandreaou, Prime Minister of Greece, May 30, 1989",
+    "documentTitle": "Meeting with Andreas Papandreaou, Prime Minister of Greece, May 30, 1989",
+    "participants": [
+      "George H. W. Bush",
+      "Andreas Papandreou"
+    ],
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "releaseStatus": "Full",
+    "naid": "428082497",
+    "catalogUrl": "https://catalog.archives.gov/id/428082497",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-05-30--Papandreou.pdf",
+    "objectFilename": "1989-05-30--Papandreou.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082497",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Greece",
+      "Greece"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Meeting with Andreas Papandreaou, Prime Minister of Greece, May 30, 1989. NAID 428082497. Full. Digital object: 1989-05-30--Papandreou.pdf. Catalog: https://catalog.archives.gov/id/428082497."
+  },
+  {
+    "id": "conversation-428080111",
+    "recordSet": "Presidential conversation",
+    "date": "1989-07-03",
+    "sortDate": "1989-07-03",
+    "type": "Telcon",
+    "title": "Telephone Call to Prime Minister Turgut Ozal of Turkey, July 3, 1989",
+    "documentTitle": "Telephone Call to Prime Minister Turgut Ozal of Turkey, July 3, 1989",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080111",
+    "catalogUrl": "https://catalog.archives.gov/id/428080111",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-07-03--Ozal.pdf",
+    "objectFilename": "1989-07-03--Ozal.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080111",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call to Prime Minister Turgut Ozal of Turkey, July 3, 1989. NAID 428080111. Full. Digital object: 1989-07-03--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080111."
+  },
+  {
+    "id": "conversation-428080149",
+    "recordSet": "Presidential conversation",
+    "date": "1989-08-01",
+    "sortDate": "1989-08-01",
+    "type": "Telcon",
+    "title": "Telephone Call to President Kenan Evren of Turkey, August 1, 1989",
+    "documentTitle": "Telephone Call to President Kenan Evren of Turkey, August 1, 1989",
+    "participants": [
+      "George H. W. Bush",
+      "Kenan Evren"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080149",
+    "catalogUrl": "https://catalog.archives.gov/id/428080149",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-01--Evren.pdf",
+    "objectFilename": "1989-08-01--Evren.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080149",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call to President Kenan Evren of Turkey, August 1, 1989. NAID 428080149. Full. Digital object: 1989-08-01--Evren.pdf. Catalog: https://catalog.archives.gov/id/428080149."
+  },
+  {
+    "id": "conversation-428080153",
+    "recordSet": "Presidential conversation",
+    "date": "1989-08-01",
+    "sortDate": "1989-08-01",
+    "type": "Telcon",
+    "title": "Telephone Call to Prime Minister Turgut Ozal of Turkey, August 1, 1989",
+    "documentTitle": "Telephone Call to Prime Minister Turgut Ozal of Turkey, August 1, 1989",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080153",
+    "catalogUrl": "https://catalog.archives.gov/id/428080153",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-08-01--Ozal.pdf",
+    "objectFilename": "1989-08-01--Ozal.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080153",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call to Prime Minister Turgut Ozal of Turkey, August 1, 1989. NAID 428080153. Full. Digital object: 1989-08-01--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080153."
+  },
+  {
+    "id": "conversation-428080191",
+    "recordSet": "Presidential conversation",
+    "date": "1989-09-25",
+    "sortDate": "1989-09-25",
+    "type": "Memcon",
+    "title": "President's Lunch for Allied Representatives, September 25, 1989",
+    "documentTitle": "President's Lunch for Allied Representatives, September 25, 1989",
+    "participants": [
+      "George H. W. Bush",
+      "Manfred Woerner",
+      "George Papoulias",
+      "Mesut Yilmaz",
+      "NATO allied representatives"
+    ],
+    "countries": [
+      "United States",
+      "Greece",
+      "Turkey",
+      "NATO"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "Regional"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080191",
+    "catalogUrl": "https://catalog.archives.gov/id/428080191",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-09-25--Allied-Representatives.pdf",
+    "objectFilename": "1989-09-25--Allied-Representatives.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080191",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Regional",
+      "Greece",
+      "Turkey",
+      "NATO"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, President's Lunch for Allied Representatives, September 25, 1989. NAID 428080191. Full. Digital object: 1989-09-25--Allied-Representatives.pdf. Catalog: https://catalog.archives.gov/id/428080191."
+  },
+  {
+    "id": "conversation-428080269",
+    "recordSet": "Presidential conversation",
+    "date": "1989-10-02",
+    "sortDate": "1989-10-02",
+    "type": "Telcon",
+    "title": "Telephone Conversation with Turgut Ozal, Prime Minister of Republic of Turkey",
+    "documentTitle": "Telephone Conversation with Turgut Ozal, Prime Minister of Republic of Turkey",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080269",
+    "catalogUrl": "https://catalog.archives.gov/id/428080269",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-10-02--Ozal.pdf",
+    "objectFilename": "1989-10-02--Ozal.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080269",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with Turgut Ozal, Prime Minister of Republic of Turkey. NAID 428080269. Full. Digital object: 1989-10-02--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080269."
+  },
+  {
+    "id": "conversation-428080249",
+    "recordSet": "Presidential conversation",
+    "date": "1989-10-04",
+    "sortDate": "1989-10-04",
+    "type": "Memcon",
+    "title": "Meeting with George Vassiliou, President of Cyprus",
+    "documentTitle": "Meeting with George Vassiliou, President of Cyprus",
+    "participants": [
+      "George H. W. Bush",
+      "George Vassiliou"
+    ],
+    "countries": [
+      "United States",
+      "Cyprus"
+    ],
+    "chapter": {
+      "number": 2,
+      "name": "Cyprus"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080249",
+    "catalogUrl": "https://catalog.archives.gov/id/428080249",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-10-04--Vassiliou.pdf",
+    "objectFilename": "1989-10-04--Vassiliou.pdf",
+    "pageCount": 6,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080249",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Cyprus",
+      "Cyprus"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting with George Vassiliou, President of Cyprus. NAID 428080249. Full. Digital object: 1989-10-04--Vassiliou.pdf. Catalog: https://catalog.archives.gov/id/428080249."
+  },
+  {
+    "id": "conversation-428080281",
+    "recordSet": "Presidential conversation",
+    "date": "1989-10-24",
+    "sortDate": "1989-10-24",
+    "type": "Memcon",
+    "title": "Presentation of Credentials by Christos Zacharakis, Ambassador of Greece",
+    "documentTitle": "Presentation of Credentials by Christos Zacharakis, Ambassador of Greece",
+    "participants": [
+      "George H. W. Bush",
+      "Christos Zacharakis"
+    ],
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080281",
+    "catalogUrl": "https://catalog.archives.gov/id/428080281",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1989-10-24--Zacharakis.pdf",
+    "objectFilename": "1989-10-24--Zacharakis.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080281",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Greece",
+      "Greece"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Presentation of Credentials by Christos Zacharakis, Ambassador of Greece. NAID 428080281. Full. Digital object: 1989-10-24--Zacharakis.pdf. Catalog: https://catalog.archives.gov/id/428080281."
+  },
+  {
+    "id": "conversation-428080363",
+    "recordSet": "Presidential conversation",
+    "date": "1989-11-27",
+    "sortDate": "1989-11-27",
+    "type": "Telcon",
+    "title": "Telephone Call to President Turgut Ozal of Turkey, November 27, 1989",
+    "documentTitle": "Telephone Call to President Turgut Ozal of Turkey, November 27, 1989",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080363",
+    "catalogUrl": "https://catalog.archives.gov/id/428080363",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-11-27--Ozal.pdf",
+    "objectFilename": "1989-11-27--Ozal.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080363",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call to President Turgut Ozal of Turkey, November 27, 1989. NAID 428080363. Full. Digital object: 1989-11-27--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080363."
+  },
+  {
+    "id": "conversation-428080371",
+    "recordSet": "Presidential conversation",
+    "date": "1989-11-27",
+    "sortDate": "1989-11-27",
+    "type": "Telcon",
+    "title": "Telephone Call to Prime Minister Xenofon Zolotas of Greece, November 27, 1989",
+    "documentTitle": "Telephone Call to Prime Minister Xenofon Zolotas of Greece, November 27, 1989",
+    "participants": [
+      "George H. W. Bush",
+      "Xenofon Zolotas"
+    ],
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080371",
+    "catalogUrl": "https://catalog.archives.gov/id/428080371",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1989-11-27--Zolotas.pdf",
+    "objectFilename": "1989-11-27--Zolotas.pdf",
+    "pageCount": 2,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080371",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Greece",
+      "Greece"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call to Prime Minister Xenofon Zolotas of Greece, November 27, 1989. NAID 428080371. Full. Digital object: 1989-11-27--Zolotas.pdf. Catalog: https://catalog.archives.gov/id/428080371."
+  },
+  {
+    "id": "conversation-428080435",
+    "recordSet": "Presidential conversation",
+    "date": "1990-01-18",
+    "sortDate": "1990-01-18",
+    "type": "Memcon",
+    "title": "Meeting With President Turgut Ozal of Turkey, January 18, 1990 (1 of 2)",
+    "documentTitle": "Meeting With President Turgut Ozal of Turkey, January 18, 1990 (1 of 2)",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080435",
+    "catalogUrl": "https://catalog.archives.gov/id/428080435",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-01-18--Ozal-1.pdf",
+    "objectFilename": "1990-01-18--Ozal-1.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080435",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting With President Turgut Ozal of Turkey, January 18, 1990 (1 of 2). NAID 428080435. Full. Digital object: 1990-01-18--Ozal-1.pdf. Catalog: https://catalog.archives.gov/id/428080435."
+  },
+  {
+    "id": "conversation-428080437",
+    "recordSet": "Presidential conversation",
+    "date": "1990-01-18",
+    "sortDate": "1990-01-18",
+    "type": "Memcon",
+    "title": "Meeting with President Turgut Ozal of Turkey, January 18, 1990 (2 of 2)",
+    "documentTitle": "Meeting with President Turgut Ozal of Turkey, January 18, 1990 (2 of 2)",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Partial",
+    "naid": "428080437",
+    "catalogUrl": "https://catalog.archives.gov/id/428080437",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-01-18--Ozal-2.pdf",
+    "objectFilename": "1990-01-18--Ozal-2.pdf",
+    "pageCount": 8,
+    "accessRestriction": "Restricted - Partly",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080437",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting with President Turgut Ozal of Turkey, January 18, 1990 (2 of 2). NAID 428080437. Partial. Digital object: 1990-01-18--Ozal-2.pdf. Catalog: https://catalog.archives.gov/id/428080437."
+  },
+  {
+    "id": "conversation-428080735",
+    "recordSet": "Presidential conversation",
+    "date": "1990-06-06",
+    "sortDate": "1990-06-06",
+    "type": "Memcon",
+    "title": "Meeting and Lunch with Prime Minister Mitsotakis, June 6, 1990",
+    "documentTitle": "Meeting and Lunch with Prime Minister Mitsotakis, June 6, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Constantine Mitsotakis"
+    ],
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080735",
+    "catalogUrl": "https://catalog.archives.gov/id/428080735",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-06-06--Mitsotakis.pdf",
+    "objectFilename": "1990-06-06--Mitsotakis.pdf",
+    "pageCount": 11,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080735",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Greece",
+      "Greece"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting and Lunch with Prime Minister Mitsotakis, June 6, 1990. NAID 428080735. Full. Digital object: 1990-06-06--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428080735."
+  },
+  {
+    "id": "conversation-428080861",
+    "recordSet": "Presidential conversation",
+    "date": "1990-07-26",
+    "sortDate": "1990-07-26",
+    "type": "Telcon",
+    "title": "Telephone Call to President Turgut Ozal of Turkey, July 26, 1990",
+    "documentTitle": "Telephone Call to President Turgut Ozal of Turkey, July 26, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080861",
+    "catalogUrl": "https://catalog.archives.gov/id/428080861",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-07-26--Ozal.pdf",
+    "objectFilename": "1990-07-26--Ozal.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080861",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call to President Turgut Ozal of Turkey, July 26, 1990. NAID 428080861. Full. Digital object: 1990-07-26--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080861."
+  },
+  {
+    "id": "conversation-428080881",
+    "recordSet": "Presidential conversation",
+    "date": "1990-08-03",
+    "sortDate": "1990-08-03",
+    "type": "Telcon",
+    "title": "Telephone Call to President Turgut Ozal of Turkey, August 3, 1990",
+    "documentTitle": "Telephone Call to President Turgut Ozal of Turkey, August 3, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080881",
+    "catalogUrl": "https://catalog.archives.gov/id/428080881",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-03--Ozal.pdf",
+    "objectFilename": "1990-08-03--Ozal.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080881",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call to President Turgut Ozal of Turkey, August 3, 1990. NAID 428080881. Full. Digital object: 1990-08-03--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080881."
+  },
+  {
+    "id": "conversation-428080891",
+    "recordSet": "Presidential conversation",
+    "date": "1990-08-04",
+    "sortDate": "1990-08-04",
+    "type": "Telcon",
+    "title": "Telephone Call to President Turgut Ozal of Turkey, August 4, 1990",
+    "documentTitle": "Telephone Call to President Turgut Ozal of Turkey, August 4, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Partial",
+    "naid": "428080891",
+    "catalogUrl": "https://catalog.archives.gov/id/428080891",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-04--Ozal.pdf",
+    "objectFilename": "1990-08-04--Ozal.pdf",
+    "pageCount": 2,
+    "accessRestriction": "Restricted - Partly",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080891",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call to President Turgut Ozal of Turkey, August 4, 1990. NAID 428080891. Partial. Digital object: 1990-08-04--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080891."
+  },
+  {
+    "id": "conversation-428080899",
+    "recordSet": "Presidential conversation",
+    "date": "1990-08-05",
+    "sortDate": "1990-08-05",
+    "type": "Telcon",
+    "title": "Telcon with President Ozal of Turkey, August 5, 1990",
+    "documentTitle": "Telcon with President Ozal of Turkey, August 5, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080899",
+    "catalogUrl": "https://catalog.archives.gov/id/428080899",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-05--Ozal.pdf",
+    "objectFilename": "1990-08-05--Ozal.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080899",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with President Ozal of Turkey, August 5, 1990. NAID 428080899. Full. Digital object: 1990-08-05--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080899."
+  },
+  {
+    "id": "conversation-428080911",
+    "recordSet": "Presidential conversation",
+    "date": "1990-08-08",
+    "sortDate": "1990-08-08",
+    "type": "Telcon",
+    "title": "Telephone Call from President Turgut Ozal of Turkey, August 8, 1990",
+    "documentTitle": "Telephone Call from President Turgut Ozal of Turkey, August 8, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080911",
+    "catalogUrl": "https://catalog.archives.gov/id/428080911",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-08--Ozal.pdf",
+    "objectFilename": "1990-08-08--Ozal.pdf",
+    "pageCount": 2,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080911",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call from President Turgut Ozal of Turkey, August 8, 1990. NAID 428080911. Full. Digital object: 1990-08-08--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080911."
+  },
+  {
+    "id": "conversation-428080953",
+    "recordSet": "Presidential conversation",
+    "date": "1990-08-14",
+    "sortDate": "1990-08-14",
+    "type": "Telcon",
+    "title": "Telephone Call from President Turgut Ozal of Turkey, August 14, 1990",
+    "documentTitle": "Telephone Call from President Turgut Ozal of Turkey, August 14, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080953",
+    "catalogUrl": "https://catalog.archives.gov/id/428080953",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-14--Ozal.pdf",
+    "objectFilename": "1990-08-14--Ozal.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080953",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call from President Turgut Ozal of Turkey, August 14, 1990. NAID 428080953. Full. Digital object: 1990-08-14--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080953."
+  },
+  {
+    "id": "conversation-428080933",
+    "recordSet": "Presidential conversation",
+    "date": "1990-08-16",
+    "sortDate": "1990-08-16",
+    "type": "No Telcon",
+    "title": "Telephone Call with Turgut Ozal, August 16, 1990",
+    "documentTitle": "Telephone Call with Turgut Ozal, August 16, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Marker / no memorandum listed",
+    "naid": "428080933",
+    "catalogUrl": "https://catalog.archives.gov/id/428080933",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-16--Ozal.pdf",
+    "objectFilename": "1990-08-16--Ozal.pdf",
+    "pageCount": 2,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080933",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call with Turgut Ozal, August 16, 1990. NAID 428080933. Marker / no memorandum listed. Digital object: 1990-08-16--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080933."
+  },
+  {
+    "id": "conversation-428080959",
+    "recordSet": "Presidential conversation",
+    "date": "1990-08-20",
+    "sortDate": "1990-08-20",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President Turgut Ozal of Turkey, August 20, 1990",
+    "documentTitle": "Telephone Conversation with President Turgut Ozal of Turkey, August 20, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080959",
+    "catalogUrl": "https://catalog.archives.gov/id/428080959",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-20--Ozal.pdf",
+    "objectFilename": "1990-08-20--Ozal.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080959",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, August 20, 1990. NAID 428080959. Full. Digital object: 1990-08-20--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080959."
+  },
+  {
+    "id": "conversation-428080965",
+    "recordSet": "Presidential conversation",
+    "date": "1990-08-22",
+    "sortDate": "1990-08-22",
+    "type": "Telcon",
+    "title": "Telephone Conversation with Prime Minister Constantine Mitsotakis of Greece, August 22, 1990",
+    "documentTitle": "Telephone Conversation with Prime Minister Constantine Mitsotakis of Greece, August 22, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Constantine Mitsotakis"
+    ],
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080965",
+    "catalogUrl": "https://catalog.archives.gov/id/428080965",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-22--Mitsotakis.pdf",
+    "objectFilename": "1990-08-22--Mitsotakis.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080965",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Greece",
+      "Greece"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with Prime Minister Constantine Mitsotakis of Greece, August 22, 1990. NAID 428080965. Full. Digital object: 1990-08-22--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428080965."
+  },
+  {
+    "id": "conversation-428080971",
+    "recordSet": "Presidential conversation",
+    "date": "1990-08-25",
+    "sortDate": "1990-08-25",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President George Vassiliou of Cyprus, August 25, 1990",
+    "documentTitle": "Telephone Conversation with President George Vassiliou of Cyprus, August 25, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "George Vassiliou"
+    ],
+    "countries": [
+      "United States",
+      "Cyprus"
+    ],
+    "chapter": {
+      "number": 2,
+      "name": "Cyprus"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080971",
+    "catalogUrl": "https://catalog.archives.gov/id/428080971",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-25--Vassiliou.pdf",
+    "objectFilename": "1990-08-25--Vassiliou.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080971",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Cyprus",
+      "Cyprus"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with President George Vassiliou of Cyprus, August 25, 1990. NAID 428080971. Full. Digital object: 1990-08-25--Vassiliou.pdf. Catalog: https://catalog.archives.gov/id/428080971."
+  },
+  {
+    "id": "conversation-428080999",
+    "recordSet": "Presidential conversation",
+    "date": "1990-08-30",
+    "sortDate": "1990-08-30",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President Turgut Ozal of Turkey, August 30, 1990",
+    "documentTitle": "Telephone Conversation with President Turgut Ozal of Turkey, August 30, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428080999",
+    "catalogUrl": "https://catalog.archives.gov/id/428080999",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-08-30--Ozal.pdf",
+    "objectFilename": "1990-08-30--Ozal.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428080999",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, August 30, 1990. NAID 428080999. Full. Digital object: 1990-08-30--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080999."
+  },
+  {
+    "id": "conversation-428081021",
+    "recordSet": "Presidential conversation",
+    "date": "1990-09-06",
+    "sortDate": "1990-09-06",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President Turgut Ozal of Turkey, September 6, 1990",
+    "documentTitle": "Telephone Conversation with President Turgut Ozal of Turkey, September 6, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081021",
+    "catalogUrl": "https://catalog.archives.gov/id/428081021",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-09-06--Ozal.pdf",
+    "objectFilename": "1990-09-06--Ozal.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081021",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, September 6, 1990. NAID 428081021. Full. Digital object: 1990-09-06--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081021."
+  },
+  {
+    "id": "conversation-428081055",
+    "recordSet": "Presidential conversation",
+    "date": "1990-09-10",
+    "sortDate": "1990-09-10",
+    "type": "Telcon",
+    "title": "Telephone Call to President Turgut Ozal of Turkey, September 10, 1990",
+    "documentTitle": "Telephone Call to President Turgut Ozal of Turkey, September 10, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081055",
+    "catalogUrl": "https://catalog.archives.gov/id/428081055",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-09-10--Ozal.pdf",
+    "objectFilename": "1990-09-10--Ozal.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081055",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call to President Turgut Ozal of Turkey, September 10, 1990. NAID 428081055. Full. Digital object: 1990-09-10--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081055."
+  },
+  {
+    "id": "conversation-428081035",
+    "recordSet": "Presidential conversation",
+    "date": "1990-09-25",
+    "sortDate": "1990-09-25",
+    "type": "Memcon",
+    "title": "Meeting with President Ozal of Turkey, September 25, 1990",
+    "documentTitle": "Meeting with President Ozal of Turkey, September 25, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081035",
+    "catalogUrl": "https://catalog.archives.gov/id/428081035",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-09-25--Ozal.pdf",
+    "objectFilename": "1990-09-25--Ozal.pdf",
+    "pageCount": 7,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081035",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting with President Ozal of Turkey, September 25, 1990. NAID 428081035. Full. Digital object: 1990-09-25--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081035."
+  },
+  {
+    "id": "conversation-428081155",
+    "recordSet": "Presidential conversation",
+    "date": "1990-10-24",
+    "sortDate": "1990-10-24",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President Turgut Ozal of' Turkey, October 24, 1990",
+    "documentTitle": "Telephone Conversation with President Turgut Ozal of' Turkey, October 24, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081155",
+    "catalogUrl": "https://catalog.archives.gov/id/428081155",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-24--Ozal.pdf",
+    "objectFilename": "1990-10-24--Ozal.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081155",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of' Turkey, October 24, 1990. NAID 428081155. Full. Digital object: 1990-10-24--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081155."
+  },
+  {
+    "id": "conversation-428081169",
+    "recordSet": "Presidential conversation",
+    "date": "1990-10-31",
+    "sortDate": "1990-10-31",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President Turgut Ozal of Turkey, October 31, 1990",
+    "documentTitle": "Telephone Conversation with President Turgut Ozal of Turkey, October 31, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081169",
+    "catalogUrl": "https://catalog.archives.gov/id/428081169",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-10-31--Ozal.pdf",
+    "objectFilename": "1990-10-31--Ozal.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081169",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, October 31, 1990. NAID 428081169. Full. Digital object: 1990-10-31--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081169."
+  },
+  {
+    "id": "conversation-428081195",
+    "recordSet": "Presidential conversation",
+    "date": "1990-11-20",
+    "sortDate": "1990-11-20",
+    "type": "Memcon",
+    "title": "Meeting with President Ozal of Turkey, November 20, 1990",
+    "documentTitle": "Meeting with President Ozal of Turkey, November 20, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081195",
+    "catalogUrl": "https://catalog.archives.gov/id/428081195",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-11-20--Ozal.pdf",
+    "objectFilename": "1990-11-20--Ozal.pdf",
+    "pageCount": 6,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081195",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting with President Ozal of Turkey, November 20, 1990. NAID 428081195. Full. Digital object: 1990-11-20--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081195."
+  },
+  {
+    "id": "conversation-428081201",
+    "recordSet": "Presidential conversation",
+    "date": "1990-11-21",
+    "sortDate": "1990-11-21",
+    "type": "Memcon",
+    "title": "Meeting with Prime Minister Mitsotakis of Greece, November 21, 1990",
+    "documentTitle": "Meeting with Prime Minister Mitsotakis of Greece, November 21, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Constantine Mitsotakis"
+    ],
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081201",
+    "catalogUrl": "https://catalog.archives.gov/id/428081201",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1990-11-21--Mitsotakis.pdf",
+    "objectFilename": "1990-11-21--Mitsotakis.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081201",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Greece",
+      "Greece"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting with Prime Minister Mitsotakis of Greece, November 21, 1990. NAID 428081201. Full. Digital object: 1990-11-21--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428081201."
+  },
+  {
+    "id": "conversation-428081261",
+    "recordSet": "Presidential conversation",
+    "date": "1990-11-30",
+    "sortDate": "1990-11-30",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President Turgut Ozal of Turkey, November 30, 1990",
+    "documentTitle": "Telephone Conversation with President Turgut Ozal of Turkey, November 30, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081261",
+    "catalogUrl": "https://catalog.archives.gov/id/428081261",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-11-30--Ozal.pdf",
+    "objectFilename": "1990-11-30--Ozal.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081261",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, November 30, 1990. NAID 428081261. Full. Digital object: 1990-11-30--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081261."
+  },
+  {
+    "id": "conversation-428081263",
+    "recordSet": "Presidential conversation",
+    "date": "1990-12-01",
+    "sortDate": "1990-12-01",
+    "type": "Telcon",
+    "title": "Telephone Call from Turkish President Turgut Ozal, December I, 1990",
+    "documentTitle": "Telephone Call from Turkish President Turgut Ozal, December I, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081263",
+    "catalogUrl": "https://catalog.archives.gov/id/428081263",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-12-01--Ozal.pdf",
+    "objectFilename": "1990-12-01--Ozal.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081263",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call from Turkish President Turgut Ozal, December I, 1990. NAID 428081263. Full. Digital object: 1990-12-01--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081263."
+  },
+  {
+    "id": "conversation-428081251",
+    "recordSet": "Presidential conversation",
+    "date": "1990-12-16",
+    "sortDate": "1990-12-16",
+    "type": "No Telcon",
+    "title": "Telephone Call from Turgut Ozal, December 16, 1990",
+    "documentTitle": "Telephone Call from Turgut Ozal, December 16, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Marker / no memorandum listed",
+    "naid": "428081251",
+    "catalogUrl": "https://catalog.archives.gov/id/428081251",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-12-16--Ozal.pdf",
+    "objectFilename": "1990-12-16--Ozal.pdf",
+    "pageCount": 2,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081251",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call from Turgut Ozal, December 16, 1990. NAID 428081251. Marker / no memorandum listed. Digital object: 1990-12-16--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081251."
+  },
+  {
+    "id": "conversation-428081287",
+    "recordSet": "Presidential conversation",
+    "date": "1990-12-28",
+    "sortDate": "1990-12-28",
+    "type": "Telcon",
+    "title": "Telcon with President Turgut Ozal of Turkey, December 28, 1990",
+    "documentTitle": "Telcon with President Turgut Ozal of Turkey, December 28, 1990",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081287",
+    "catalogUrl": "https://catalog.archives.gov/id/428081287",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1990-12-28--Ozal.pdf",
+    "objectFilename": "1990-12-28--Ozal.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081287",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with President Turgut Ozal of Turkey, December 28, 1990. NAID 428081287. Full. Digital object: 1990-12-28--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081287."
+  },
+  {
+    "id": "conversation-428081313",
+    "recordSet": "Presidential conversation",
+    "date": "1991-01-10",
+    "sortDate": "1991-01-10",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President Turgut Ozal of Turkey, January 10, 1991 (1 of 2)",
+    "documentTitle": "Telephone Conversation with President Turgut Ozal of Turkey, January 10, 1991 (1 of 2)",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081313",
+    "catalogUrl": "https://catalog.archives.gov/id/428081313",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-10--Ozal-1.pdf",
+    "objectFilename": "1991-01-10--Ozal-1.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081313",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, January 10, 1991 (1 of 2). NAID 428081313. Full. Digital object: 1991-01-10--Ozal-1.pdf. Catalog: https://catalog.archives.gov/id/428081313."
+  },
+  {
+    "id": "conversation-428081315",
+    "recordSet": "Presidential conversation",
+    "date": "1991-01-10",
+    "sortDate": "1991-01-10",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President Turgut Ozal of Turkey, January 10, 1991 (2 of 2)",
+    "documentTitle": "Telephone Conversation with President Turgut Ozal of Turkey, January 10, 1991 (2 of 2)",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081315",
+    "catalogUrl": "https://catalog.archives.gov/id/428081315",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-10--Ozal-2.pdf",
+    "objectFilename": "1991-01-10--Ozal-2.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081315",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, January 10, 1991 (2 of 2). NAID 428081315. Full. Digital object: 1991-01-10--Ozal-2.pdf. Catalog: https://catalog.archives.gov/id/428081315."
+  },
+  {
+    "id": "conversation-428081343",
+    "recordSet": "Presidential conversation",
+    "date": "1991-01-14",
+    "sortDate": "1991-01-14",
+    "type": "Telcon",
+    "title": "Telephone Conversation with Prime Minister Constantine Mitsotakis of Greece, January 14, 1991",
+    "documentTitle": "Telephone Conversation with Prime Minister Constantine Mitsotakis of Greece, January 14, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Constantine Mitsotakis"
+    ],
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081343",
+    "catalogUrl": "https://catalog.archives.gov/id/428081343",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-14--Mitsotakis.pdf",
+    "objectFilename": "1991-01-14--Mitsotakis.pdf",
+    "pageCount": 2,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081343",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Greece",
+      "Greece"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with Prime Minister Constantine Mitsotakis of Greece, January 14, 1991. NAID 428081343. Full. Digital object: 1991-01-14--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428081343."
+  },
+  {
+    "id": "conversation-428081335",
+    "recordSet": "Presidential conversation",
+    "date": "1991-01-16",
+    "sortDate": "1991-01-16",
+    "type": "No Telcon",
+    "title": "Telephone Call to Turgut Ozal, January 16, 1991",
+    "documentTitle": "Telephone Call to Turgut Ozal, January 16, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Marker / no memorandum listed",
+    "naid": "428081335",
+    "catalogUrl": "https://catalog.archives.gov/id/428081335",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-16--Ozal.pdf",
+    "objectFilename": "1991-01-16--Ozal.pdf",
+    "pageCount": 2,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081335",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call to Turgut Ozal, January 16, 1991. NAID 428081335. Marker / no memorandum listed. Digital object: 1991-01-16--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081335."
+  },
+  {
+    "id": "conversation-428081373",
+    "recordSet": "Presidential conversation",
+    "date": "1991-01-21",
+    "sortDate": "1991-01-21",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President Turgut Ozal of Turkey, January 21, 1991",
+    "documentTitle": "Telephone Conversation with President Turgut Ozal of Turkey, January 21, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081373",
+    "catalogUrl": "https://catalog.archives.gov/id/428081373",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-21--Ozal.pdf",
+    "objectFilename": "1991-01-21--Ozal.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081373",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, January 21, 1991. NAID 428081373. Full. Digital object: 1991-01-21--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081373."
+  },
+  {
+    "id": "conversation-428081401",
+    "recordSet": "Presidential conversation",
+    "date": "1991-01-30",
+    "sortDate": "1991-01-30",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President Turgut Ozal of Turkey, January 30, 1991",
+    "documentTitle": "Telephone Conversation with President Turgut Ozal of Turkey, January 30, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081401",
+    "catalogUrl": "https://catalog.archives.gov/id/428081401",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-30--Ozal.pdf",
+    "objectFilename": "1991-01-30--Ozal.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081401",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, January 30, 1991. NAID 428081401. Full. Digital object: 1991-01-30--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081401."
+  },
+  {
+    "id": "conversation-428081419",
+    "recordSet": "Presidential conversation",
+    "date": "1991-02-05",
+    "sortDate": "1991-02-05",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President Turgut Ozal of Turkey, February 5, 1991",
+    "documentTitle": "Telephone Conversation with President Turgut Ozal of Turkey, February 5, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081419",
+    "catalogUrl": "https://catalog.archives.gov/id/428081419",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-05--Ozal.pdf",
+    "objectFilename": "1991-02-05--Ozal.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081419",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, February 5, 1991. NAID 428081419. Full. Digital object: 1991-02-05--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081419."
+  },
+  {
+    "id": "conversation-428081459",
+    "recordSet": "Presidential conversation",
+    "date": "1991-02-15",
+    "sortDate": "1991-02-15",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President Turgut Ozal of Turkey, February 15, 1991",
+    "documentTitle": "Telephone Conversation with President Turgut Ozal of Turkey, February 15, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081459",
+    "catalogUrl": "https://catalog.archives.gov/id/428081459",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-15--Ozal.pdf",
+    "objectFilename": "1991-02-15--Ozal.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081459",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, February 15, 1991. NAID 428081459. Full. Digital object: 1991-02-15--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081459."
+  },
+  {
+    "id": "conversation-428081469",
+    "recordSet": "Presidential conversation",
+    "date": "1991-02-19",
+    "sortDate": "1991-02-19",
+    "type": "Telcon",
+    "title": "Telcon with President Turgut Ozal of Turkey on February 19, 1991",
+    "documentTitle": "Telcon with President Turgut Ozal of Turkey on February 19, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081469",
+    "catalogUrl": "https://catalog.archives.gov/id/428081469",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-19--Ozal.pdf",
+    "objectFilename": "1991-02-19--Ozal.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081469",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with President Turgut Ozal of Turkey on February 19, 1991. NAID 428081469. Full. Digital object: 1991-02-19--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081469."
+  },
+  {
+    "id": "conversation-428081499",
+    "recordSet": "Presidential conversation",
+    "date": "1991-02-23",
+    "sortDate": "1991-02-23",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President Turgut Ozal of Turkey: February 23, 1991",
+    "documentTitle": "Telephone Conversation with President Turgut Ozal of Turkey: February 23, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081499",
+    "catalogUrl": "https://catalog.archives.gov/id/428081499",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-23--Ozal.pdf",
+    "objectFilename": "1991-02-23--Ozal.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081499",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey: February 23, 1991. NAID 428081499. Full. Digital object: 1991-02-23--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081499."
+  },
+  {
+    "id": "conversation-428081505",
+    "recordSet": "Presidential conversation",
+    "date": "1991-02-26",
+    "sortDate": "1991-02-26",
+    "type": "Telcon",
+    "title": "Telcon with Turgut Ozal, President of Turkey on February 26, 1991",
+    "documentTitle": "Telcon with Turgut Ozal, President of Turkey on February 26, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081505",
+    "catalogUrl": "https://catalog.archives.gov/id/428081505",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-26--Ozal.pdf",
+    "objectFilename": "1991-02-26--Ozal.pdf",
+    "pageCount": 6,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081505",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with Turgut Ozal, President of Turkey on February 26, 1991. NAID 428081505. Full. Digital object: 1991-02-26--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081505."
+  },
+  {
+    "id": "conversation-428081555",
+    "recordSet": "Presidential conversation",
+    "date": "1991-02-28",
+    "sortDate": "1991-02-28",
+    "type": "Telcon",
+    "title": "Telephone Conversation with President Turgut Ozal of Turkey, February 28, 1991",
+    "documentTitle": "Telephone Conversation with President Turgut Ozal of Turkey, February 28, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081555",
+    "catalogUrl": "https://catalog.archives.gov/id/428081555",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-02-28--Ozal.pdf",
+    "objectFilename": "1991-02-28--Ozal.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081555",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, February 28, 1991. NAID 428081555. Full. Digital object: 1991-02-28--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081555."
+  },
+  {
+    "id": "conversation-428081553",
+    "recordSet": "Presidential conversation",
+    "date": "1991-03-27",
+    "sortDate": "1991-03-27",
+    "type": "No Telcon",
+    "title": "Telephone Call from Turgut Ozal, March 27, 1991",
+    "documentTitle": "Telephone Call from Turgut Ozal, March 27, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Marker / no memorandum listed",
+    "naid": "428081553",
+    "catalogUrl": "https://catalog.archives.gov/id/428081553",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-03-27--Ozal.pdf",
+    "objectFilename": "1991-03-27--Ozal.pdf",
+    "pageCount": 2,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081553",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call from Turgut Ozal, March 27, 1991. NAID 428081553. Marker / no memorandum listed. Digital object: 1991-03-27--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081553."
+  },
+  {
+    "id": "conversation-428081593",
+    "recordSet": "Presidential conversation",
+    "date": "1991-04-02",
+    "sortDate": "1991-04-02",
+    "type": "Telcon",
+    "title": "Telcon with Turgut Ozal, President of Turkey on April 2, 1991",
+    "documentTitle": "Telcon with Turgut Ozal, President of Turkey on April 2, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081593",
+    "catalogUrl": "https://catalog.archives.gov/id/428081593",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-04-02--Ozal.pdf",
+    "objectFilename": "1991-04-02--Ozal.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081593",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with Turgut Ozal, President of Turkey on April 2, 1991. NAID 428081593. Full. Digital object: 1991-04-02--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081593."
+  },
+  {
+    "id": "conversation-428081603",
+    "recordSet": "Presidential conversation",
+    "date": "1991-04-15",
+    "sortDate": "1991-04-15",
+    "type": "Telcon",
+    "title": "Telcon with Turgut Ozal,President of Turkey on April 15, 1991",
+    "documentTitle": "Telcon with Turgut Ozal,President of Turkey on April 15, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081603",
+    "catalogUrl": "https://catalog.archives.gov/id/428081603",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-04-15--Ozal.pdf",
+    "objectFilename": "1991-04-15--Ozal.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081603",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with Turgut Ozal,President of Turkey on April 15, 1991. NAID 428081603. Full. Digital object: 1991-04-15--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081603."
+  },
+  {
+    "id": "conversation-428081617",
+    "recordSet": "Presidential conversation",
+    "date": "1991-04-16",
+    "sortDate": "1991-04-16",
+    "type": "Telcon",
+    "title": "Presidential Call to President Ozal, April 16, 1991 (2 of 2)",
+    "documentTitle": "Presidential Call to President Ozal, April 16, 1991 (2 of 2)",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Denied",
+    "naid": "428081617",
+    "catalogUrl": "https://catalog.archives.gov/id/428081617",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-04-16--Ozal-2.pdf",
+    "objectFilename": "1991-04-16--Ozal-2.pdf",
+    "pageCount": 1,
+    "accessRestriction": "Restricted - Fully",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081617",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Presidential Call to President Ozal, April 16, 1991 (2 of 2). NAID 428081617. Denied. Digital object: 1991-04-16--Ozal-2.pdf. Catalog: https://catalog.archives.gov/id/428081617."
+  },
+  {
+    "id": "conversation-428081615",
+    "recordSet": "Presidential conversation",
+    "date": "1991-04-16",
+    "sortDate": "1991-04-16",
+    "type": "Telcon",
+    "title": "Telcon with President Ozal of Turkey on April 16, 1991 (1 of 2)",
+    "documentTitle": "Telcon with President Ozal of Turkey on April 16, 1991 (1 of 2)",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081615",
+    "catalogUrl": "https://catalog.archives.gov/id/428081615",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-04-16--Ozal-1.pdf",
+    "objectFilename": "1991-04-16--Ozal-1.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081615",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with President Ozal of Turkey on April 16, 1991 (1 of 2). NAID 428081615. Full. Digital object: 1991-04-16--Ozal-1.pdf. Catalog: https://catalog.archives.gov/id/428081615."
+  },
+  {
+    "id": "conversation-428081651",
+    "recordSet": "Presidential conversation",
+    "date": "1991-04-20",
+    "sortDate": "1991-04-20",
+    "type": "Telcon",
+    "title": "Telcon with President Ozal of Turkey, April 20, 1991",
+    "documentTitle": "Telcon with President Ozal of Turkey, April 20, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081651",
+    "catalogUrl": "https://catalog.archives.gov/id/428081651",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-04-20--Ozal.pdf",
+    "objectFilename": "1991-04-20--Ozal.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081651",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with President Ozal of Turkey, April 20, 1991. NAID 428081651. Full. Digital object: 1991-04-20--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081651."
+  },
+  {
+    "id": "conversation-428081649",
+    "recordSet": "Presidential conversation",
+    "date": "1991-05-07",
+    "sortDate": "1991-05-07",
+    "type": "No Telcon",
+    "title": "Telephone Call to Turgut Ozal, May 7, 1991",
+    "documentTitle": "Telephone Call to Turgut Ozal, May 7, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Marker / no memorandum listed",
+    "naid": "428081649",
+    "catalogUrl": "https://catalog.archives.gov/id/428081649",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-05-07--Ozal.pdf",
+    "objectFilename": "1991-05-07--Ozal.pdf",
+    "pageCount": 2,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081649",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call to Turgut Ozal, May 7, 1991. NAID 428081649. Marker / no memorandum listed. Digital object: 1991-05-07--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081649."
+  },
+  {
+    "id": "conversation-428081713",
+    "recordSet": "Presidential conversation",
+    "date": "1991-06-04",
+    "sortDate": "1991-06-04",
+    "type": "Telcon",
+    "title": "Telcon with Turgut Ozal, President of Turkey on June 4, 1991",
+    "documentTitle": "Telcon with Turgut Ozal, President of Turkey on June 4, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081713",
+    "catalogUrl": "https://catalog.archives.gov/id/428081713",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-06-04--Ozal.pdf",
+    "objectFilename": "1991-06-04--Ozal.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081713",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with Turgut Ozal, President of Turkey on June 4, 1991. NAID 428081713. Full. Digital object: 1991-06-04--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081713."
+  },
+  {
+    "id": "conversation-428081719",
+    "recordSet": "Presidential conversation",
+    "date": "1991-06-13",
+    "sortDate": "1991-06-13",
+    "type": "Telcon",
+    "title": "Telcon with Turgut Ozal, President of Turkey on June 13, 1991",
+    "documentTitle": "Telcon with Turgut Ozal, President of Turkey on June 13, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081719",
+    "catalogUrl": "https://catalog.archives.gov/id/428081719",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-06-13--Ozal.pdf",
+    "objectFilename": "1991-06-13--Ozal.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081719",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with Turgut Ozal, President of Turkey on June 13, 1991. NAID 428081719. Full. Digital object: 1991-06-13--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081719."
+  },
+  {
+    "id": "conversation-428081761",
+    "recordSet": "Presidential conversation",
+    "date": "1991-07-10",
+    "sortDate": "1991-07-10",
+    "type": "Telcon",
+    "title": "Telephone Call with Turgut Ozal, President of Turkey on July 10, 1991",
+    "documentTitle": "Telephone Call with Turgut Ozal, President of Turkey on July 10, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Partial",
+    "naid": "428081761",
+    "catalogUrl": "https://catalog.archives.gov/id/428081761",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-07-10--Ozal.pdf",
+    "objectFilename": "1991-07-10--Ozal.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Restricted - Partly",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081761",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Call with Turgut Ozal, President of Turkey on July 10, 1991. NAID 428081761. Partial. Digital object: 1991-07-10--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081761."
+  },
+  {
+    "id": "conversation-428081777",
+    "recordSet": "Presidential conversation",
+    "date": "1991-07-18",
+    "sortDate": "1991-07-18",
+    "type": "Memcon",
+    "title": "President's Expanded Meeting with Prime Minister Mitsotakis of Greece, Ju 1 y 18, 1991",
+    "documentTitle": "President's Expanded Meeting with Prime Minister Mitsotakis of Greece, Ju 1 y 18, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Constantine Mitsotakis"
+    ],
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081777",
+    "catalogUrl": "https://catalog.archives.gov/id/428081777",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-07-18--Mitsotakis.pdf",
+    "objectFilename": "1991-07-18--Mitsotakis.pdf",
+    "pageCount": 6,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081777",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Greece",
+      "Greece"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, President's Expanded Meeting with Prime Minister Mitsotakis of Greece, Ju 1 y 18, 1991. NAID 428081777. Full. Digital object: 1991-07-18--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428081777."
+  },
+  {
+    "id": "conversation-428081779",
+    "recordSet": "Presidential conversation",
+    "date": "1991-07-20",
+    "sortDate": "1991-07-20",
+    "type": "Memcon",
+    "title": "Meeting with Turgut Ozal, President of Turkey on July 20, 1991 (1 of 2)",
+    "documentTitle": "Meeting with Turgut Ozal, President of Turkey on July 20, 1991 (1 of 2)",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081779",
+    "catalogUrl": "https://catalog.archives.gov/id/428081779",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-07-20--Ozal-1.pdf",
+    "objectFilename": "1991-07-20--Ozal-1.pdf",
+    "pageCount": 1,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081779",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting with Turgut Ozal, President of Turkey on July 20, 1991 (1 of 2). NAID 428081779. Full. Digital object: 1991-07-20--Ozal-1.pdf. Catalog: https://catalog.archives.gov/id/428081779."
+  },
+  {
+    "id": "conversation-428081781",
+    "recordSet": "Presidential conversation",
+    "date": "1991-07-20",
+    "sortDate": "1991-07-20",
+    "type": "Memcon",
+    "title": "Meeting with Turgut Ozal, President of Turkey on July 20, 1991 (2 of 2)",
+    "documentTitle": "Meeting with Turgut Ozal, President of Turkey on July 20, 1991 (2 of 2)",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081781",
+    "catalogUrl": "https://catalog.archives.gov/id/428081781",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-07-20--Ozal-2.pdf",
+    "objectFilename": "1991-07-20--Ozal-2.pdf",
+    "pageCount": 10,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081781",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting with Turgut Ozal, President of Turkey on July 20, 1991 (2 of 2). NAID 428081781. Full. Digital object: 1991-07-20--Ozal-2.pdf. Catalog: https://catalog.archives.gov/id/428081781."
+  },
+  {
+    "id": "conversation-428081783",
+    "recordSet": "Presidential conversation",
+    "date": "1991-07-20",
+    "sortDate": "1991-07-20",
+    "type": "Memcon",
+    "title": "President's Meeting with Prime Minister Yilmaz of Turkey, July 20, 1991",
+    "documentTitle": "President's Meeting with Prime Minister Yilmaz of Turkey, July 20, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "A. Mesut Yilmaz"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081783",
+    "catalogUrl": "https://catalog.archives.gov/id/428081783",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-07-20--Yilmaz.pdf",
+    "objectFilename": "1991-07-20--Yilmaz.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081783",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, President's Meeting with Prime Minister Yilmaz of Turkey, July 20, 1991. NAID 428081783. Full. Digital object: 1991-07-20--Yilmaz.pdf. Catalog: https://catalog.archives.gov/id/428081783."
+  },
+  {
+    "id": "conversation-428081787",
+    "recordSet": "Presidential conversation",
+    "date": "1991-07-22",
+    "sortDate": "1991-07-22",
+    "type": "Memcon",
+    "title": "President's Meeting with President Ozal of Turkey, July 22, 1991",
+    "documentTitle": "President's Meeting with President Ozal of Turkey, July 22, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081787",
+    "catalogUrl": "https://catalog.archives.gov/id/428081787",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-07-22--Ozal.pdf",
+    "objectFilename": "1991-07-22--Ozal.pdf",
+    "pageCount": 7,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081787",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, President's Meeting with President Ozal of Turkey, July 22, 1991. NAID 428081787. Full. Digital object: 1991-07-22--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081787."
+  },
+  {
+    "id": "conversation-428081813",
+    "recordSet": "Presidential conversation",
+    "date": "1991-08-19",
+    "sortDate": "1991-08-19",
+    "type": "Telcon",
+    "title": "Telcon with President Turgut Ozal of Turkey, August 19, 1991",
+    "documentTitle": "Telcon with President Turgut Ozal of Turkey, August 19, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081813",
+    "catalogUrl": "https://catalog.archives.gov/id/428081813",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-08-19--Ozal.pdf",
+    "objectFilename": "1991-08-19--Ozal.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081813",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with President Turgut Ozal of Turkey, August 19, 1991. NAID 428081813. Full. Digital object: 1991-08-19--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081813."
+  },
+  {
+    "id": "conversation-428081911",
+    "recordSet": "Presidential conversation",
+    "date": "1991-09-09",
+    "sortDate": "1991-09-09",
+    "type": "Telcon",
+    "title": "Telcon with Turgut Ozal, President of Turkey, September 9, 1991",
+    "documentTitle": "Telcon with Turgut Ozal, President of Turkey, September 9, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428081911",
+    "catalogUrl": "https://catalog.archives.gov/id/428081911",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-09-09--Ozal.pdf",
+    "objectFilename": "1991-09-09--Ozal.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428081911",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with Turgut Ozal, President of Turkey, September 9, 1991. NAID 428081911. Full. Digital object: 1991-09-09--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081911."
+  },
+  {
+    "id": "conversation-428082069",
+    "recordSet": "Presidential conversation",
+    "date": "1991-12-05",
+    "sortDate": "1991-12-05",
+    "type": "Telcon",
+    "title": "Telcon with Prime Minister Demirel of Turkey, December 5, 1991",
+    "documentTitle": "Telcon with Prime Minister Demirel of Turkey, December 5, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Suleyman Demirel"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428082069",
+    "catalogUrl": "https://catalog.archives.gov/id/428082069",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-12-05--Demirel.pdf",
+    "objectFilename": "1991-12-05--Demirel.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082069",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with Prime Minister Demirel of Turkey, December 5, 1991. NAID 428082069. Full. Digital object: 1991-12-05--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082069."
+  },
+  {
+    "id": "conversation-428082071",
+    "recordSet": "Presidential conversation",
+    "date": "1991-12-12",
+    "sortDate": "1991-12-12",
+    "type": "Memcon",
+    "title": "Meeting with Prime Minister Constantine Mitsotakis of Greece, December 12, 1991 (1 of 3)",
+    "documentTitle": "Meeting with Prime Minister Constantine Mitsotakis of Greece, December 12, 1991 (1 of 3)",
+    "participants": [
+      "George H. W. Bush",
+      "Constantine Mitsotakis"
+    ],
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "releaseStatus": "Full",
+    "naid": "428082071",
+    "catalogUrl": "https://catalog.archives.gov/id/428082071",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-12-12--Mitsotakis-1.pdf",
+    "objectFilename": "1991-12-12--Mitsotakis-1.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082071",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Greece",
+      "Greece"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting with Prime Minister Constantine Mitsotakis of Greece, December 12, 1991 (1 of 3). NAID 428082071. Full. Digital object: 1991-12-12--Mitsotakis-1.pdf. Catalog: https://catalog.archives.gov/id/428082071."
+  },
+  {
+    "id": "conversation-428082073",
+    "recordSet": "Presidential conversation",
+    "date": "1991-12-12",
+    "sortDate": "1991-12-12",
+    "type": "Memcon",
+    "title": "Meeting with Prime Minister Constantine Mitsotakis of Greece, December 12, 1991 (2 of 3)",
+    "documentTitle": "Meeting with Prime Minister Constantine Mitsotakis of Greece, December 12, 1991 (2 of 3)",
+    "participants": [
+      "George H. W. Bush",
+      "Constantine Mitsotakis"
+    ],
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "releaseStatus": "Partial",
+    "naid": "428082073",
+    "catalogUrl": "https://catalog.archives.gov/id/428082073",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-12-12--Mitsotakis-2.pdf",
+    "objectFilename": "1991-12-12--Mitsotakis-2.pdf",
+    "pageCount": 7,
+    "accessRestriction": "Restricted - Partly",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082073",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Greece",
+      "Greece"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting with Prime Minister Constantine Mitsotakis of Greece, December 12, 1991 (2 of 3). NAID 428082073. Partial. Digital object: 1991-12-12--Mitsotakis-2.pdf. Catalog: https://catalog.archives.gov/id/428082073."
+  },
+  {
+    "id": "conversation-428082075",
+    "recordSet": "Presidential conversation",
+    "date": "1991-12-12",
+    "sortDate": "1991-12-12",
+    "type": "Memcon",
+    "title": "Meeting with Prime Minister Constantine Mitsotakis of Greece, December 12, 1991 (3 of 3)",
+    "documentTitle": "Meeting with Prime Minister Constantine Mitsotakis of Greece, December 12, 1991 (3 of 3)",
+    "participants": [
+      "George H. W. Bush",
+      "Constantine Mitsotakis"
+    ],
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "releaseStatus": "Full",
+    "naid": "428082075",
+    "catalogUrl": "https://catalog.archives.gov/id/428082075",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1991-12-12--Mitsotakis-3.pdf",
+    "objectFilename": "1991-12-12--Mitsotakis-3.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082075",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Greece",
+      "Greece"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting with Prime Minister Constantine Mitsotakis of Greece, December 12, 1991 (3 of 3). NAID 428082075. Full. Digital object: 1991-12-12--Mitsotakis-3.pdf. Catalog: https://catalog.archives.gov/id/428082075."
+  },
+  {
+    "id": "conversation-428082117",
+    "recordSet": "Presidential conversation",
+    "date": "1992-01-12",
+    "sortDate": "1992-01-12",
+    "type": "Telcon",
+    "title": "Telcon with President Turgut Ozal of Turkey, January 12, 1991",
+    "documentTitle": "Telcon with President Turgut Ozal of Turkey, January 12, 1991",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428082117",
+    "catalogUrl": "https://catalog.archives.gov/id/428082117",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-12--Ozal.pdf",
+    "objectFilename": "1991-01-12--Ozal.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082117",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with President Turgut Ozal of Turkey, January 12, 1991. NAID 428082117. Full. Digital object: 1991-01-12--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082117."
+  },
+  {
+    "id": "conversation-428082149",
+    "recordSet": "Presidential conversation",
+    "date": "1992-03-30",
+    "sortDate": "1992-03-30",
+    "type": "Memcon",
+    "title": "Meeting with George Vassiliou, President of Cyprus, March 30, 1992",
+    "documentTitle": "Meeting with George Vassiliou, President of Cyprus, March 30, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "George Vassiliou"
+    ],
+    "countries": [
+      "United States",
+      "Cyprus"
+    ],
+    "chapter": {
+      "number": 2,
+      "name": "Cyprus"
+    },
+    "releaseStatus": "Partial",
+    "naid": "428082149",
+    "catalogUrl": "https://catalog.archives.gov/id/428082149",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-03-30--Vassiliou.pdf",
+    "objectFilename": "1992-03-30--Vassiliou.pdf",
+    "pageCount": 6,
+    "accessRestriction": "Restricted - Partly",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082149",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Cyprus",
+      "Cyprus"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting with George Vassiliou, President of Cyprus, March 30, 1992. NAID 428082149. Partial. Digital object: 1992-03-30--Vassiliou.pdf. Catalog: https://catalog.archives.gov/id/428082149."
+  },
+  {
+    "id": "conversation-428082173",
+    "recordSet": "Presidential conversation",
+    "date": "1992-04-28",
+    "sortDate": "1992-04-28",
+    "type": "Memcon",
+    "title": "Meeting with President Turgut Ozal of Turkey, April 28, 1992",
+    "documentTitle": "Meeting with President Turgut Ozal of Turkey, April 28, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428082173",
+    "catalogUrl": "https://catalog.archives.gov/id/428082173",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-04-28--Ozal.pdf",
+    "objectFilename": "1992-04-28--Ozal.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082173",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting with President Turgut Ozal of Turkey, April 28, 1992. NAID 428082173. Full. Digital object: 1992-04-28--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082173."
+  },
+  {
+    "id": "conversation-428082213",
+    "recordSet": "Presidential conversation",
+    "date": "1992-05-07",
+    "sortDate": "1992-05-07",
+    "type": "Telcon",
+    "title": "Telcon with President Turgut Ozal of Turkey, May 7, 1992",
+    "documentTitle": "Telcon with President Turgut Ozal of Turkey, May 7, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428082213",
+    "catalogUrl": "https://catalog.archives.gov/id/428082213",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-05-07--Ozal.pdf",
+    "objectFilename": "1992-05-07--Ozal.pdf",
+    "pageCount": 2,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082213",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with President Turgut Ozal of Turkey, May 7, 1992. NAID 428082213. Full. Digital object: 1992-05-07--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082213."
+  },
+  {
+    "id": "conversation-428082217",
+    "recordSet": "Presidential conversation",
+    "date": "1992-05-11",
+    "sortDate": "1992-05-11",
+    "type": "Telcon",
+    "title": "Telcon with Prime Minister Demirel of Turkey, May 11, 1992",
+    "documentTitle": "Telcon with Prime Minister Demirel of Turkey, May 11, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "Suleyman Demirel"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Partial",
+    "naid": "428082217",
+    "catalogUrl": "https://catalog.archives.gov/id/428082217",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-05-11--Demirel.pdf",
+    "objectFilename": "1992-05-11--Demirel.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Restricted - Partly",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082217",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with Prime Minister Demirel of Turkey, May 11, 1992. NAID 428082217. Partial. Digital object: 1992-05-11--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082217."
+  },
+  {
+    "id": "conversation-428082239",
+    "recordSet": "Presidential conversation",
+    "date": "1992-06-10",
+    "sortDate": "1992-06-10",
+    "type": "Telcon",
+    "title": "Telcon with Constantine Mitsotakis, Prime Minister of Greece, June 10, 1992",
+    "documentTitle": "Telcon with Constantine Mitsotakis, Prime Minister of Greece, June 10, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "Constantine Mitsotakis"
+    ],
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "releaseStatus": "Full",
+    "naid": "428082239",
+    "catalogUrl": "https://catalog.archives.gov/id/428082239",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-06-10--Mitsotakis.pdf",
+    "objectFilename": "1992-06-10--Mitsotakis.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082239",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Greece",
+      "Greece"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with Constantine Mitsotakis, Prime Minister of Greece, June 10, 1992. NAID 428082239. Full. Digital object: 1992-06-10--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428082239."
+  },
+  {
+    "id": "conversation-428082249",
+    "recordSet": "Presidential conversation",
+    "date": "1992-06-23",
+    "sortDate": "1992-06-23",
+    "type": "Telcon",
+    "title": "Telcon with Prime Minister Demirel of Turkey, June 23, 1992",
+    "documentTitle": "Telcon with Prime Minister Demirel of Turkey, June 23, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "Suleyman Demirel"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428082249",
+    "catalogUrl": "https://catalog.archives.gov/id/428082249",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-06-23--Demirel.pdf",
+    "objectFilename": "1992-06-23--Demirel.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082249",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with Prime Minister Demirel of Turkey, June 23, 1992. NAID 428082249. Full. Digital object: 1992-06-23--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082249."
+  },
+  {
+    "id": "conversation-428082251",
+    "recordSet": "Presidential conversation",
+    "date": "1992-06-26",
+    "sortDate": "1992-06-26",
+    "type": "Telcon",
+    "title": "Telcon with Prime Minister Demirel of Turkey, June 26, 1992",
+    "documentTitle": "Telcon with Prime Minister Demirel of Turkey, June 26, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "Suleyman Demirel"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428082251",
+    "catalogUrl": "https://catalog.archives.gov/id/428082251",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-06-26--Demirel.pdf",
+    "objectFilename": "1992-06-26--Demirel.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082251",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with Prime Minister Demirel of Turkey, June 26, 1992. NAID 428082251. Full. Digital object: 1992-06-26--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082251."
+  },
+  {
+    "id": "conversation-428082291",
+    "recordSet": "Presidential conversation",
+    "date": "1992-07-09",
+    "sortDate": "1992-07-09",
+    "type": "Memcon",
+    "title": "Meeting With Prime Minister Constantine Mitsotakis of Greece, July 9, 1992",
+    "documentTitle": "Meeting With Prime Minister Constantine Mitsotakis of Greece, July 9, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "Constantine Mitsotakis"
+    ],
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "releaseStatus": "Full",
+    "naid": "428082291",
+    "catalogUrl": "https://catalog.archives.gov/id/428082291",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-07-09--Mitsotakis.pdf",
+    "objectFilename": "1992-07-09--Mitsotakis.pdf",
+    "pageCount": 5,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082291",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Greece",
+      "Greece"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting With Prime Minister Constantine Mitsotakis of Greece, July 9, 1992. NAID 428082291. Full. Digital object: 1992-07-09--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428082291."
+  },
+  {
+    "id": "conversation-428082289",
+    "recordSet": "Presidential conversation",
+    "date": "1992-07-09",
+    "sortDate": "1992-07-09",
+    "type": "Memcon",
+    "title": "Meeting With Prime Minister Suleyman Demirel of Turkey, July 9, 1992",
+    "documentTitle": "Meeting With Prime Minister Suleyman Demirel of Turkey, July 9, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "Suleyman Demirel"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428082289",
+    "catalogUrl": "https://catalog.archives.gov/id/428082289",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-07-09--Demirel.pdf",
+    "objectFilename": "1992-07-09--Demirel.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082289",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting With Prime Minister Suleyman Demirel of Turkey, July 9, 1992. NAID 428082289. Full. Digital object: 1992-07-09--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082289."
+  },
+  {
+    "id": "conversation-428082337",
+    "recordSet": "Presidential conversation",
+    "date": "1992-08-01",
+    "sortDate": "1992-08-01",
+    "type": "Telcon",
+    "title": "Telephone Conversation with Prime Minister Suleyman Demirel of Turkey, August 1, 1992",
+    "documentTitle": "Telephone Conversation with Prime Minister Suleyman Demirel of Turkey, August 1, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "Suleyman Demirel"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Partial",
+    "naid": "428082337",
+    "catalogUrl": "https://catalog.archives.gov/id/428082337",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-08-01--Demirel.pdf",
+    "objectFilename": "1992-08-01--Demirel.pdf",
+    "pageCount": 4,
+    "accessRestriction": "Restricted - Partly",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082337",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telephone Conversation with Prime Minister Suleyman Demirel of Turkey, August 1, 1992. NAID 428082337. Partial. Digital object: 1992-08-01--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082337."
+  },
+  {
+    "id": "conversation-428082333",
+    "recordSet": "Presidential conversation",
+    "date": "1992-11-17",
+    "sortDate": "1992-11-17",
+    "type": "Memcon",
+    "title": "Meeting with Prime Minister Mitsotakis of Greece, November 17, 1992",
+    "documentTitle": "Meeting with Prime Minister Mitsotakis of Greece, November 17, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "Constantine Mitsotakis"
+    ],
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "releaseStatus": "Full",
+    "naid": "428082333",
+    "catalogUrl": "https://catalog.archives.gov/id/428082333",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498039/1992-11-17--Mitsotakis.pdf",
+    "objectFilename": "1992-11-17--Mitsotakis.pdf",
+    "pageCount": 7,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082333",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Memcon Files",
+      "seriesNaid": 321498039
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Greece",
+      "Greece"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Memcon Files, Meeting with Prime Minister Mitsotakis of Greece, November 17, 1992. NAID 428082333. Full. Digital object: 1992-11-17--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428082333."
+  },
+  {
+    "id": "conversation-428082409",
+    "recordSet": "Presidential conversation",
+    "date": "1992-12-05",
+    "sortDate": "1992-12-05",
+    "type": "Telcon",
+    "title": "Telcon with President Turgut Ozal of Turkey, December 5, 1992",
+    "documentTitle": "Telcon with President Turgut Ozal of Turkey, December 5, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "Turgut Ozal"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428082409",
+    "catalogUrl": "https://catalog.archives.gov/id/428082409",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-05--Ozal.pdf",
+    "objectFilename": "1992-12-05--Ozal.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082409",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with President Turgut Ozal of Turkey, December 5, 1992. NAID 428082409. Full. Digital object: 1992-12-05--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082409."
+  },
+  {
+    "id": "conversation-428082437",
+    "recordSet": "Presidential conversation",
+    "date": "1992-12-24",
+    "sortDate": "1992-12-24",
+    "type": "Telcon",
+    "title": "Telcon with Suleyman Demirel, Prime Minister of Turkey, December 24, 1992",
+    "documentTitle": "Telcon with Suleyman Demirel, Prime Minister of Turkey, December 24, 1992",
+    "participants": [
+      "George H. W. Bush",
+      "Suleyman Demirel"
+    ],
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "releaseStatus": "Full",
+    "naid": "428082437",
+    "catalogUrl": "https://catalog.archives.gov/id/428082437",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-24--Demirel.pdf",
+    "objectFilename": "1992-12-24--Demirel.pdf",
+    "pageCount": 3,
+    "accessRestriction": "Unrestricted",
+    "levelOfDescription": "item",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/428082437",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Presidential Telcon Files",
+      "seriesNaid": 321498139
+    },
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "topics": [
+      "Presidential conversations",
+      "Turkey",
+      "Turkey"
+    ],
+    "sourceNote": "Source: National Archives Catalog, Records of the National Security Council (George H. W. Bush Administration), Presidential Telcon Files, Telcon with Suleyman Demirel, Prime Minister of Turkey, December 24, 1992. NAID 428082437. Full. Digital object: 1992-12-24--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082437."
+  }
+]

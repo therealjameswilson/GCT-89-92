@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 560" role="img" aria-labelledby="title desc">
+  <title id="title">Eastern Mediterranean source map</title>
+  <desc id="desc">Stylized map and source routes for Greece, Cyprus, Turkey, and regional Eastern Mediterranean records.</desc>
+  <rect width="840" height="560" fill="#163a59"/>
+  <path d="M0 356 C108 320 183 342 254 317 C349 284 421 291 505 260 C616 218 701 244 840 202 L840 560 L0 560 Z" fill="#2d705d" opacity=".9"/>
+  <path d="M0 238 C112 222 190 244 281 224 C365 205 420 187 519 197 C642 210 726 183 840 158" fill="none" stroke="#c6983d" stroke-width="5" opacity=".9"/>
+  <path d="M0 258 C116 243 190 262 285 241 C374 222 431 205 520 214 C650 229 732 202 840 176" fill="none" stroke="#fffdf7" stroke-width="2" opacity=".6"/>
+  <g fill="#fffdf7" opacity=".92">
+    <path d="M217 277 l35 -39 l52 10 l10 45 l-33 35 l-51 -7 Z"/>
+    <path d="M280 340 l22 -15 l19 18 l-10 28 l-26 5 Z"/>
+    <path d="M338 311 l17 -12 l21 13 l-4 24 l-24 6 Z"/>
+    <path d="M476 252 l185 -48 l61 40 l-15 62 l-106 31 l-88 -24 Z"/>
+    <path d="M435 359 l37 -18 l32 23 l-7 39 l-48 11 l-31 -21 Z"/>
+  </g>
+  <g fill="#c6983d">
+    <circle cx="254" cy="284" r="9"/>
+    <circle cx="458" cy="374" r="9"/>
+    <circle cx="585" cy="270" r="9"/>
+    <circle cx="365" cy="210" r="7"/>
+  </g>
+  <g fill="none" stroke="#9b2f38" stroke-width="3" opacity=".95">
+    <path d="M254 284 C320 260 390 303 458 374"/>
+    <path d="M458 374 C505 340 536 304 585 270"/>
+    <path d="M254 284 C352 214 458 205 585 270"/>
+    <path d="M365 210 C410 225 498 236 585 270"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-weight="800" letter-spacing="0" fill="#fffdf7">
+    <text x="224" y="264" font-size="24">Greece</text>
+    <text x="416" y="444" font-size="24">Cyprus</text>
+    <text x="548" y="248" font-size="24">Turkey</text>
+    <text x="56" y="72" font-size="22" fill="#c6983d">NARA Scout + Catalog + Bush Library Index</text>
+    <text x="56" y="104" font-size="15" opacity=".8">FRUS 1989-1992 Volume VI research map</text>
+  </g>
+  <g transform="translate(56 430)">
+    <rect x="0" y="0" width="340" height="78" rx="8" fill="#fffdf7" opacity=".94"/>
+    <text x="20" y="30" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" fill="#163a59">Four working paths</text>
+    <text x="20" y="56" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5d6670">Greece / Cyprus / Turkey / Regional</text>
+  </g>
+</svg>
