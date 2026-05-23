@@ -109,6 +109,24 @@ The script writes:
 - `data/requested-source-series.json` and `data/requested-source-series.js`
 - `reports/requested-source-series-eastmed.json`
 
+## Persons List
+
+The `persons.html` page is generated in the style of published FRUS persons
+lists from the attached Bush Comprehensive Names List, with supplemental entries
+for GCT corpus names not present in that authority file.
+
+Run:
+
+```bash
+python3 scripts/generate-persons-list.py /path/to/Bush-Comprehensive-Names-List.docx
+```
+
+The script writes:
+
+- `persons.html`
+- `data/persons.json` and `data/persons.js`
+- `reports/persons-list.md`
+
 ## Local Preview
 
 Open with a local static server:
