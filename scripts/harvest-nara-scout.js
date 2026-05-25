@@ -5,6 +5,7 @@ const https = require("https");
 const os = require("os");
 const path = require("path");
 const { execFileSync } = require("child_process");
+const { applyFrusSourceStyle } = require("./source-note-style");
 
 const PROXY_URL = "https://nara-proxy.mzqmpgyvdv.workers.dev";
 const API_KEY = process.env.NARA_API_KEY || "C6O0DyEcap6taVb24zymF5AOMQvwTXsa7q0ZH8cN";
@@ -399,7 +400,7 @@ async function buildConversationRecords() {
     const source = seriesParts(nara);
     const date = isoDateFromSlash(row.dateText) || logicalDate(nara);
     const pageCount = pdf?.objectUrl ? await pageCountForPdfWithRetry(pdf.objectUrl, row.naid) : null;
-    return {
+    return applyFrusSourceStyle({
       id: `conversation-${row.naid}`,
       recordSet: "Presidential conversation",
       date,
@@ -437,7 +438,7 @@ async function buildConversationRecords() {
       }, ${nara.title || row.participantsText}. NAID ${row.naid}. ${releaseStatus(row, nara)}.${
         pdf?.objectFilename ? ` Digital object: ${pdf.objectFilename}.` : ""
       } Catalog: ${catalogUrl(row.naid)}.`
-    };
+    });
   });
   return records.sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
 }
@@ -486,7 +487,7 @@ async function buildBlackwillFiles() {
     const source = seriesParts(record);
     const review = classifyBlackwillFile(record);
     const pageCount = pdf?.objectUrl ? await pageCountForPdfWithRetry(pdf.objectUrl, record.naId, 3) : null;
-    return {
+    return applyFrusSourceStyle({
       id: `blackwill-${record.naId}`,
       seriesNaid: BLACKWILL_SERIES_NAID,
       naid: String(record.naId),
@@ -515,7 +516,7 @@ async function buildBlackwillFiles() {
       }. NAID ${record.naId}. ${record.accessRestriction?.status || "Access status not specified"}.${
         pageCount ? ` PDF extent: ${pageCount} pages.` : ""
       } Catalog: ${catalogUrl(record.naId)}.`
-    };
+    });
   });
 }
 
@@ -555,7 +556,7 @@ function buildScoutLeads(searches, officialRecords) {
       const pdf = firstPdf(record);
       const category = classifyScout(record);
       const score = scoreScoutLead(record, queryHits, officialNaids);
-      return {
+      return applyFrusSourceStyle({
         id: `scout-${record.naId}`,
         recordSet: "NARA Scout lead",
         date: logicalDate(record),
@@ -599,7 +600,7 @@ function buildScoutLeads(searches, officialRecords) {
         }${source.seriesTitle ? `, ${source.seriesTitle}` : ""}. NAID ${record.naId}. ${
           record.accessRestriction?.status || "Access status not specified"
         }.${pdf?.objectFilename ? ` Digital object: ${pdf.objectFilename}.` : ""} Catalog: ${catalogUrl(record.naId)}.`
-      };
+      });
     })
     .filter((lead) => lead.score > 0 && !officialNaids.has(lead.naid))
     .sort((a, b) => b.score - a.score || a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title))

@@ -302,6 +302,7 @@ function createSourceDetails(summaryText, sourceNote, bodyText = "") {
   details.append(summary, source);
   if (bodyText) {
     const body = document.createElement("p");
+    body.className = "record-research-note";
     body.textContent = bodyText;
     details.append(body);
   }
@@ -365,7 +366,7 @@ function createRecordRow(record) {
     ]),
     createTopics(record.topics || []),
     createFlags([releaseNeedsAttention(record) ? "Restriction / marker review" : ""]),
-    createSourceDetails("Source note", record.sourceNote)
+    createSourceDetails("Source note", record.sourceNote, record.researchNote)
   );
 
   row.append(dateStack, body, createLinks([["Catalog", record.catalogUrl], ["PDF", record.pdfUrl]]));
@@ -468,7 +469,7 @@ function createScoutRow(lead) {
       `Score ${lead.score}`
     ]),
     createTopics([...(lead.topics || []), ...(lead.queryLabels || [])]),
-    createSourceDetails("Scout note", lead.sourceNote, lead.scopeAndContentNote)
+    createSourceDetails("Source note", lead.sourceNote, [lead.researchNote, lead.scopeAndContentNote].filter(Boolean).join(" "))
   );
 
   row.append(dateStack, body, createLinks([["Catalog", lead.catalogUrl], ["PDF", lead.pdfUrl], ["NARA Scout", lead.scoutUrls?.[0]]]));
@@ -544,7 +545,7 @@ function createCentralRow(file) {
       `Score ${file.score}`
     ]),
     createTopics([...(file.queryLabels || []), file.ocrStatus]),
-    createSourceDetails("Chronology note", file.sourceNote, (file.documentSignals || []).join(" | "))
+    createSourceDetails("Source note", file.sourceNote, file.researchNote)
   );
 
   row.append(dateStack, body, createLinks([["Catalog", file.catalogUrl], ["PDF", file.pdfUrl], ["Series", file.source?.url]]));
@@ -620,7 +621,7 @@ function createBlackwillRow(file) {
       file.levelOfDescription,
       `NAID ${file.naid}`
     ]),
-    createSourceDetails("Series note", file.sourceNote)
+    createSourceDetails("Source note", file.sourceNote, file.researchNote)
   );
 
   row.append(dateStack, body, createLinks([["Catalog", file.catalogUrl], ["PDF", file.pdfUrl], ["Series", file.source?.url]]));
@@ -695,7 +696,7 @@ function createBlackwillChronRow(file) {
       file.score ? `Score ${file.score}` : ""
     ]),
     createTopics([...(file.queryLabels || []), file.ocrStatus]),
-    createSourceDetails("Chronology note", file.sourceNote, (file.documentSignals || []).join(" | "))
+    createSourceDetails("Source note", file.sourceNote, file.researchNote)
   );
 
   row.append(dateStack, body, createLinks([["Catalog", file.catalogUrl], ["PDF", file.pdfUrl], ["Series", file.source?.url]]));
@@ -774,7 +775,7 @@ function createGatesChronRow(file) {
       file.score ? `Score ${file.score}` : ""
     ]),
     createTopics([...(file.queryLabels || []), file.ocrStatus]),
-    createSourceDetails("Chronology note", file.sourceNote, (file.documentSignals || []).join(" | "))
+    createSourceDetails("Source note", file.sourceNote, file.researchNote)
   );
 
   row.append(dateStack, body, createLinks([["Catalog", file.catalogUrl], ["PDF", file.pdfUrl], ["Series", file.source?.url]]));
@@ -886,7 +887,7 @@ function createRequestedSourceRow(source) {
     ]),
     createTopics(queryTopics),
     createFlags(sourcePoolErrorFlags(source)),
-    createSourceDetails("Source pool note", source.sourceNote, detailsText)
+    createSourceDetails("Source note", source.sourceNote, [source.researchNote, detailsText].filter(Boolean).join(" "))
   );
 
   row.append(

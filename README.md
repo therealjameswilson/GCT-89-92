@@ -14,6 +14,19 @@ The core chronology is harvested from the Bush Library memcons and telcons index
 and enriched with National Archives Catalog metadata, direct PDFs, page counts,
 and source notes.
 
+## Source Notes
+
+Public source notes use a FRUS-style archival citation: repository, collection,
+series/file path, document or file-unit title, then release/access and NAID
+metadata. Search terms, OCR samples, child-counts, and endpoint caveats are
+kept separately as `researchNote` compiler breadcrumbs.
+
+After re-running any harvest, normalize the source-note fields:
+
+```bash
+node scripts/normalize-source-notes.js
+```
+
 ## NARA Scout
 
 The candidate-lead lane is built from NARA Scout searches using the Bush 41

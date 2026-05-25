@@ -5,6 +5,7 @@ const https = require("https");
 const os = require("os");
 const path = require("path");
 const { execFileSync } = require("child_process");
+const { applyFrusSourceStyle } = require("./source-note-style");
 
 const PROXY_URL = "https://nara-proxy.mzqmpgyvdv.workers.dev";
 const API_KEY = process.env.NARA_API_KEY || "C6O0DyEcap6taVb24zymF5AOMQvwTXsa7q0ZH8cN";
@@ -490,7 +491,7 @@ function finishSourceNote(row) {
     : "Catalog full-text search links this monthly packet to Eastern Mediterranean search terms; open the PDF and inspect the packet index before selection.";
   row.category = categoryFor(row.queryHits.map((id) => QUERY_DEFINITIONS.find((query) => query.id === id)).filter(Boolean), row.documentSignals.length > 0);
   row.priority = row.documentSignals.length ? "Open packet first" : /memcon|telcon|conversation/i.test(row.queryLabels.join(" ")) ? "Memcon/telcon search lead" : "Policy search lead";
-  return row;
+  return applyFrusSourceStyle(row);
 }
 
 async function main() {

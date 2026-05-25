@@ -49,7 +49,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Catalog full-text search links this Gates chronological packet to Eastern Mediterranean terms; inspect the packet before selection.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): 1989 (Part I) [Unclassified] [1 of 6]. NAID 470436931. Query hit(s): Greek, telephone conversation. Restricted - Possibly. PDF extent: 102 pages. OCR status: First five pages OCR reviewed. Catalog: https://catalog.archives.gov/id/470436931."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): 1989 (Part I) [Unclassified] [1 of 6]. Access restriction: Restricted - Possibly. NAID 470436931.",
+    "researchNote": "Query hit(s): Greek, telephone conversation. OCR status: First five pages OCR reviewed. PDF extent: 102 pages. Digital object: 41-bpr-nsc-gates-chron-cf00948-001.pdf. Catalog: https://catalog.archives.gov/id/470436931."
   },
   {
     "id": "gates-chron-470436932",
@@ -99,7 +100,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Catalog full-text search links this Gates chronological packet to Eastern Mediterranean terms; inspect the packet before selection.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): 1989 (Part I) [Unclassified] [2 of 6]. NAID 470436932. Query hit(s): memorandum of conversation. Restricted - Possibly. OCR status: Not OCR sampled. Catalog: https://catalog.archives.gov/id/470436932."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): 1989 (Part I) [Unclassified] [2 of 6]. Access restriction: Restricted - Possibly. NAID 470436932.",
+    "researchNote": "Query hit(s): memorandum of conversation. OCR status: Not OCR sampled. Digital object: 41-bpr-nsc-gates-chron-cf00948-002.pdf. Catalog: https://catalog.archives.gov/id/470436932."
   },
   {
     "id": "gates-chron-470436933",
@@ -149,7 +151,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Catalog full-text search links this Gates chronological packet to Eastern Mediterranean terms; inspect the packet before selection.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): 1989 (Part I) [Unclassified] [3 of 6]. NAID 470436933. Query hit(s): Eastern Mediterranean. Restricted - Possibly. PDF extent: 170 pages. OCR status: Full PDF OCR reviewed. Catalog: https://catalog.archives.gov/id/470436933."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): 1989 (Part I) [Unclassified] [3 of 6]. Access restriction: Restricted - Possibly. NAID 470436933.",
+    "researchNote": "Query hit(s): Eastern Mediterranean. OCR status: Full PDF OCR reviewed. PDF extent: 170 pages. Digital object: 41-bpr-nsc-gates-chron-cf00948-003.pdf. Catalog: https://catalog.archives.gov/id/470436933."
   },
   {
     "id": "gates-chron-470436934",
@@ -199,7 +202,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Catalog full-text search links this Gates chronological packet to Eastern Mediterranean terms; inspect the packet before selection.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): 1989 (Part I) [Unclassified] [4 of 6]. NAID 470436934. Query hit(s): Eastern Mediterranean. Restricted - Possibly. PDF extent: 100 pages. OCR status: Full PDF OCR reviewed. Catalog: https://catalog.archives.gov/id/470436934."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): 1989 (Part I) [Unclassified] [4 of 6]. Access restriction: Restricted - Possibly. NAID 470436934.",
+    "researchNote": "Query hit(s): Eastern Mediterranean. OCR status: Full PDF OCR reviewed. PDF extent: 100 pages. Digital object: 41-bpr-nsc-gates-chron-cf00948-004.pdf. Catalog: https://catalog.archives.gov/id/470436934."
   },
   {
     "id": "gates-chron-470436935",
@@ -249,7 +253,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Catalog full-text search links this Gates chronological packet to Eastern Mediterranean terms; inspect the packet before selection.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): 1989 (Part I) [Unclassified] [5 of 6]. NAID 470436935. Query hit(s): telephone conversation. Restricted - Possibly. OCR status: Not OCR sampled. Catalog: https://catalog.archives.gov/id/470436935."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): 1989 (Part I) [Unclassified] [5 of 6]. Access restriction: Restricted - Possibly. NAID 470436935.",
+    "researchNote": "Query hit(s): telephone conversation. OCR status: Not OCR sampled. Digital object: 41-bpr-nsc-gates-chron-cf00948-005.pdf. Catalog: https://catalog.archives.gov/id/470436935."
   },
   {
     "id": "gates-chron-470436936",
@@ -295,7 +300,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Included to document complete review of the Gates chronological series.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): 1989 (Part I) [Unclassified] [6 of 6]. NAID 470436936. Query hit(s): none. Restricted - Possibly. OCR status: Not OCR sampled. Catalog: https://catalog.archives.gov/id/470436936."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): 1989 (Part I) [Unclassified] [6 of 6]. Access restriction: Restricted - Possibly. NAID 470436936.",
+    "researchNote": "OCR status: Not OCR sampled. Digital object: 41-bpr-nsc-gates-chron-cf00948-006.pdf. Catalog: https://catalog.archives.gov/id/470436936."
   },
   {
     "id": "gates-chron-470436937",
@@ -361,7 +367,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "OCR found Gates chronological-file text matching Eastern Mediterranean people, places, or conversation forms.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): 1989 (Part II) [Unclassified] [1 of 4]. NAID 470436937. Query hit(s): Cyprus, Turkey, Ozal, Ozal + Turkey, memorandum of conversation, telephone conversation. Restricted - Possibly. PDF extent: 106 pages. OCR signals: NEMETH Miklos | OZAL Turgut | PARKINSON Cecil E. Catalog: https://catalog.archives.gov/id/470436937."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): 1989 (Part II) [Unclassified] [1 of 4]. Access restriction: Restricted - Possibly. NAID 470436937.",
+    "researchNote": "Query hit(s): Cyprus, Turkey, Ozal, Ozal + Turkey, memorandum of conversation, telephone conversation. OCR status: Full PDF OCR reviewed. OCR signals: NEMETH Miklos | OZAL Turgut | PARKINSON Cecil E. PDF extent: 106 pages. Digital object: 41-bpr-nsc-gates-chron-cf00948-007.pdf. Catalog: https://catalog.archives.gov/id/470436937."
   },
   {
     "id": "gates-chron-470436938",
@@ -428,7 +435,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "OCR found Gates chronological-file text matching Eastern Mediterranean people, places, or conversation forms.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): 1989 (Part II) [Unclassified] [2 of 4]. NAID 470436938. Query hit(s): Greece, Turkey, Turkish, memorandum of conversation, telephone conversation. Restricted - Possibly. PDF extent: 88 pages. OCR signals: US) National Guard. Chile, Costa) Rica, Denmark (mm. 50), Greece, | Guatemala, Haiti, Honduras, aly, Philippines. Taiwan, Tunisia and | Greece 32 - -. Catalog: https://catalog.archives.gov/id/470436938."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): 1989 (Part II) [Unclassified] [2 of 4]. Access restriction: Restricted - Possibly. NAID 470436938.",
+    "researchNote": "Query hit(s): Greece, Turkey, Turkish, memorandum of conversation, telephone conversation. OCR status: Full PDF OCR reviewed. OCR signals: US) National Guard. Chile, Costa) Rica, Denmark (mm. 50), Greece, | Guatemala, Haiti, Honduras, aly, Philippines. Taiwan, Tunisia and | Greece 32 - -. PDF extent: 88 pages. Digital object: 41-bpr-nsc-gates-chron-cf00948-008.pdf. Catalog: https://catalog.archives.gov/id/470436938."
   },
   {
     "id": "gates-chron-470436939",
@@ -474,7 +482,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Included to document complete review of the Gates chronological series.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): 1989 (Part II) [Unclassified] [3 of 4]. NAID 470436939. Query hit(s): none. Restricted - Possibly. OCR status: Not OCR sampled. Catalog: https://catalog.archives.gov/id/470436939."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): 1989 (Part II) [Unclassified] [3 of 4]. Access restriction: Restricted - Possibly. NAID 470436939.",
+    "researchNote": "OCR status: Not OCR sampled. Digital object: 41-bpr-nsc-gates-chron-cf00948-009.pdf. Catalog: https://catalog.archives.gov/id/470436939."
   },
   {
     "id": "gates-chron-470436940",
@@ -549,7 +558,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "OCR found Gates chronological-file text matching Eastern Mediterranean people, places, or conversation forms.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): 1989 (Part II) [Unclassified] [4 of 4]. NAID 470436940. Query hit(s): Greece, Greek, Cyprus, Cypriot, Vassiliou, Vassiliou + Cyprus, Turkey, Eastern Mediterranean, Greece / Turkey / Cyprus. Restricted - Possibly. PDF extent: 123 pages. OCR signals: Vassiliou election. I hear, perhaps incorrectly, that the | correspond nicely to the evolving situation on the island | (for President Vassiliou was brought up in Budapest and. Catalog: https://catalog.archives.gov/id/470436940."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): 1989 (Part II) [Unclassified] [4 of 4]. Access restriction: Restricted - Possibly. NAID 470436940.",
+    "researchNote": "Query hit(s): Greece, Greek, Cyprus, Cypriot, Vassiliou, Vassiliou + Cyprus, Turkey, Eastern Mediterranean, Greece / Turkey / Cyprus. OCR status: Full PDF OCR reviewed. OCR signals: Vassiliou election. I hear, perhaps incorrectly, that the | correspond nicely to the evolving situation on the island | (for President Vassiliou was brought up in Budapest and. PDF extent: 123 pages. Digital object: 41-bpr-nsc-gates-chron-cf00948-010.pdf. Catalog: https://catalog.archives.gov/id/470436940."
   },
   {
     "id": "gates-chron-470436948",
@@ -605,7 +615,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Catalog full-text search links this Gates chronological packet to Eastern Mediterranean terms; inspect the packet before selection.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): 1990 [1 of 3]. NAID 470436948. Query hit(s): memcon, telcon, memorandum of conversation, telephone conversation. Restricted - Possibly. PDF extent: 47 pages. OCR status: Full PDF OCR reviewed. Catalog: https://catalog.archives.gov/id/470436948."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): 1990 [1 of 3]. Access restriction: Restricted - Possibly. NAID 470436948.",
+    "researchNote": "Query hit(s): memcon, telcon, memorandum of conversation, telephone conversation. OCR status: Full PDF OCR reviewed. PDF extent: 47 pages. Digital object: 41-bpr-nsc-gates-chron-cf00948-018.pdf. Catalog: https://catalog.archives.gov/id/470436948."
   },
   {
     "id": "gates-chron-470436949",
@@ -659,7 +670,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Catalog full-text search links this Gates chronological packet to Eastern Mediterranean terms; inspect the packet before selection.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): 1990 [2 of 3]. NAID 470436949. Query hit(s): telcon, memorandum of conversation, telephone conversation. Restricted - Possibly. PDF extent: 48 pages. OCR status: First five pages OCR reviewed. Catalog: https://catalog.archives.gov/id/470436949."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): 1990 [2 of 3]. Access restriction: Restricted - Possibly. NAID 470436949.",
+    "researchNote": "Query hit(s): telcon, memorandum of conversation, telephone conversation. OCR status: First five pages OCR reviewed. PDF extent: 48 pages. Digital object: 41-bpr-nsc-gates-chron-cf00948-019.pdf. Catalog: https://catalog.archives.gov/id/470436949."
   },
   {
     "id": "gates-chron-470436950",
@@ -713,7 +725,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Catalog full-text search links this Gates chronological packet to Eastern Mediterranean terms; inspect the packet before selection.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): 1990 [3 of 3]. NAID 470436950. Query hit(s): memcon, memorandum of conversation, telephone conversation. Restricted - Possibly. PDF extent: 52 pages. OCR status: First five pages OCR reviewed. Catalog: https://catalog.archives.gov/id/470436950."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): 1990 [3 of 3]. Access restriction: Restricted - Possibly. NAID 470436950.",
+    "researchNote": "Query hit(s): memcon, memorandum of conversation, telephone conversation. OCR status: First five pages OCR reviewed. PDF extent: 52 pages. Digital object: 41-bpr-nsc-gates-chron-cf00948-020.pdf. Catalog: https://catalog.archives.gov/id/470436950."
   },
   {
     "id": "gates-chron-470436951",
@@ -759,7 +772,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Included to document complete review of the Gates chronological series.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): 1991. NAID 470436951. Query hit(s): none. Restricted - Possibly. OCR status: Not OCR sampled. Catalog: https://catalog.archives.gov/id/470436951."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): 1991. Access restriction: Restricted - Possibly. NAID 470436951.",
+    "researchNote": "OCR status: Not OCR sampled. Digital object: 41-bpr-nsc-gates-chron-cf00948-021.pdf. Catalog: https://catalog.archives.gov/id/470436951."
   },
   {
     "id": "gates-chron-470436941",
@@ -813,7 +827,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Catalog full-text search links this Gates chronological packet to Eastern Mediterranean terms; inspect the packet before selection.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): Classified 1989 (Part I) [1 of 4]. NAID 470436941. Query hit(s): memcon, memorandum of conversation, telephone conversation. Restricted - Possibly. PDF extent: 93 pages. OCR status: First five pages OCR reviewed. Catalog: https://catalog.archives.gov/id/470436941."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): Classified 1989 (Part I) [1 of 4]. Access restriction: Restricted - Possibly. NAID 470436941.",
+    "researchNote": "Query hit(s): memcon, memorandum of conversation, telephone conversation. OCR status: First five pages OCR reviewed. PDF extent: 93 pages. Digital object: 41-bpr-nsc-gates-chron-cf00948-011.pdf. Catalog: https://catalog.archives.gov/id/470436941."
   },
   {
     "id": "gates-chron-470436942",
@@ -870,7 +885,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "OCR found Gates chronological-file text matching Eastern Mediterranean people, places, or conversation forms.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): Classified 1989 (Part I) [2 of 4]. NAID 470436942. Query hit(s): Greece, memorandum of conversation, telephone conversation. Restricted - Possibly. PDF extent: 84 pages. OCR signals: the U. S. delegation to the biannual TREVI conferences since | 1985, the latest being in Athens, Greece during December, 1988.. Catalog: https://catalog.archives.gov/id/470436942."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): Classified 1989 (Part I) [2 of 4]. Access restriction: Restricted - Possibly. NAID 470436942.",
+    "researchNote": "Query hit(s): Greece, memorandum of conversation, telephone conversation. OCR status: Full PDF OCR reviewed. OCR signals: the U. S. delegation to the biannual TREVI conferences since | 1985, the latest being in Athens, Greece during December, 1988.. PDF extent: 84 pages. Digital object: 41-bpr-nsc-gates-chron-cf00948-012.pdf. Catalog: https://catalog.archives.gov/id/470436942."
   },
   {
     "id": "gates-chron-470436943",
@@ -922,7 +938,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Catalog full-text search links this Gates chronological packet to Eastern Mediterranean terms; inspect the packet before selection.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): Classified 1989 (Part I) [3 of 4]. NAID 470436943. Query hit(s): memorandum of conversation, telephone conversation. Restricted - Possibly. OCR status: Not OCR sampled. Catalog: https://catalog.archives.gov/id/470436943."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): Classified 1989 (Part I) [3 of 4]. Access restriction: Restricted - Possibly. NAID 470436943.",
+    "researchNote": "Query hit(s): memorandum of conversation, telephone conversation. OCR status: Not OCR sampled. Digital object: 41-bpr-nsc-gates-chron-cf00948-013.pdf. Catalog: https://catalog.archives.gov/id/470436943."
   },
   {
     "id": "gates-chron-470436944",
@@ -974,7 +991,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Catalog full-text search links this Gates chronological packet to Eastern Mediterranean terms; inspect the packet before selection.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): Classified 1989 (Part I) [4 of 4]. NAID 470436944. Query hit(s): memorandum of conversation, telephone conversation. Restricted - Possibly. PDF extent: 59 pages. OCR status: First five pages OCR reviewed. Catalog: https://catalog.archives.gov/id/470436944."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): Classified 1989 (Part I) [4 of 4]. Access restriction: Restricted - Possibly. NAID 470436944.",
+    "researchNote": "Query hit(s): memorandum of conversation, telephone conversation. OCR status: First five pages OCR reviewed. PDF extent: 59 pages. Digital object: 41-bpr-nsc-gates-chron-cf00948-014.pdf. Catalog: https://catalog.archives.gov/id/470436944."
   },
   {
     "id": "gates-chron-470436945",
@@ -1030,7 +1048,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Catalog full-text search links this Gates chronological packet to Eastern Mediterranean terms; inspect the packet before selection.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): Classified 1989 (Part II) [1 of 3]. NAID 470436945. Query hit(s): memcon, telcon, memorandum of conversation, telephone conversation. Restricted - Possibly. PDF extent: 83 pages. OCR status: First five pages OCR reviewed. Catalog: https://catalog.archives.gov/id/470436945."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): Classified 1989 (Part II) [1 of 3]. Access restriction: Restricted - Possibly. NAID 470436945.",
+    "researchNote": "Query hit(s): memcon, telcon, memorandum of conversation, telephone conversation. OCR status: First five pages OCR reviewed. PDF extent: 83 pages. Digital object: 41-bpr-nsc-gates-chron-cf00948-015.pdf. Catalog: https://catalog.archives.gov/id/470436945."
   },
   {
     "id": "gates-chron-470436946",
@@ -1082,7 +1101,8 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Catalog full-text search links this Gates chronological packet to Eastern Mediterranean terms; inspect the packet before selection.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): Classified 1989 (Part II) [2 of 3]. NAID 470436946. Query hit(s): memorandum of conversation, telephone conversation. Restricted - Possibly. PDF extent: 32 pages. OCR status: First five pages OCR reviewed. Catalog: https://catalog.archives.gov/id/470436946."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): Classified 1989 (Part II) [2 of 3]. Access restriction: Restricted - Possibly. NAID 470436946.",
+    "researchNote": "Query hit(s): memorandum of conversation, telephone conversation. OCR status: First five pages OCR reviewed. PDF extent: 32 pages. Digital object: 41-bpr-nsc-gates-chron-cf00948-016.pdf. Catalog: https://catalog.archives.gov/id/470436946."
   },
   {
     "id": "gates-chron-470436947",
@@ -1128,6 +1148,7 @@ window.GATES_CHRON_FILES = [
       "status": "Being Researched"
     },
     "rationale": "Included to document complete review of the Gates chronological series.",
-    "sourceNote": "Series review: Robert M. Gates' Chronological Files, National Security Council, George H. W. Bush Presidential Records. File unit: Chron File (Official): Classified 1989 (Part II) [3 of 3]. NAID 470436947. Query hit(s): none. Restricted - Possibly. OCR status: Not OCR sampled. Catalog: https://catalog.archives.gov/id/470436947."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert M. Gates' Chronological Files, Chron File (Official): Classified 1989 (Part II) [3 of 3]. Access restriction: Restricted - Possibly. NAID 470436947.",
+    "researchNote": "OCR status: Not OCR sampled. Digital object: 41-bpr-nsc-gates-chron-cf00948-017.pdf. Catalog: https://catalog.archives.gov/id/470436947."
   }
 ];

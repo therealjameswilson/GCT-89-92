@@ -278,7 +278,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Papandreou, Mitsotakis, Cyprus, Cypriot, Vassiliou, Denktash, Turkey, Turkish, Ozal, Yilmaz, PKK, Aegean, Eastern Mediterranean, Greece / Turkey / Cyprus, memcon, memorandum of conversation. NAID 366551676. Catalog: https://catalog.archives.gov/id/366551676."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Meetings--Memorandum of Conversations 7/11/91-7/22/91. Access restriction: Restricted - Possibly. NAID 366551676.",
+        "researchNote": "Query hit(s): Greece, Greek, Papandreou, Mitsotakis, Cyprus, Cypriot, Vassiliou, Denktash, Turkey, Turkish, Ozal, Yilmaz, PKK, Aegean, Eastern Mediterranean, Greece / Turkey / Cyprus, memcon, memorandum of conversation. Digital object: 41-bpr-scow-pcor-memcon-91109-001.pdf. Catalog: https://catalog.archives.gov/id/366551676."
       },
       {
         "naid": "366551685",
@@ -328,7 +329,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Papandreou, Mitsotakis, Cyprus, Cypriot, Vassiliou, Denktash, Clerides, Demirel, PKK, Greece / Turkey / Cyprus, memcon, memorandum of conversation. NAID 366551685. Catalog: https://catalog.archives.gov/id/366551685."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Meetings--Memorandum of Conversations 7/9/92-12/22/92. Access restriction: Restricted - Possibly. NAID 366551685.",
+        "researchNote": "Query hit(s): Greece, Greek, Papandreou, Mitsotakis, Cyprus, Cypriot, Vassiliou, Denktash, Clerides, Demirel, PKK, Greece / Turkey / Cyprus, memcon, memorandum of conversation. Digital object: 41-bpr-scow-pcor-memcon-91110-002.pdf. Catalog: https://catalog.archives.gov/id/366551685."
       },
       {
         "naid": "366551682",
@@ -376,7 +378,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Cypriot, Vassiliou, Denktash, Turkish, Demirel, Eastern Mediterranean, Greece / Turkey / Cyprus, memcon, memorandum of conversation. NAID 366551682. Catalog: https://catalog.archives.gov/id/366551682."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Meetings--Memorandum of Conversations 3/3/92-4/28/92. Access restriction: Restricted - Possibly. NAID 366551682.",
+        "researchNote": "Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Cypriot, Vassiliou, Denktash, Turkish, Demirel, Eastern Mediterranean, Greece / Turkey / Cyprus, memcon, memorandum of conversation. Digital object: 41-bpr-scow-pcor-memcon-91109-007.pdf. Catalog: https://catalog.archives.gov/id/366551682."
       },
       {
         "naid": "366551681",
@@ -424,7 +427,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Denktash, Turkey, Turkish, Demirel, PKK, Aegean, Greece / Turkey / Cyprus, memcon, memorandum of conversation. NAID 366551681. Catalog: https://catalog.archives.gov/id/366551681."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Meetings--Memorandum of Conversations 2/1/92-2/27/92. Access restriction: Restricted - Possibly. NAID 366551681.",
+        "researchNote": "Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Denktash, Turkey, Turkish, Demirel, PKK, Aegean, Greece / Turkey / Cyprus, memcon, memorandum of conversation. Digital object: 41-bpr-scow-pcor-memcon-91109-006.pdf. Catalog: https://catalog.archives.gov/id/366551681."
       },
       {
         "naid": "366551694",
@@ -472,7 +476,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Vassiliou, Turkey, Turkish, Ozal, Eastern Mediterranean, Greece / Turkey / Cyprus, telcon, memorandum of conversation, telephone conversation. NAID 366551694. Catalog: https://catalog.archives.gov/id/366551694."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Telephone Calls--Memorandum of Conversations 8/22/90-10/5/90. Access restriction: Restricted - Possibly. NAID 366551694.",
+        "researchNote": "Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Vassiliou, Turkey, Turkish, Ozal, Eastern Mediterranean, Greece / Turkey / Cyprus, telcon, memorandum of conversation, telephone conversation. Digital object: 41-bpr-scow-pcor-telcon-91112-002.pdf. Catalog: https://catalog.archives.gov/id/366551694."
       },
       {
         "naid": "366552177",
@@ -516,7 +521,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Papandreou, Mitsotakis, Zolotas, Cyprus, Vassiliou, Turkey, Ozal, Demirel, Yilmaz, Greece / Turkey / Cyprus. NAID 366552177. Catalog: https://catalog.archives.gov/id/366552177."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Brent Scowcroft Administrative Files, Presidential Listing of 1989-1992 Meetings/Telephone Calls. Access restriction: Restricted - Possibly. NAID 366552177.",
+        "researchNote": "Query hit(s): Greece, Papandreou, Mitsotakis, Zolotas, Cyprus, Vassiliou, Turkey, Ozal, Demirel, Yilmaz, Greece / Turkey / Cyprus. Digital object: 41-bpr-scow-admin-85038-002.pdf. Catalog: https://catalog.archives.gov/id/366552177."
       },
       {
         "naid": "366551666",
@@ -562,7 +568,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Cyprus, Vassiliou, Denktash, Turkey, Turkish, Ozal, Eastern Mediterranean, Greece / Turkey / Cyprus, memcon, memorandum of conversation. NAID 366551666. Catalog: https://catalog.archives.gov/id/366551666."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Meetings--Memorandum of Conversations 1/11/90-2/21/90. Access restriction: Restricted - Possibly. NAID 366551666.",
+        "researchNote": "Query hit(s): Greece, Greek, Cyprus, Vassiliou, Denktash, Turkey, Turkish, Ozal, Eastern Mediterranean, Greece / Turkey / Cyprus, memcon, memorandum of conversation. Digital object: 41-bpr-scow-pcor-memcon-91107-007.pdf. Catalog: https://catalog.archives.gov/id/366551666."
       },
       {
         "naid": "366551672",
@@ -608,7 +615,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Denktash, Turkey, Turkish, Ozal, Incirlik, Greece / Turkey / Cyprus, memcon, memorandum of conversation. NAID 366551672. Catalog: https://catalog.archives.gov/id/366551672."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Meetings--Memorandum of Conversations 11/13/90-12/21/90. Access restriction: Restricted - Possibly. NAID 366551672.",
+        "researchNote": "Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Denktash, Turkey, Turkish, Ozal, Incirlik, Greece / Turkey / Cyprus, memcon, memorandum of conversation. Digital object: 41-bpr-scow-pcor-memcon-91108-003.pdf. Catalog: https://catalog.archives.gov/id/366551672."
       },
       {
         "naid": "366551957",
@@ -652,7 +660,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Papandreou, Mitsotakis, Cyprus, Turkey, Turkish, Ozal, Yilmaz, Aegean, Greece / Turkey / Cyprus. NAID 366551957. Catalog: https://catalog.archives.gov/id/366551957."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Desert Shield and Desert Storm Files, Desert Shield/Desert Storm (September 1990) Part I [2]. Access restriction: Restricted - Possibly. NAID 366551957.",
+        "researchNote": "Query hit(s): Greece, Greek, Papandreou, Mitsotakis, Cyprus, Turkey, Turkish, Ozal, Yilmaz, Aegean, Greece / Turkey / Cyprus. Digital object: 41-bpr-scow-dsds-chr-91144-002.pdf. Catalog: https://catalog.archives.gov/id/366551957."
       },
       {
         "naid": "366551684",
@@ -694,7 +703,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Mitsotakis, Cyprus, Vassiliou, Denktash, Demirel, Yilmaz, Greece / Turkey / Cyprus, memcon, memorandum of conversation. NAID 366551684. Catalog: https://catalog.archives.gov/id/366551684."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Meetings--Memorandum of Conversations 7/1/92-7/9/92. Access restriction: Restricted - Possibly. NAID 366551684.",
+        "researchNote": "Query hit(s): Greece, Mitsotakis, Cyprus, Vassiliou, Denktash, Demirel, Yilmaz, Greece / Turkey / Cyprus, memcon, memorandum of conversation. Digital object: 41-bpr-scow-pcor-memcon-91110-001.pdf. Catalog: https://catalog.archives.gov/id/366551684."
       },
       {
         "naid": "366551985",
@@ -736,7 +746,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greek, Mitsotakis, Cyprus, Vassiliou, Turkey, Turkish, Ozal, Incirlik, Aegean, Greece / Turkey / Cyprus. NAID 366551985. Catalog: https://catalog.archives.gov/id/366551985."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Desert Shield and Desert Storm Files, Desert Shield/Desert Storm (March 1991) [2]. Access restriction: Restricted - Possibly. NAID 366551985.",
+        "researchNote": "Query hit(s): Greek, Mitsotakis, Cyprus, Vassiliou, Turkey, Turkish, Ozal, Incirlik, Aegean, Greece / Turkey / Cyprus. Digital object: 41-bpr-scow-dsds-chr-91147-005.pdf. Catalog: https://catalog.archives.gov/id/366551985."
       },
       {
         "naid": "366551995",
@@ -780,7 +791,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Papandreou, Cyprus, Cypriot, Vassiliou, Denktash, Turkish, Ozal, memcon, memorandum of conversation. NAID 366551995. Catalog: https://catalog.archives.gov/id/366551995."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Chronological Files, Other (July 1989). Access restriction: Restricted - Possibly. NAID 366551995.",
+        "researchNote": "Query hit(s): Greece, Greek, Papandreou, Cyprus, Cypriot, Vassiliou, Denktash, Turkish, Ozal, memcon, memorandum of conversation. Digital object: 41-bpr-scow-chron-91148-006.pdf. Catalog: https://catalog.archives.gov/id/366551995."
       },
       {
         "naid": "366551701",
@@ -822,7 +834,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Mitsotakis, Cyprus, Denktash, Turkey, Ozal, Yilmaz, Greece / Turkey / Cyprus, telcon, memorandum of conversation, telephone conversation. NAID 366551701. Catalog: https://catalog.archives.gov/id/366551701."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Telephone Calls--Memorandum of Conversations 8/5/91-9/25/91. Access restriction: Restricted - Possibly. NAID 366551701.",
+        "researchNote": "Query hit(s): Mitsotakis, Cyprus, Denktash, Turkey, Ozal, Yilmaz, Greece / Turkey / Cyprus, telcon, memorandum of conversation, telephone conversation. Digital object: 41-bpr-scow-pcor-telcon-91113-001.pdf. Catalog: https://catalog.archives.gov/id/366551701."
       },
       {
         "naid": "366551679",
@@ -864,7 +877,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Vassiliou, Demirel, Yilmaz, Greece / Turkey / Cyprus, memcon, memorandum of conversation. NAID 366551679. Catalog: https://catalog.archives.gov/id/366551679."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Meetings--Memorandum of Conversations 10/16/91-12/17/91. Access restriction: Restricted - Possibly. NAID 366551679.",
+        "researchNote": "Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Vassiliou, Demirel, Yilmaz, Greece / Turkey / Cyprus, memcon, memorandum of conversation. Digital object: 41-bpr-scow-pcor-memcon-91109-004.pdf. Catalog: https://catalog.archives.gov/id/366551679."
       },
       {
         "naid": "366551669",
@@ -906,7 +920,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Papandreou, Mitsotakis, Cyprus, Vassiliou, Demirel, Greece / Turkey / Cyprus, memcon, memorandum of conversation. NAID 366551669. Catalog: https://catalog.archives.gov/id/366551669."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Meetings--Memorandum of Conversations 5/17/90-6/26/90. Access restriction: Restricted - Possibly. NAID 366551669.",
+        "researchNote": "Query hit(s): Greece, Greek, Papandreou, Mitsotakis, Cyprus, Vassiliou, Demirel, Greece / Turkey / Cyprus, memcon, memorandum of conversation. Digital object: 41-bpr-scow-pcor-memcon-91107-010.pdf. Catalog: https://catalog.archives.gov/id/366551669."
       },
       {
         "naid": "366551665",
@@ -948,7 +963,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greek, Cyprus, Cypriot, Vassiliou, Denktash, Turkish, Eastern Mediterranean, Greece / Turkey / Cyprus, memcon, memorandum of conversation. NAID 366551665. Catalog: https://catalog.archives.gov/id/366551665."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Meetings--Memorandum of Conversations 10/3/89-12/16/89. Access restriction: Restricted - Possibly. NAID 366551665.",
+        "researchNote": "Query hit(s): Greek, Cyprus, Cypriot, Vassiliou, Denktash, Turkish, Eastern Mediterranean, Greece / Turkey / Cyprus, memcon, memorandum of conversation. Digital object: 41-bpr-scow-pcor-memcon-91107-006.pdf. Catalog: https://catalog.archives.gov/id/366551665."
       },
       {
         "naid": "366551704",
@@ -988,7 +1004,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Mitsotakis, Cyprus, Denktash, Turkey, Demirel, Greece / Turkey / Cyprus, telcon, memorandum of conversation, telephone conversation. NAID 366551704. Catalog: https://catalog.archives.gov/id/366551704."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Telephone Calls--Memorandum of Conversations 4/10/92-6/30/92. Access restriction: Restricted - Possibly. NAID 366551704.",
+        "researchNote": "Query hit(s): Mitsotakis, Cyprus, Denktash, Turkey, Demirel, Greece / Turkey / Cyprus, telcon, memorandum of conversation, telephone conversation. Digital object: 41-bpr-scow-pcor-telcon-91113-004.pdf. Catalog: https://catalog.archives.gov/id/366551704."
       },
       {
         "naid": "366551705",
@@ -1028,7 +1045,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Mitsotakis, Turkey, Ozal, Demirel, Greece / Turkey / Cyprus, telcon, memorandum of conversation, telephone conversation. NAID 366551705. Catalog: https://catalog.archives.gov/id/366551705."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Telephone Calls--Memorandum of Conversations 7/10/92-11/5/92. Access restriction: Restricted - Possibly. NAID 366551705.",
+        "researchNote": "Query hit(s): Greece, Mitsotakis, Turkey, Ozal, Demirel, Greece / Turkey / Cyprus, telcon, memorandum of conversation, telephone conversation. Digital object: 41-bpr-scow-pcor-telcon-91113-005.pdf. Catalog: https://catalog.archives.gov/id/366551705."
       },
       {
         "naid": "366551662",
@@ -1068,7 +1086,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Papandreou, Cypriot, Vassiliou, Denktash, Greece / Turkey / Cyprus, memcon, memorandum of conversation. NAID 366551662. Catalog: https://catalog.archives.gov/id/366551662."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Meetings--Memorandum of Conversations 4/19/89-5/31/89. Access restriction: Restricted - Possibly. NAID 366551662.",
+        "researchNote": "Query hit(s): Greece, Greek, Papandreou, Cypriot, Vassiliou, Denktash, Greece / Turkey / Cyprus, memcon, memorandum of conversation. Digital object: 41-bpr-scow-pcor-memcon-91107-003.pdf. Catalog: https://catalog.archives.gov/id/366551662."
       },
       {
         "naid": "366551683",
@@ -1106,7 +1125,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greek, Cyprus, Vassiliou, Denktash, Demirel, Eastern Mediterranean, memcon, memorandum of conversation. NAID 366551683. Catalog: https://catalog.archives.gov/id/366551683."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Meetings--Memorandum of Conversations 5/1/92-6/17/92. Access restriction: Restricted - Possibly. NAID 366551683.",
+        "researchNote": "Query hit(s): Greek, Cyprus, Vassiliou, Denktash, Demirel, Eastern Mediterranean, memcon, memorandum of conversation. Digital object: 41-bpr-scow-pcor-memcon-91109-008.pdf. Catalog: https://catalog.archives.gov/id/366551683."
       },
       {
         "naid": "366551964",
@@ -1144,7 +1164,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telcon"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greek, Mitsotakis, Cyprus, Turkey, Turkish, Ozal, Greece / Turkey / Cyprus, telcon. NAID 366551964. Catalog: https://catalog.archives.gov/id/366551964."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Desert Shield and Desert Storm Files, Desert Shield/Desert Storm (November 1990) [2]. Access restriction: Restricted - Possibly. NAID 366551964.",
+        "researchNote": "Query hit(s): Greek, Mitsotakis, Cyprus, Turkey, Turkish, Ozal, Greece / Turkey / Cyprus, telcon. Digital object: 41-bpr-scow-dsds-chr-91145-001.pdf. Catalog: https://catalog.archives.gov/id/366551964."
       },
       {
         "naid": "366551688",
@@ -1184,7 +1205,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greek, Cyprus, Cypriot, Turkey, Turkish, Ozal, telcon, memorandum of conversation, telephone conversation. NAID 366551688. Catalog: https://catalog.archives.gov/id/366551688."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Telephone Calls--Memorandum of Conversations 8/1/89-10/23/89. Access restriction: Restricted - Possibly. NAID 366551688.",
+        "researchNote": "Query hit(s): Greek, Cyprus, Cypriot, Turkey, Turkish, Ozal, telcon, memorandum of conversation, telephone conversation. Digital object: 41-bpr-scow-pcor-telcon-91111-003.pdf. Catalog: https://catalog.archives.gov/id/366551688."
       },
       {
         "naid": "366551695",
@@ -1222,7 +1244,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Cyprus, Turkey, Turkish, Ozal, Greece / Turkey / Cyprus, telcon, memorandum of conversation, telephone conversation. NAID 366551695. Catalog: https://catalog.archives.gov/id/366551695."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Telephone Calls--Memorandum of Conversations 10/11/90-12/31/90. Access restriction: Restricted - Possibly. NAID 366551695.",
+        "researchNote": "Query hit(s): Cyprus, Turkey, Turkish, Ozal, Greece / Turkey / Cyprus, telcon, memorandum of conversation, telephone conversation. Digital object: 41-bpr-scow-pcor-telcon-91112-003.pdf. Catalog: https://catalog.archives.gov/id/366551695."
       },
       {
         "naid": "366551677",
@@ -1258,7 +1281,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Mitsotakis, Cyprus, Denktash, Yilmaz, Greece / Turkey / Cyprus, memcon, memorandum of conversation. NAID 366551677. Catalog: https://catalog.archives.gov/id/366551677."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Meetings--Memorandum of Conversations 7/24/91-9/24/91. Access restriction: Restricted - Possibly. NAID 366551677.",
+        "researchNote": "Query hit(s): Mitsotakis, Cyprus, Denktash, Yilmaz, Greece / Turkey / Cyprus, memcon, memorandum of conversation. Digital object: 41-bpr-scow-pcor-memcon-91109-002.pdf. Catalog: https://catalog.archives.gov/id/366551677."
       },
       {
         "naid": "366552166",
@@ -1294,7 +1318,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Papandreou, Mitsotakis, Cyprus, Vassiliou, Turkey, Greece / Turkey / Cyprus. NAID 366552166. Catalog: https://catalog.archives.gov/id/366552166."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Brent Scowcroft Administrative Files, Foreign Visits and Foreign Travel, 1991. Access restriction: Restricted - Possibly. NAID 366552166.",
+        "researchNote": "Query hit(s): Greece, Papandreou, Mitsotakis, Cyprus, Vassiliou, Turkey, Greece / Turkey / Cyprus. Digital object: 41-bpr-scow-admin-85037-002.pdf. Catalog: https://catalog.archives.gov/id/366552166."
       },
       {
         "naid": "366551706",
@@ -1330,7 +1355,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey, Ozal, Demirel, PKK, telcon, memorandum of conversation, telephone conversation. NAID 366551706. Catalog: https://catalog.archives.gov/id/366551706."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Telephone Calls--Memorandum of Conversations 11/5/92-1/2/93. Access restriction: Restricted - Possibly. NAID 366551706.",
+        "researchNote": "Query hit(s): Turkey, Ozal, Demirel, PKK, telcon, memorandum of conversation, telephone conversation. Digital object: 41-bpr-scow-pcor-telcon-91113-006.pdf. Catalog: https://catalog.archives.gov/id/366551706."
       },
       {
         "naid": "366551702",
@@ -1366,7 +1392,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Cyprus, Turkey, Demirel, Greece / Turkey / Cyprus, telcon, memorandum of conversation, telephone conversation. NAID 366551702. Catalog: https://catalog.archives.gov/id/366551702."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Telephone Calls--Memorandum of Conversations 9/27/91-12/25/91. Access restriction: Restricted - Possibly. NAID 366551702.",
+        "researchNote": "Query hit(s): Cyprus, Turkey, Demirel, Greece / Turkey / Cyprus, telcon, memorandum of conversation, telephone conversation. Digital object: 41-bpr-scow-pcor-telcon-91113-002.pdf. Catalog: https://catalog.archives.gov/id/366551702."
       },
       {
         "naid": "366551773",
@@ -1402,7 +1429,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Papandreou, Cyprus, Turkey, Ozal, Greece / Turkey / Cyprus. NAID 366551773. Catalog: https://catalog.archives.gov/id/366551773."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, USSR Chronological Files, Soviet Power Collapse in Eastern Europe--CFE [Conventional Forces in Europe] April-June 1989. Access restriction: Restricted - Possibly. NAID 366551773.",
+        "researchNote": "Query hit(s): Greece, Greek, Papandreou, Cyprus, Turkey, Ozal, Greece / Turkey / Cyprus. Digital object: 41-bpr-scow-ussrch-cfe-91121-001.pdf. Catalog: https://catalog.archives.gov/id/366551773."
       },
       {
         "naid": "366551779",
@@ -1438,7 +1466,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Turkish, Incirlik, Greece / Turkey / Cyprus. NAID 366551779. Catalog: https://catalog.archives.gov/id/366551779."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, USSR Chronological Files, CFE [Conventional Forces in Europe] (June 1990). Access restriction: Restricted - Possibly. NAID 366551779.",
+        "researchNote": "Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Turkish, Incirlik, Greece / Turkey / Cyprus. Digital object: 41-bpr-scow-ussrch-cfe-91121-007.pdf. Catalog: https://catalog.archives.gov/id/366551779."
       },
       {
         "naid": "366551660",
@@ -1474,7 +1503,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greek, Papandreou, Cyprus, Greece / Turkey / Cyprus, memcon, memorandum of conversation, telephone conversation. NAID 366551660. Catalog: https://catalog.archives.gov/id/366551660."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Presidential Correspondence Files, Presidential Meetings--Memorandum of Conversations 1/24/89-2/25/89. Access restriction: Restricted - Possibly. NAID 366551660.",
+        "researchNote": "Query hit(s): Greek, Papandreou, Cyprus, Greece / Turkey / Cyprus, memcon, memorandum of conversation, telephone conversation. Digital object: 41-bpr-scow-pcor-memcon-91107-001.pdf. Catalog: https://catalog.archives.gov/id/366551660."
       }
     ],
     "children": [],
@@ -1484,7 +1514,8 @@ window.REQUESTED_SOURCE_SERIES = [
       "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
       "status": "Being Researched"
     },
-    "sourceNote": "Requested source: Brent Scowcroft Papers. NAID 4522156. collection. Access status not specified. Children found: 0. Online children: 676. EastMed query-hit records retained: 30. Public child/search harvest unavailable from the Catalog endpoint used in this run. Catalog: https://catalog.archives.gov/id/4522156."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Brent Scowcroft Collection, Brent Scowcroft Papers. NAID 4522156.",
+    "researchNote": "Query totals: memorandum of conversation (328), telephone conversation (274), NSC/DC (228), Turkey (202), memcon (152), Ozal (110), telcon (108), Turkish (92). Children found: 0. Online children: 676. Retained EastMed leads: 30. Child search note: Catalog returned HTML for q=*&ancestorNaId=4522156&limit=200. Catalog: https://catalog.archives.gov/id/4522156. Search Within: https://catalog.archives.gov/search-within/4522156?limit=100."
   },
   {
     "id": "presidential-daily-file",
@@ -1737,7 +1768,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Cypriot, Vassiliou, Denktash, Turkey, Turkish, Demirel, Greece / Turkey / Cyprus. NAID 470418284. Catalog: https://catalog.archives.gov/id/470418284."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Tuesday, January 5, 1993 [2]. Access restriction: Restricted - Possibly. NAID 470418284.",
+        "researchNote": "Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Cypriot, Vassiliou, Denktash, Turkey, Turkish, Demirel, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90746-009.pdf. Catalog: https://catalog.archives.gov/id/470418284."
       },
       {
         "naid": "470417464",
@@ -1781,7 +1813,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Cypriot, Vassiliou, Turkey, Turkish, Yilmaz, Eastern Mediterranean, Greece / Turkey / Cyprus. NAID 470417464. Catalog: https://catalog.archives.gov/id/470417464."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Friday, November 22, 1991 [2]. Access restriction: Restricted - Possibly. NAID 470417464.",
+        "researchNote": "Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Cypriot, Vassiliou, Turkey, Turkish, Yilmaz, Eastern Mediterranean, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90635-006.pdf. Catalog: https://catalog.archives.gov/id/470417464."
       },
       {
         "naid": "470417260",
@@ -1821,7 +1854,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "yilmaz"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Mitsotakis, Cypriot, Turkey, Turkish, Ozal, Demirel, Yilmaz. NAID 470417260. Catalog: https://catalog.archives.gov/id/470417260."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Saturday, July 20, 1991. Access restriction: Restricted - Possibly. NAID 470417260.",
+        "researchNote": "Query hit(s): Greece, Greek, Mitsotakis, Cypriot, Turkey, Turkish, Ozal, Demirel, Yilmaz. Digital object: 41-bpr-ootp-daily_files-90610-002.pdf. Catalog: https://catalog.archives.gov/id/470417260."
       },
       {
         "naid": "470418188",
@@ -1859,7 +1893,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Vassiliou, Denktash, Demirel, Greece / Turkey / Cyprus. NAID 470418188. Catalog: https://catalog.archives.gov/id/470418188."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Tuesday, November 17, 1992 [1]. Access restriction: Restricted - Possibly. NAID 470418188.",
+        "researchNote": "Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Vassiliou, Denktash, Demirel, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90735-004.pdf. Catalog: https://catalog.archives.gov/id/470418188."
       },
       {
         "naid": "470418269",
@@ -1895,7 +1930,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Mitsotakis, Vassiliou, Turkey, Ozal, Demirel, Greece / Turkey / Cyprus. NAID 470418269. Catalog: https://catalog.archives.gov/id/470418269."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Saturday, December 26, 1992. Access restriction: Restricted - Possibly. NAID 470418269.",
+        "researchNote": "Query hit(s): Greece, Mitsotakis, Vassiliou, Turkey, Ozal, Demirel, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90745-004.pdf. Catalog: https://catalog.archives.gov/id/470418269."
       },
       {
         "naid": "470417181",
@@ -1931,7 +1967,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Mitsotakis, Cyprus, Cypriot, Vassiliou, Denktash, Turkish, Greece / Turkey / Cyprus. NAID 470417181. Catalog: https://catalog.archives.gov/id/470417181."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Thursday, May 30, 1991 [2]. Access restriction: Restricted - Possibly. NAID 470417181.",
+        "researchNote": "Query hit(s): Mitsotakis, Cyprus, Cypriot, Vassiliou, Denktash, Turkish, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90600-012.pdf. Catalog: https://catalog.archives.gov/id/470417181."
       },
       {
         "naid": "470417397",
@@ -1967,7 +2004,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Mitsotakis, Cyprus, Cypriot, Yilmaz, Eastern Mediterranean, Greece / Turkey / Cyprus. NAID 470417397. Catalog: https://catalog.archives.gov/id/470417397."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Wednesday, October 16, 1991 [2]. Access restriction: Restricted - Possibly. NAID 470417397.",
+        "researchNote": "Query hit(s): Greece, Mitsotakis, Cyprus, Cypriot, Yilmaz, Eastern Mediterranean, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90626-006.pdf. Catalog: https://catalog.archives.gov/id/470417397."
       },
       {
         "naid": "470417258",
@@ -2003,7 +2041,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Papandreou, Mitsotakis, Cyprus, Aegean, Greece / Turkey / Cyprus. NAID 470417258. Catalog: https://catalog.archives.gov/id/470417258."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Thursday, July 18, 1991. Access restriction: Restricted - Possibly. NAID 470417258.",
+        "researchNote": "Query hit(s): Greece, Greek, Papandreou, Mitsotakis, Cyprus, Aegean, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90609-009.pdf. Catalog: https://catalog.archives.gov/id/470417258."
       },
       {
         "naid": "470417738",
@@ -2039,7 +2078,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "pkk"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Cyprus, Denktash, Turkey, Turkish, Ozal, Demirel, PKK. NAID 470417738. Catalog: https://catalog.archives.gov/id/470417738."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Tuesday, April 28, 1992 [3]. Access restriction: Restricted - Possibly. NAID 470417738.",
+        "researchNote": "Query hit(s): Cyprus, Denktash, Turkey, Turkish, Ozal, Demirel, PKK. Digital object: 41-bpr-ootp-daily_files-90674-002.pdf. Catalog: https://catalog.archives.gov/id/470417738."
       },
       {
         "naid": "470417188",
@@ -2073,7 +2113,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Mitsotakis, Cyprus, Vassiliou, Denktash, Ozal, Greece / Turkey / Cyprus. NAID 470417188. Catalog: https://catalog.archives.gov/id/470417188."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Tuesday, June 4, 1991 [1]. Access restriction: Restricted - Possibly. NAID 470417188.",
+        "researchNote": "Query hit(s): Mitsotakis, Cyprus, Vassiliou, Denktash, Ozal, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90601-007.pdf. Catalog: https://catalog.archives.gov/id/470417188."
       },
       {
         "naid": "470416341",
@@ -2107,7 +2148,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Papandreou, Cyprus, Vassiliou, Denktash, Yilmaz, Greece / Turkey / Cyprus. NAID 470416341. Catalog: https://catalog.archives.gov/id/470416341."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Monday, July 3, 1989. Access restriction: Restricted - Possibly. NAID 470416341.",
+        "researchNote": "Query hit(s): Papandreou, Cyprus, Vassiliou, Denktash, Yilmaz, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90515-007.pdf. Catalog: https://catalog.archives.gov/id/470416341."
       },
       {
         "naid": "470417873",
@@ -2143,7 +2185,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greek, Cyprus, Cypriot, Vassiliou, Denktash, Turkish, Greece / Turkey / Cyprus. NAID 470417873. Catalog: https://catalog.archives.gov/id/470417873."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Monday, June 29, 1992 [1]. Access restriction: Restricted - Possibly. NAID 470417873.",
+        "researchNote": "Query hit(s): Greek, Cyprus, Cypriot, Vassiliou, Denktash, Turkish, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90692-006.pdf. Catalog: https://catalog.archives.gov/id/470417873."
       },
       {
         "naid": "470416509",
@@ -2179,7 +2222,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Zolotas, Turkey, Ozal, Eastern Mediterranean, memorandum of conversation, telephone conversation. NAID 470416509. Catalog: https://catalog.archives.gov/id/470416509."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Monday, November 27, 1989. Access restriction: Restricted - Possibly. NAID 470416509.",
+        "researchNote": "Query hit(s): Greece, Zolotas, Turkey, Ozal, Eastern Mediterranean, memorandum of conversation, telephone conversation. Digital object: 41-bpr-ootp-daily_files-90527-011.pdf. Catalog: https://catalog.archives.gov/id/470416509."
       },
       {
         "naid": "470417886",
@@ -2213,7 +2257,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "eastern-mediterranean"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Papandreou, Mitsotakis, Zolotas, Yilmaz, Eastern Mediterranean. NAID 470417886. Catalog: https://catalog.archives.gov/id/470417886."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Saturday, July 4, 1992 [2]. Access restriction: Restricted - Possibly. NAID 470417886.",
+        "researchNote": "Query hit(s): Greece, Papandreou, Mitsotakis, Zolotas, Yilmaz, Eastern Mediterranean. Digital object: 41-bpr-ootp-daily_files-90694-006.pdf. Catalog: https://catalog.archives.gov/id/470417886."
       },
       {
         "naid": "470418084",
@@ -2247,7 +2292,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Cyprus, Cypriot, Vassiliou, Denktash, Demirel, Greece / Turkey / Cyprus. NAID 470418084. Catalog: https://catalog.archives.gov/id/470418084."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Friday, September 25, 1992 [1]. Access restriction: Restricted - Possibly. NAID 470418084.",
+        "researchNote": "Query hit(s): Cyprus, Cypriot, Vassiliou, Denktash, Demirel, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90721-006.pdf. Catalog: https://catalog.archives.gov/id/470418084."
       },
       {
         "naid": "470418101",
@@ -2281,7 +2327,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "aegean"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Turkey, Turkish, Ozal, Demirel, Aegean. NAID 470418101. Catalog: https://catalog.archives.gov/id/470418101."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Thursday, October 1, 1992 [3]. Access restriction: Restricted - Possibly. NAID 470418101.",
+        "researchNote": "Query hit(s): Greece, Turkey, Turkish, Ozal, Demirel, Aegean. Digital object: 41-bpr-ootp-daily_files-90723-007.pdf. Catalog: https://catalog.archives.gov/id/470418101."
       },
       {
         "naid": "470417893",
@@ -2315,7 +2362,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "pkk"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Cyprus, Vassiliou, Turkey, Turkish, Demirel, PKK. NAID 470417893. Catalog: https://catalog.archives.gov/id/470417893."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Thursday, July 9, 1992 [1]. Access restriction: Restricted - Possibly. NAID 470417893.",
+        "researchNote": "Query hit(s): Cyprus, Vassiliou, Turkey, Turkish, Demirel, PKK. Digital object: 41-bpr-ootp-daily_files-90695-006.pdf. Catalog: https://catalog.archives.gov/id/470417893."
       },
       {
         "naid": "470417327",
@@ -2347,7 +2395,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Cypriot, Denktash, Ozal, Yilmaz, Greece / Turkey / Cyprus. NAID 470417327. Catalog: https://catalog.archives.gov/id/470417327."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Monday, September 9, 1991 [1]. Access restriction: Restricted - Possibly. NAID 470417327.",
+        "researchNote": "Query hit(s): Cypriot, Denktash, Ozal, Yilmaz, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90617-005.pdf. Catalog: https://catalog.archives.gov/id/470417327."
       },
       {
         "naid": "470417864",
@@ -2379,7 +2428,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "memcon"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Denktash, Demirel, PKK, Greece / Turkey / Cyprus, memcon. NAID 470417864. Catalog: https://catalog.archives.gov/id/470417864."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Wednesday, June 24, 1992 [1]. Access restriction: Restricted - Possibly. NAID 470417864.",
+        "researchNote": "Query hit(s): Denktash, Demirel, PKK, Greece / Turkey / Cyprus, memcon. Digital object: 41-bpr-ootp-daily_files-90691-004.pdf. Catalog: https://catalog.archives.gov/id/470417864."
       },
       {
         "naid": "470416373",
@@ -2413,7 +2463,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Cypriot, Denktash, Turkey, Turkish, Greece / Turkey / Cyprus, telephone conversation. NAID 470416373. Catalog: https://catalog.archives.gov/id/470416373."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Monday, July 31, 1989. Access restriction: Restricted - Possibly. NAID 470416373.",
+        "researchNote": "Query hit(s): Cypriot, Denktash, Turkey, Turkish, Greece / Turkey / Cyprus, telephone conversation. Digital object: 41-bpr-ootp-daily_files-90518-006.pdf. Catalog: https://catalog.archives.gov/id/470416373."
       },
       {
         "naid": "470417495",
@@ -2447,7 +2498,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Cypriot, Greece / Turkey / Cyprus. NAID 470417495. Catalog: https://catalog.archives.gov/id/470417495."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Thursday, December 12, 1991 [2]. Access restriction: Restricted - Possibly. NAID 470417495.",
+        "researchNote": "Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Cypriot, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90640-002.pdf. Catalog: https://catalog.archives.gov/id/470417495."
       },
       {
         "naid": "470417259",
@@ -2481,7 +2533,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Turkish, Greece / Turkey / Cyprus. NAID 470417259. Catalog: https://catalog.archives.gov/id/470417259."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Friday, July 19, 1991. Access restriction: Restricted - Possibly. NAID 470417259.",
+        "researchNote": "Query hit(s): Greece, Greek, Mitsotakis, Cyprus, Turkish, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90610-001.pdf. Catalog: https://catalog.archives.gov/id/470417259."
       },
       {
         "naid": "470416750",
@@ -2513,7 +2566,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Cyprus, Cypriot, Vassiliou, Denktash, Greece / Turkey / Cyprus. NAID 470416750. Catalog: https://catalog.archives.gov/id/470416750."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Friday, June 22, 1990. Access restriction: Restricted - Possibly. NAID 470416750.",
+        "researchNote": "Query hit(s): Cyprus, Cypriot, Vassiliou, Denktash, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90551-010.pdf. Catalog: https://catalog.archives.gov/id/470416750."
       },
       {
         "naid": "470417673",
@@ -2545,7 +2599,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "demirel"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Cyprus, Cypriot, Vassiliou, Denktash, Demirel. NAID 470417673. Catalog: https://catalog.archives.gov/id/470417673."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Monday, March 30, 1992 [1]. Access restriction: Restricted - Possibly. NAID 470417673.",
+        "researchNote": "Query hit(s): Cyprus, Cypriot, Vassiliou, Denktash, Demirel. Digital object: 41-bpr-ootp-daily_files-90665-005.pdf. Catalog: https://catalog.archives.gov/id/470417673."
       },
       {
         "naid": "470418201",
@@ -2577,7 +2632,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "denktash"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Mitsotakis, Cyprus, Cypriot, Vassiliou, Denktash. NAID 470418201. Catalog: https://catalog.archives.gov/id/470418201."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Tuesday, November 24, 1992 [1]. Access restriction: Restricted - Possibly. NAID 470418201.",
+        "researchNote": "Query hit(s): Mitsotakis, Cyprus, Cypriot, Vassiliou, Denktash. Digital object: 41-bpr-ootp-daily_files-90737-003.pdf. Catalog: https://catalog.archives.gov/id/470418201."
       },
       {
         "naid": "470417653",
@@ -2609,7 +2665,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Mitsotakis, Cyprus, Demirel, Greece / Turkey / Cyprus. NAID 470417653. Catalog: https://catalog.archives.gov/id/470417653."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Wednesday, March 18, 1992 [2]. Access restriction: Restricted - Possibly. NAID 470417653.",
+        "researchNote": "Query hit(s): Greece, Mitsotakis, Cyprus, Demirel, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90662-004.pdf. Catalog: https://catalog.archives.gov/id/470417653."
       },
       {
         "naid": "470417945",
@@ -2641,7 +2698,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "pkk"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Cyprus, Denktash, Turkey, Demirel, PKK. NAID 470417945. Catalog: https://catalog.archives.gov/id/470417945."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Saturday, August 1, 1992. Access restriction: Restricted - Possibly. NAID 470417945.",
+        "researchNote": "Query hit(s): Cyprus, Denktash, Turkey, Demirel, PKK. Digital object: 41-bpr-ootp-daily_files-90702-006.pdf. Catalog: https://catalog.archives.gov/id/470417945."
       },
       {
         "naid": "470417189",
@@ -2671,7 +2729,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Vassiliou, Denktash, Ozal, Greece / Turkey / Cyprus. NAID 470417189. Catalog: https://catalog.archives.gov/id/470417189."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Tuesday, June 4, 1991 [2]. Access restriction: Restricted - Possibly. NAID 470417189.",
+        "researchNote": "Query hit(s): Vassiliou, Denktash, Ozal, Greece / Turkey / Cyprus. Digital object: 41-bpr-ootp-daily_files-90601-008.pdf. Catalog: https://catalog.archives.gov/id/470417189."
       },
       {
         "naid": "470416813",
@@ -2703,7 +2762,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Cypriot, Ozal, Greece / Turkey / Cyprus, memorandum of conversation, telephone conversation. NAID 470416813. Catalog: https://catalog.archives.gov/id/470416813."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Tuesday, August 14, 1990. Access restriction: Restricted - Possibly. NAID 470416813.",
+        "researchNote": "Query hit(s): Cypriot, Ozal, Greece / Turkey / Cyprus, memorandum of conversation, telephone conversation. Digital object: 41-bpr-ootp-daily_files-90557-001.pdf. Catalog: https://catalog.archives.gov/id/470416813."
       },
       {
         "naid": "470416338",
@@ -2733,7 +2793,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "yilmaz"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Papandreou, Vassiliou, Denktash, Yilmaz. NAID 470416338. Catalog: https://catalog.archives.gov/id/470416338."
+        "sourceNote": "Source: George H.W. Bush Library, George H. W. Bush Papers, Presidential Daily Files, Friday, June 30, 1989. Access restriction: Restricted - Possibly. NAID 470416338.",
+        "researchNote": "Query hit(s): Papandreou, Vassiliou, Denktash, Yilmaz. Digital object: 41-bpr-ootp-daily_files-90515-004.pdf. Catalog: https://catalog.archives.gov/id/470416338."
       }
     ],
     "children": [
@@ -4244,7 +4305,8 @@ window.REQUESTED_SOURCE_SERIES = [
       "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
       "status": "Being Researched"
     },
-    "sourceNote": "Requested source: Presidential Daily Files. NAID 595141. series. Restricted - Possibly. Children found: 2174. Online children: 2174. EastMed query-hit records retained: 30. Catalog: https://catalog.archives.gov/id/595141."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, Presidential Daily Files. Access restriction: Restricted - Possibly. NAID 595141.",
+    "researchNote": "Query totals: telephone conversation (1037), memorandum of conversation (1026), NSC/DC (834), Turkey (715), Greek (390), Greece (363), Turkish (328), Cyprus (267). Children found: 2174. Online children: 2174. Retained EastMed leads: 30. Catalog: https://catalog.archives.gov/id/595141. Search Within: https://catalog.archives.gov/search-within/595141?availableOnline=true&limit=100."
   },
   {
     "id": "nsc",
@@ -4380,7 +4442,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memcon, memorandum of conversation, telephone conversation, NSC/DC, NSR. NAID 470760911. Catalog: https://catalog.archives.gov/id/470760911."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0023 - June 23, 1989 - Persian Gulf [1]. Access restriction: Restricted - Possibly. NAID 470760911.",
+        "researchNote": "Query hit(s): memcon, memorandum of conversation, telephone conversation, NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-23_1-90001-008.pdf. Catalog: https://catalog.archives.gov/id/470760911."
       },
       {
         "naid": "470760894",
@@ -4410,7 +4473,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, telephone conversation, NSC/DC, NSR. NAID 470760894. Catalog: https://catalog.archives.gov/id/470760894."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0009 - April 05, 1989 - Review of National Security Review 3 Regarding U.S. and USSR Relations. Access restriction: Restricted - Possibly. NAID 470760894.",
+        "researchNote": "Query hit(s): memorandum of conversation, telephone conversation, NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-9-90000-010.pdf. Catalog: https://catalog.archives.gov/id/470760894."
       },
       {
         "naid": "470760959",
@@ -4440,7 +4504,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Turkey, Turkish, NSC/DC. NAID 470760959. Catalog: https://catalog.archives.gov/id/470760959."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0054 - August 29, 1990 - Persian Gulf Crisis, Economic Action Plan, Iraq [1]. Access restriction: Restricted - Possibly. NAID 470760959.",
+        "researchNote": "Query hit(s): Greece, Turkey, Turkish, NSC/DC. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-54_1-90002-021.pdf. Catalog: https://catalog.archives.gov/id/470760959."
       },
       {
         "naid": "470760955",
@@ -4468,7 +4533,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey, Ozal, memorandum of conversation. NAID 470760955. Catalog: https://catalog.archives.gov/id/470760955."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0050 - August 04, 1990 - Iraqi Invasion of Kuwait, Persian Gulf. Access restriction: Restricted - Possibly. NAID 470760955.",
+        "researchNote": "Query hit(s): Turkey, Ozal, memorandum of conversation. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-50-90002-017.pdf. Catalog: https://catalog.archives.gov/id/470760955."
       },
       {
         "naid": "470760940",
@@ -4498,7 +4564,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Turkey, NSC/DC, NSR. NAID 470760940. Catalog: https://catalog.archives.gov/id/470760940."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0039 - February 09, 1990 - East Asia Strategy, National Security Review on Philippines Military Base Access [2]. Access restriction: Restricted - Possibly. NAID 470760940.",
+        "researchNote": "Query hit(s): Greece, Turkey, NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-39_2-90002-002.pdf. Catalog: https://catalog.archives.gov/id/470760940."
       },
       {
         "naid": "470760941",
@@ -4528,7 +4595,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Turkey, NSC/DC, NSR. NAID 470760941. Catalog: https://catalog.archives.gov/id/470760941."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0039 - February 09, 1990 - East Asia Strategy, National Security Review on Philippines Military Base Access [3]. Access restriction: Restricted - Possibly. NAID 470760941.",
+        "researchNote": "Query hit(s): Greece, Turkey, NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-39_3-90002-003.pdf. Catalog: https://catalog.archives.gov/id/470760941."
       },
       {
         "naid": "470760895",
@@ -4556,7 +4624,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memcon, memorandum of conversation, telephone conversation. NAID 470760895. Catalog: https://catalog.archives.gov/id/470760895."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0010 - April 14, 1989 - Review of Cambodia Policy. Access restriction: Restricted - Possibly. NAID 470760895.",
+        "researchNote": "Query hit(s): memcon, memorandum of conversation, telephone conversation. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-10-90000-011.pdf. Catalog: https://catalog.archives.gov/id/470760895."
       },
       {
         "naid": "470760960",
@@ -4584,7 +4653,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "turkish"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Turkey, Turkish. NAID 470760960. Catalog: https://catalog.archives.gov/id/470760960."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0054 - August 29, 1990 - Persian Gulf Crisis, Economic Action Plan, Iraq [2]. Access restriction: Restricted - Possibly. NAID 470760960.",
+        "researchNote": "Query hit(s): Greece, Turkey, Turkish. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-54_2-90002-022.pdf. Catalog: https://catalog.archives.gov/id/470760960."
       },
       {
         "naid": "470760891",
@@ -4612,7 +4682,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memcon, NSC/DC, NSR. NAID 470760891. Catalog: https://catalog.archives.gov/id/470760891."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0007 - March 29, 1989 - Middle East Peace Process. Access restriction: Restricted - Possibly. NAID 470760891.",
+        "researchNote": "Query hit(s): memcon, NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-7-90000-007.pdf. Catalog: https://catalog.archives.gov/id/470760891."
       },
       {
         "naid": "470760962",
@@ -4640,7 +4711,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Turkey, NSC/DC. NAID 470760962. Catalog: https://catalog.archives.gov/id/470760962."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0055 - September 20, 1990 - Oil Supply, Energy, Persian Gulf [2]. Access restriction: Restricted - Possibly. NAID 470760962.",
+        "researchNote": "Query hit(s): Greece, Turkey, NSC/DC. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-55_2-90002-024.pdf. Catalog: https://catalog.archives.gov/id/470760962."
       },
       {
         "naid": "470760900",
@@ -4666,7 +4738,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memcon, NSC/DC. NAID 470760900. Catalog: https://catalog.archives.gov/id/470760900."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0013 - May 04, 1989 - Covert Action. Access restriction: Restricted - Possibly. NAID 470760900.",
+        "researchNote": "Query hit(s): memcon, NSC/DC. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-13-90000-016.pdf. Catalog: https://catalog.archives.gov/id/470760900."
       },
       {
         "naid": "470760936",
@@ -4692,7 +4765,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, NSC/DC. NAID 470760936. Catalog: https://catalog.archives.gov/id/470760936."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0037 - January 18, 1990 - International Economic Policy [2]. Access restriction: Restricted - Possibly. NAID 470760936.",
+        "researchNote": "Query hit(s): memorandum of conversation, NSC/DC. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-37_2-90001-033.pdf. Catalog: https://catalog.archives.gov/id/470760936."
       },
       {
         "naid": "470760961",
@@ -4718,7 +4792,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, NSC/DC. NAID 470760961. Catalog: https://catalog.archives.gov/id/470760961."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0055 - September 20, 1990 - Oil Supply, Energy, Persian Gulf [1]. Access restriction: Restricted - Possibly. NAID 470760961.",
+        "researchNote": "Query hit(s): memorandum of conversation, NSC/DC. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-55_1-90002-023.pdf. Catalog: https://catalog.archives.gov/id/470760961."
       },
       {
         "naid": "470760893",
@@ -4744,7 +4819,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 470760893. Catalog: https://catalog.archives.gov/id/470760893."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0008a - April 04, 1989 - U.S. Relations with Western Europe and Eastern Europe. Access restriction: Restricted - Possibly. NAID 470760893.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-8a-90000-009.pdf. Catalog: https://catalog.archives.gov/id/470760893."
       },
       {
         "naid": "470760908",
@@ -4770,7 +4846,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 470760908. Catalog: https://catalog.archives.gov/id/470760908."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0020 - May 25, 1989 - Counter Narcotics in Peru, Review of National Security Review 12 - Section IV Regarding Arms Control Implications of Defense Strategy [2]. Access restriction: Restricted - Possibly. NAID 470760908.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-20_2-90001-005.pdf. Catalog: https://catalog.archives.gov/id/470760908."
       },
       {
         "naid": "470760924",
@@ -4796,7 +4873,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 470760924. Catalog: https://catalog.archives.gov/id/470760924."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0032 - October 19, 1989 - Panama [1]. Access restriction: Restricted - Possibly. NAID 470760924.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-32_1-90001-021.pdf. Catalog: https://catalog.archives.gov/id/470760924."
       },
       {
         "naid": "470760925",
@@ -4822,7 +4900,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 470760925. Catalog: https://catalog.archives.gov/id/470760925."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0032 - October 19, 1989 - Panama [2]. Access restriction: Restricted - Possibly. NAID 470760925.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-32_2-90001-022.pdf. Catalog: https://catalog.archives.gov/id/470760925."
       },
       {
         "naid": "470760928",
@@ -4848,7 +4927,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 470760928. Catalog: https://catalog.archives.gov/id/470760928."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0034 - December 18, 1989 - Libya. Access restriction: Restricted - Possibly. NAID 470760928.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-34-90001-025.pdf. Catalog: https://catalog.archives.gov/id/470760928."
       },
       {
         "naid": "470760933",
@@ -4874,7 +4954,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 470760933. Catalog: https://catalog.archives.gov/id/470760933."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0036 - January 17, 1990 - Panama [2]. Access restriction: Restricted - Possibly. NAID 470760933.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-36_2-90001-030.pdf. Catalog: https://catalog.archives.gov/id/470760933."
       },
       {
         "naid": "470760939",
@@ -4900,7 +4981,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 470760939. Catalog: https://catalog.archives.gov/id/470760939."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0039 - February 09, 1990 - East Asia Strategy, National Security Review on Philippines Military Base Access [1]. Access restriction: Restricted - Possibly. NAID 470760939.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-39_1-90002-001.pdf. Catalog: https://catalog.archives.gov/id/470760939."
       },
       {
         "naid": "470760970",
@@ -4926,7 +5008,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 470760970. Catalog: https://catalog.archives.gov/id/470760970."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0062 - March 25, 1992 - Intelligence Capabilities/1992-2005. Access restriction: Restricted - Possibly. NAID 470760970.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-62-90002-032.pdf. Catalog: https://catalog.archives.gov/id/470760970."
       },
       {
         "naid": "470760947",
@@ -4950,7 +5033,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation. NAID 470760947. Catalog: https://catalog.archives.gov/id/470760947."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0043a - April 23, 1990 - Lithuania, USSR, Sanctions. Access restriction: Restricted - Possibly. NAID 470760947.",
+        "researchNote": "Query hit(s): memorandum of conversation. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-43a-90002-009.pdf. Catalog: https://catalog.archives.gov/id/470760947."
       },
       {
         "naid": "470760957",
@@ -4974,7 +5058,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "turkey"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey. NAID 470760957. Catalog: https://catalog.archives.gov/id/470760957."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0052 - August 06, 1990 - Iraqi Invasion of Kuwait, Persian Gulf. Access restriction: Restricted - Possibly. NAID 470760957.",
+        "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-52-90002-019.pdf. Catalog: https://catalog.archives.gov/id/470760957."
       },
       {
         "naid": "470760889",
@@ -4998,7 +5083,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470760889. Catalog: https://catalog.archives.gov/id/470760889."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0005 - March 15, 1989 - Fighter Support Experimental Project, Japan. Access restriction: Restricted - Possibly. NAID 470760889.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-5-90000-005.pdf. Catalog: https://catalog.archives.gov/id/470760889."
       },
       {
         "naid": "470760927",
@@ -5022,7 +5108,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470760927. Catalog: https://catalog.archives.gov/id/470760927."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0033 - December 05, 1989 - Malta Follow Up, Arms Control, Summit. Access restriction: Restricted - Possibly. NAID 470760927.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-33-90001-024.pdf. Catalog: https://catalog.archives.gov/id/470760927."
       },
       {
         "naid": "470760935",
@@ -5046,7 +5133,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470760935. Catalog: https://catalog.archives.gov/id/470760935."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0037 - January 18, 1990 - International Economic Policy [1]. Access restriction: Restricted - Possibly. NAID 470760935.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-37_1-90001-032.pdf. Catalog: https://catalog.archives.gov/id/470760935."
       },
       {
         "naid": "470760944",
@@ -5070,7 +5158,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470760944. Catalog: https://catalog.archives.gov/id/470760944."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0042 - March 29, 1990 - Fiber Optic Systems for the USSR. Access restriction: Restricted - Possibly. NAID 470760944.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-42-90002-006.pdf. Catalog: https://catalog.archives.gov/id/470760944."
       },
       {
         "naid": "470760946",
@@ -5094,7 +5183,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470760946. Catalog: https://catalog.archives.gov/id/470760946."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0043 - April 17, 1990 - Lithuania, USSR [2]. Access restriction: Restricted - Possibly. NAID 470760946.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-43_2-90002-008.pdf. Catalog: https://catalog.archives.gov/id/470760946."
       },
       {
         "naid": "470760948",
@@ -5118,7 +5208,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470760948. Catalog: https://catalog.archives.gov/id/470760948."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0044 - April 30, 1990 - Cape York, Coordinating Committee for Multilateral Strategic Export Controls. Access restriction: Restricted - Possibly. NAID 470760948.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-44-90002-010.pdf. Catalog: https://catalog.archives.gov/id/470760948."
       },
       {
         "naid": "470760949",
@@ -5142,7 +5233,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470760949. Catalog: https://catalog.archives.gov/id/470760949."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files, NSC0045 - April 30, 1990 - Coordinating Committee for Multilateral Strategic Export Controls. Access restriction: Restricted - Possibly. NAID 470760949.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-nsc_mtgs-45-90002-011.pdf. Catalog: https://catalog.archives.gov/id/470760949."
       }
     ],
     "children": [],
@@ -5152,7 +5244,8 @@ window.REQUESTED_SOURCE_SERIES = [
       "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
       "status": "Being Researched"
     },
-    "sourceNote": "Requested source: H-Files - National Security Council (NSC) Meeting Files. NAID 312293887. series. Restricted - Partly. Children found: 0. Online children: 90. EastMed query-hit records retained: 30. Public child/search harvest unavailable from the Catalog endpoint used in this run. Catalog: https://catalog.archives.gov/id/312293887."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC) Meeting Files. Access restriction: Restricted - Partly. NAID 312293887.",
+    "researchNote": "Query totals: NSC/DC (33), NSR (17), Turkey (7), memorandum of conversation (7), NSD (6), Greece (5), memcon (4), telephone conversation (3). Children found: 0. Online children: 90. Retained EastMed leads: 30. Child search note: Catalog returned HTML for q=*&ancestorNaId=312293887&limit=200. Catalog: https://catalog.archives.gov/id/312293887. Search Within: https://catalog.archives.gov/search-within/312293887?limit=100."
   },
   {
     "id": "nsc-dc-meetings",
@@ -5357,7 +5450,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Cyprus, Turkey, Turkish, Ozal, Incirlik, Eastern Mediterranean, Greece / Turkey / Cyprus. NAID 470761265. Catalog: https://catalog.archives.gov/id/470761265."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 255B - February 13, 1991 - NSC/DC Meeting on Persian Gulf via SVTS, Keywords: Persian Gulf. Access restriction: Restricted - Possibly. NAID 470761265.",
+        "researchNote": "Query hit(s): Greece, Cyprus, Turkey, Turkish, Ozal, Incirlik, Eastern Mediterranean, Greece / Turkey / Cyprus. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-255b-90018-036.pdf. Catalog: https://catalog.archives.gov/id/470761265."
       },
       {
         "naid": "470761316",
@@ -5397,7 +5491,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Cyprus, Turkey, Turkish, Eastern Mediterranean, Greece / Turkey / Cyprus, NSD, NSR. NAID 470761316. Catalog: https://catalog.archives.gov/id/470761316."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 296 - July 18, 1991 - NSC/DC Meeting on International Broadcasting, Keywords: Broadcasting [2]. Access restriction: Restricted - Possibly. NAID 470761316.",
+        "researchNote": "Query hit(s): Greece, Greek, Cyprus, Turkey, Turkish, Eastern Mediterranean, Greece / Turkey / Cyprus, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-296_2-90020-016.pdf. Catalog: https://catalog.archives.gov/id/470761316."
       },
       {
         "naid": "470761318",
@@ -5437,7 +5532,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Cyprus, Turkey, Turkish, Eastern Mediterranean, Greece / Turkey / Cyprus, NSD, NSR. NAID 470761318. Catalog: https://catalog.archives.gov/id/470761318."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 296 - July 18, 1991 - NSC/DC Meeting on International Broadcasting, Keywords: Broadcasting [4]. Access restriction: Restricted - Possibly. NAID 470761318.",
+        "researchNote": "Query hit(s): Greece, Greek, Cyprus, Turkey, Turkish, Eastern Mediterranean, Greece / Turkey / Cyprus, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-296-4-90020-018.pdf. Catalog: https://catalog.archives.gov/id/470761318."
       },
       {
         "naid": "470761286",
@@ -5471,7 +5567,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey, Turkish, Ozal, Incirlik, memorandum of conversation, telephone conversation. NAID 470761286. Catalog: https://catalog.archives.gov/id/470761286."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 268 - April 08, 1991 - NSC/DC Meeting on Iraqi Refugees via SVTS, Keywords: Iraq, Refugees. Access restriction: Restricted - Possibly. NAID 470761286.",
+        "researchNote": "Query hit(s): Turkey, Turkish, Ozal, Incirlik, memorandum of conversation, telephone conversation. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-268-90019-017.pdf. Catalog: https://catalog.archives.gov/id/470761286."
       },
       {
         "naid": "470761305",
@@ -5503,7 +5600,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey, Turkish, Ozal, memorandum of conversation, telephone conversation. NAID 470761305. Catalog: https://catalog.archives.gov/id/470761305."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 286 - June 04, 1991 - NSC/DC Meeting on Iraq, Keywords: Iraq. Access restriction: Restricted - Possibly. NAID 470761305.",
+        "researchNote": "Query hit(s): Turkey, Turkish, Ozal, memorandum of conversation, telephone conversation. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-286-90020-005.pdf. Catalog: https://catalog.archives.gov/id/470761305."
       },
       {
         "naid": "470761415",
@@ -5535,7 +5633,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Cyprus, Vassiliou, memorandum of conversation. NAID 470761415. Catalog: https://catalog.archives.gov/id/470761415."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 380 - October 01, 1992 - NSC/DC Meeting on Yugoslavia, Keywords: Yugoslavia. Access restriction: Restricted - Possibly. NAID 470761415.",
+        "researchNote": "Query hit(s): Greece, Greek, Cyprus, Vassiliou, memorandum of conversation. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-380-90023-024.pdf. Catalog: https://catalog.archives.gov/id/470761415."
       },
       {
         "naid": "470761173",
@@ -5565,7 +5664,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Cyprus, Turkey, Greece / Turkey / Cyprus. NAID 470761173. Catalog: https://catalog.archives.gov/id/470761173."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 180 - August 22, 1990 - NSC/DC Meeting on Gulf Crisis via SVTS, Keywords: Iraq, Kuwait, Persian Gulf. Access restriction: Restricted - Possibly. NAID 470761173.",
+        "researchNote": "Query hit(s): Greece, Cyprus, Turkey, Greece / Turkey / Cyprus. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-180-90016-007.pdf. Catalog: https://catalog.archives.gov/id/470761173."
       },
       {
         "naid": "470761331",
@@ -5595,7 +5695,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey, Ozal, Incirlik, NSD. NAID 470761331. Catalog: https://catalog.archives.gov/id/470761331."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 310 - September 13, 1991 - NSC/DC Meeting on Persian Gulf, Keywords: Persian Gulf. Access restriction: Restricted - Possibly. NAID 470761331.",
+        "researchNote": "Query hit(s): Turkey, Ozal, Incirlik, NSD. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-310-90020-032.pdf. Catalog: https://catalog.archives.gov/id/470761331."
       },
       {
         "naid": "470761368",
@@ -5625,7 +5726,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "memcon"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey, Turkish, PKK, memcon. NAID 470761368. Catalog: https://catalog.archives.gov/id/470761368."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 344 - April 01, 1992 - NSC/DC Meeting on Iraq, Keywords: Iraq. Access restriction: Restricted - Possibly. NAID 470761368.",
+        "researchNote": "Query hit(s): Turkey, Turkish, PKK, memcon. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-344-90022-003.pdf. Catalog: https://catalog.archives.gov/id/470761368."
       },
       {
         "naid": "470761362",
@@ -5655,7 +5757,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey, Turkish, PKK, NSC/DC. NAID 470761362. Catalog: https://catalog.archives.gov/id/470761362."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 339 - March 11, 1992 - NSC/DC Meeting on Iraq, Keywords: Iraq. Access restriction: Restricted - Possibly. NAID 470761362.",
+        "researchNote": "Query hit(s): Turkey, Turkish, PKK, NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-339-90021-027.pdf. Catalog: https://catalog.archives.gov/id/470761362."
       },
       {
         "naid": "470761428",
@@ -5685,7 +5788,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "turkish"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Turkey, Turkish. NAID 470761428. Catalog: https://catalog.archives.gov/id/470761428."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 392 - November 13, 1992 - Small Group Meeting on Kosovo, Keywords: Yugoslavia Bosnia-Herzegovina. Access restriction: Restricted - Possibly. NAID 470761428.",
+        "researchNote": "Query hit(s): Greece, Greek, Turkey, Turkish. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-392-90024-001.pdf. Catalog: https://catalog.archives.gov/id/470761428."
       },
       {
         "naid": "470761156",
@@ -5713,7 +5817,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "ozal"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey, Turkish, Ozal. NAID 470761156. Catalog: https://catalog.archives.gov/id/470761156."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 163 - August 04, 1990 - NSC/DC Meeting on Gulf Crisis via SVTS, Keywords: Iraq, Kuwait, Persian Gulf. Access restriction: Restricted - Possibly. NAID 470761156.",
+        "researchNote": "Query hit(s): Turkey, Turkish, Ozal. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-163-90015-022.pdf. Catalog: https://catalog.archives.gov/id/470761156."
       },
       {
         "naid": "470761283",
@@ -5741,7 +5846,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "ozal"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey, Turkish, Ozal. NAID 470761283. Catalog: https://catalog.archives.gov/id/470761283."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 265A - April 06, 1991 - NSC/DC Meeting re: Persian Gulf Humanitarian Assistance via SVTS, Keywords: Persian Gulf Iraq. Access restriction: Restricted - Possibly. NAID 470761283.",
+        "researchNote": "Query hit(s): Turkey, Turkish, Ozal. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-265a-90019-014.pdf. Catalog: https://catalog.archives.gov/id/470761283."
       },
       {
         "naid": "470761126",
@@ -5769,7 +5875,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): telcon, memorandum of conversation, telephone conversation. NAID 470761126. Catalog: https://catalog.archives.gov/id/470761126."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 134 - June 04, 1990 - NSC/DC Meeting on Liberia via SVTS, Keywords: Liberia. Access restriction: Restricted - Possibly. NAID 470761126.",
+        "researchNote": "Query hit(s): telcon, memorandum of conversation, telephone conversation. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-134-90014-023.pdf. Catalog: https://catalog.archives.gov/id/470761126."
       },
       {
         "naid": "470761201",
@@ -5797,7 +5904,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Ozal, memorandum of conversation, NSD. NAID 470761201. Catalog: https://catalog.archives.gov/id/470761201."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 202 - September 25, 1990 - NSC/DC Meeting on Iran Role in Gulf Crisis via SVTS, Keywords: Iran, Persian Gulf. Access restriction: Restricted - Possibly. NAID 470761201.",
+        "researchNote": "Query hit(s): Ozal, memorandum of conversation, NSD. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-202-90016-035.pdf. Catalog: https://catalog.archives.gov/id/470761201."
       },
       {
         "naid": "470761381",
@@ -5825,7 +5933,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "mitsotakis"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Mitsotakis. NAID 470761381. Catalog: https://catalog.archives.gov/id/470761381."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 354 - May 27, 1992 - NSC/DC Meeting on Bosnia-Herzegovina and Macedonia, Keywords: Bosnia-Herzegovina, Macedonia. Access restriction: Restricted - Possibly. NAID 470761381.",
+        "researchNote": "Query hit(s): Greece, Greek, Mitsotakis. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-354-90022-016.pdf. Catalog: https://catalog.archives.gov/id/470761381."
       },
       {
         "naid": "470760981",
@@ -5853,7 +5962,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memcon, memorandum of conversation, telephone conversation. NAID 470760981. Catalog: https://catalog.archives.gov/id/470760981."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 007 - March 10, 1989 - NSC/DC Meeting on FSX for Japan, Keywords: Japan. Access restriction: Restricted - Possibly. NAID 470760981.",
+        "researchNote": "Query hit(s): memcon, memorandum of conversation, telephone conversation. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-7-90009-007.pdf. Catalog: https://catalog.archives.gov/id/470760981."
       },
       {
         "naid": "470761357",
@@ -5881,7 +5991,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memcon, memorandum of conversation, telephone conversation. NAID 470761357. Catalog: https://catalog.archives.gov/id/470761357."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 334 - February 03, 1992 - NSC/DC Meeting re: Israeli Relay Station for USA International Broadcasting, Keywords: Israel, Broadcasting. Access restriction: Restricted - Possibly. NAID 470761357.",
+        "researchNote": "Query hit(s): memcon, memorandum of conversation, telephone conversation. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-334-90021-022.pdf. Catalog: https://catalog.archives.gov/id/470761357."
       },
       {
         "naid": "470761248",
@@ -5909,7 +6020,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey, memorandum of conversation, telephone conversation. NAID 470761248. Catalog: https://catalog.archives.gov/id/470761248."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 242 - January 14, 1991 - NSC/DC Meeting on Baltic States via SVTS, Keywords: USSR. Access restriction: Restricted - Possibly. NAID 470761248.",
+        "researchNote": "Query hit(s): Turkey, memorandum of conversation, telephone conversation. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-242-90018-019.pdf. Catalog: https://catalog.archives.gov/id/470761248."
       },
       {
         "naid": "470761361",
@@ -5937,7 +6049,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, telephone conversation, NSC/DC. NAID 470761361. Catalog: https://catalog.archives.gov/id/470761361."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 338 - February 24, 1992 - NSC/DC Meeting on Haiti, Keywords: Haiti. Access restriction: Restricted - Possibly. NAID 470761361.",
+        "researchNote": "Query hit(s): memorandum of conversation, telephone conversation, NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-338-90021-026.pdf. Catalog: https://catalog.archives.gov/id/470761361."
       },
       {
         "naid": "470761420",
@@ -5965,7 +6078,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, telephone conversation, NSC/DC. NAID 470761420. Catalog: https://catalog.archives.gov/id/470761420."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 385 - October 21, 1992 - NSC/DC Meeting on Somalia, Keywords: Somalia. Access restriction: Restricted - Possibly. NAID 470761420.",
+        "researchNote": "Query hit(s): memorandum of conversation, telephone conversation, NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-385-90023-029.pdf. Catalog: https://catalog.archives.gov/id/470761420."
       },
       {
         "naid": "470761050",
@@ -5993,7 +6107,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Turkey, NSC/DC. NAID 470761050. Catalog: https://catalog.archives.gov/id/470761050."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 073 - November 03, 1989 - NSC/DC Meeting on, Keywords: Philippines. Access restriction: Restricted - Possibly. NAID 470761050.",
+        "researchNote": "Query hit(s): Greece, Turkey, NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-73-90012-004.pdf. Catalog: https://catalog.archives.gov/id/470761050."
       },
       {
         "naid": "470761085",
@@ -6021,7 +6136,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, telephone conversation, NSD. NAID 470761085. Catalog: https://catalog.archives.gov/id/470761085."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 101 - January 27, 1990 - NSC/DC Meeting on COCOM, Keywords: COCOM. Access restriction: Restricted - Possibly. NAID 470761085.",
+        "researchNote": "Query hit(s): memorandum of conversation, telephone conversation, NSD. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-101-90013-008.pdf. Catalog: https://catalog.archives.gov/id/470761085."
       },
       {
         "naid": "470761163",
@@ -6049,7 +6165,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "turkish"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Turkey, Turkish. NAID 470761163. Catalog: https://catalog.archives.gov/id/470761163."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 170 - August 10, 1990 - NSC/DC Meeting on Gulf Crisis via SVTS, Keywords: Iraq, Kuwait, Persian Gulf. Access restriction: Restricted - Possibly. NAID 470761163.",
+        "researchNote": "Query hit(s): Greece, Turkey, Turkish. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-170-90015-029.pdf. Catalog: https://catalog.archives.gov/id/470761163."
       },
       {
         "naid": "470761264",
@@ -6077,7 +6194,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "turkish"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Turkey, Turkish. NAID 470761264. Catalog: https://catalog.archives.gov/id/470761264."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 255A - February 07, 1991 - NSC/DC Meeting on Persian Gulf via SVTS, Keywords: Persian Gulf. Access restriction: Restricted - Possibly. NAID 470761264.",
+        "researchNote": "Query hit(s): Greece, Turkey, Turkish. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-255a-90018-035.pdf. Catalog: https://catalog.archives.gov/id/470761264."
       },
       {
         "naid": "470761427",
@@ -6105,7 +6223,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "turkish"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Turkey, Turkish. NAID 470761427. Catalog: https://catalog.archives.gov/id/470761427."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 391 - November 10, 1992 - Small Group Meeting on Yugoslavia, Keywords: Yugoslavia Bosnia-Herzegovina. Access restriction: Restricted - Possibly. NAID 470761427.",
+        "researchNote": "Query hit(s): Greece, Turkey, Turkish. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-391-90023-036.pdf. Catalog: https://catalog.archives.gov/id/470761427."
       },
       {
         "naid": "470761086",
@@ -6133,7 +6252,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Turkey, NSR. NAID 470761086. Catalog: https://catalog.archives.gov/id/470761086."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 102 - January 31, 1990 - NSC/DC Meeting on Philippines, Keywords: Philippines, Military Bases. Access restriction: Restricted - Possibly. NAID 470761086.",
+        "researchNote": "Query hit(s): Greece, Turkey, NSR. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-102-90013-009.pdf. Catalog: https://catalog.archives.gov/id/470761086."
       },
       {
         "naid": "470761279",
@@ -6161,7 +6281,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Turkey, NSR. NAID 470761279. Catalog: https://catalog.archives.gov/id/470761279."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 264 - April 04, 1991 - NSC/DC Meeting on Philippine-American Cooperation Treaty, Keywords: Philippines, Economic Assistance [3]. Access restriction: Restricted - Possibly. NAID 470761279.",
+        "researchNote": "Query hit(s): Greece, Turkey, NSR. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-264_3-90019-010.pdf. Catalog: https://catalog.archives.gov/id/470761279."
       },
       {
         "naid": "470760982",
@@ -6189,7 +6310,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, NSD, NSR. NAID 470760982. Catalog: https://catalog.archives.gov/id/470760982."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 008 - March 17, 1989 - NSC/DC Meeting on NSR-4 re: U.S. / Eastern Europe Relations, Keywords: Europe, East. Access restriction: Restricted - Possibly. NAID 470760982.",
+        "researchNote": "Query hit(s): memorandum of conversation, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-8-90009-008.pdf. Catalog: https://catalog.archives.gov/id/470760982."
       },
       {
         "naid": "470761261",
@@ -6215,7 +6337,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "ozal"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey, Ozal. NAID 470761261. Catalog: https://catalog.archives.gov/id/470761261."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files, NSC/DC 253 - February 01, 1991 - NSC/DC Meeting on Gulf Crisis via SVTS, Keywords: Persian Gulf, Kuwait, Iraq. Access restriction: Restricted - Possibly. NAID 470761261.",
+        "researchNote": "Query hit(s): Turkey, Ozal. Digital object: 41-bpr-nsc-hfiles-dc_mtgs-253-90018-032.pdf. Catalog: https://catalog.archives.gov/id/470761261."
       }
     ],
     "children": [],
@@ -6225,7 +6348,8 @@ window.REQUESTED_SOURCE_SERIES = [
       "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
       "status": "Being Researched"
     },
-    "sourceNote": "Requested source: H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files. NAID 312294079. series. Restricted - Partly. Children found: 0. Online children: 479. EastMed query-hit records retained: 30. Public child/search harvest unavailable from the Catalog endpoint used in this run. Catalog: https://catalog.archives.gov/id/312294079."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Files. Access restriction: Restricted - Partly. NAID 312294079.",
+    "researchNote": "Query totals: NSC/DC (492), NSR (48), Turkey (44), memorandum of conversation (40), NSD (38), Greece (24), Turkish (21), telephone conversation (14). Children found: 0. Online children: 479. Retained EastMed leads: 30. Child search note: Catalog returned HTML for q=*&ancestorNaId=312294079&limit=200. Catalog: https://catalog.archives.gov/id/312294079. Search Within: https://catalog.archives.gov/search-within/312294079?limit=100."
   },
   {
     "id": "nsc-dc-meetings-follow-up",
@@ -6320,7 +6444,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "turkish"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey, Turkish. NAID 470761503. Catalog: https://catalog.archives.gov/id/470761503."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting-Iraq and the Turkish Kurds 4/1/92 4:00-5:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761503.",
+        "researchNote": "Query hit(s): Turkey, Turkish. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90043-039.pdf. Catalog: https://catalog.archives.gov/id/470761503."
       },
       {
         "naid": "470761521",
@@ -6346,7 +6471,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 470761521. Catalog: https://catalog.archives.gov/id/470761521."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC - Nonproliferation June 1, 1992 11:00 - 12:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761521.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-009.pdf. Catalog: https://catalog.archives.gov/id/470761521."
       },
       {
         "naid": "470761507",
@@ -6372,7 +6498,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 470761507. Catalog: https://catalog.archives.gov/id/470761507."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting-Follow-om Export Controls 4/22/92 3:00-4:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761507.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90043-043.pdf. Catalog: https://catalog.archives.gov/id/470761507."
       },
       {
         "naid": "470761501",
@@ -6398,7 +6525,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 470761501. Catalog: https://catalog.archives.gov/id/470761501."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, NSC Meeting NSR-29-Intelligence Priorities 3/25/92. Access restriction: Restricted - Possibly. NAID 470761501.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90043-037.pdf. Catalog: https://catalog.archives.gov/id/470761501."
       },
       {
         "naid": "470761545",
@@ -6422,7 +6550,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761545. Catalog: https://catalog.archives.gov/id/470761545."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC - […] October 5, 1992 16:00 - 17:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761545.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-033.pdf. Catalog: https://catalog.archives.gov/id/470761545."
       },
       {
         "naid": "470761550",
@@ -6446,7 +6575,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761550. Catalog: https://catalog.archives.gov/id/470761550."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC - Angola November 1, 1992 1:00 - 2:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761550.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-038.pdf. Catalog: https://catalog.archives.gov/id/470761550."
       },
       {
         "naid": "470761559",
@@ -6470,7 +6600,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761559. Catalog: https://catalog.archives.gov/id/470761559."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC - Annual Review of Covert Actions 12/17/92 3:30. Access restriction: Restricted - Possibly. NAID 470761559.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90045-006.pdf. Catalog: https://catalog.archives.gov/id/470761559."
       },
       {
         "naid": "470761553",
@@ -6494,7 +6625,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761553. Catalog: https://catalog.archives.gov/id/470761553."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC - Counternarcotics - Cancelled November 19, 1992 3:00 - 4:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761553.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-041.pdf. Catalog: https://catalog.archives.gov/id/470761553."
       },
       {
         "naid": "470761532",
@@ -6518,7 +6650,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761532. Catalog: https://catalog.archives.gov/id/470761532."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC - Counternarcotics -- Colombia July 16, 1992 11:00 - 12:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761532.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-020.pdf. Catalog: https://catalog.archives.gov/id/470761532."
       },
       {
         "naid": "470761530",
@@ -6542,7 +6675,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761530. Catalog: https://catalog.archives.gov/id/470761530."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC - Counternarcotics July 9, 1992 11:00 - 12:00. Access restriction: Restricted - Possibly. NAID 470761530.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-018.pdf. Catalog: https://catalog.archives.gov/id/470761530."
       },
       {
         "naid": "470761547",
@@ -6566,7 +6700,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761547. Catalog: https://catalog.archives.gov/id/470761547."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC - Georgia October 14, 1992 11:00 - 12:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761547.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-035.pdf. Catalog: https://catalog.archives.gov/id/470761547."
       },
       {
         "naid": "470761516",
@@ -6590,7 +6725,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761516. Catalog: https://catalog.archives.gov/id/470761516."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC - Haiti - Boat People May 19, 1992 15:30 - 16:30 Situation Room. Access restriction: Restricted - Possibly. NAID 470761516.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-004.pdf. Catalog: https://catalog.archives.gov/id/470761516."
       },
       {
         "naid": "470761531",
@@ -6614,7 +6750,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761531. Catalog: https://catalog.archives.gov/id/470761531."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC - NATO/Yugoslavia July 10, 1992 15:00 - 16:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761531.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-019.pdf. Catalog: https://catalog.archives.gov/id/470761531."
       },
       {
         "naid": "470761552",
@@ -6638,7 +6775,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761552. Catalog: https://catalog.archives.gov/id/470761552."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC - Russia November 6, 1992 11:00 - 12:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761552.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-040.pdf. Catalog: https://catalog.archives.gov/id/470761552."
       },
       {
         "naid": "470761536",
@@ -6662,7 +6800,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761536. Catalog: https://catalog.archives.gov/id/470761536."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC - Somalia August 14, 1992 14:00 - 15:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761536.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-024.pdf. Catalog: https://catalog.archives.gov/id/470761536."
       },
       {
         "naid": "470761519",
@@ -6686,7 +6825,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761519. Catalog: https://catalog.archives.gov/id/470761519."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Drugs - Cancelled May 26, 1992 17:00 - 18:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761519.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-007.pdf. Catalog: https://catalog.archives.gov/id/470761519."
       },
       {
         "naid": "470761492",
@@ -6710,7 +6850,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761492. Catalog: https://catalog.archives.gov/id/470761492."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Haiti 1/27/92 11:00 am Situation Room. Access restriction: Restricted - Possibly. NAID 470761492.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90043-028.pdf. Catalog: https://catalog.archives.gov/id/470761492."
       },
       {
         "naid": "470761513",
@@ -6734,7 +6875,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761513. Catalog: https://catalog.archives.gov/id/470761513."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Haiti May 14, 1992 10:30 - 11:30 Situation Room. Access restriction: Restricted - Possibly. NAID 470761513.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-001.pdf. Catalog: https://catalog.archives.gov/id/470761513."
       },
       {
         "naid": "470761514",
@@ -6758,7 +6900,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761514. Catalog: https://catalog.archives.gov/id/470761514."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Nuclear Testing 5/14/92 4:00 pm. Access restriction: Restricted - Possibly. NAID 470761514.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-002.pdf. Catalog: https://catalog.archives.gov/id/470761514."
       },
       {
         "naid": "470761557",
@@ -6782,7 +6925,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761557. Catalog: https://catalog.archives.gov/id/470761557."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Somalia 12/11/92 11:00 am. Access restriction: Restricted - Possibly. NAID 470761557.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90045-004.pdf. Catalog: https://catalog.archives.gov/id/470761557."
       },
       {
         "naid": "470761563",
@@ -6806,7 +6950,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761563. Catalog: https://catalog.archives.gov/id/470761563."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Somalia 12/23/92 2:00. Access restriction: Restricted - Possibly. NAID 470761563.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90045-010.pdf. Catalog: https://catalog.archives.gov/id/470761563."
       },
       {
         "naid": "470761565",
@@ -6830,7 +6975,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761565. Catalog: https://catalog.archives.gov/id/470761565."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Somalia 12/30/92 2:00. Access restriction: Restricted - Possibly. NAID 470761565.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90045-012.pdf. Catalog: https://catalog.archives.gov/id/470761565."
       },
       {
         "naid": "470761549",
@@ -6854,7 +7000,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761549. Catalog: https://catalog.archives.gov/id/470761549."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Somalia October 21, 1992 14:00 - 15:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761549.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-037.pdf. Catalog: https://catalog.archives.gov/id/470761549."
       },
       {
         "naid": "470761538",
@@ -6878,7 +7025,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761538. Catalog: https://catalog.archives.gov/id/470761538."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Somalia September 4, 1992 16:00 - 17:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761538.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-026.pdf. Catalog: https://catalog.archives.gov/id/470761538."
       },
       {
         "naid": "470761548",
@@ -6902,7 +7050,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761548. Catalog: https://catalog.archives.gov/id/470761548."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Yugoslavia - Croatia & Kosovo October 16, 1992 11:00 - 12:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761548.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-036.pdf. Catalog: https://catalog.archives.gov/id/470761548."
       },
       {
         "naid": "470761570",
@@ -6926,7 +7075,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761570. Catalog: https://catalog.archives.gov/id/470761570."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Yugoslavia 1/14/93 11:00. Access restriction: Restricted - Possibly. NAID 470761570.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90045-017.pdf. Catalog: https://catalog.archives.gov/id/470761570."
       },
       {
         "naid": "470761567",
@@ -6950,7 +7100,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761567. Catalog: https://catalog.archives.gov/id/470761567."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Yugoslavia 1/6/93 4:00. Access restriction: Restricted - Possibly. NAID 470761567.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90045-014.pdf. Catalog: https://catalog.archives.gov/id/470761567."
       },
       {
         "naid": "470761527",
@@ -6974,7 +7125,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761527. Catalog: https://catalog.archives.gov/id/470761527."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Yugoslavia June 24, 1992 15:00 - 16:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761527.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-015.pdf. Catalog: https://catalog.archives.gov/id/470761527."
       },
       {
         "naid": "470761523",
@@ -6998,7 +7150,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761523. Catalog: https://catalog.archives.gov/id/470761523."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Yugoslavia June 4, 1992 11:00 - 12:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761523.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-011.pdf. Catalog: https://catalog.archives.gov/id/470761523."
       },
       {
         "naid": "470761520",
@@ -7022,7 +7175,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470761520. Catalog: https://catalog.archives.gov/id/470761520."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files, DC Meeting - Yugoslavia May 27, 1992 17:00 - 18:00 Situation Room. Access restriction: Restricted - Possibly. NAID 470761520.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-dc_mtgs_foll_up-90044-008.pdf. Catalog: https://catalog.archives.gov/id/470761520."
       }
     ],
     "children": [],
@@ -7032,7 +7186,8 @@ window.REQUESTED_SOURCE_SERIES = [
       "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
       "status": "Being Researched"
     },
-    "sourceNote": "Requested source: H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files. NAID 312294094. series. Restricted - Partly. Children found: 0. Online children: 112. EastMed query-hit records retained: 30. Public child/search harvest unavailable from the Catalog endpoint used in this run. Catalog: https://catalog.archives.gov/id/312294094."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Council (NSC)/Deputies Committee (DC) Meetings Follow-up Files. Access restriction: Restricted - Partly. NAID 312294094.",
+    "researchNote": "Query totals: NSC/DC (112), NSD (2), NSR (2), Turkey (1), Turkish (1). Children found: 0. Online children: 112. Retained EastMed leads: 30. Child search note: Catalog returned HTML for q=*&ancestorNaId=312294094&limit=200. Catalog: https://catalog.archives.gov/id/312294094. Search Within: https://catalog.archives.gov/search-within/312294094?limit=100."
   },
   {
     "id": "nsr",
@@ -7154,7 +7309,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Turkey, NSC/DC, NSD, NSR. NAID 446394955. Catalog: https://catalog.archives.gov/id/446394955."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-16 - June 07, 1989 - Comprehensive Review of International Affairs Budget and Programs [1]. Access restriction: Restricted - Possibly. NAID 446394955.",
+        "researchNote": "Query hit(s): Greece, Turkey, NSC/DC, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-16_1-90007-003.pdf. Catalog: https://catalog.archives.gov/id/446394955."
       },
       {
         "naid": "446394960",
@@ -7184,7 +7340,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, telephone conversation, NSC/DC, NSR. NAID 446394960. Catalog: https://catalog.archives.gov/id/446394960."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-18 - June 22, 1989 - Counterintelligence and Security Countermeasures [1]. Access restriction: Restricted - Possibly. NAID 446394960.",
+        "researchNote": "Query hit(s): memorandum of conversation, telephone conversation, NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-18_1-90007-008.pdf. Catalog: https://catalog.archives.gov/id/446394960."
       },
       {
         "naid": "446394936",
@@ -7214,7 +7371,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, telephone conversation, NSD, NSR. NAID 446394936. Catalog: https://catalog.archives.gov/id/446394936."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-11 - February 25, 1989 - Defense Management Review [1]. Access restriction: Restricted - Possibly. NAID 446394936.",
+        "researchNote": "Query hit(s): memorandum of conversation, telephone conversation, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-11_1-90006-014.pdf. Catalog: https://catalog.archives.gov/id/446394936."
       },
       {
         "naid": "446394974",
@@ -7244,7 +7402,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey, Turkish, NSC/DC, NSR. NAID 446394974. Catalog: https://catalog.archives.gov/id/446394974."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-26 - May 14, 1990 - Review of U.S.-Turkish Relations. Access restriction: Restricted - Possibly. NAID 446394974.",
+        "researchNote": "Query hit(s): Turkey, Turkish, NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-26-90007-022.pdf. Catalog: https://catalog.archives.gov/id/446394974."
       },
       {
         "naid": "446394975",
@@ -7272,7 +7431,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD, NSR. NAID 446394975. Catalog: https://catalog.archives.gov/id/446394975."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-27 - June 11, 1990 - Low Intensity Conflict [1]. Access restriction: Restricted - Possibly. NAID 446394975.",
+        "researchNote": "Query hit(s): NSC/DC, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-27_1-90007-023.pdf. Catalog: https://catalog.archives.gov/id/446394975."
       },
       {
         "naid": "446394961",
@@ -7300,7 +7460,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD, NSR. NAID 446394961. Catalog: https://catalog.archives.gov/id/446394961."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-18 - June 22, 1989 - Counterintelligence and Security Countermeasures [2]. Access restriction: Restricted - Possibly. NAID 446394961.",
+        "researchNote": "Query hit(s): NSC/DC, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-18_2-90007-009.pdf. Catalog: https://catalog.archives.gov/id/446394961."
       },
       {
         "naid": "446394971",
@@ -7328,7 +7489,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD, NSR. NAID 446394971. Catalog: https://catalog.archives.gov/id/446394971."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-24 - March 28, 1990 - Review of U.S. Government International Broadcasting Activities [2]. Access restriction: Restricted - Possibly. NAID 446394971.",
+        "researchNote": "Query hit(s): NSC/DC, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-24_2-90007-019.pdf. Catalog: https://catalog.archives.gov/id/446394971."
       },
       {
         "naid": "446394981",
@@ -7356,7 +7518,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD, NSR. NAID 446394981. Catalog: https://catalog.archives.gov/id/446394981."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-29 - November 15, 1991 - Intelligence Capabilities 1992-2005 [4]. Access restriction: Restricted - Possibly. NAID 446394981.",
+        "researchNote": "Query hit(s): NSC/DC, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-29_4-90008-004.pdf. Catalog: https://catalog.archives.gov/id/446394981."
       },
       {
         "naid": "446394925",
@@ -7384,7 +7547,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD, NSR. NAID 446394925. Catalog: https://catalog.archives.gov/id/446394925."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-3 - February 15, 1989 - Comprehensive Review of U.S.-Soviet Relations [1]. Access restriction: Restricted - Possibly. NAID 446394925.",
+        "researchNote": "Query hit(s): NSC/DC, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-3_1-90006-003.pdf. Catalog: https://catalog.archives.gov/id/446394925."
       },
       {
         "naid": "446394987",
@@ -7412,7 +7576,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD, NSR. NAID 446394987. Catalog: https://catalog.archives.gov/id/446394987."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-30 - June 15, 1992 - American Policy Toward Africa in the 1990s. Access restriction: Restricted - Possibly. NAID 446394987.",
+        "researchNote": "Query hit(s): NSC/DC, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-30-90008-010.pdf. Catalog: https://catalog.archives.gov/id/446394987."
       },
       {
         "naid": "446394958",
@@ -7438,7 +7603,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394958. Catalog: https://catalog.archives.gov/id/446394958."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-17 - June 15, 1989 - Review of United States Non Proliferation Policy [2]. Access restriction: Restricted - Possibly. NAID 446394958.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-17_2-90007-006.pdf. Catalog: https://catalog.archives.gov/id/446394958."
       },
       {
         "naid": "446394967",
@@ -7464,7 +7630,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394967. Catalog: https://catalog.archives.gov/id/446394967."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-22 - January 12, 1990 - COCOM Policy Towards Eastern Europe and the Soviet Union [1]. Access restriction: Restricted - Possibly. NAID 446394967.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-22_1-90007-015.pdf. Catalog: https://catalog.archives.gov/id/446394967."
       },
       {
         "naid": "446394985",
@@ -7490,7 +7657,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394985. Catalog: https://catalog.archives.gov/id/446394985."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-29 - November 15, 1991 - Intelligence Capabilities 1992-2005 [8]. Access restriction: Restricted - Possibly. NAID 446394985.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-29_8-90008-008.pdf. Catalog: https://catalog.archives.gov/id/446394985."
       },
       {
         "naid": "446394926",
@@ -7516,7 +7684,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394926. Catalog: https://catalog.archives.gov/id/446394926."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-3 - February 15, 1989 - Comprehensive Review of U.S.-Soviet Relations [2]. Access restriction: Restricted - Possibly. NAID 446394926.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-3_2-90006-004.pdf. Catalog: https://catalog.archives.gov/id/446394926."
       },
       {
         "naid": "446394930",
@@ -7542,7 +7711,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394930. Catalog: https://catalog.archives.gov/id/446394930."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-5 - February 15, 1989 - Comprehensive Review of U.S.-West European Relations [2]. Access restriction: Restricted - Possibly. NAID 446394930.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-5_2-90006-008.pdf. Catalog: https://catalog.archives.gov/id/446394930."
       },
       {
         "naid": "446394932",
@@ -7568,7 +7738,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394932. Catalog: https://catalog.archives.gov/id/446394932."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-7 - February 21, 1989 - Middle East Peace Process. Access restriction: Restricted - Possibly. NAID 446394932.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-7-90006-010.pdf. Catalog: https://catalog.archives.gov/id/446394932."
       },
       {
         "naid": "446394962",
@@ -7594,7 +7765,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394962. Catalog: https://catalog.archives.gov/id/446394962."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-18 - June 22, 1989 - Counterintelligence and Security Countermeasures [3]. Access restriction: Restricted - Possibly. NAID 446394962.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-18_3-90007-010.pdf. Catalog: https://catalog.archives.gov/id/446394962."
       },
       {
         "naid": "446394963",
@@ -7620,7 +7792,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394963. Catalog: https://catalog.archives.gov/id/446394963."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-18 - June 22, 1989 - Counterintelligence and Security Countermeasures [4]. Access restriction: Restricted - Possibly. NAID 446394963.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-18_4-90007-011.pdf. Catalog: https://catalog.archives.gov/id/446394963."
       },
       {
         "naid": "446394969",
@@ -7646,7 +7819,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394969. Catalog: https://catalog.archives.gov/id/446394969."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-23 - February 21, 1990 - U.S. Policy Towards the Maghreb-Morocco / Algeria and Tunisia. Access restriction: Restricted - Possibly. NAID 446394969.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-23-90007-017.pdf. Catalog: https://catalog.archives.gov/id/446394969."
       },
       {
         "naid": "446394970",
@@ -7672,7 +7846,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446394970. Catalog: https://catalog.archives.gov/id/446394970."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-24 - March 28, 1990 - Review of U.S. Government International Broadcasting Activities [1]. Access restriction: Restricted - Possibly. NAID 446394970.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsr-24_1-90007-018.pdf. Catalog: https://catalog.archives.gov/id/446394970."
       },
       {
         "naid": "446394972",
@@ -7698,7 +7873,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446394972. Catalog: https://catalog.archives.gov/id/446394972."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-25 - April 04, 1990 - National Industrial Security Program [1]. Access restriction: Restricted - Possibly. NAID 446394972.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsr-25_1-90007-020.pdf. Catalog: https://catalog.archives.gov/id/446394972."
       },
       {
         "naid": "446394973",
@@ -7724,7 +7900,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394973. Catalog: https://catalog.archives.gov/id/446394973."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-25 - April 04, 1990 - National Industrial Security Program [2]. Access restriction: Restricted - Possibly. NAID 446394973.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-25_2-90007-021.pdf. Catalog: https://catalog.archives.gov/id/446394973."
       },
       {
         "naid": "446394977",
@@ -7750,7 +7927,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394977. Catalog: https://catalog.archives.gov/id/446394977."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-28 - June 2, 1991 - U.S. Policy Toward North Korean Nuclear Weapons Program. Access restriction: Restricted - Possibly. NAID 446394977.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-28-90007-025.pdf. Catalog: https://catalog.archives.gov/id/446394977."
       },
       {
         "naid": "446394978",
@@ -7776,7 +7954,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394978. Catalog: https://catalog.archives.gov/id/446394978."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-29 - November 15, 1991 - Intelligence Capabilities 1992-2005 [1]. Access restriction: Restricted - Possibly. NAID 446394978.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-29_1-90008-001.pdf. Catalog: https://catalog.archives.gov/id/446394978."
       },
       {
         "naid": "446394979",
@@ -7802,7 +7981,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394979. Catalog: https://catalog.archives.gov/id/446394979."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-29 - November 15, 1991 - Intelligence Capabilities 1992-2005 [2]. Access restriction: Restricted - Possibly. NAID 446394979.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-29_2-90008-002.pdf. Catalog: https://catalog.archives.gov/id/446394979."
       },
       {
         "naid": "446394980",
@@ -7828,7 +8008,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394980. Catalog: https://catalog.archives.gov/id/446394980."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-29 - November 15, 1991 - Intelligence Capabilities 1992-2005 [3]. Access restriction: Restricted - Possibly. NAID 446394980.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-29_3-90008-003.pdf. Catalog: https://catalog.archives.gov/id/446394980."
       },
       {
         "naid": "446394982",
@@ -7854,7 +8035,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394982. Catalog: https://catalog.archives.gov/id/446394982."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-29 - November 15, 1991 - Intelligence Capabilities 1992-2005 [5]. Access restriction: Restricted - Possibly. NAID 446394982.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-29_5-90008-005.pdf. Catalog: https://catalog.archives.gov/id/446394982."
       },
       {
         "naid": "446394983",
@@ -7880,7 +8062,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394983. Catalog: https://catalog.archives.gov/id/446394983."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-29 - November 15, 1991 - Intelligence Capabilities 1992-2005 [6]. Access restriction: Restricted - Possibly. NAID 446394983.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-29_6-90008-006.pdf. Catalog: https://catalog.archives.gov/id/446394983."
       },
       {
         "naid": "446394984",
@@ -7906,7 +8089,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446394984. Catalog: https://catalog.archives.gov/id/446394984."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-29 - November 15, 1991 - Intelligence Capabilities 1992-2005 [7]. Access restriction: Restricted - Possibly. NAID 446394984.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsr-29_7-90008-007.pdf. Catalog: https://catalog.archives.gov/id/446394984."
       },
       {
         "naid": "446394927",
@@ -7932,7 +8116,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446394927. Catalog: https://catalog.archives.gov/id/446394927."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files, NSR-4 - February 15, 1989 - Comprehensive Review of U.S.-East European Relations [1]. Access restriction: Restricted - Possibly. NAID 446394927.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsr-4_1-90006-005.pdf. Catalog: https://catalog.archives.gov/id/446394927."
       }
     ],
     "children": [],
@@ -7942,7 +8127,8 @@ window.REQUESTED_SOURCE_SERIES = [
       "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
       "status": "Being Researched"
     },
-    "sourceNote": "Requested source: H-Files - National Security Review (NSR) Files. NAID 313189297. series. Restricted - Partly. Children found: 0. Online children: 65. EastMed query-hit records retained: 30. Public child/search harvest unavailable from the Catalog endpoint used in this run. Catalog: https://catalog.archives.gov/id/313189297."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, H-Files - National Security Review (NSR) Files. Access restriction: Restricted - Partly. NAID 313189297.",
+    "researchNote": "Query totals: NSR (65), NSC/DC (36), NSD (16), Turkey (2), memorandum of conversation (2), telephone conversation (2), Greece (1), Turkish (1). Children found: 0. Online children: 65. Retained EastMed leads: 30. Child search note: Catalog returned HTML for q=*&ancestorNaId=313189297&limit=200. Catalog: https://catalog.archives.gov/id/313189297. Search Within: https://catalog.archives.gov/search-within/313189297?limit=100."
   },
   {
     "id": "nsd",
@@ -8055,7 +8241,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Turkey, memorandum of conversation, telephone conversation. NAID 446396843. Catalog: https://catalog.archives.gov/id/446396843."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-26 - October 02, 1989 - U.S. Policy toward the Persian Gulf. Access restriction: Restricted - Possibly. NAID 446396843.",
+        "researchNote": "Query hit(s): Greece, Turkey, memorandum of conversation, telephone conversation. Digital object: 41-bpr-nsc-hfiles-nsd-26-90003-034.pdf. Catalog: https://catalog.archives.gov/id/446396843."
       },
       {
         "naid": "446396837",
@@ -8083,7 +8270,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, NSC/DC, NSD. NAID 446396837. Catalog: https://catalog.archives.gov/id/446396837."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-21 - September 01, 1989 - U.S. Policy toward Panama under Noriega after 1 September 1989. Access restriction: Restricted - Possibly. NAID 446396837.",
+        "researchNote": "Query hit(s): memorandum of conversation, NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-21-90003-028.pdf. Catalog: https://catalog.archives.gov/id/446396837."
       },
       {
         "naid": "446396847",
@@ -8111,7 +8299,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, NSC/DC, NSD. NAID 446396847. Catalog: https://catalog.archives.gov/id/446396847."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-30 - November 02, 1989 - National Space Policy (National Space Policy Directive 1) [1]. Access restriction: Restricted - Possibly. NAID 446396847.",
+        "researchNote": "Query hit(s): memorandum of conversation, NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-30_1-90004-001.pdf. Catalog: https://catalog.archives.gov/id/446396847."
       },
       {
         "naid": "446396859",
@@ -8139,7 +8328,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD, NSR. NAID 446396859. Catalog: https://catalog.archives.gov/id/446396859."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-39 - May 01, 1990 - COCOM Policy toward Eastern Europe and Soviet Union. Access restriction: Restricted - Possibly. NAID 446396859.",
+        "researchNote": "Query hit(s): NSC/DC, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-nsd-39-90004-013.pdf. Catalog: https://catalog.archives.gov/id/446396859."
       },
       {
         "naid": "446396869",
@@ -8167,7 +8357,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD, NSR. NAID 446396869. Catalog: https://catalog.archives.gov/id/446396869."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-47 - October 05, 1990 - Counterintelligence and Security Countermeasures [2]. Access restriction: Restricted - Possibly. NAID 446396869.",
+        "researchNote": "Query hit(s): NSC/DC, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-nsd-47_2-90004-023.pdf. Catalog: https://catalog.archives.gov/id/446396869."
       },
       {
         "naid": "446396896",
@@ -8195,7 +8386,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD, NSR. NAID 446396896. Catalog: https://catalog.archives.gov/id/446396896."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-63 - October 21, 1991 - Single Scope Background Investigations. Access restriction: Restricted - Possibly. NAID 446396896.",
+        "researchNote": "Query hit(s): NSC/DC, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-nsd-63-90005-012.pdf. Catalog: https://catalog.archives.gov/id/446396896."
       },
       {
         "naid": "446396900",
@@ -8223,7 +8415,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD, NSR. NAID 446396900. Catalog: https://catalog.archives.gov/id/446396900."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-67 - March 30, 1992 - Intelligence Capabilities 1992-2005 [1]. Access restriction: Restricted - Possibly. NAID 446396900.",
+        "researchNote": "Query hit(s): NSC/DC, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-nsd-67_1-90005-016.pdf. Catalog: https://catalog.archives.gov/id/446396900."
       },
       {
         "naid": "446396910",
@@ -8251,7 +8444,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD, NSR. NAID 446396910. Catalog: https://catalog.archives.gov/id/446396910."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-75 - December 23, 1992 - American Policy toward Sub-Saharan Africa in the 1990s. Access restriction: Restricted - Possibly. NAID 446396910.",
+        "researchNote": "Query hit(s): NSC/DC, NSD, NSR. Digital object: 41-bpr-nsc-hfiles-nsd-75-90005-026.pdf. Catalog: https://catalog.archives.gov/id/446396910."
       },
       {
         "naid": "446396880",
@@ -8277,7 +8471,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): telephone conversation, NSC/DC. NAID 446396880. Catalog: https://catalog.archives.gov/id/446396880."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-53 - December 10, 1990 - Interagency Review and Disposition of Export Control Licenses Issued by Department of Commerce [3]. Access restriction: Restricted - Possibly. NAID 446396880.",
+        "researchNote": "Query hit(s): telephone conversation, NSC/DC. Digital object: 41-bpr-nsc-hfiles-nsd-53_3-90004-034.pdf. Catalog: https://catalog.archives.gov/id/446396880."
       },
       {
         "naid": "446396882",
@@ -8303,7 +8498,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey, NSC/DC. NAID 446396882. Catalog: https://catalog.archives.gov/id/446396882."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-54 - January 15, 1991 - Responding to Iraqi Aggression in the Gulf. Access restriction: Restricted - Possibly. NAID 446396882.",
+        "researchNote": "Query hit(s): Turkey, NSC/DC. Digital object: 41-bpr-nsc-hfiles-nsd-54-90004-036.pdf. Catalog: https://catalog.archives.gov/id/446396882."
       },
       {
         "naid": "446396825",
@@ -8329,7 +8525,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396825. Catalog: https://catalog.archives.gov/id/446396825."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-13 - June 07, 1989 - Cocaine Trafficking. Access restriction: Restricted - Possibly. NAID 446396825.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-13-90003-016.pdf. Catalog: https://catalog.archives.gov/id/446396825."
       },
       {
         "naid": "446396842",
@@ -8355,7 +8552,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396842. Catalog: https://catalog.archives.gov/id/446396842."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-25a - ..... - Classified Title. Access restriction: Restricted - Possibly. NAID 446396842.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-25a-90003-033.pdf. Catalog: https://catalog.archives.gov/id/446396842."
       },
       {
         "naid": "446396844",
@@ -8381,7 +8579,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396844. Catalog: https://catalog.archives.gov/id/446396844."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-27 - October 02, 1989 - Soviet Emigration Policy. Access restriction: Restricted - Possibly. NAID 446396844.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-27-90003-035.pdf. Catalog: https://catalog.archives.gov/id/446396844."
       },
       {
         "naid": "446396827",
@@ -8407,7 +8606,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396827. Catalog: https://catalog.archives.gov/id/446396827."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-14 - June 14, 1989 - ICBM Modernization and Strategic Defense Initiative. Access restriction: Restricted - Possibly. NAID 446396827.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-14-90003-018.pdf. Catalog: https://catalog.archives.gov/id/446396827."
       },
       {
         "naid": "446396832",
@@ -8433,7 +8633,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396832. Catalog: https://catalog.archives.gov/id/446396832."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-18 - August 21, 1989 - International Counternarcotics Strategy. Access restriction: Restricted - Possibly. NAID 446396832.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-18-90003-023.pdf. Catalog: https://catalog.archives.gov/id/446396832."
       },
       {
         "naid": "446396838",
@@ -8459,7 +8660,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446396838. Catalog: https://catalog.archives.gov/id/446396838."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-22 - September 20, 1989 - U.S. Policy on Nuclear Testing and Arms Control. Access restriction: Restricted - Possibly. NAID 446396838.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsd-22-90003-029.pdf. Catalog: https://catalog.archives.gov/id/446396838."
       },
       {
         "naid": "446396845",
@@ -8485,7 +8687,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396845. Catalog: https://catalog.archives.gov/id/446396845."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-28 - October 05, 1989 - National Security Directive on Sealift. Access restriction: Restricted - Possibly. NAID 446396845.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-28-90003-036.pdf. Catalog: https://catalog.archives.gov/id/446396845."
       },
       {
         "naid": "446396852",
@@ -8511,7 +8714,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396852. Catalog: https://catalog.archives.gov/id/446396852."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-32 - November 30, 1989 - Economic Sanctions against Panama. Access restriction: Restricted - Possibly. NAID 446396852.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-32-90004-006.pdf. Catalog: https://catalog.archives.gov/id/446396852."
       },
       {
         "naid": "446396855",
@@ -8537,7 +8741,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396855. Catalog: https://catalog.archives.gov/id/446396855."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-35 - January 24, 1990 - U.S.-Soviet Economic Initiatives. Access restriction: Restricted - Possibly. NAID 446396855.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-35-90004-009.pdf. Catalog: https://catalog.archives.gov/id/446396855."
       },
       {
         "naid": "446396862",
@@ -8563,7 +8768,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396862. Catalog: https://catalog.archives.gov/id/446396862."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-42 - July 05, 1990 - National Policy for the Security of National Security Telecommunications and Information Systems [1]. Access restriction: Restricted - Possibly. NAID 446396862.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-42_1-90004-016.pdf. Catalog: https://catalog.archives.gov/id/446396862."
       },
       {
         "naid": "446396863",
@@ -8589,7 +8795,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsr"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSR. NAID 446396863. Catalog: https://catalog.archives.gov/id/446396863."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-42 - July 05, 1990 - National Policy for the Security of National Security Telecommunications and Information Systems [2]. Access restriction: Restricted - Possibly. NAID 446396863.",
+        "researchNote": "Query hit(s): NSC/DC, NSR. Digital object: 41-bpr-nsc-hfiles-nsd-42_2-90004-017.pdf. Catalog: https://catalog.archives.gov/id/446396863."
       },
       {
         "naid": "446396867",
@@ -8615,7 +8822,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396867. Catalog: https://catalog.archives.gov/id/446396867."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-46 - September 07, 1990 - Cape York. Access restriction: Restricted - Possibly. NAID 446396867.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-46-90004-021.pdf. Catalog: https://catalog.archives.gov/id/446396867."
       },
       {
         "naid": "446396871",
@@ -8641,7 +8849,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396871. Catalog: https://catalog.archives.gov/id/446396871."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-49 - October 12, 1990 - Freedom of Navigation Program. Access restriction: Restricted - Possibly. NAID 446396871.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-49-90004-025.pdf. Catalog: https://catalog.archives.gov/id/446396871."
       },
       {
         "naid": "446396879",
@@ -8667,7 +8876,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396879. Catalog: https://catalog.archives.gov/id/446396879."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-53 - December 10, 1990 - Interagency Review and Disposition of Export Control Licenses Issued by Department of Commerce [2]. Access restriction: Restricted - Possibly. NAID 446396879.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-53_2-90004-033.pdf. Catalog: https://catalog.archives.gov/id/446396879."
       },
       {
         "naid": "446396883",
@@ -8693,7 +8903,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396883. Catalog: https://catalog.archives.gov/id/446396883."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-55 - March 26, 1991 - Change 1 to NSD-48 - Nuclear Weapons Deployment Authorization for FY 1990 and FY 1991. Access restriction: Restricted - Possibly. NAID 446396883.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-55-90004-037.pdf. Catalog: https://catalog.archives.gov/id/446396883."
       },
       {
         "naid": "446396887",
@@ -8719,7 +8930,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396887. Catalog: https://catalog.archives.gov/id/446396887."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-58 - May 10, 1991 - Chemical Weapons Convention Initiative. Access restriction: Restricted - Possibly. NAID 446396887.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-58-90005-003.pdf. Catalog: https://catalog.archives.gov/id/446396887."
       },
       {
         "naid": "446396888",
@@ -8745,7 +8957,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396888. Catalog: https://catalog.archives.gov/id/446396888."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-59 - May 14, 1991 - Disposition of Reagan Administration Policy Papers [1]. Access restriction: Restricted - Possibly. NAID 446396888.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-59_1-90005-004.pdf. Catalog: https://catalog.archives.gov/id/446396888."
       },
       {
         "naid": "446396893",
@@ -8771,7 +8984,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396893. Catalog: https://catalog.archives.gov/id/446396893."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-60 - May 30, 1991 - FY 1992 nuclear test Program: Julin. Access restriction: Restricted - Possibly. NAID 446396893.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-60-90005-009.pdf. Catalog: https://catalog.archives.gov/id/446396893."
       },
       {
         "naid": "446396898",
@@ -8797,7 +9011,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396898. Catalog: https://catalog.archives.gov/id/446396898."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-65 - February 11, 1992 - Organizing to Manage On-Site Inspections under the CFE Treaty. Access restriction: Restricted - Possibly. NAID 446396898.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-65-90005-014.pdf. Catalog: https://catalog.archives.gov/id/446396898."
       },
       {
         "naid": "446396904",
@@ -8823,7 +9038,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC, NSD. NAID 446396904. Catalog: https://catalog.archives.gov/id/446396904."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files, NSD-70 - July 10, 1992 - U.S. Nonproliferation Policy. Access restriction: Restricted - Possibly. NAID 446396904.",
+        "researchNote": "Query hit(s): NSC/DC, NSD. Digital object: 41-bpr-nsc-hfiles-nsd-70-90005-020.pdf. Catalog: https://catalog.archives.gov/id/446396904."
       }
     ],
     "children": [],
@@ -8833,7 +9049,8 @@ window.REQUESTED_SOURCE_SERIES = [
       "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
       "status": "Being Researched"
     },
-    "sourceNote": "Requested source: National Security Directives (NSD) Files. NAID 313189290. series. Restricted - Partly. Children found: 0. Online children: 106. EastMed query-hit records retained: 30. Public child/search harvest unavailable from the Catalog endpoint used in this run. Catalog: https://catalog.archives.gov/id/313189290."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Directives (NSD) Files. Access restriction: Restricted - Partly. NAID 313189290.",
+    "researchNote": "Query totals: NSD (108), NSC/DC (68), NSR (13), memorandum of conversation (4), Greece (2), Turkey (2), telephone conversation (2). Children found: 0. Online children: 106. Retained EastMed leads: 30. Child search note: Catalog returned HTML for q=*&ancestorNaId=313189290&limit=200. Catalog: https://catalog.archives.gov/id/313189290. Search Within: https://catalog.archives.gov/search-within/313189290?limit=100."
   },
   {
     "id": "if-transition",
@@ -9005,7 +9222,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Cyprus, Turkey, Turkish, Ozal, Demirel, Greece / Turkey / Cyprus, NSC/DC. NAID 470760873. Catalog: https://catalog.archives.gov/id/470760873."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, [Transition Planning: Significant Anniversary Dates and The First 100 Days of Previous Administrations] [1]. Access restriction: Restricted - Possibly. NAID 470760873.",
+        "researchNote": "Query hit(s): Greece, Greek, Cyprus, Turkey, Turkish, Ozal, Demirel, Greece / Turkey / Cyprus, NSC/DC. Digital object: 41-bpr-nsc-hfiles-if_trans-99016-010.pdf. Catalog: https://catalog.archives.gov/id/470760873."
       },
       {
         "naid": "470760869",
@@ -9043,7 +9261,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Cyprus, Turkey, Turkish, Ozal, Demirel, Greece / Turkey / Cyprus. NAID 470760869. Catalog: https://catalog.archives.gov/id/470760869."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, [NSC: Reagan-Bush Transition Background Materials - Volume II - January 1989] [3]. Access restriction: Restricted - Possibly. NAID 470760869.",
+        "researchNote": "Query hit(s): Greece, Greek, Cyprus, Turkey, Turkish, Ozal, Demirel, Greece / Turkey / Cyprus. Digital object: 41-bpr-nsc-hfiles-if_trans-99016-006.pdf. Catalog: https://catalog.archives.gov/id/470760869."
       },
       {
         "naid": "470760874",
@@ -9077,7 +9296,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Cyprus, Turkey, Demirel, Greece / Turkey / Cyprus, NSC/DC. NAID 470760874. Catalog: https://catalog.archives.gov/id/470760874."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, [Transition Planning: Significant Anniversary Dates and The First 100 Days of Previous Administrations] [2]. Access restriction: Restricted - Possibly. NAID 470760874.",
+        "researchNote": "Query hit(s): Greece, Cyprus, Turkey, Demirel, Greece / Turkey / Cyprus, NSC/DC. Digital object: 41-bpr-nsc-hfiles-if_trans-99016-011.pdf. Catalog: https://catalog.archives.gov/id/470760874."
       },
       {
         "naid": "470760857",
@@ -9111,7 +9331,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "demirel"
         ],
         "priority": "High-value EastMed lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greek, Cyprus, Turkey, Turkish, Ozal, Demirel. NAID 470760857. Catalog: https://catalog.archives.gov/id/470760857."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, Reagan-Bush Transition Briefing Book: National Security Activities. Access restriction: Restricted - Possibly. NAID 470760857.",
+        "researchNote": "Query hit(s): Greek, Cyprus, Turkey, Turkish, Ozal, Demirel. Digital object: 41-bpr-nsc-hfiles-if_trans-99015-003.pdf. Catalog: https://catalog.archives.gov/id/470760857."
       },
       {
         "naid": "470760868",
@@ -9143,7 +9364,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greek, Cyprus, memorandum of conversation, telephone conversation, NSC/DC. NAID 470760868. Catalog: https://catalog.archives.gov/id/470760868."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, [NSC: Reagan-Bush Transition Background Materials - Volume II - January 1989] [2]. Access restriction: Restricted - Possibly. NAID 470760868.",
+        "researchNote": "Query hit(s): Greek, Cyprus, memorandum of conversation, telephone conversation, NSC/DC. Digital object: 41-bpr-nsc-hfiles-if_trans-99016-005.pdf. Catalog: https://catalog.archives.gov/id/470760868."
       },
       {
         "naid": "470760855",
@@ -9173,7 +9395,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "greece-turkey-cyprus"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Cyprus, Turkey, Greece / Turkey / Cyprus. NAID 470760855. Catalog: https://catalog.archives.gov/id/470760855."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, Reagan-Bush Transition Briefing Book: Background on NSC Organization and Administration. Access restriction: Restricted - Possibly. NAID 470760855.",
+        "researchNote": "Query hit(s): Greece, Cyprus, Turkey, Greece / Turkey / Cyprus. Digital object: 41-bpr-nsc-hfiles-if_trans-99015-001.pdf. Catalog: https://catalog.archives.gov/id/470760855."
       },
       {
         "naid": "470760879",
@@ -9203,7 +9426,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey, memorandum of conversation, telephone conversation, NSC/DC. NAID 470760879. Catalog: https://catalog.archives.gov/id/470760879."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, NSC Procedural Manual - Binder 2 [2]. Access restriction: Restricted - Possibly. NAID 470760879.",
+        "researchNote": "Query hit(s): Turkey, memorandum of conversation, telephone conversation, NSC/DC. Digital object: 41-bpr-nsc-hfiles-if_trans-99017-005.pdf. Catalog: https://catalog.archives.gov/id/470760879."
       },
       {
         "naid": "470760866",
@@ -9233,7 +9457,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greek, Cyprus, memorandum of conversation, NSC/DC. NAID 470760866. Catalog: https://catalog.archives.gov/id/470760866."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, [NSC: Reagan-Bush Transition Background Materials - Volume I - January 1989] [3]. Access restriction: Restricted - Possibly. NAID 470760866.",
+        "researchNote": "Query hit(s): Greek, Cyprus, memorandum of conversation, NSC/DC. Digital object: 41-bpr-nsc-hfiles-if_trans-99016-003.pdf. Catalog: https://catalog.archives.gov/id/470760866."
       },
       {
         "naid": "470760861",
@@ -9261,7 +9486,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memcon, memorandum of conversation, telephone conversation. NAID 470760861. Catalog: https://catalog.archives.gov/id/470760861."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, National Security Council Staff Manual. Access restriction: Restricted - Possibly. NAID 470760861.",
+        "researchNote": "Query hit(s): memcon, memorandum of conversation, telephone conversation. Digital object: 41-bpr-nsc-hfiles-if_trans-99015-007.pdf. Catalog: https://catalog.archives.gov/id/470760861."
       },
       {
         "naid": "470760882",
@@ -9289,7 +9515,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Cyprus, memorandum of conversation, telephone conversation. NAID 470760882. Catalog: https://catalog.archives.gov/id/470760882."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, NSC Procedural Manual - Binder 4 [1]. Access restriction: Restricted - Possibly. NAID 470760882.",
+        "researchNote": "Query hit(s): Cyprus, memorandum of conversation, telephone conversation. Digital object: 41-bpr-nsc-hfiles-if_trans-99017-008.pdf. Catalog: https://catalog.archives.gov/id/470760882."
       },
       {
         "naid": "470760870",
@@ -9317,7 +9544,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "moc"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Cyprus, Turkey, memorandum of conversation. NAID 470760870. Catalog: https://catalog.archives.gov/id/470760870."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, [NSC: Reagan-Bush Transition Background Materials - Volume III - January 1989] [1]. Access restriction: Restricted - Possibly. NAID 470760870.",
+        "researchNote": "Query hit(s): Cyprus, Turkey, memorandum of conversation. Digital object: 41-bpr-nsc-hfiles-if_trans-99016-007.pdf. Catalog: https://catalog.archives.gov/id/470760870."
       },
       {
         "naid": "470760876",
@@ -9345,7 +9573,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, telephone conversation, NSC/DC. NAID 470760876. Catalog: https://catalog.archives.gov/id/470760876."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, NSC Procedural Manual - Binder 1 [2]. Access restriction: Restricted - Possibly. NAID 470760876.",
+        "researchNote": "Query hit(s): memorandum of conversation, telephone conversation, NSC/DC. Digital object: 41-bpr-nsc-hfiles-if_trans-99017-002.pdf. Catalog: https://catalog.archives.gov/id/470760876."
       },
       {
         "naid": "470760877",
@@ -9373,7 +9602,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, telephone conversation, NSC/DC. NAID 470760877. Catalog: https://catalog.archives.gov/id/470760877."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, NSC Procedural Manual - Binder 1 [3]. Access restriction: Restricted - Possibly. NAID 470760877.",
+        "researchNote": "Query hit(s): memorandum of conversation, telephone conversation, NSC/DC. Digital object: 41-bpr-nsc-hfiles-if_trans-99017-003.pdf. Catalog: https://catalog.archives.gov/id/470760877."
       },
       {
         "naid": "470760875",
@@ -9401,7 +9631,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "cypriot"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greece, Greek, Cypriot. NAID 470760875. Catalog: https://catalog.archives.gov/id/470760875."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, NSC Procedural Manual - Binder 1 [1]. Access restriction: Restricted - Possibly. NAID 470760875.",
+        "researchNote": "Query hit(s): Greece, Greek, Cypriot. Digital object: 41-bpr-nsc-hfiles-if_trans-99017-001.pdf. Catalog: https://catalog.archives.gov/id/470760875."
       },
       {
         "naid": "470760865",
@@ -9429,7 +9660,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Greek, Cyprus, NSC/DC. NAID 470760865. Catalog: https://catalog.archives.gov/id/470760865."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, [NSC: Reagan-Bush Transition Background Materials - Volume I - January 1989] [2]. Access restriction: Restricted - Possibly. NAID 470760865.",
+        "researchNote": "Query hit(s): Greek, Cyprus, NSC/DC. Digital object: 41-bpr-nsc-hfiles-if_trans-99016-002.pdf. Catalog: https://catalog.archives.gov/id/470760865."
       },
       {
         "naid": "470760871",
@@ -9455,7 +9687,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, telephone conversation. NAID 470760871. Catalog: https://catalog.archives.gov/id/470760871."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, [NSC: Reagan-Bush Transition Background Materials - Volume III - January 1989] [2]. Access restriction: Restricted - Possibly. NAID 470760871.",
+        "researchNote": "Query hit(s): memorandum of conversation, telephone conversation. Digital object: 41-bpr-nsc-hfiles-if_trans-99016-008.pdf. Catalog: https://catalog.archives.gov/id/470760871."
       },
       {
         "naid": "470760881",
@@ -9481,7 +9714,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, telephone conversation. NAID 470760881. Catalog: https://catalog.archives.gov/id/470760881."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, NSC Procedural Manual - Binder 3 [2]. Access restriction: Restricted - Possibly. NAID 470760881.",
+        "researchNote": "Query hit(s): memorandum of conversation, telephone conversation. Digital object: 41-bpr-nsc-hfiles-if_trans-99017-007.pdf. Catalog: https://catalog.archives.gov/id/470760881."
       },
       {
         "naid": "470760884",
@@ -9507,7 +9741,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "telephone-conversation"
         ],
         "priority": "Conversation search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): memorandum of conversation, telephone conversation. NAID 470760884. Catalog: https://catalog.archives.gov/id/470760884."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, NSC Procedural Manual - Binder 4 [3]. Access restriction: Restricted - Possibly. NAID 470760884.",
+        "researchNote": "Query hit(s): memorandum of conversation, telephone conversation. Digital object: 41-bpr-nsc-hfiles-if_trans-99017-010.pdf. Catalog: https://catalog.archives.gov/id/470760884."
       },
       {
         "naid": "470760858",
@@ -9531,7 +9766,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "cyprus"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Cyprus. NAID 470760858. Catalog: https://catalog.archives.gov/id/470760858."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, Authorities and Responsibilities of the United States Chief of Mission. Access restriction: Restricted - Possibly. NAID 470760858.",
+        "researchNote": "Query hit(s): Cyprus. Digital object: 41-bpr-nsc-hfiles-if_trans-99015-004.pdf. Catalog: https://catalog.archives.gov/id/470760858."
       },
       {
         "naid": "470760863",
@@ -9555,7 +9791,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "cyprus"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Cyprus. NAID 470760863. Catalog: https://catalog.archives.gov/id/470760863."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, National Security Council Secretariat Procedure Manual [2]. Access restriction: Restricted - Possibly. NAID 470760863.",
+        "researchNote": "Query hit(s): Cyprus. Digital object: 41-bpr-nsc-hfiles-if_trans-99015-009.pdf. Catalog: https://catalog.archives.gov/id/470760863."
       },
       {
         "naid": "470760862",
@@ -9579,7 +9816,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "turkey"
         ],
         "priority": "Country search lead",
-        "sourceNote": "Catalog source lead. Query hit(s): Turkey. NAID 470760862. Catalog: https://catalog.archives.gov/id/470760862."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, National Security Council Secretariat Procedure Manual [1]. Access restriction: Restricted - Possibly. NAID 470760862.",
+        "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-nsc-hfiles-if_trans-99015-008.pdf. Catalog: https://catalog.archives.gov/id/470760862."
       },
       {
         "naid": "470760864",
@@ -9603,7 +9841,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470760864. Catalog: https://catalog.archives.gov/id/470760864."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, [NSC: Reagan-Bush Transition Background Materials - Volume I - January 1989] [1]. Access restriction: Restricted - Possibly. NAID 470760864.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-if_trans-99016-001.pdf. Catalog: https://catalog.archives.gov/id/470760864."
       },
       {
         "naid": "470760867",
@@ -9627,7 +9866,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470760867. Catalog: https://catalog.archives.gov/id/470760867."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, [NSC: Reagan-Bush Transition Background Materials - Volume II - January 1989] [1]. Access restriction: Restricted - Possibly. NAID 470760867.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-if_trans-99016-004.pdf. Catalog: https://catalog.archives.gov/id/470760867."
       },
       {
         "naid": "470760872",
@@ -9651,7 +9891,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470760872. Catalog: https://catalog.archives.gov/id/470760872."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, [NSC: Reagan-Bush Transition Background Materials - Volume III - January 1989] [3]. Access restriction: Restricted - Possibly. NAID 470760872.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-if_trans-99016-009.pdf. Catalog: https://catalog.archives.gov/id/470760872."
       },
       {
         "naid": "470760878",
@@ -9675,7 +9916,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470760878. Catalog: https://catalog.archives.gov/id/470760878."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, NSC Procedural Manual - Binder 2 [1]. Access restriction: Restricted - Possibly. NAID 470760878.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-if_trans-99017-004.pdf. Catalog: https://catalog.archives.gov/id/470760878."
       },
       {
         "naid": "470760880",
@@ -9699,7 +9941,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470760880. Catalog: https://catalog.archives.gov/id/470760880."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, NSC Procedural Manual - Binder 3 [1]. Access restriction: Restricted - Possibly. NAID 470760880.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-if_trans-99017-006.pdf. Catalog: https://catalog.archives.gov/id/470760880."
       },
       {
         "naid": "470760883",
@@ -9723,7 +9966,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsc-dc"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSC/DC. NAID 470760883. Catalog: https://catalog.archives.gov/id/470760883."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, NSC Procedural Manual - Binder 4 [2]. Access restriction: Restricted - Possibly. NAID 470760883.",
+        "researchNote": "Query hit(s): NSC/DC. Digital object: 41-bpr-nsc-hfiles-if_trans-99017-009.pdf. Catalog: https://catalog.archives.gov/id/470760883."
       },
       {
         "naid": "470760856",
@@ -9747,7 +9991,8 @@ window.REQUESTED_SOURCE_SERIES = [
           "nsd"
         ],
         "priority": "Series/source coverage",
-        "sourceNote": "Catalog source lead. Query hit(s): NSD. NAID 470760856. Catalog: https://catalog.archives.gov/id/470760856."
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files, National Security Council Administrative Manual. Access restriction: Restricted - Possibly. NAID 470760856.",
+        "researchNote": "Query hit(s): NSD. Digital object: 41-bpr-nsc-hfiles-if_trans-99015-002.pdf. Catalog: https://catalog.archives.gov/id/470760856."
       }
     ],
     "children": [],
@@ -9757,6 +10002,7 @@ window.REQUESTED_SOURCE_SERIES = [
       "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
       "status": "Being Researched"
     },
-    "sourceNote": "Requested source: National Security Council (NSC) Institutional Files (IF) Transition Files. NAID 348937136. series. Restricted - Partly. Children found: 0. Online children: 30. EastMed query-hit records retained: 28. Public child/search harvest unavailable from the Catalog endpoint used in this run. Catalog: https://catalog.archives.gov/id/348937136."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, National Security Council (NSC) Institutional Files (IF) Transition Files. Access restriction: Restricted - Partly. NAID 348937136.",
+    "researchNote": "Query totals: NSC/DC (14), Cyprus (12), memorandum of conversation (11), telephone conversation (9), Turkey (8), Greek (7), Greece (5), Demirel (4). Children found: 0. Online children: 30. Retained EastMed leads: 28. Child search note: Catalog returned HTML for q=*&ancestorNaId=348937136&limit=200. Catalog: https://catalog.archives.gov/id/348937136. Search Within: https://catalog.archives.gov/search-within/348937136?limit=100."
   }
 ];

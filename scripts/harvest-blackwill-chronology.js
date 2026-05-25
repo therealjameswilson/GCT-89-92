@@ -5,6 +5,7 @@ const https = require("https");
 const os = require("os");
 const path = require("path");
 const { execFileSync } = require("child_process");
+const { applyFrusSourceStyle } = require("./source-note-style");
 
 const PROXY_URL = "https://nara-proxy.mzqmpgyvdv.workers.dev";
 const API_KEY = process.env.NARA_API_KEY || "C6O0DyEcap6taVb24zymF5AOMQvwTXsa7q0ZH8cN";
@@ -485,7 +486,7 @@ function finishSourceNote(row) {
   }. NAID ${row.naid}. Query hit(s): ${row.queryLabels.join(", ") || "none"}. ${row.accessRestriction || "Access status not specified"}.${
     pageText
   }${ocrText} Catalog: ${row.catalogUrl}.`;
-  return row;
+  return applyFrusSourceStyle(row);
 }
 
 async function main() {

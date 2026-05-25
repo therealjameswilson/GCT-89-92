@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const fs = require("fs");
+const { applyFrusSourceStyle } = require("./source-note-style");
 
 const CATALOG_SEARCH_URL = "https://catalog.archives.gov/proxy/records/search";
 
@@ -309,14 +310,14 @@ function buildLeads(searches, sourceNaid) {
     .map((entry) => {
       const compact = compactRecord(entry.record);
       const queryLabels = uniq(entry.matches.map((match) => match.label));
-      return {
+      return applyFrusSourceStyle({
         ...compact,
         score: Math.round(entry.score),
         queryLabels,
         queryHits: uniq(entry.matches.map((match) => match.id)),
         priority: priorityForLead(queryLabels),
         sourceNote: `Catalog source lead. Query hit(s): ${queryLabels.join(", ")}. NAID ${compact.naid}. Catalog: ${compact.catalogUrl}.`
-      };
+      });
     })
     .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title))
     .slice(0, 30);
@@ -399,7 +400,7 @@ async function harvestSource(source) {
       total: search.total,
       returned: search.returned
     }));
-  return {
+  return applyFrusSourceStyle({
     id: source.id,
     label: source.label,
     shortLabel: source.shortLabel,
@@ -439,7 +440,7 @@ async function harvestSource(source) {
     }. ${root.accessRestriction?.status || "Access status not specified"}. Children found: ${children.total}. Online children: ${
       onlineChildren.total
     }. EastMed query-hit records retained: ${leads.length}.${rootHarvestError ? " Root metadata fetch failed during this run; retained as requested source anchor." : ""}${children.error ? " Public child/search harvest unavailable from the Catalog endpoint used in this run." : ""} Catalog: ${catalogUrl(source.naid)}.`
-  };
+  });
 }
 
 async function main() {
