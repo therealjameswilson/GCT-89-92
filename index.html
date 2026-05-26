@@ -17,8 +17,8 @@
         <span>Eastern Mediterranean Desk</span>
       </a>
       <nav aria-label="Primary navigation">
-        <a href="#chapters">Chapters</a>
         <a href="#records">Chronology</a>
+        <a href="#chapters">Chapters</a>
         <a href="#scout">NARA Scout</a>
         <a href="#central">Central Chron</a>
         <a href="#blackwill">Blackwill</a>
@@ -73,6 +73,42 @@
             </div>
           </dl>
         </aside>
+      </section>
+
+      <section class="section records-section" id="records" aria-labelledby="records-title">
+        <div class="section-heading">
+          <p class="kicker">Declassified Documents</p>
+          <h2 id="records-title">Chronology of Meetings and Calls</h2>
+        </div>
+        <p class="records-intro">
+          Core records come from the Bush Library memcons and telcons index,
+          then are enriched from the National Archives Catalog with direct PDFs,
+          release status, page counts, FRUS-style source notes, and Presidential
+          Daily Diary/Backup schedule references.
+        </p>
+        <div class="records-tools" aria-label="Search and filter records">
+          <label class="search-field">
+            <span>Search records</span>
+            <input id="record-search" type="search" placeholder="Search people, NAIDs, topics, source notes" />
+          </label>
+          <label>
+            <span>Chapter</span>
+            <select id="chapter-filter"></select>
+          </label>
+          <label>
+            <span>Type</span>
+            <select id="type-filter"></select>
+          </label>
+          <label>
+            <span>Release</span>
+            <select id="release-filter"></select>
+          </label>
+          <button id="clear-filters" type="button">Reset</button>
+          <p id="records-summary" class="records-summary">Loading record index...</p>
+        </div>
+        <div id="records-root" class="records-root" aria-live="polite">
+          <p class="loading">Loading conversation records...</p>
+        </div>
       </section>
 
       <section class="stats" aria-label="Archive summary">
@@ -178,41 +214,6 @@
         </div>
         <div id="compiler-root" class="compiler-root" aria-live="polite">
           <p class="loading">Loading compiler audit...</p>
-        </div>
-      </section>
-
-      <section class="section records-section" id="records" aria-labelledby="records-title">
-        <div class="section-heading">
-          <p class="kicker">Chronological Files</p>
-          <h2 id="records-title">Official Conversation Chronology</h2>
-        </div>
-        <p class="records-intro">
-          Core records come from the Bush Library memcons and telcons index, then
-          are enriched from the National Archives Catalog with direct PDFs,
-          restriction status, page counts, and source notes.
-        </p>
-        <div class="records-tools" aria-label="Search and filter records">
-          <label class="search-field">
-            <span>Search records</span>
-            <input id="record-search" type="search" placeholder="Search people, NAIDs, topics, source notes" />
-          </label>
-          <label>
-            <span>Chapter</span>
-            <select id="chapter-filter"></select>
-          </label>
-          <label>
-            <span>Type</span>
-            <select id="type-filter"></select>
-          </label>
-          <label>
-            <span>Release</span>
-            <select id="release-filter"></select>
-          </label>
-          <button id="clear-filters" type="button">Reset</button>
-          <p id="records-summary" class="records-summary">Loading record index...</p>
-        </div>
-        <div id="records-root" class="records-root" aria-live="polite">
-          <p class="loading">Loading conversation records...</p>
         </div>
       </section>
 
