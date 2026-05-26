@@ -18,7 +18,8 @@ const REPORTS = [
   "reports/central-chronology-374000108-eastmed.json",
   "reports/blackwill-chronology-2554659-eastmed.json",
   "reports/gates-chronology-2554841-eastmed.json",
-  "reports/requested-source-series-eastmed.json"
+  "reports/requested-source-series-eastmed.json",
+  "reports/daily-diary-references-186322-eastmed.json"
 ];
 
 function readJson(file) {

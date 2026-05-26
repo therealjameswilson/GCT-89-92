@@ -46,6 +46,27 @@ The script writes:
 - `data/blackwill-files.json` and `data/blackwill-files.js`
 - `reports/nara-scout-eastmed-search.json`
 
+## Presidential Daily Diary References
+
+Catalog NAID 186322, Presidential Daily Diary and Presidential Daily Backup
+Materials, is used as a schedule-corroboration layer for meetings and calls.
+The series can identify time, location, attendees, and call status, but it does
+not replace meeting minutes, memcons, or telcon summaries.
+
+Run:
+
+```bash
+node scripts/harvest-daily-diary-references.js
+node scripts/normalize-source-notes.js
+```
+
+The script updates:
+
+- `data/records.json` and `data/records.js` with `scheduleReferences`
+- `data/nara-scout-leads.json` and `data/nara-scout-leads.js`
+- `data/requested-source-series.json` and `data/requested-source-series.js`
+- `reports/daily-diary-references-186322-eastmed.json`
+
 ## Central Chronological Files Search
 
 Catalog NAID 374000108, the European and Eurasian Directorate Central
@@ -105,11 +126,12 @@ The script writes:
 ## Requested Source Pools
 
 The page also preserves the additional source pools requested for the compiler:
-Scowcroft Papers, Presidential Daily File, NSC meeting files, NSC/DC meetings,
-NSC/DC follow-up, NSR, NSD, and IF Transition. The harvest records each source
-anchor, root Catalog metadata where available, public Search Within links,
-online child totals where the Catalog endpoint returns them, and EastMed query
-evidence for Greece, Cyprus, Turkey, Aegean, memcons, telcons, NSR, and NSD.
+Scowcroft Papers, Presidential Daily File, Presidential Daily Diary and Daily
+Backup, NSC meeting files, NSC/DC meetings, NSC/DC follow-up, NSR, NSD, and IF
+Transition. The harvest records each source anchor, root Catalog metadata where
+available, public Search Within links, online child totals where the Catalog
+endpoint returns them, and EastMed query evidence for Greece, Cyprus, Turkey,
+Aegean, memcons, telcons, NSR, and NSD.
 
 Run:
 
@@ -160,6 +182,7 @@ Then visit <http://127.0.0.1:4192/>.
 - European and Eurasian Directorate Central Chronological Files: <https://catalog.archives.gov/search-within/374000108>
 - Brent Scowcroft Papers: <https://catalog.archives.gov/id/4522156>
 - Presidential Daily File: <https://catalog.archives.gov/search-within/595141?availableOnline=true&limit=100>
+- Presidential Daily Diary and Daily Backup Materials: <https://catalog.archives.gov/id/186322>
 - H-Files NSC Meeting Files: <https://catalog.archives.gov/id/312293887>
 - H-Files NSC/DC Meetings Files: <https://catalog.archives.gov/id/312294079>
 - NSC/DC Meetings Follow-Up: <https://catalog.archives.gov/id/312294094>

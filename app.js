@@ -309,6 +309,34 @@ function createSourceDetails(summaryText, sourceNote, bodyText = "") {
   return details;
 }
 
+function createScheduleReferenceDetails(references = []) {
+  const usableReferences = references.filter((reference) => reference.sourceNote);
+  if (!usableReferences.length) return null;
+
+  const details = document.createElement("details");
+  details.className = "record-source-note record-schedule-references";
+  const summary = document.createElement("summary");
+  summary.textContent = "Meeting/call references";
+  details.append(summary);
+
+  for (const reference of usableReferences) {
+    const source = document.createElement("p");
+    source.className = "record-frus-source-note";
+    source.textContent = reference.sourceNote;
+    details.append(source);
+
+    const noteText = [reference.researchNote, reference.scopeAndContentNote].filter(Boolean).join(" ");
+    if (noteText) {
+      const note = document.createElement("p");
+      note.className = "record-research-note";
+      note.textContent = noteText;
+      details.append(note);
+    }
+  }
+
+  return details;
+}
+
 function createLinks(links) {
   const wrap = document.createElement("div");
   wrap.className = "record-links";
@@ -368,6 +396,8 @@ function createRecordRow(record) {
     createFlags([releaseNeedsAttention(record) ? "Restriction / marker review" : ""]),
     createSourceDetails("Source note", record.sourceNote, record.researchNote)
   );
+  const scheduleReferences = createScheduleReferenceDetails(record.scheduleReferences || []);
+  if (scheduleReferences) body.append(scheduleReferences);
 
   row.append(dateStack, body, createLinks([["Catalog", record.catalogUrl], ["PDF", record.pdfUrl]]));
   return row;

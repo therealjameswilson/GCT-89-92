@@ -47,7 +47,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, President's Meeting with Prime Minister Turgut Ozal of Turkey, February 24, 1989. Release status: Full. NAID 428079863.",
-    "researchNote": "PDF extent: 5 pages. Digital object: 1989-02-24--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428079863."
+    "researchNote": "PDF extent: 5 pages. Digital object: 1989-02-24--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428079863.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415889668",
+        "naid": "415889668",
+        "title": "[Presidential Daily Diary] 2/24/1989 [EMPTY]",
+        "date": "1989-02-24",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415889668",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-02_24_89-12791-015_415889668.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-02_24_89-12791-015_415889668.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 2/24/1989 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415889668.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-02_24_89-12791-015_415889668.pdf. Catalog: https://catalog.archives.gov/id/415889668."
+      },
+      {
+        "id": "daily-diary-ref-415889669",
+        "naid": "415889669",
+        "title": "[Presidential Daily Backup] 2/24/1989",
+        "date": "1989-02-24",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415889669",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-02_24_89-12791-016_415889669.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-02_24_89-12791-016_415889669.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 2/24/1989. Access restriction: Restricted - Possibly. NAID 415889669.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-02_24_89-12791-016_415889669.pdf. Catalog: https://catalog.archives.gov/id/415889669."
+      }
+    ]
   },
   {
     "id": "conversation-428082487",
@@ -97,7 +151,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Meeting with Prime Minister Turgut Ozal of Turkey, May 29, 1989 (no Memcon). Release status: Marker / no memorandum listed. NAID 428082487.",
-    "researchNote": "PDF extent: 2 pages. Digital object: 1989-05-29--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082487."
+    "researchNote": "PDF extent: 2 pages. Digital object: 1989-05-29--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082487.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415889856",
+        "naid": "415889856",
+        "title": "[Presidential Daily Diary] 5/29/1989 [EMPTY]",
+        "date": "1989-05-29",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415889856",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-05_29_98-12798-009_415889856.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-05_29_98-12798-009_415889856.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 5/29/1989 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415889856.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-05_29_98-12798-009_415889856.pdf. Catalog: https://catalog.archives.gov/id/415889856."
+      },
+      {
+        "id": "daily-diary-ref-415889857",
+        "naid": "415889857",
+        "title": "[Presidential Daily Backup] 5/29/1989",
+        "date": "1989-05-29",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415889857",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-05_29_98-12798-010_415889857.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-05_29_98-12798-010_415889857.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 5/29/1989. Access restriction: Restricted - Possibly. NAID 415889857.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-05_29_98-12798-010_415889857.pdf. Catalog: https://catalog.archives.gov/id/415889857."
+      }
+    ]
   },
   {
     "id": "conversation-428082497",
@@ -147,7 +255,61 @@ window.GCT_RECORDS = [
       "Greece"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Meeting with Andreas Papandreaou, Prime Minister of Greece, May 30, 1989. Release status: Full. NAID 428082497.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1989-05-30--Papandreou.pdf. Catalog: https://catalog.archives.gov/id/428082497."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1989-05-30--Papandreou.pdf. Catalog: https://catalog.archives.gov/id/428082497.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415889858",
+        "naid": "415889858",
+        "title": "[Presidential Daily Diary] 5/30/1989 [EMPTY]",
+        "date": "1989-05-30",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415889858",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-05_30_89-12798-011_415889858.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-05_30_89-12798-011_415889858.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 5/30/1989 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415889858.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-05_30_89-12798-011_415889858.pdf. Catalog: https://catalog.archives.gov/id/415889858."
+      },
+      {
+        "id": "daily-diary-ref-415889859",
+        "naid": "415889859",
+        "title": "[Presidential Daily Backup] 5/30/1989",
+        "date": "1989-05-30",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415889859",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-05_30_89-12798-012_415889859.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-05_30_89-12798-012_415889859.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 5/30/1989. Access restriction: Restricted - Possibly. NAID 415889859.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-05_30_89-12798-012_415889859.pdf. Catalog: https://catalog.archives.gov/id/415889859."
+      }
+    ]
   },
   {
     "id": "conversation-428080111",
@@ -197,7 +359,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call to Prime Minister Turgut Ozal of Turkey, July 3, 1989. Release status: Full. NAID 428080111.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1989-07-03--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080111."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1989-07-03--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080111.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415889926",
+        "naid": "415889926",
+        "title": "[Presidential Daily Diary] 7/3/1989 [EMPTY]",
+        "date": "1989-07-03",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415889926",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-07_03_89-12801-007_415889926.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_03_89-12801-007_415889926.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 7/3/1989 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415889926.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-07_03_89-12801-007_415889926.pdf. Catalog: https://catalog.archives.gov/id/415889926."
+      },
+      {
+        "id": "daily-diary-ref-415889927",
+        "naid": "415889927",
+        "title": "[Presidential Daily Backup] 7/3/1989",
+        "date": "1989-07-03",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415889927",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-07_03_89-12801-008_415889927.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_03_89-12801-008_415889927.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 7/3/1989. Access restriction: Restricted - Possibly. NAID 415889927.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-07_03_89-12801-008_415889927.pdf. Catalog: https://catalog.archives.gov/id/415889927."
+      }
+    ]
   },
   {
     "id": "conversation-428080149",
@@ -247,7 +463,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call to President Kenan Evren of Turkey, August 1, 1989. Release status: Full. NAID 428080149.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1989-08-01--Evren.pdf. Catalog: https://catalog.archives.gov/id/428080149."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1989-08-01--Evren.pdf. Catalog: https://catalog.archives.gov/id/428080149.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415889984",
+        "naid": "415889984",
+        "title": "[Presidential Daily Diary] 8/1/1989",
+        "date": "1989-08-01",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415889984",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-08_01_89-12802-025_415889984.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_01_89-12802-025_415889984.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/1/1989. Access restriction: Restricted - Possibly. NAID 415889984.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-08_01_89-12802-025_415889984.pdf. Catalog: https://catalog.archives.gov/id/415889984."
+      },
+      {
+        "id": "daily-diary-ref-415889985",
+        "naid": "415889985",
+        "title": "[Presidential Daily Backup] 8/1/1989",
+        "date": "1989-08-01",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415889985",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-08_01_89-12802-026_415889985.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_01_89-12802-026_415889985.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 8/1/1989. Access restriction: Restricted - Possibly. NAID 415889985.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-08_01_89-12802-026_415889985.pdf. Catalog: https://catalog.archives.gov/id/415889985."
+      }
+    ]
   },
   {
     "id": "conversation-428080153",
@@ -297,7 +567,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call to Prime Minister Turgut Ozal of Turkey, August 1, 1989. Release status: Full. NAID 428080153.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1989-08-01--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080153."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1989-08-01--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080153.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415889984",
+        "naid": "415889984",
+        "title": "[Presidential Daily Diary] 8/1/1989",
+        "date": "1989-08-01",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415889984",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-08_01_89-12802-025_415889984.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_01_89-12802-025_415889984.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/1/1989. Access restriction: Restricted - Possibly. NAID 415889984.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-08_01_89-12802-025_415889984.pdf. Catalog: https://catalog.archives.gov/id/415889984."
+      },
+      {
+        "id": "daily-diary-ref-415889985",
+        "naid": "415889985",
+        "title": "[Presidential Daily Backup] 8/1/1989",
+        "date": "1989-08-01",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415889985",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-08_01_89-12802-026_415889985.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_01_89-12802-026_415889985.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 8/1/1989. Access restriction: Restricted - Possibly. NAID 415889985.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-08_01_89-12802-026_415889985.pdf. Catalog: https://catalog.archives.gov/id/415889985."
+      }
+    ]
   },
   {
     "id": "conversation-428080191",
@@ -354,7 +678,61 @@ window.GCT_RECORDS = [
       "NATO"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, President's Lunch for Allied Representatives, September 25, 1989. Release status: Full. NAID 428080191.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1989-09-25--Allied-Representatives.pdf. Catalog: https://catalog.archives.gov/id/428080191."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1989-09-25--Allied-Representatives.pdf. Catalog: https://catalog.archives.gov/id/428080191.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890094",
+        "naid": "415890094",
+        "title": "[Presidential Daily Diary] 9/25/1989",
+        "date": "1989-09-25",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890094",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-09_25_89-12806-015_415890094.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-09_25_89-12806-015_415890094.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 9/25/1989. Access restriction: Restricted - Possibly. NAID 415890094.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-09_25_89-12806-015_415890094.pdf. Catalog: https://catalog.archives.gov/id/415890094."
+      },
+      {
+        "id": "daily-diary-ref-415890095",
+        "naid": "415890095",
+        "title": "[Presidential Daily Backup] 9/25/1989",
+        "date": "1989-09-25",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890095",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-09_25_89-12806-016_415890095.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-09_25_89-12806-016_415890095.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 9/25/1989. Access restriction: Restricted - Possibly. NAID 415890095.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-09_25_89-12806-016_415890095.pdf. Catalog: https://catalog.archives.gov/id/415890095."
+      }
+    ]
   },
   {
     "id": "conversation-428080269",
@@ -404,7 +782,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with Turgut Ozal, Prime Minister of Republic of Turkey. Release status: Full. NAID 428080269.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1989-10-02--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080269."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1989-10-02--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080269.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890108",
+        "naid": "415890108",
+        "title": "[Presidential Daily Diary] 10/2/1989",
+        "date": "1989-10-02",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890108",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-10_02_89-12807-007_415890108.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-10_02_89-12807-007_415890108.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 10/2/1989. Access restriction: Restricted - Possibly. NAID 415890108.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-10_02_89-12807-007_415890108.pdf. Catalog: https://catalog.archives.gov/id/415890108."
+      },
+      {
+        "id": "daily-diary-ref-415890109",
+        "naid": "415890109",
+        "title": "[Presidential Daily Backup] 10/2/1989",
+        "date": "1989-10-02",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890109",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-10_02_89-12807-008_415890109.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-10_02_89-12807-008_415890109.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 10/2/1989. Access restriction: Restricted - Possibly. NAID 415890109.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-10_02_89-12807-008_415890109.pdf. Catalog: https://catalog.archives.gov/id/415890109."
+      }
+    ]
   },
   {
     "id": "conversation-428080249",
@@ -454,7 +886,61 @@ window.GCT_RECORDS = [
       "Cyprus"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting with George Vassiliou, President of Cyprus. Release status: Full. NAID 428080249.",
-    "researchNote": "PDF extent: 6 pages. Digital object: 1989-10-04--Vassiliou.pdf. Catalog: https://catalog.archives.gov/id/428080249."
+    "researchNote": "PDF extent: 6 pages. Digital object: 1989-10-04--Vassiliou.pdf. Catalog: https://catalog.archives.gov/id/428080249.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890112",
+        "naid": "415890112",
+        "title": "[Presidential Daily Diary] 10/4/1989",
+        "date": "1989-10-04",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890112",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-10_04_89-12807-011_415890112.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-10_04_89-12807-011_415890112.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 10/4/1989. Access restriction: Restricted - Possibly. NAID 415890112.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-10_04_89-12807-011_415890112.pdf. Catalog: https://catalog.archives.gov/id/415890112."
+      },
+      {
+        "id": "daily-diary-ref-415890113",
+        "naid": "415890113",
+        "title": "[Presidential Daily Backup] 10/4/1989",
+        "date": "1989-10-04",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890113",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-10_04_89-12807-012_415890113.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-10_04_89-12807-012_415890113.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 10/4/1989. Access restriction: Restricted - Possibly. NAID 415890113.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-10_04_89-12807-012_415890113.pdf. Catalog: https://catalog.archives.gov/id/415890113."
+      }
+    ]
   },
   {
     "id": "conversation-428080281",
@@ -504,7 +990,61 @@ window.GCT_RECORDS = [
       "Greece"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Presentation of Credentials by Christos Zacharakis, Ambassador of Greece. Release status: Full. NAID 428080281.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1989-10-24--Zacharakis.pdf. Catalog: https://catalog.archives.gov/id/428080281."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1989-10-24--Zacharakis.pdf. Catalog: https://catalog.archives.gov/id/428080281.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890152",
+        "naid": "415890152",
+        "title": "[Presidential Daily Diary] 10/24/1989",
+        "date": "1989-10-24",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890152",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-10_24_89-12809-009_415890152.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-10_24_89-12809-009_415890152.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 10/24/1989. Access restriction: Restricted - Possibly. NAID 415890152.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-10_24_89-12809-009_415890152.pdf. Catalog: https://catalog.archives.gov/id/415890152."
+      },
+      {
+        "id": "daily-diary-ref-415890153",
+        "naid": "415890153",
+        "title": "[Presidential Daily Backup] 10/24/1989",
+        "date": "1989-10-24",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890153",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-10_24_89-12809-010_415890153.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-10_24_89-12809-010_415890153.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 10/24/1989. Access restriction: Restricted - Possibly. NAID 415890153.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-10_24_89-12809-010_415890153.pdf. Catalog: https://catalog.archives.gov/id/415890153."
+      }
+    ]
   },
   {
     "id": "conversation-428080363",
@@ -554,7 +1094,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call to President Turgut Ozal of Turkey, November 27, 1989. Release status: Full. NAID 428080363.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1989-11-27--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080363."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1989-11-27--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080363.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890220",
+        "naid": "415890220",
+        "title": "[Presidential Daily Diary] 11/27/1989 [EMPTY]",
+        "date": "1989-11-27",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890220",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-11_27_89-12812-011_415890220.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-11_27_89-12812-011_415890220.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 11/27/1989 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415890220.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-11_27_89-12812-011_415890220.pdf. Catalog: https://catalog.archives.gov/id/415890220."
+      },
+      {
+        "id": "daily-diary-ref-415890221",
+        "naid": "415890221",
+        "title": "[Presidential Daily Backup] 11/27/1989",
+        "date": "1989-11-27",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890221",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-11_27_89-12812-012_415890221.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-11_27_89-12812-012_415890221.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 11/27/1989. Access restriction: Restricted - Possibly. NAID 415890221.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-11_27_89-12812-012_415890221.pdf. Catalog: https://catalog.archives.gov/id/415890221."
+      }
+    ]
   },
   {
     "id": "conversation-428080371",
@@ -604,7 +1198,61 @@ window.GCT_RECORDS = [
       "Greece"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call to Prime Minister Xenofon Zolotas of Greece, November 27, 1989. Release status: Full. NAID 428080371.",
-    "researchNote": "PDF extent: 2 pages. Digital object: 1989-11-27--Zolotas.pdf. Catalog: https://catalog.archives.gov/id/428080371."
+    "researchNote": "PDF extent: 2 pages. Digital object: 1989-11-27--Zolotas.pdf. Catalog: https://catalog.archives.gov/id/428080371.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890220",
+        "naid": "415890220",
+        "title": "[Presidential Daily Diary] 11/27/1989 [EMPTY]",
+        "date": "1989-11-27",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890220",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-11_27_89-12812-011_415890220.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-11_27_89-12812-011_415890220.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 11/27/1989 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415890220.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-11_27_89-12812-011_415890220.pdf. Catalog: https://catalog.archives.gov/id/415890220."
+      },
+      {
+        "id": "daily-diary-ref-415890221",
+        "naid": "415890221",
+        "title": "[Presidential Daily Backup] 11/27/1989",
+        "date": "1989-11-27",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890221",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-11_27_89-12812-012_415890221.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-11_27_89-12812-012_415890221.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 11/27/1989. Access restriction: Restricted - Possibly. NAID 415890221.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-11_27_89-12812-012_415890221.pdf. Catalog: https://catalog.archives.gov/id/415890221."
+      }
+    ]
   },
   {
     "id": "conversation-428080435",
@@ -654,7 +1302,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting With President Turgut Ozal of Turkey, January 18, 1990 (1 of 2). Release status: Full. NAID 428080435.",
-    "researchNote": "PDF extent: 5 pages. Digital object: 1990-01-18--Ozal-1.pdf. Catalog: https://catalog.archives.gov/id/428080435."
+    "researchNote": "PDF extent: 5 pages. Digital object: 1990-01-18--Ozal-1.pdf. Catalog: https://catalog.archives.gov/id/428080435.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890324",
+        "naid": "415890324",
+        "title": "[Presidential Daily Diary] 1/18/1990 [EMPTY]",
+        "date": "1990-01-18",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890324",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-01_18_90-12815-015_415890324.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_18_90-12815-015_415890324.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 1/18/1990 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415890324.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-01_18_90-12815-015_415890324.pdf. Catalog: https://catalog.archives.gov/id/415890324."
+      },
+      {
+        "id": "daily-diary-ref-415890325",
+        "naid": "415890325",
+        "title": "[Presidential Daily Backup] 1/18/1990",
+        "date": "1990-01-18",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890325",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-01_18_90-12815-016_415890325.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_18_90-12815-016_415890325.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 1/18/1990. Access restriction: Restricted - Possibly. NAID 415890325.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-01_18_90-12815-016_415890325.pdf. Catalog: https://catalog.archives.gov/id/415890325."
+      }
+    ]
   },
   {
     "id": "conversation-428080437",
@@ -704,7 +1406,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting with President Turgut Ozal of Turkey, January 18, 1990 (2 of 2). Release status: Partial. NAID 428080437.",
-    "researchNote": "PDF extent: 8 pages. Digital object: 1990-01-18--Ozal-2.pdf. Catalog: https://catalog.archives.gov/id/428080437."
+    "researchNote": "PDF extent: 8 pages. Digital object: 1990-01-18--Ozal-2.pdf. Catalog: https://catalog.archives.gov/id/428080437.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890324",
+        "naid": "415890324",
+        "title": "[Presidential Daily Diary] 1/18/1990 [EMPTY]",
+        "date": "1990-01-18",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890324",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-01_18_90-12815-015_415890324.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_18_90-12815-015_415890324.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 1/18/1990 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415890324.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-01_18_90-12815-015_415890324.pdf. Catalog: https://catalog.archives.gov/id/415890324."
+      },
+      {
+        "id": "daily-diary-ref-415890325",
+        "naid": "415890325",
+        "title": "[Presidential Daily Backup] 1/18/1990",
+        "date": "1990-01-18",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890325",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-01_18_90-12815-016_415890325.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_18_90-12815-016_415890325.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 1/18/1990. Access restriction: Restricted - Possibly. NAID 415890325.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-01_18_90-12815-016_415890325.pdf. Catalog: https://catalog.archives.gov/id/415890325."
+      }
+    ]
   },
   {
     "id": "conversation-428080735",
@@ -754,7 +1510,61 @@ window.GCT_RECORDS = [
       "Greece"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting and Lunch with Prime Minister Mitsotakis, June 6, 1990. Release status: Full. NAID 428080735.",
-    "researchNote": "PDF extent: 11 pages. Digital object: 1990-06-06--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428080735."
+    "researchNote": "PDF extent: 11 pages. Digital object: 1990-06-06--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428080735.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890602",
+        "naid": "415890602",
+        "title": "[Presidential Daily Diary] 6/6/1990",
+        "date": "1990-06-06",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890602",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-06_06_90-12828-027_415890602.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-06_06_90-12828-027_415890602.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 6/6/1990. Access restriction: Restricted - Possibly. NAID 415890602.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-06_06_90-12828-027_415890602.pdf. Catalog: https://catalog.archives.gov/id/415890602."
+      },
+      {
+        "id": "daily-diary-ref-415890603",
+        "naid": "415890603",
+        "title": "[Presidential Daily Backup] 6/6/1990",
+        "date": "1990-06-06",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890603",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-06_06_90-12828-028_415890603.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-06_06_90-12828-028_415890603.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 6/6/1990. Access restriction: Restricted - Possibly. NAID 415890603.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-06_06_90-12828-028_415890603.pdf. Catalog: https://catalog.archives.gov/id/415890603."
+      }
+    ]
   },
   {
     "id": "conversation-428080861",
@@ -804,7 +1614,35 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call to President Turgut Ozal of Turkey, July 26, 1990. Release status: Full. NAID 428080861.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1990-07-26--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080861."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1990-07-26--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080861.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890703",
+        "naid": "415890703",
+        "title": "[Presidential Daily Backup] 7/26/1990",
+        "date": "1990-07-26",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890703",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-07_26_90-12833-004_415890703.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_26_90-12833-004_415890703.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 7/26/1990. Access restriction: Restricted - Possibly. NAID 415890703.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-07_26_90-12833-004_415890703.pdf. Catalog: https://catalog.archives.gov/id/415890703."
+      }
+    ]
   },
   {
     "id": "conversation-428080881",
@@ -854,7 +1692,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call to President Turgut Ozal of Turkey, August 3, 1990. Release status: Full. NAID 428080881.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1990-08-03--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080881."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1990-08-03--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080881.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890718",
+        "naid": "415890718",
+        "title": "[Presidential Daily Diary] 8/3/1990",
+        "date": "1990-08-03",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890718",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_03_90-12833-019_415890718.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_03_90-12833-019_415890718.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/3/1990. Access restriction: Restricted - Possibly. NAID 415890718.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-08_03_90-12833-019_415890718.pdf. Catalog: https://catalog.archives.gov/id/415890718."
+      },
+      {
+        "id": "daily-diary-ref-415890719",
+        "naid": "415890719",
+        "title": "[Presidential Daily Backup] 8/3/1990",
+        "date": "1990-08-03",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890719",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_03_90-12833-020_415890719.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_03_90-12833-020_415890719.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 8/3/1990. Access restriction: Restricted - Possibly. NAID 415890719.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-08_03_90-12833-020_415890719.pdf. Catalog: https://catalog.archives.gov/id/415890719."
+      }
+    ]
   },
   {
     "id": "conversation-428080891",
@@ -904,7 +1796,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call to President Turgut Ozal of Turkey, August 4, 1990. Release status: Partial. NAID 428080891.",
-    "researchNote": "PDF extent: 2 pages. Digital object: 1990-08-04--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080891."
+    "researchNote": "PDF extent: 2 pages. Digital object: 1990-08-04--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080891.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890720",
+        "naid": "415890720",
+        "title": "[Presidential Daily Diary] 8/4/1990",
+        "date": "1990-08-04",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890720",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_04_90-12833-021_415890720.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_04_90-12833-021_415890720.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/4/1990. Access restriction: Restricted - Possibly. NAID 415890720.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-08_04_90-12833-021_415890720.pdf. Catalog: https://catalog.archives.gov/id/415890720."
+      },
+      {
+        "id": "daily-diary-ref-415890721",
+        "naid": "415890721",
+        "title": "[Presidential Daily Backup] 8/4/1990",
+        "date": "1990-08-04",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890721",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_04_90-12833-022_415890721.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_04_90-12833-022_415890721.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 8/4/1990. Access restriction: Restricted - Possibly. NAID 415890721.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-08_04_90-12833-022_415890721.pdf. Catalog: https://catalog.archives.gov/id/415890721."
+      }
+    ]
   },
   {
     "id": "conversation-428080899",
@@ -954,7 +1900,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with President Ozal of Turkey, August 5, 1990. Release status: Full. NAID 428080899.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1990-08-05--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080899."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1990-08-05--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080899.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890722",
+        "naid": "415890722",
+        "title": "[Presidential Daily Diary] 8/5/1990",
+        "date": "1990-08-05",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890722",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_05_90-12833-023_415890722.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_05_90-12833-023_415890722.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/5/1990. Access restriction: Restricted - Possibly. NAID 415890722.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-08_05_90-12833-023_415890722.pdf. Catalog: https://catalog.archives.gov/id/415890722."
+      },
+      {
+        "id": "daily-diary-ref-415890723",
+        "naid": "415890723",
+        "title": "[Presidential Daily Backup] 8/5/1990",
+        "date": "1990-08-05",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890723",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_05_90-12833-024_415890723.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_05_90-12833-024_415890723.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 8/5/1990. Access restriction: Restricted - Possibly. NAID 415890723.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-08_05_90-12833-024_415890723.pdf. Catalog: https://catalog.archives.gov/id/415890723."
+      }
+    ]
   },
   {
     "id": "conversation-428080911",
@@ -1004,7 +2004,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call from President Turgut Ozal of Turkey, August 8, 1990. Release status: Full. NAID 428080911.",
-    "researchNote": "PDF extent: 2 pages. Digital object: 1990-08-08--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080911."
+    "researchNote": "PDF extent: 2 pages. Digital object: 1990-08-08--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080911.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890728",
+        "naid": "415890728",
+        "title": "[Presidential Daily Diary] 8/8/1990  [EMPTY]",
+        "date": "1990-08-08",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890728",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_08_90-12834-003_415890728.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_08_90-12834-003_415890728.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/8/1990 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415890728.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-08_08_90-12834-003_415890728.pdf. Catalog: https://catalog.archives.gov/id/415890728."
+      },
+      {
+        "id": "daily-diary-ref-415890729",
+        "naid": "415890729",
+        "title": "[Presidential Daily Backup] 8/8/1990",
+        "date": "1990-08-08",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890729",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_08_90-12834-004_415890729.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_08_90-12834-004_415890729.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 8/8/1990. Access restriction: Restricted - Possibly. NAID 415890729.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-08_08_90-12834-004_415890729.pdf. Catalog: https://catalog.archives.gov/id/415890729."
+      }
+    ]
   },
   {
     "id": "conversation-428080953",
@@ -1054,7 +2108,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call from President Turgut Ozal of Turkey, August 14, 1990. Release status: Full. NAID 428080953.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1990-08-14--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080953."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1990-08-14--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080953.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890740",
+        "naid": "415890740",
+        "title": "[Presidential Daily Diary] 8/14/1990",
+        "date": "1990-08-14",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890740",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_14_90-12834-015_415890740.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_14_90-12834-015_415890740.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/14/1990. Access restriction: Restricted - Possibly. NAID 415890740.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-08_14_90-12834-015_415890740.pdf. Catalog: https://catalog.archives.gov/id/415890740."
+      },
+      {
+        "id": "daily-diary-ref-415890741",
+        "naid": "415890741",
+        "title": "[Presidential Daily Backup] 8/14/1990",
+        "date": "1990-08-14",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890741",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_14_90-12834-016_415890741.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_14_90-12834-016_415890741.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 8/14/1990. Access restriction: Restricted - Possibly. NAID 415890741.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-08_14_90-12834-016_415890741.pdf. Catalog: https://catalog.archives.gov/id/415890741."
+      }
+    ]
   },
   {
     "id": "conversation-428080933",
@@ -1104,7 +2212,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call with Turgut Ozal, August 16, 1990. Release status: Marker / no memorandum listed. NAID 428080933.",
-    "researchNote": "PDF extent: 2 pages. Digital object: 1990-08-16--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080933."
+    "researchNote": "PDF extent: 2 pages. Digital object: 1990-08-16--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080933.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890744",
+        "naid": "415890744",
+        "title": "[Presidential Daily Diary] 8/16/1990  [EMPTY]",
+        "date": "1990-08-16",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890744",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_16_90-12834-019_415890744.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_16_90-12834-019_415890744.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/16/1990 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415890744.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-08_16_90-12834-019_415890744.pdf. Catalog: https://catalog.archives.gov/id/415890744."
+      },
+      {
+        "id": "daily-diary-ref-415890745",
+        "naid": "415890745",
+        "title": "[Presidential Daily Backup] 8/16/1990",
+        "date": "1990-08-16",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890745",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_16_90-12834-020_415890745.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_16_90-12834-020_415890745.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 8/16/1990. Access restriction: Restricted - Possibly. NAID 415890745.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-08_16_90-12834-020_415890745.pdf. Catalog: https://catalog.archives.gov/id/415890745."
+      }
+    ]
   },
   {
     "id": "conversation-428080959",
@@ -1154,7 +2316,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, August 20, 1990. Release status: Full. NAID 428080959.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1990-08-20--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080959."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1990-08-20--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080959.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890752",
+        "naid": "415890752",
+        "title": "[Presidential Daily Diary] 8/20/1990  [EMPTY]",
+        "date": "1990-08-20",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890752",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_20_90-12834-027_415890752.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_20_90-12834-027_415890752.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/20/1990 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415890752.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-08_20_90-12834-027_415890752.pdf. Catalog: https://catalog.archives.gov/id/415890752."
+      },
+      {
+        "id": "daily-diary-ref-415890753",
+        "naid": "415890753",
+        "title": "[Presidential Daily Backup] 8/20/1990",
+        "date": "1990-08-20",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890753",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_20_90-12834-028_415890753.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_20_90-12834-028_415890753.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 8/20/1990. Access restriction: Restricted - Possibly. NAID 415890753.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-08_20_90-12834-028_415890753.pdf. Catalog: https://catalog.archives.gov/id/415890753."
+      }
+    ]
   },
   {
     "id": "conversation-428080965",
@@ -1204,7 +2420,61 @@ window.GCT_RECORDS = [
       "Greece"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with Prime Minister Constantine Mitsotakis of Greece, August 22, 1990. Release status: Full. NAID 428080965.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1990-08-22--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428080965."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1990-08-22--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428080965.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890756",
+        "naid": "415890756",
+        "title": "[Presidential Daily Diary] 8/22/1990  [EMPTY]",
+        "date": "1990-08-22",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890756",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_22_90-12834-031_415890756.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_22_90-12834-031_415890756.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/22/1990 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415890756.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-08_22_90-12834-031_415890756.pdf. Catalog: https://catalog.archives.gov/id/415890756."
+      },
+      {
+        "id": "daily-diary-ref-415890757",
+        "naid": "415890757",
+        "title": "[Presidential Daily Backup] 8/22/1990",
+        "date": "1990-08-22",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890757",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_22_90-12834-032_415890757.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_22_90-12834-032_415890757.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 8/22/1990. Access restriction: Restricted - Possibly. NAID 415890757.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-08_22_90-12834-032_415890757.pdf. Catalog: https://catalog.archives.gov/id/415890757."
+      }
+    ]
   },
   {
     "id": "conversation-428080971",
@@ -1254,7 +2524,61 @@ window.GCT_RECORDS = [
       "Cyprus"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with President George Vassiliou of Cyprus, August 25, 1990. Release status: Full. NAID 428080971.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1990-08-25--Vassiliou.pdf. Catalog: https://catalog.archives.gov/id/428080971."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1990-08-25--Vassiliou.pdf. Catalog: https://catalog.archives.gov/id/428080971.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890762",
+        "naid": "415890762",
+        "title": "[Presidential Daily Diary] 8/25/1990  [EMPTY]",
+        "date": "1990-08-25",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890762",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_25_90-12834-037_415890762.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_25_90-12834-037_415890762.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/25/1990 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415890762.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-08_25_90-12834-037_415890762.pdf. Catalog: https://catalog.archives.gov/id/415890762."
+      },
+      {
+        "id": "daily-diary-ref-415890763",
+        "naid": "415890763",
+        "title": "[Presidential Daily Backup] 8/25/1990",
+        "date": "1990-08-25",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890763",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_25_90-12834-038_415890763.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_25_90-12834-038_415890763.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 8/25/1990. Access restriction: Restricted - Possibly. NAID 415890763.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-08_25_90-12834-038_415890763.pdf. Catalog: https://catalog.archives.gov/id/415890763."
+      }
+    ]
   },
   {
     "id": "conversation-428080999",
@@ -1304,7 +2628,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, August 30, 1990. Release status: Full. NAID 428080999.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1990-08-30--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080999."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1990-08-30--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428080999.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890772",
+        "naid": "415890772",
+        "title": "[Presidential Daily Diary] 8/30/1990  [EMPTY]",
+        "date": "1990-08-30",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890772",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_30_90-12835-005_415890772.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_30_90-12835-005_415890772.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/30/1990 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415890772.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-08_30_90-12835-005_415890772.pdf. Catalog: https://catalog.archives.gov/id/415890772."
+      },
+      {
+        "id": "daily-diary-ref-415890773",
+        "naid": "415890773",
+        "title": "[Presidential Daily Backup] 8/30/1990",
+        "date": "1990-08-30",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890773",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-08_30_90-12835-006_415890773.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_30_90-12835-006_415890773.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 8/30/1990. Access restriction: Restricted - Possibly. NAID 415890773.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-08_30_90-12835-006_415890773.pdf. Catalog: https://catalog.archives.gov/id/415890773."
+      }
+    ]
   },
   {
     "id": "conversation-428081021",
@@ -1354,7 +2732,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, September 6, 1990. Release status: Full. NAID 428081021.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1990-09-06--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081021."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1990-09-06--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081021.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890786",
+        "naid": "415890786",
+        "title": "[Presidential Daily Diary] 9/6/1990  [EMPTY]",
+        "date": "1990-09-06",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890786",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-09_06_90-12835-019_415890786.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-09_06_90-12835-019_415890786.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 9/6/1990 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415890786.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-09_06_90-12835-019_415890786.pdf. Catalog: https://catalog.archives.gov/id/415890786."
+      },
+      {
+        "id": "daily-diary-ref-415890787",
+        "naid": "415890787",
+        "title": "[Presidential Daily Backup] 9/6/1990",
+        "date": "1990-09-06",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890787",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-09_06_90-12835-020_415890787.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-09_06_90-12835-020_415890787.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 9/6/1990. Access restriction: Restricted - Possibly. NAID 415890787.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-09_06_90-12835-020_415890787.pdf. Catalog: https://catalog.archives.gov/id/415890787."
+      }
+    ]
   },
   {
     "id": "conversation-428081055",
@@ -1404,7 +2836,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call to President Turgut Ozal of Turkey, September 10, 1990. Release status: Full. NAID 428081055.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1990-09-10--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081055."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1990-09-10--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081055.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890794",
+        "naid": "415890794",
+        "title": "[Presidential Daily Diary] 9/10/1990",
+        "date": "1990-09-10",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890794",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-09_10_90-12835-027_415890794.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-09_10_90-12835-027_415890794.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 9/10/1990. Access restriction: Restricted - Possibly. NAID 415890794.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-09_10_90-12835-027_415890794.pdf. Catalog: https://catalog.archives.gov/id/415890794."
+      },
+      {
+        "id": "daily-diary-ref-415890795",
+        "naid": "415890795",
+        "title": "[Presidential Daily Backup] 9/10/1990",
+        "date": "1990-09-10",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890795",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-09_10_90-12835-028_415890795.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-09_10_90-12835-028_415890795.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 9/10/1990. Access restriction: Restricted - Possibly. NAID 415890795.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-09_10_90-12835-028_415890795.pdf. Catalog: https://catalog.archives.gov/id/415890795."
+      }
+    ]
   },
   {
     "id": "conversation-428081035",
@@ -1454,7 +2940,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting with President Ozal of Turkey, September 25, 1990. Release status: Full. NAID 428081035.",
-    "researchNote": "PDF extent: 7 pages. Digital object: 1990-09-25--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081035."
+    "researchNote": "PDF extent: 7 pages. Digital object: 1990-09-25--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081035.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890824",
+        "naid": "415890824",
+        "title": "[Presidential Daily Diary] 9/25/1990",
+        "date": "1990-09-25",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890824",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-09_25_90-12837-001_415890824.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-09_25_90-12837-001_415890824.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 9/25/1990. Access restriction: Restricted - Possibly. NAID 415890824.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-09_25_90-12837-001_415890824.pdf. Catalog: https://catalog.archives.gov/id/415890824."
+      },
+      {
+        "id": "daily-diary-ref-415890825",
+        "naid": "415890825",
+        "title": "[Presidential Daily Backup] 9/25/1990",
+        "date": "1990-09-25",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890825",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-09_25_90-12837-002_415890825.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-09_25_90-12837-002_415890825.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 9/25/1990. Access restriction: Restricted - Possibly. NAID 415890825.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-09_25_90-12837-002_415890825.pdf. Catalog: https://catalog.archives.gov/id/415890825."
+      }
+    ]
   },
   {
     "id": "conversation-428081155",
@@ -1504,7 +3044,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of' Turkey, October 24, 1990. Release status: Full. NAID 428081155.",
-    "researchNote": "PDF extent: 5 pages. Digital object: 1990-10-24--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081155."
+    "researchNote": "PDF extent: 5 pages. Digital object: 1990-10-24--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081155.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890884",
+        "naid": "415890884",
+        "title": "[Presidential Daily Diary] 10/24/1990",
+        "date": "1990-10-24",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890884",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-10_24_90-12840-016_415890884.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-10_24_90-12840-016_415890884.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 10/24/1990. Access restriction: Restricted - Possibly. NAID 415890884.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-10_24_90-12840-016_415890884.pdf. Catalog: https://catalog.archives.gov/id/415890884."
+      },
+      {
+        "id": "daily-diary-ref-415890885",
+        "naid": "415890885",
+        "title": "[Presidential Daily Backup] 10/24/1990",
+        "date": "1990-10-24",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890885",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-10_24_90-12840-017_415890885.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-10_24_90-12840-017_415890885.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 10/24/1990. Access restriction: Restricted - Possibly. NAID 415890885.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-10_24_90-12840-017_415890885.pdf. Catalog: https://catalog.archives.gov/id/415890885."
+      }
+    ]
   },
   {
     "id": "conversation-428081169",
@@ -1554,7 +3148,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, October 31, 1990. Release status: Full. NAID 428081169.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1990-10-31--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081169."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1990-10-31--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081169.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890898",
+        "naid": "415890898",
+        "title": "[Presidential Daily Diary] 10/31/1990",
+        "date": "1990-10-31",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890898",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-10_31_90-12841-009_415890898.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-10_31_90-12841-009_415890898.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 10/31/1990. Access restriction: Restricted - Possibly. NAID 415890898.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-10_31_90-12841-009_415890898.pdf. Catalog: https://catalog.archives.gov/id/415890898."
+      },
+      {
+        "id": "daily-diary-ref-415890899",
+        "naid": "415890899",
+        "title": "[Presidential Daily Backup] 10/31/1990",
+        "date": "1990-10-31",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890899",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-10_31_90-12841-010_415890899.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-10_31_90-12841-010_415890899.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 10/31/1990. Access restriction: Restricted - Possibly. NAID 415890899.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-10_31_90-12841-010_415890899.pdf. Catalog: https://catalog.archives.gov/id/415890899."
+      }
+    ]
   },
   {
     "id": "conversation-428081195",
@@ -1604,7 +3252,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting with President Ozal of Turkey, November 20, 1990. Release status: Full. NAID 428081195.",
-    "researchNote": "PDF extent: 6 pages. Digital object: 1990-11-20--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081195."
+    "researchNote": "PDF extent: 6 pages. Digital object: 1990-11-20--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081195.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890938",
+        "naid": "415890938",
+        "title": "[Presidential Daily Diary] 11/20/1990  [EMPTY]",
+        "date": "1990-11-20",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890938",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-11_20_90-12842-027_415890938.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-11_20_90-12842-027_415890938.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 11/20/1990 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415890938.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-11_20_90-12842-027_415890938.pdf. Catalog: https://catalog.archives.gov/id/415890938."
+      },
+      {
+        "id": "daily-diary-ref-415890939",
+        "naid": "415890939",
+        "title": "[Presidential Daily Backup] 11/20/1990",
+        "date": "1990-11-20",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890939",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-11_20_90-12842-028_415890939.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-11_20_90-12842-028_415890939.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 11/20/1990. Access restriction: Restricted - Possibly. NAID 415890939.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-11_20_90-12842-028_415890939.pdf. Catalog: https://catalog.archives.gov/id/415890939."
+      }
+    ]
   },
   {
     "id": "conversation-428081201",
@@ -1654,7 +3356,61 @@ window.GCT_RECORDS = [
       "Greece"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting with Prime Minister Mitsotakis of Greece, November 21, 1990. Release status: Full. NAID 428081201.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1990-11-21--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428081201."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1990-11-21--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428081201.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890940",
+        "naid": "415890940",
+        "title": "[Presidential Daily Diary] 11/21/1990  [EMPTY]",
+        "date": "1990-11-21",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890940",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-11_21_90-12843-001_415890940.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-11_21_90-12843-001_415890940.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 11/21/1990 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415890940.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-11_21_90-12843-001_415890940.pdf. Catalog: https://catalog.archives.gov/id/415890940."
+      },
+      {
+        "id": "daily-diary-ref-415890941",
+        "naid": "415890941",
+        "title": "[Presidential Daily Backup] 11/21/1990",
+        "date": "1990-11-21",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890941",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-11_21_90-12843-002_415890941.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-11_21_90-12843-002_415890941.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 11/21/1990. Access restriction: Restricted - Possibly. NAID 415890941.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-11_21_90-12843-002_415890941.pdf. Catalog: https://catalog.archives.gov/id/415890941."
+      }
+    ]
   },
   {
     "id": "conversation-428081261",
@@ -1704,7 +3460,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, November 30, 1990. Release status: Full. NAID 428081261.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1990-11-30--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081261."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1990-11-30--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081261.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890958",
+        "naid": "415890958",
+        "title": "[Presidential Daily Diary] 11/30/1990",
+        "date": "1990-11-30",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890958",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-11_30_90-12843-019_415890958.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-11_30_90-12843-019_415890958.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 11/30/1990. Access restriction: Restricted - Possibly. NAID 415890958.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-11_30_90-12843-019_415890958.pdf. Catalog: https://catalog.archives.gov/id/415890958."
+      },
+      {
+        "id": "daily-diary-ref-415890959",
+        "naid": "415890959",
+        "title": "[Presidential Daily Backup] 11/30/1990",
+        "date": "1990-11-30",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890959",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-11_30_90-12843-020_415890959.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-11_30_90-12843-020_415890959.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 11/30/1990. Access restriction: Restricted - Possibly. NAID 415890959.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-11_30_90-12843-020_415890959.pdf. Catalog: https://catalog.archives.gov/id/415890959."
+      }
+    ]
   },
   {
     "id": "conversation-428081263",
@@ -1754,7 +3564,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call from Turkish President Turgut Ozal, December I, 1990. Release status: Full. NAID 428081263.",
-    "researchNote": "PDF extent: 5 pages. Digital object: 1990-12-01--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081263."
+    "researchNote": "PDF extent: 5 pages. Digital object: 1990-12-01--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081263.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890960",
+        "naid": "415890960",
+        "title": "[Presidential Daily Diary] 12/1/1990",
+        "date": "1990-12-01",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890960",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-12_01_90-12843-021_415890960.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_01_90-12843-021_415890960.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 12/1/1990. Access restriction: Restricted - Possibly. NAID 415890960.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-12_01_90-12843-021_415890960.pdf. Catalog: https://catalog.archives.gov/id/415890960."
+      },
+      {
+        "id": "daily-diary-ref-415890961",
+        "naid": "415890961",
+        "title": "[Presidential Daily Backup] 12/1/1990",
+        "date": "1990-12-01",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890961",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-12_01_90-12843-022_415890961.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_01_90-12843-022_415890961.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 12/1/1990. Access restriction: Restricted - Possibly. NAID 415890961.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-12_01_90-12843-022_415890961.pdf. Catalog: https://catalog.archives.gov/id/415890961."
+      }
+    ]
   },
   {
     "id": "conversation-428081251",
@@ -1804,7 +3668,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call from Turgut Ozal, December 16, 1990. Release status: Marker / no memorandum listed. NAID 428081251.",
-    "researchNote": "PDF extent: 2 pages. Digital object: 1990-12-16--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081251."
+    "researchNote": "PDF extent: 2 pages. Digital object: 1990-12-16--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081251.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415890990",
+        "naid": "415890990",
+        "title": "[Presidential Daily Diary] 12/16/1990",
+        "date": "1990-12-16",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890990",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-12_16_90-12845-005_415890990.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_16_90-12845-005_415890990.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 12/16/1990. Access restriction: Restricted - Possibly. NAID 415890990.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-12_16_90-12845-005_415890990.pdf. Catalog: https://catalog.archives.gov/id/415890990."
+      },
+      {
+        "id": "daily-diary-ref-415890991",
+        "naid": "415890991",
+        "title": "[Presidential Daily Backup] 12/16/1990",
+        "date": "1990-12-16",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415890991",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-12_16_90-12845-006_415890991.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_16_90-12845-006_415890991.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 12/16/1990. Access restriction: Restricted - Possibly. NAID 415890991.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-12_16_90-12845-006_415890991.pdf. Catalog: https://catalog.archives.gov/id/415890991."
+      }
+    ]
   },
   {
     "id": "conversation-428081287",
@@ -1854,7 +3772,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with President Turgut Ozal of Turkey, December 28, 1990. Release status: Full. NAID 428081287.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1990-12-28--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081287."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1990-12-28--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081287.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891014",
+        "naid": "415891014",
+        "title": "[Presidential Daily Diary] 12/28/1990",
+        "date": "1990-12-28",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891014",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-12_28_90-12845-029_415891014.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_28_90-12845-029_415891014.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 12/28/1990. Access restriction: Restricted - Possibly. NAID 415891014.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-12_28_90-12845-029_415891014.pdf. Catalog: https://catalog.archives.gov/id/415891014."
+      },
+      {
+        "id": "daily-diary-ref-415891015",
+        "naid": "415891015",
+        "title": "[Presidential Daily Backup] 12/28/1990",
+        "date": "1990-12-28",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891015",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1990/41-bpr-apts_sch-dd-12_28_90-12845-030_415891015.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_28_90-12845-030_415891015.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 12/28/1990. Access restriction: Restricted - Possibly. NAID 415891015.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-12_28_90-12845-030_415891015.pdf. Catalog: https://catalog.archives.gov/id/415891015."
+      }
+    ]
   },
   {
     "id": "conversation-428081313",
@@ -1904,7 +3876,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, January 10, 1991 (1 of 2). Release status: Full. NAID 428081313.",
-    "researchNote": "PDF extent: 5 pages. Digital object: 1991-01-10--Ozal-1.pdf. Catalog: https://catalog.archives.gov/id/428081313."
+    "researchNote": "PDF extent: 5 pages. Digital object: 1991-01-10--Ozal-1.pdf. Catalog: https://catalog.archives.gov/id/428081313.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891040",
+        "naid": "415891040",
+        "title": "[Presidential Daily Diary] 1/10/1991",
+        "date": "1991-01-10",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891040",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-01_10_91-12846-023_415891040.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_10_91-12846-023_415891040.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 1/10/1991. Access restriction: Restricted - Possibly. NAID 415891040.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-01_10_91-12846-023_415891040.pdf. Catalog: https://catalog.archives.gov/id/415891040."
+      },
+      {
+        "id": "daily-diary-ref-415891041",
+        "naid": "415891041",
+        "title": "[Presidential Daily Backup] 1/10/1991",
+        "date": "1991-01-10",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891041",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-01_10_91-12846-024_415891041.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_10_91-12846-024_415891041.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 1/10/1991. Access restriction: Restricted - Possibly. NAID 415891041.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-01_10_91-12846-024_415891041.pdf. Catalog: https://catalog.archives.gov/id/415891041."
+      }
+    ]
   },
   {
     "id": "conversation-428081315",
@@ -1954,7 +3980,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, January 10, 1991 (2 of 2). Release status: Full. NAID 428081315.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1991-01-10--Ozal-2.pdf. Catalog: https://catalog.archives.gov/id/428081315."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1991-01-10--Ozal-2.pdf. Catalog: https://catalog.archives.gov/id/428081315.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891040",
+        "naid": "415891040",
+        "title": "[Presidential Daily Diary] 1/10/1991",
+        "date": "1991-01-10",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891040",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-01_10_91-12846-023_415891040.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_10_91-12846-023_415891040.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 1/10/1991. Access restriction: Restricted - Possibly. NAID 415891040.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-01_10_91-12846-023_415891040.pdf. Catalog: https://catalog.archives.gov/id/415891040."
+      },
+      {
+        "id": "daily-diary-ref-415891041",
+        "naid": "415891041",
+        "title": "[Presidential Daily Backup] 1/10/1991",
+        "date": "1991-01-10",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891041",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-01_10_91-12846-024_415891041.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_10_91-12846-024_415891041.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 1/10/1991. Access restriction: Restricted - Possibly. NAID 415891041.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-01_10_91-12846-024_415891041.pdf. Catalog: https://catalog.archives.gov/id/415891041."
+      }
+    ]
   },
   {
     "id": "conversation-428081343",
@@ -2004,7 +4084,61 @@ window.GCT_RECORDS = [
       "Greece"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with Prime Minister Constantine Mitsotakis of Greece, January 14, 1991. Release status: Full. NAID 428081343.",
-    "researchNote": "PDF extent: 2 pages. Digital object: 1991-01-14--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428081343."
+    "researchNote": "PDF extent: 2 pages. Digital object: 1991-01-14--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428081343.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891048",
+        "naid": "415891048",
+        "title": "[Presidential Daily Diary] 1/14/1991",
+        "date": "1991-01-14",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891048",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-01_14_91-12846-031_415891048.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_14_91-12846-031_415891048.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 1/14/1991. Access restriction: Restricted - Possibly. NAID 415891048.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-01_14_91-12846-031_415891048.pdf. Catalog: https://catalog.archives.gov/id/415891048."
+      },
+      {
+        "id": "daily-diary-ref-415891049",
+        "naid": "415891049",
+        "title": "[Presidential Daily Backup] 1/14/1991",
+        "date": "1991-01-14",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891049",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-01_14_91-12846-032_415891049.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_14_91-12846-032_415891049.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 1/14/1991. Access restriction: Restricted - Possibly. NAID 415891049.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-01_14_91-12846-032_415891049.pdf. Catalog: https://catalog.archives.gov/id/415891049."
+      }
+    ]
   },
   {
     "id": "conversation-428081335",
@@ -2054,7 +4188,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call to Turgut Ozal, January 16, 1991. Release status: Marker / no memorandum listed. NAID 428081335.",
-    "researchNote": "PDF extent: 2 pages. Digital object: 1991-01-16--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081335."
+    "researchNote": "PDF extent: 2 pages. Digital object: 1991-01-16--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081335.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891052",
+        "naid": "415891052",
+        "title": "[Presidential Daily Diary] 1/16/1991",
+        "date": "1991-01-16",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891052",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-01_16_91-12847-001_415891052.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_16_91-12847-001_415891052.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 1/16/1991. Access restriction: Restricted - Possibly. NAID 415891052.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-01_16_91-12847-001_415891052.pdf. Catalog: https://catalog.archives.gov/id/415891052."
+      },
+      {
+        "id": "daily-diary-ref-415891053",
+        "naid": "415891053",
+        "title": "[Presidential Daily Backup] 1/16/1991",
+        "date": "1991-01-16",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891053",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-01_16_91-12847-002_415891053.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_16_91-12847-002_415891053.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 1/16/1991. Access restriction: Restricted - Possibly. NAID 415891053.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-01_16_91-12847-002_415891053.pdf. Catalog: https://catalog.archives.gov/id/415891053."
+      }
+    ]
   },
   {
     "id": "conversation-428081373",
@@ -2104,7 +4292,109 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, January 21, 1991. Release status: Full. NAID 428081373.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1991-01-21--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081373."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1991-01-21--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081373.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-186327",
+        "naid": "186327",
+        "title": "President's Daily Diary Entry, January 21, 1991",
+        "date": "1991-01-21",
+        "levelOfDescription": "item",
+        "accessRestriction": "Unrestricted",
+        "catalogUrl": "https://catalog.archives.gov/id/186327",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/27/1863/186327/content/arcmedia/media/images/40/19/40-1899a.gif",
+        "objectFilename": "40-1899a.gif",
+        "objectCount": 8,
+        "scopeAndContentNote": "In a busy day at the White House, President Bush met with his senior national security and defense advisors about ongoing hostilities in the Persian Gulf. He also briefed members of Congress, including House Speaker Thomas Foley of Washington. Later in the day, he met with the former Prime Minister of Singapore. Throughout the day, the President made numerous telephone calls to world leaders, including the Prime Ministers of Spain, Italy, and Turkey.",
+        "matchBasis": "same-date item-level Daily Diary description",
+        "queryLabels": [
+          "Turkey"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, President's Daily Diary Entry, January 21, 1991. Access restriction: Unrestricted. NAID 186327.",
+        "researchNote": "Match basis: same-date item-level Daily Diary description. Query hit(s): Turkey. Digital object: 40-1899a.gif. Catalog: https://catalog.archives.gov/id/186327.",
+        "recordSet": "Presidential Daily Diary item",
+        "sortDate": "1991-01-21",
+        "year": 1991,
+        "documentTitle": "President's Daily Diary Entry, January 21, 1991",
+        "chapter": {
+          "number": 3,
+          "name": "Turkey"
+        },
+        "category": "Schedule corroboration",
+        "score": 126,
+        "countries": [
+          "United States",
+          "Turkey"
+        ],
+        "topics": [
+          "Presidential Daily Diary",
+          "Meetings and calls",
+          "Turkey"
+        ],
+        "scoutUrls": [
+          "https://catalog.archives.gov/search-within/186322?limit=100&q=Turkey"
+        ]
+      },
+      {
+        "id": "daily-diary-ref-415891062",
+        "naid": "415891062",
+        "title": "[Presidential Daily Diary] 1/21/1991",
+        "date": "1991-01-21",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891062",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/27/1863/186327/content/arcmedia/media/images/40/19/40-1899a.gif",
+        "objectFilename": "40-1899a.gif",
+        "objectCount": 9,
+        "scopeAndContentNote": "In a busy day at the White House, President Bush met with his senior national security and defense advisors about ongoing hostilities in the Persian Gulf. He also briefed members of Congress, including House Speaker Thomas Foley of Washington. Later in the day, he met with the former Prime Minister of Singapore. Throughout the day, the President made numerous telephone calls to world leaders, including the Prime Ministers of Spain, Italy, and Turkey.",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 1/21/1991. Access restriction: Restricted - Possibly. NAID 415891062.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 40-1899a.gif. Catalog: https://catalog.archives.gov/id/415891062."
+      },
+      {
+        "id": "daily-diary-ref-415891063",
+        "naid": "415891063",
+        "title": "[Presidential Daily Backup] 1/21/1991",
+        "date": "1991-01-21",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891063",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-01_21_91-12847-012_415891063.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_21_91-12847-012_415891063.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 1/21/1991. Access restriction: Restricted - Possibly. NAID 415891063.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-01_21_91-12847-012_415891063.pdf. Catalog: https://catalog.archives.gov/id/415891063."
+      }
+    ]
   },
   {
     "id": "conversation-428081401",
@@ -2154,7 +4444,114 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, January 30, 1991. Release status: Full. NAID 428081401.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1991-01-30--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081401."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1991-01-30--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081401.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-186336",
+        "naid": "186336",
+        "title": "President's Daily Diary Entry, January 30, 1991",
+        "date": "1991-01-30",
+        "levelOfDescription": "item",
+        "accessRestriction": "Unrestricted",
+        "catalogUrl": "https://catalog.archives.gov/id/186336",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/36/1863/186336/content/arcmedia/media/images/40/20/40-1983a.gif",
+        "objectFilename": "40-1983a.gif",
+        "objectCount": 12,
+        "scopeAndContentNote": "The President met with his senior staff for his morning national intelligence and security briefings. Following these meetings, the President had his morning meeting with Chief of Staff John Sununu and telephoned Turkish President Turgat Ozal. He then met with Antonios Samaras, Foreign Minister of Greece. Later in the morning, he traveled to Capitol Hill where he attended the 50th anniversary of President Franklin D. Roosevelt's Four Freedoms Speech. He also met with Congressional leadership including Senator Robert Dole and Congressman Bob Michel. In the evening, the President dined with the Reverend Billy Graham.",
+        "matchBasis": "same-date item-level Daily Diary description",
+        "queryLabels": [
+          "Ozal",
+          "Samaras",
+          "Greece"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, President's Daily Diary Entry, January 30, 1991. Access restriction: Unrestricted. NAID 186336.",
+        "researchNote": "Match basis: same-date item-level Daily Diary description. Query hit(s): Ozal, Samaras, Greece. Digital object: 40-1983a.gif. Catalog: https://catalog.archives.gov/id/186336.",
+        "recordSet": "Presidential Daily Diary item",
+        "sortDate": "1991-01-30",
+        "year": 1991,
+        "documentTitle": "President's Daily Diary Entry, January 30, 1991",
+        "chapter": {
+          "number": 4,
+          "name": "Regional"
+        },
+        "category": "Schedule corroboration",
+        "score": 138,
+        "countries": [
+          "United States",
+          "Greece",
+          "Turkey"
+        ],
+        "topics": [
+          "Presidential Daily Diary",
+          "Meetings and calls",
+          "Ozal",
+          "Samaras",
+          "Greece"
+        ],
+        "scoutUrls": [
+          "https://catalog.archives.gov/search-within/186322?limit=100&q=Ozal"
+        ]
+      },
+      {
+        "id": "daily-diary-ref-415891080",
+        "naid": "415891080",
+        "title": "[Presidential Daily Diary] 1/30/1991",
+        "date": "1991-01-30",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891080",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/36/1863/186336/content/arcmedia/media/images/40/20/40-1983a.gif",
+        "objectFilename": "40-1983a.gif",
+        "objectCount": 13,
+        "scopeAndContentNote": "The President met with his senior staff for his morning national intelligence and security briefings. Following these meetings, the President had his morning meeting with Chief of Staff John Sununu and telephoned Turkish President Turgat Ozal. He then met with Antonios Samaras, Foreign Minister of Greece. Later in the morning, he traveled to Capitol Hill where he attended the 50th anniversary of President Franklin D. Roosevelt's Four Freedoms Speech. He also met with Congressional leadership including Senator Robert Dole and Congressman Bob Michel. In the evening, the President dined with the Reverend Billy Graham.",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 1/30/1991. Access restriction: Restricted - Possibly. NAID 415891080.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 40-1983a.gif. Catalog: https://catalog.archives.gov/id/415891080."
+      },
+      {
+        "id": "daily-diary-ref-415891081",
+        "naid": "415891081",
+        "title": "[Presidential Daily Backup] 1/30/1991",
+        "date": "1991-01-30",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891081",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-01_30_91-12847-030_415891081.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_30_91-12847-030_415891081.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 1/30/1991. Access restriction: Restricted - Possibly. NAID 415891081.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-01_30_91-12847-030_415891081.pdf. Catalog: https://catalog.archives.gov/id/415891081."
+      }
+    ]
   },
   {
     "id": "conversation-428081419",
@@ -2204,7 +4601,111 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, February 5, 1991. Release status: Full. NAID 428081419.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1991-02-05--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081419."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1991-02-05--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081419.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-186342",
+        "naid": "186342",
+        "title": "President's Daily Diary Entry, February 5, 1991",
+        "date": "1991-02-05",
+        "levelOfDescription": "item",
+        "accessRestriction": "Unrestricted",
+        "catalogUrl": "https://catalog.archives.gov/id/186342",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/42/1863/186342/content/arcmedia/media/images/40/21/40-2053a.gif",
+        "objectFilename": "40-2053a.gif",
+        "objectCount": 11,
+        "scopeAndContentNote": "Prior to his morning national security and intelligence briefings, the President played tennis with Chris Evert. Later in the morning, he spoke by telephone with President Carlos Salinas of Mexico, Prime Minister Brian Mulroney of Canada, and President Turgat Ozal of Turkey. Meetings with his domestic policy staff including Roger B. Porter followed. Before lunch, the President held his 71st news conference for members of the press. In the afternoon, the President spoke with President Francois Mitterand of France, and met with senior advisors to discuss the Highway Reauthorization Bill. In the evening after dinner, President Bush spoke with Margaret Thatcher and Walter H. Annenberg.",
+        "matchBasis": "same-date item-level Daily Diary description",
+        "queryLabels": [
+          "Ozal",
+          "Turkey"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, President's Daily Diary Entry, February 5, 1991. Access restriction: Unrestricted. NAID 186342.",
+        "researchNote": "Match basis: same-date item-level Daily Diary description. Query hit(s): Ozal, Turkey. Digital object: 40-2053a.gif. Catalog: https://catalog.archives.gov/id/186342.",
+        "recordSet": "Presidential Daily Diary item",
+        "sortDate": "1991-02-05",
+        "year": 1991,
+        "documentTitle": "President's Daily Diary Entry, February 5, 1991",
+        "chapter": {
+          "number": 3,
+          "name": "Turkey"
+        },
+        "category": "Schedule corroboration",
+        "score": 132,
+        "countries": [
+          "United States",
+          "Turkey"
+        ],
+        "topics": [
+          "Presidential Daily Diary",
+          "Meetings and calls",
+          "Ozal",
+          "Turkey"
+        ],
+        "scoutUrls": [
+          "https://catalog.archives.gov/search-within/186322?limit=100&q=Ozal"
+        ]
+      },
+      {
+        "id": "daily-diary-ref-415891092",
+        "naid": "415891092",
+        "title": "[Presidential Daily Diary] 2/5/1991",
+        "date": "1991-02-05",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891092",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/42/1863/186342/content/arcmedia/media/images/40/21/40-2053a.gif",
+        "objectFilename": "40-2053a.gif",
+        "objectCount": 12,
+        "scopeAndContentNote": "Prior to his morning national security and intelligence briefings, the President played tennis with Chris Evert. Later in the morning, he spoke by telephone with President Carlos Salinas of Mexico, Prime Minister Brian Mulroney of Canada, and President Turgat Ozal of Turkey. Meetings with his domestic policy staff including Roger B. Porter followed. Before lunch, the President held his 71st news conference for members of the press. In the afternoon, the President spoke with President Francois Mitterand of France, and met with senior advisors to discuss the Highway Reauthorization Bill. In the evening after dinner, President Bush spoke with Margaret Thatcher and Walter H. Annenberg.",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 2/5/1991. Access restriction: Restricted - Possibly. NAID 415891092.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 40-2053a.gif. Catalog: https://catalog.archives.gov/id/415891092."
+      },
+      {
+        "id": "daily-diary-ref-415891093",
+        "naid": "415891093",
+        "title": "[Presidential Daily Backup] 2/5/1991",
+        "date": "1991-02-05",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891093",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-02_05_91-12848-010_415891093.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-02_05_91-12848-010_415891093.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 2/5/1991. Access restriction: Restricted - Possibly. NAID 415891093.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-02_05_91-12848-010_415891093.pdf. Catalog: https://catalog.archives.gov/id/415891093."
+      }
+    ]
   },
   {
     "id": "conversation-428081459",
@@ -2254,7 +4755,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, February 15, 1991. Release status: Full. NAID 428081459.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1991-02-15--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081459."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1991-02-15--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081459.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891112",
+        "naid": "415891112",
+        "title": "[Presidential Daily Diary] 2/15/1991",
+        "date": "1991-02-15",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891112",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/52/1863/186352/content/arcmedia/media/images/40/22/40-2152a.gif",
+        "objectFilename": "40-2152a.gif",
+        "objectCount": 18,
+        "scopeAndContentNote": "In the morning, the President received his national security and intelligence briefings. He then met with members of the American Association for the Advancement of Science. In the late morning, the President traveled aboard Air Force One to Massachusetts and then spoke to employees of the Raytheon Plant, makers of the Patriot Missile. He then participated in a Patriot Missile simulation. From there, the President traveled to Kennebunkport, Maine.",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 2/15/1991. Access restriction: Restricted - Possibly. NAID 415891112.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 40-2152a.gif. Catalog: https://catalog.archives.gov/id/415891112."
+      },
+      {
+        "id": "daily-diary-ref-415891113",
+        "naid": "415891113",
+        "title": "[Presidential Daily Backup] 2/15/1991",
+        "date": "1991-02-15",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891113",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-02_15_91-12849-002_415891113.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-02_15_91-12849-002_415891113.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 2/15/1991. Access restriction: Restricted - Possibly. NAID 415891113.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-02_15_91-12849-002_415891113.pdf. Catalog: https://catalog.archives.gov/id/415891113."
+      }
+    ]
   },
   {
     "id": "conversation-428081469",
@@ -2304,7 +4859,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with President Turgut Ozal of Turkey on February 19, 1991. Release status: Full. NAID 428081469.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1991-02-19--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081469."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1991-02-19--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081469.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891120",
+        "naid": "415891120",
+        "title": "[Presidential Daily Diary] 2/19/1991",
+        "date": "1991-02-19",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891120",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/56/1863/186356/content/arcmedia/media/images/40/22/40-2184a.gif",
+        "objectFilename": "40-2184a.gif",
+        "objectCount": 16,
+        "scopeAndContentNote": "Back at the White House after a weekend at Kennebunkport, the President met with his national security and intelligence advisors. He then met with his senior advisors to discuss Operation Desert Storm. Before lunch, he participated in a photo opportunity with members of the American Association of Engineering Societies. He also held a meeting with his domestic policy staff including Roger B. Porter and Lamar Alexander, Secretary of Education. Following lunch, the President spoke on a conference call with Francois Mitterand, President of France and met with Richard G. Darman, Director of the Office of Management and Budget. He then met with the Secretary of the Interior Manuel Lujan, Jr., to discuss the opening of the Arctic National Wildlife Refuge.",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 2/19/1991. Access restriction: Restricted - Possibly. NAID 415891120.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 40-2184a.gif. Catalog: https://catalog.archives.gov/id/415891120."
+      },
+      {
+        "id": "daily-diary-ref-415891121",
+        "naid": "415891121",
+        "title": "[Presidential Daily Backup] 2/19/1991",
+        "date": "1991-02-19",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891121",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-02_19_91-12849-010_415891121.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-02_19_91-12849-010_415891121.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 2/19/1991. Access restriction: Restricted - Possibly. NAID 415891121.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-02_19_91-12849-010_415891121.pdf. Catalog: https://catalog.archives.gov/id/415891121."
+      }
+    ]
   },
   {
     "id": "conversation-428081499",
@@ -2354,7 +4963,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey: February 23, 1991. Release status: Full. NAID 428081499.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1991-02-23--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081499."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1991-02-23--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081499.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891128",
+        "naid": "415891128",
+        "title": "[Presidential Daily Diary] 2/23/1991",
+        "date": "1991-02-23",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891128",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-02_23_91-12849-017_415891128.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-02_23_91-12849-017_415891128.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 2/23/1991. Access restriction: Restricted - Possibly. NAID 415891128.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-02_23_91-12849-017_415891128.pdf. Catalog: https://catalog.archives.gov/id/415891128."
+      },
+      {
+        "id": "daily-diary-ref-415891129",
+        "naid": "415891129",
+        "title": "[Presidential Daily Backup] 2/23/1991",
+        "date": "1991-02-23",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891129",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-02_23_91-12849-018_415891129.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-02_23_91-12849-018_415891129.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 2/23/1991. Access restriction: Restricted - Possibly. NAID 415891129.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-02_23_91-12849-018_415891129.pdf. Catalog: https://catalog.archives.gov/id/415891129."
+      }
+    ]
   },
   {
     "id": "conversation-428081505",
@@ -2404,7 +5067,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with Turgut Ozal, President of Turkey on February 26, 1991. Release status: Full. NAID 428081505.",
-    "researchNote": "PDF extent: 6 pages. Digital object: 1991-02-26--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081505."
+    "researchNote": "PDF extent: 6 pages. Digital object: 1991-02-26--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081505.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891134",
+        "naid": "415891134",
+        "title": "[Presidential Daily Diary] 2/26/1991",
+        "date": "1991-02-26",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891134",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/62/1863/186362/content/arcmedia/media/images/40/23/40-2260a.gif",
+        "objectFilename": "40-2260a.gif",
+        "objectCount": 22,
+        "scopeAndContentNote": "With the Persian Gulf War nearing an end, the President continued to speak daily with heads of state around the world. He began this day with a conversation by telephone with Vaclav Havel, President of Czechoslovakia. He then had his morning national security and intelligence briefings and met with senior advisors to discuss Operation Desert Storm. At 9:48 a.m., the President addressed the nation to announce Iraq's withdrawal from Kuwait. Following these remarks, members of Congress were briefed by the President on fast-track authority. Prior to lunch, he met with Cesar Gaviria Trujillo, President of Columbia. The afternoon consisted of additional meetings on Operation Desert Storm with Colin L. Powell and Richard B. Cheney in attendence.",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 2/26/1991. Access restriction: Restricted - Possibly. NAID 415891134.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 40-2260a.gif. Catalog: https://catalog.archives.gov/id/415891134."
+      },
+      {
+        "id": "daily-diary-ref-415891135",
+        "naid": "415891135",
+        "title": "[Presidential Daily Backup] 2/26/1991",
+        "date": "1991-02-26",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891135",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-02_26_91-12850-002_415891135.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-02_26_91-12850-002_415891135.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 2/26/1991. Access restriction: Restricted - Possibly. NAID 415891135.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-02_26_91-12850-002_415891135.pdf. Catalog: https://catalog.archives.gov/id/415891135."
+      }
+    ]
   },
   {
     "id": "conversation-428081555",
@@ -2454,7 +5171,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with President Turgut Ozal of Turkey, February 28, 1991. Release status: Full. NAID 428081555.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1991-02-28--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081555."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1991-02-28--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081555.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891138",
+        "naid": "415891138",
+        "title": "[Presidential Daily Diary] 2/28/1991",
+        "date": "1991-02-28",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891138",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-02_28_91-12850-005_415891138.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-02_28_91-12850-005_415891138.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 2/28/1991. Access restriction: Restricted - Possibly. NAID 415891138.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-02_28_91-12850-005_415891138.pdf. Catalog: https://catalog.archives.gov/id/415891138."
+      },
+      {
+        "id": "daily-diary-ref-415891139",
+        "naid": "415891139",
+        "title": "[Presidential Daily Backup] 2/28/1991",
+        "date": "1991-02-28",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891139",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-02_28_91-12850-006_415891139.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-02_28_91-12850-006_415891139.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 2/28/1991. Access restriction: Restricted - Possibly. NAID 415891139.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-02_28_91-12850-006_415891139.pdf. Catalog: https://catalog.archives.gov/id/415891139."
+      }
+    ]
   },
   {
     "id": "conversation-428081553",
@@ -2504,7 +5275,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call from Turgut Ozal, March 27, 1991. Release status: Marker / no memorandum listed. NAID 428081553.",
-    "researchNote": "PDF extent: 2 pages. Digital object: 1991-03-27--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081553."
+    "researchNote": "PDF extent: 2 pages. Digital object: 1991-03-27--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081553.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891192",
+        "naid": "415891192",
+        "title": "[Presidential Daily Diary] 3/27/1991",
+        "date": "1991-03-27",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891192",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-03_27_91-12852-015_415891192.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-03_27_91-12852-015_415891192.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 3/27/1991. Access restriction: Restricted - Possibly. NAID 415891192.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-03_27_91-12852-015_415891192.pdf. Catalog: https://catalog.archives.gov/id/415891192."
+      },
+      {
+        "id": "daily-diary-ref-415891193",
+        "naid": "415891193",
+        "title": "[Presidential Daily Backup] 3/27/1991",
+        "date": "1991-03-27",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891193",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-03_27_91-12852-016_415891193.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-03_27_91-12852-016_415891193.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 3/27/1991. Access restriction: Restricted - Possibly. NAID 415891193.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-03_27_91-12852-016_415891193.pdf. Catalog: https://catalog.archives.gov/id/415891193."
+      }
+    ]
   },
   {
     "id": "conversation-428081593",
@@ -2554,7 +5379,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with Turgut Ozal, President of Turkey on April 2, 1991. Release status: Full. NAID 428081593.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1991-04-02--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081593."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1991-04-02--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081593.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891204",
+        "naid": "415891204",
+        "title": "[Presidential Daily Diary] 4/2/1991",
+        "date": "1991-04-02",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891204",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-04_02_91-12852-027_415891204.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-04_02_91-12852-027_415891204.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 4/2/1991. Access restriction: Restricted - Possibly. NAID 415891204.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-04_02_91-12852-027_415891204.pdf. Catalog: https://catalog.archives.gov/id/415891204."
+      },
+      {
+        "id": "daily-diary-ref-415891205",
+        "naid": "415891205",
+        "title": "[Presidential Daily Backup] 4/2/1991",
+        "date": "1991-04-02",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891205",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-04_02_91-12852-028_415891205.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-04_02_91-12852-028_415891205.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 4/2/1991. Access restriction: Restricted - Possibly. NAID 415891205.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-04_02_91-12852-028_415891205.pdf. Catalog: https://catalog.archives.gov/id/415891205."
+      }
+    ]
   },
   {
     "id": "conversation-428081603",
@@ -2604,7 +5483,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with Turgut Ozal,President of Turkey on April 15, 1991. Release status: Full. NAID 428081603.",
-    "researchNote": "PDF extent: 5 pages. Digital object: 1991-04-15--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081603."
+    "researchNote": "PDF extent: 5 pages. Digital object: 1991-04-15--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081603.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891230",
+        "naid": "415891230",
+        "title": "[Presidential Daily Diary] 4/15/1991",
+        "date": "1991-04-15",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891230",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-04_15_91-12854-011_415891230.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-04_15_91-12854-011_415891230.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 4/15/1991. Access restriction: Restricted - Possibly. NAID 415891230.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-04_15_91-12854-011_415891230.pdf. Catalog: https://catalog.archives.gov/id/415891230."
+      },
+      {
+        "id": "daily-diary-ref-415891231",
+        "naid": "415891231",
+        "title": "[Presidential Daily Backup] 4/15/1991",
+        "date": "1991-04-15",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891231",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-04_15_91-12854-012_415891231.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-04_15_91-12854-012_415891231.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 4/15/1991. Access restriction: Restricted - Possibly. NAID 415891231.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-04_15_91-12854-012_415891231.pdf. Catalog: https://catalog.archives.gov/id/415891231."
+      }
+    ]
   },
   {
     "id": "conversation-428081617",
@@ -2654,7 +5587,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Presidential Call to President Ozal, April 16, 1991 (2 of 2). Release status: Denied. NAID 428081617.",
-    "researchNote": "PDF extent: 1 pages. Digital object: 1991-04-16--Ozal-2.pdf. Catalog: https://catalog.archives.gov/id/428081617."
+    "researchNote": "PDF extent: 1 pages. Digital object: 1991-04-16--Ozal-2.pdf. Catalog: https://catalog.archives.gov/id/428081617.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891232",
+        "naid": "415891232",
+        "title": "[Presidential Daily Diary] 4/16/1991",
+        "date": "1991-04-16",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891232",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-04_16_91-12854-013_415891232.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-04_16_91-12854-013_415891232.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 4/16/1991. Access restriction: Restricted - Possibly. NAID 415891232.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-04_16_91-12854-013_415891232.pdf. Catalog: https://catalog.archives.gov/id/415891232."
+      },
+      {
+        "id": "daily-diary-ref-415891233",
+        "naid": "415891233",
+        "title": "[Presidential Daily Backup] 4/16/1991",
+        "date": "1991-04-16",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891233",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-04_16_91-12854-014_415891233.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-04_16_91-12854-014_415891233.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 4/16/1991. Access restriction: Restricted - Possibly. NAID 415891233.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-04_16_91-12854-014_415891233.pdf. Catalog: https://catalog.archives.gov/id/415891233."
+      }
+    ]
   },
   {
     "id": "conversation-428081615",
@@ -2704,7 +5691,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with President Ozal of Turkey on April 16, 1991 (1 of 2). Release status: Full. NAID 428081615.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1991-04-16--Ozal-1.pdf. Catalog: https://catalog.archives.gov/id/428081615."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1991-04-16--Ozal-1.pdf. Catalog: https://catalog.archives.gov/id/428081615.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891232",
+        "naid": "415891232",
+        "title": "[Presidential Daily Diary] 4/16/1991",
+        "date": "1991-04-16",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891232",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-04_16_91-12854-013_415891232.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-04_16_91-12854-013_415891232.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 4/16/1991. Access restriction: Restricted - Possibly. NAID 415891232.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-04_16_91-12854-013_415891232.pdf. Catalog: https://catalog.archives.gov/id/415891232."
+      },
+      {
+        "id": "daily-diary-ref-415891233",
+        "naid": "415891233",
+        "title": "[Presidential Daily Backup] 4/16/1991",
+        "date": "1991-04-16",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891233",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-04_16_91-12854-014_415891233.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-04_16_91-12854-014_415891233.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 4/16/1991. Access restriction: Restricted - Possibly. NAID 415891233.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-04_16_91-12854-014_415891233.pdf. Catalog: https://catalog.archives.gov/id/415891233."
+      }
+    ]
   },
   {
     "id": "conversation-428081651",
@@ -2754,7 +5795,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with President Ozal of Turkey, April 20, 1991. Release status: Full. NAID 428081651.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1991-04-20--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081651."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1991-04-20--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081651.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891240",
+        "naid": "415891240",
+        "title": "[Presidential Daily Diary] 4/20/1991",
+        "date": "1991-04-20",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891240",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-04_20_91-12855-001_415891240.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-04_20_91-12855-001_415891240.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 4/20/1991. Access restriction: Restricted - Possibly. NAID 415891240.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-04_20_91-12855-001_415891240.pdf. Catalog: https://catalog.archives.gov/id/415891240."
+      },
+      {
+        "id": "daily-diary-ref-415891241",
+        "naid": "415891241",
+        "title": "[Presidential Daily Backup] 4/20/1991",
+        "date": "1991-04-20",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891241",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-04_20_91-12855-002_415891241.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-04_20_91-12855-002_415891241.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 4/20/1991. Access restriction: Restricted - Possibly. NAID 415891241.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-04_20_91-12855-002_415891241.pdf. Catalog: https://catalog.archives.gov/id/415891241."
+      }
+    ]
   },
   {
     "id": "conversation-428081649",
@@ -2804,7 +5899,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call to Turgut Ozal, May 7, 1991. Release status: Marker / no memorandum listed. NAID 428081649.",
-    "researchNote": "PDF extent: 2 pages. Digital object: 1991-05-07--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081649."
+    "researchNote": "PDF extent: 2 pages. Digital object: 1991-05-07--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081649.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891274",
+        "naid": "415891274",
+        "title": "[Presidential Daily Diary] 5/7/1991",
+        "date": "1991-05-07",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891274",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-05_07_91-12856-013_415891274.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-05_07_91-12856-013_415891274.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 5/7/1991. Access restriction: Restricted - Possibly. NAID 415891274.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-05_07_91-12856-013_415891274.pdf. Catalog: https://catalog.archives.gov/id/415891274."
+      },
+      {
+        "id": "daily-diary-ref-415891275",
+        "naid": "415891275",
+        "title": "[Presidential Daily Backup] 5/7/1991",
+        "date": "1991-05-07",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891275",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-05_07_91-12856-014_415891275.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-05_07_91-12856-014_415891275.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 5/7/1991. Access restriction: Restricted - Possibly. NAID 415891275.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-05_07_91-12856-014_415891275.pdf. Catalog: https://catalog.archives.gov/id/415891275."
+      }
+    ]
   },
   {
     "id": "conversation-428081713",
@@ -2854,7 +6003,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with Turgut Ozal, President of Turkey on June 4, 1991. Release status: Full. NAID 428081713.",
-    "researchNote": "PDF extent: 5 pages. Digital object: 1991-06-04--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081713."
+    "researchNote": "PDF extent: 5 pages. Digital object: 1991-06-04--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081713.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891331",
+        "naid": "415891331",
+        "title": "[Presidential Daily Diary]  6/4/1991",
+        "date": "1991-06-04",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891331",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-06_04_91-12859-011_415891331.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-06_04_91-12859-011_415891331.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 6/4/1991. Access restriction: Restricted - Possibly. NAID 415891331.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-06_04_91-12859-011_415891331.pdf. Catalog: https://catalog.archives.gov/id/415891331."
+      },
+      {
+        "id": "daily-diary-ref-415891332",
+        "naid": "415891332",
+        "title": "[Presidential Daily Backup] 6/4/1991",
+        "date": "1991-06-04",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891332",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-06_04_91-12859-012_415891332.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-06_04_91-12859-012_415891332.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 6/4/1991. Access restriction: Restricted - Possibly. NAID 415891332.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-06_04_91-12859-012_415891332.pdf. Catalog: https://catalog.archives.gov/id/415891332."
+      }
+    ]
   },
   {
     "id": "conversation-428081719",
@@ -2904,7 +6107,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with Turgut Ozal, President of Turkey on June 13, 1991. Release status: Full. NAID 428081719.",
-    "researchNote": "PDF extent: 5 pages. Digital object: 1991-06-13--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081719."
+    "researchNote": "PDF extent: 5 pages. Digital object: 1991-06-13--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081719.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891349",
+        "naid": "415891349",
+        "title": "[Presidential Daily Diary]  6/13/1991",
+        "date": "1991-06-13",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891349",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-06_13_91-12860-011_415891349.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-06_13_91-12860-011_415891349.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 6/13/1991. Access restriction: Restricted - Possibly. NAID 415891349.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-06_13_91-12860-011_415891349.pdf. Catalog: https://catalog.archives.gov/id/415891349."
+      },
+      {
+        "id": "daily-diary-ref-415891350",
+        "naid": "415891350",
+        "title": "[Presidential Daily Backup] 6/13/1991",
+        "date": "1991-06-13",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891350",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-06_13_91-12860-012_415891350.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-06_13_91-12860-012_415891350.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 6/13/1991. Access restriction: Restricted - Possibly. NAID 415891350.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-06_13_91-12860-012_415891350.pdf. Catalog: https://catalog.archives.gov/id/415891350."
+      }
+    ]
   },
   {
     "id": "conversation-428081761",
@@ -2954,7 +6211,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Call with Turgut Ozal, President of Turkey on July 10, 1991. Release status: Partial. NAID 428081761.",
-    "researchNote": "PDF extent: 5 pages. Digital object: 1991-07-10--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081761."
+    "researchNote": "PDF extent: 5 pages. Digital object: 1991-07-10--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081761.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891403",
+        "naid": "415891403",
+        "title": "[Presidential Daily Diary] 7/10/1991",
+        "date": "1991-07-10",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891403",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-07_10_91-12863-007_415891403.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_10_91-12863-007_415891403.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 7/10/1991. Access restriction: Restricted - Possibly. NAID 415891403.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-07_10_91-12863-007_415891403.pdf. Catalog: https://catalog.archives.gov/id/415891403."
+      },
+      {
+        "id": "daily-diary-ref-415891404",
+        "naid": "415891404",
+        "title": "[Presidential Daily Backup] 7/10/1991",
+        "date": "1991-07-10",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891404",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-07_10_91-12863-008_415891404.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_10_91-12863-008_415891404.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 7/10/1991. Access restriction: Restricted - Possibly. NAID 415891404.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-07_10_91-12863-008_415891404.pdf. Catalog: https://catalog.archives.gov/id/415891404."
+      }
+    ]
   },
   {
     "id": "conversation-428081777",
@@ -3004,7 +6315,61 @@ window.GCT_RECORDS = [
       "Greece"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, President's Expanded Meeting with Prime Minister Mitsotakis of Greece, Ju 1 y 18, 1991. Release status: Full. NAID 428081777.",
-    "researchNote": "PDF extent: 6 pages. Digital object: 1991-07-18--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428081777."
+    "researchNote": "PDF extent: 6 pages. Digital object: 1991-07-18--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428081777.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891419",
+        "naid": "415891419",
+        "title": "[Presidential Daily Diary]  7/18/1991",
+        "date": "1991-07-18",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891419",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-07_18_91-12864-003_415891419.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_18_91-12864-003_415891419.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 7/18/1991. Access restriction: Restricted - Possibly. NAID 415891419.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-07_18_91-12864-003_415891419.pdf. Catalog: https://catalog.archives.gov/id/415891419."
+      },
+      {
+        "id": "daily-diary-ref-415891420",
+        "naid": "415891420",
+        "title": "[Presidential Daily Backup] 7/18/1991",
+        "date": "1991-07-18",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891420",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-07_18_91-12864-004_415891420.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_18_91-12864-004_415891420.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 7/18/1991. Access restriction: Restricted - Possibly. NAID 415891420.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-07_18_91-12864-004_415891420.pdf. Catalog: https://catalog.archives.gov/id/415891420."
+      }
+    ]
   },
   {
     "id": "conversation-428081779",
@@ -3054,7 +6419,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting with Turgut Ozal, President of Turkey on July 20, 1991 (1 of 2). Release status: Full. NAID 428081779.",
-    "researchNote": "PDF extent: 1 pages. Digital object: 1991-07-20--Ozal-1.pdf. Catalog: https://catalog.archives.gov/id/428081779."
+    "researchNote": "PDF extent: 1 pages. Digital object: 1991-07-20--Ozal-1.pdf. Catalog: https://catalog.archives.gov/id/428081779.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891423",
+        "naid": "415891423",
+        "title": "[Presidential Daily Diary] 7/20/1991",
+        "date": "1991-07-20",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891423",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-07_20_91-12864-007_415891423.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_20_91-12864-007_415891423.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 7/20/1991. Access restriction: Restricted - Possibly. NAID 415891423.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-07_20_91-12864-007_415891423.pdf. Catalog: https://catalog.archives.gov/id/415891423."
+      },
+      {
+        "id": "daily-diary-ref-415891424",
+        "naid": "415891424",
+        "title": "[Presidential Daily Backup] 7/20/1991",
+        "date": "1991-07-20",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891424",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-07_20_91-12864-008_415891424.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_20_91-12864-008_415891424.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 7/20/1991. Access restriction: Restricted - Possibly. NAID 415891424.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-07_20_91-12864-008_415891424.pdf. Catalog: https://catalog.archives.gov/id/415891424."
+      }
+    ]
   },
   {
     "id": "conversation-428081781",
@@ -3104,7 +6523,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting with Turgut Ozal, President of Turkey on July 20, 1991 (2 of 2). Release status: Full. NAID 428081781.",
-    "researchNote": "PDF extent: 10 pages. Digital object: 1991-07-20--Ozal-2.pdf. Catalog: https://catalog.archives.gov/id/428081781."
+    "researchNote": "PDF extent: 10 pages. Digital object: 1991-07-20--Ozal-2.pdf. Catalog: https://catalog.archives.gov/id/428081781.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891423",
+        "naid": "415891423",
+        "title": "[Presidential Daily Diary] 7/20/1991",
+        "date": "1991-07-20",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891423",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-07_20_91-12864-007_415891423.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_20_91-12864-007_415891423.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 7/20/1991. Access restriction: Restricted - Possibly. NAID 415891423.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-07_20_91-12864-007_415891423.pdf. Catalog: https://catalog.archives.gov/id/415891423."
+      },
+      {
+        "id": "daily-diary-ref-415891424",
+        "naid": "415891424",
+        "title": "[Presidential Daily Backup] 7/20/1991",
+        "date": "1991-07-20",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891424",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-07_20_91-12864-008_415891424.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_20_91-12864-008_415891424.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 7/20/1991. Access restriction: Restricted - Possibly. NAID 415891424.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-07_20_91-12864-008_415891424.pdf. Catalog: https://catalog.archives.gov/id/415891424."
+      }
+    ]
   },
   {
     "id": "conversation-428081783",
@@ -3154,7 +6627,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, President's Meeting with Prime Minister Yilmaz of Turkey, July 20, 1991. Release status: Full. NAID 428081783.",
-    "researchNote": "PDF extent: 5 pages. Digital object: 1991-07-20--Yilmaz.pdf. Catalog: https://catalog.archives.gov/id/428081783."
+    "researchNote": "PDF extent: 5 pages. Digital object: 1991-07-20--Yilmaz.pdf. Catalog: https://catalog.archives.gov/id/428081783.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891423",
+        "naid": "415891423",
+        "title": "[Presidential Daily Diary] 7/20/1991",
+        "date": "1991-07-20",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891423",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-07_20_91-12864-007_415891423.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_20_91-12864-007_415891423.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 7/20/1991. Access restriction: Restricted - Possibly. NAID 415891423.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-07_20_91-12864-007_415891423.pdf. Catalog: https://catalog.archives.gov/id/415891423."
+      },
+      {
+        "id": "daily-diary-ref-415891424",
+        "naid": "415891424",
+        "title": "[Presidential Daily Backup] 7/20/1991",
+        "date": "1991-07-20",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891424",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-07_20_91-12864-008_415891424.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_20_91-12864-008_415891424.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 7/20/1991. Access restriction: Restricted - Possibly. NAID 415891424.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-07_20_91-12864-008_415891424.pdf. Catalog: https://catalog.archives.gov/id/415891424."
+      }
+    ]
   },
   {
     "id": "conversation-428081787",
@@ -3204,7 +6731,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, President's Meeting with President Ozal of Turkey, July 22, 1991. Release status: Full. NAID 428081787.",
-    "researchNote": "PDF extent: 7 pages. Digital object: 1991-07-22--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081787."
+    "researchNote": "PDF extent: 7 pages. Digital object: 1991-07-22--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081787.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891427",
+        "naid": "415891427",
+        "title": "[Presidential Daily Diary] 7/22/1991",
+        "date": "1991-07-22",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891427",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-07_22_91-12864-011_415891427.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_22_91-12864-011_415891427.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 7/22/1991. Access restriction: Restricted - Possibly. NAID 415891427.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-07_22_91-12864-011_415891427.pdf. Catalog: https://catalog.archives.gov/id/415891427."
+      },
+      {
+        "id": "daily-diary-ref-415891428",
+        "naid": "415891428",
+        "title": "[Presidential Daily Backup] 7/22/1991",
+        "date": "1991-07-22",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891428",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-07_22_91-12864-012_415891428.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_22_91-12864-012_415891428.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 7/22/1991. Access restriction: Restricted - Possibly. NAID 415891428.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-07_22_91-12864-012_415891428.pdf. Catalog: https://catalog.archives.gov/id/415891428."
+      }
+    ]
   },
   {
     "id": "conversation-428081813",
@@ -3254,7 +6835,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with President Turgut Ozal of Turkey, August 19, 1991. Release status: Full. NAID 428081813.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1991-08-19--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081813."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1991-08-19--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081813.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891483",
+        "naid": "415891483",
+        "title": "[Presidential Daily Diary] 8/19/1991",
+        "date": "1991-08-19",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891483",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-08_19_91-12866-003_415891483.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_19_91-12866-003_415891483.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/19/1991. Access restriction: Restricted - Possibly. NAID 415891483.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-08_19_91-12866-003_415891483.pdf. Catalog: https://catalog.archives.gov/id/415891483."
+      },
+      {
+        "id": "daily-diary-ref-415891484",
+        "naid": "415891484",
+        "title": "[Presidential Daily Backup] 8/19/1991",
+        "date": "1991-08-19",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891484",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-08_19_91-12866-004_415891484.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_19_91-12866-004_415891484.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 8/19/1991. Access restriction: Restricted - Possibly. NAID 415891484.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-08_19_91-12866-004_415891484.pdf. Catalog: https://catalog.archives.gov/id/415891484."
+      }
+    ]
   },
   {
     "id": "conversation-428081911",
@@ -3304,7 +6939,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with Turgut Ozal, President of Turkey, September 9, 1991. Release status: Full. NAID 428081911.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1991-09-09--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081911."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1991-09-09--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428081911.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891525",
+        "naid": "415891525",
+        "title": "[Presidential Daily Diary] 9/9/1991",
+        "date": "1991-09-09",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891525",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-09_09_91-12867-005_415891525.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-09_09_91-12867-005_415891525.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 9/9/1991. Access restriction: Restricted - Possibly. NAID 415891525.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-09_09_91-12867-005_415891525.pdf. Catalog: https://catalog.archives.gov/id/415891525."
+      },
+      {
+        "id": "daily-diary-ref-415891526",
+        "naid": "415891526",
+        "title": "[Presidential Daily Backup] 9/9/1991",
+        "date": "1991-09-09",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891526",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-09_09_91-12867-006_415891526.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-09_09_91-12867-006_415891526.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 9/9/1991. Access restriction: Restricted - Possibly. NAID 415891526.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-09_09_91-12867-006_415891526.pdf. Catalog: https://catalog.archives.gov/id/415891526."
+      }
+    ]
   },
   {
     "id": "conversation-428082069",
@@ -3354,7 +7043,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with Prime Minister Demirel of Turkey, December 5, 1991. Release status: Full. NAID 428082069.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1991-12-05--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082069."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1991-12-05--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082069.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891702",
+        "naid": "415891702",
+        "title": "[Presidential Daily Diary] 12/5/1991",
+        "date": "1991-12-05",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891702",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-12_05_91-12875-009_415891702.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_05_91-12875-009_415891702.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 12/5/1991. Access restriction: Restricted - Possibly. NAID 415891702.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-12_05_91-12875-009_415891702.pdf. Catalog: https://catalog.archives.gov/id/415891702."
+      },
+      {
+        "id": "daily-diary-ref-415891703",
+        "naid": "415891703",
+        "title": "[Presidential Daily Backup] 12/5/1991",
+        "date": "1991-12-05",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891703",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-12_05_91-12875-010_415891703.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_05_91-12875-010_415891703.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 12/5/1991. Access restriction: Restricted - Possibly. NAID 415891703.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-12_05_91-12875-010_415891703.pdf. Catalog: https://catalog.archives.gov/id/415891703."
+      }
+    ]
   },
   {
     "id": "conversation-428082071",
@@ -3404,7 +7147,61 @@ window.GCT_RECORDS = [
       "Greece"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting with Prime Minister Constantine Mitsotakis of Greece, December 12, 1991 (1 of 3). Release status: Full. NAID 428082071.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1991-12-12--Mitsotakis-1.pdf. Catalog: https://catalog.archives.gov/id/428082071."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1991-12-12--Mitsotakis-1.pdf. Catalog: https://catalog.archives.gov/id/428082071.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891716",
+        "naid": "415891716",
+        "title": "[Presidential Daily Diary] 12/12/1991",
+        "date": "1991-12-12",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891716",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-12_12_91-12875-023_415891716.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_12_91-12875-023_415891716.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 12/12/1991. Access restriction: Restricted - Possibly. NAID 415891716.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-12_12_91-12875-023_415891716.pdf. Catalog: https://catalog.archives.gov/id/415891716."
+      },
+      {
+        "id": "daily-diary-ref-415891717",
+        "naid": "415891717",
+        "title": "[Presidential Daily Backup] 12/12/1991",
+        "date": "1991-12-12",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891717",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-12_12_91-12875-024_415891717.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_12_91-12875-024_415891717.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 12/12/1991. Access restriction: Restricted - Possibly. NAID 415891717.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-12_12_91-12875-024_415891717.pdf. Catalog: https://catalog.archives.gov/id/415891717."
+      }
+    ]
   },
   {
     "id": "conversation-428082073",
@@ -3454,7 +7251,61 @@ window.GCT_RECORDS = [
       "Greece"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting with Prime Minister Constantine Mitsotakis of Greece, December 12, 1991 (2 of 3). Release status: Partial. NAID 428082073.",
-    "researchNote": "PDF extent: 7 pages. Digital object: 1991-12-12--Mitsotakis-2.pdf. Catalog: https://catalog.archives.gov/id/428082073."
+    "researchNote": "PDF extent: 7 pages. Digital object: 1991-12-12--Mitsotakis-2.pdf. Catalog: https://catalog.archives.gov/id/428082073.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891716",
+        "naid": "415891716",
+        "title": "[Presidential Daily Diary] 12/12/1991",
+        "date": "1991-12-12",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891716",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-12_12_91-12875-023_415891716.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_12_91-12875-023_415891716.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 12/12/1991. Access restriction: Restricted - Possibly. NAID 415891716.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-12_12_91-12875-023_415891716.pdf. Catalog: https://catalog.archives.gov/id/415891716."
+      },
+      {
+        "id": "daily-diary-ref-415891717",
+        "naid": "415891717",
+        "title": "[Presidential Daily Backup] 12/12/1991",
+        "date": "1991-12-12",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891717",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-12_12_91-12875-024_415891717.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_12_91-12875-024_415891717.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 12/12/1991. Access restriction: Restricted - Possibly. NAID 415891717.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-12_12_91-12875-024_415891717.pdf. Catalog: https://catalog.archives.gov/id/415891717."
+      }
+    ]
   },
   {
     "id": "conversation-428082075",
@@ -3504,7 +7355,61 @@ window.GCT_RECORDS = [
       "Greece"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting with Prime Minister Constantine Mitsotakis of Greece, December 12, 1991 (3 of 3). Release status: Full. NAID 428082075.",
-    "researchNote": "PDF extent: 5 pages. Digital object: 1991-12-12--Mitsotakis-3.pdf. Catalog: https://catalog.archives.gov/id/428082075."
+    "researchNote": "PDF extent: 5 pages. Digital object: 1991-12-12--Mitsotakis-3.pdf. Catalog: https://catalog.archives.gov/id/428082075.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891716",
+        "naid": "415891716",
+        "title": "[Presidential Daily Diary] 12/12/1991",
+        "date": "1991-12-12",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891716",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-12_12_91-12875-023_415891716.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_12_91-12875-023_415891716.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 12/12/1991. Access restriction: Restricted - Possibly. NAID 415891716.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-12_12_91-12875-023_415891716.pdf. Catalog: https://catalog.archives.gov/id/415891716."
+      },
+      {
+        "id": "daily-diary-ref-415891717",
+        "naid": "415891717",
+        "title": "[Presidential Daily Backup] 12/12/1991",
+        "date": "1991-12-12",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891717",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1991/41-bpr-apts_sch-dd-12_12_91-12875-024_415891717.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_12_91-12875-024_415891717.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 12/12/1991. Access restriction: Restricted - Possibly. NAID 415891717.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-12_12_91-12875-024_415891717.pdf. Catalog: https://catalog.archives.gov/id/415891717."
+      }
+    ]
   },
   {
     "id": "conversation-428082117",
@@ -3554,7 +7459,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with President Turgut Ozal of Turkey, January 12, 1991. Release status: Full. NAID 428082117.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1991-01-12--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082117."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1991-01-12--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082117.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891779",
+        "naid": "415891779",
+        "title": "[Presidential Daily Diary] 1/12/1992",
+        "date": "1992-01-12",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891779",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-01_12_92-12878-007_415891779.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_12_92-12878-007_415891779.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 1/12/1992. Access restriction: Restricted - Possibly. NAID 415891779.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-01_12_92-12878-007_415891779.pdf. Catalog: https://catalog.archives.gov/id/415891779."
+      },
+      {
+        "id": "daily-diary-ref-415891780",
+        "naid": "415891780",
+        "title": "[Presidential Daily Backup] 1/12/1992",
+        "date": "1992-01-12",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891780",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-01_12_92-12878-008_415891780.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-01_12_92-12878-008_415891780.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 1/12/1992. Access restriction: Restricted - Possibly. NAID 415891780.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-01_12_92-12878-008_415891780.pdf. Catalog: https://catalog.archives.gov/id/415891780."
+      }
+    ]
   },
   {
     "id": "conversation-428082149",
@@ -3604,7 +7563,61 @@ window.GCT_RECORDS = [
       "Cyprus"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting with George Vassiliou, President of Cyprus, March 30, 1992. Release status: Partial. NAID 428082149.",
-    "researchNote": "PDF extent: 6 pages. Digital object: 1992-03-30--Vassiliou.pdf. Catalog: https://catalog.archives.gov/id/428082149."
+    "researchNote": "PDF extent: 6 pages. Digital object: 1992-03-30--Vassiliou.pdf. Catalog: https://catalog.archives.gov/id/428082149.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891936",
+        "naid": "415891936",
+        "title": "[Presidential Daily Diary] 3/30/1992",
+        "date": "1992-03-30",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891936",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-03_30_92-12885-015_415891936.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-03_30_92-12885-015_415891936.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 3/30/1992. Access restriction: Restricted - Possibly. NAID 415891936.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-03_30_92-12885-015_415891936.pdf. Catalog: https://catalog.archives.gov/id/415891936."
+      },
+      {
+        "id": "daily-diary-ref-415891937",
+        "naid": "415891937",
+        "title": "[Presidential Daily Backup] 3/30/1992",
+        "date": "1992-03-30",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891937",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-03_30_92-12885-016_415891937.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-03_30_92-12885-016_415891937.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 3/30/1992. Access restriction: Restricted - Possibly. NAID 415891937.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-03_30_92-12885-016_415891937.pdf. Catalog: https://catalog.archives.gov/id/415891937."
+      }
+    ]
   },
   {
     "id": "conversation-428082173",
@@ -3654,7 +7667,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting with President Turgut Ozal of Turkey, April 28, 1992. Release status: Full. NAID 428082173.",
-    "researchNote": "PDF extent: 5 pages. Digital object: 1992-04-28--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082173."
+    "researchNote": "PDF extent: 5 pages. Digital object: 1992-04-28--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082173.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415891994",
+        "naid": "415891994",
+        "title": "[Presidential Daily Diary] 4/28/1992",
+        "date": "1992-04-28",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891994",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-04_28_92-12888-005_415891994.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-04_28_92-12888-005_415891994.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 4/28/1992. Access restriction: Restricted - Possibly. NAID 415891994.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-04_28_92-12888-005_415891994.pdf. Catalog: https://catalog.archives.gov/id/415891994."
+      },
+      {
+        "id": "daily-diary-ref-415891995",
+        "naid": "415891995",
+        "title": "[Presidential Daily Backup] 4/28/1992",
+        "date": "1992-04-28",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415891995",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-04_28_92-12888-006_415891995.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-04_28_92-12888-006_415891995.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 4/28/1992. Access restriction: Restricted - Possibly. NAID 415891995.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-04_28_92-12888-006_415891995.pdf. Catalog: https://catalog.archives.gov/id/415891995."
+      }
+    ]
   },
   {
     "id": "conversation-428082213",
@@ -3704,7 +7771,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with President Turgut Ozal of Turkey, May 7, 1992. Release status: Full. NAID 428082213.",
-    "researchNote": "PDF extent: 2 pages. Digital object: 1992-05-07--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082213."
+    "researchNote": "PDF extent: 2 pages. Digital object: 1992-05-07--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082213.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415892013",
+        "naid": "415892013",
+        "title": "[Presidential Daily Diary] 5/7/1992",
+        "date": "1992-05-07",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892013",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-05_07_92-12889-011_415892013.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-05_07_92-12889-011_415892013.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 5/7/1992. Access restriction: Restricted - Possibly. NAID 415892013.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-05_07_92-12889-011_415892013.pdf. Catalog: https://catalog.archives.gov/id/415892013."
+      },
+      {
+        "id": "daily-diary-ref-415892014",
+        "naid": "415892014",
+        "title": "[Presidential Daily Backup] 5/7/1992",
+        "date": "1992-05-07",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892014",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-05_07_92-12889-012_415892014.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-05_07_92-12889-012_415892014.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 5/7/1992. Access restriction: Restricted - Possibly. NAID 415892014.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-05_07_92-12889-012_415892014.pdf. Catalog: https://catalog.archives.gov/id/415892014."
+      }
+    ]
   },
   {
     "id": "conversation-428082217",
@@ -3754,7 +7875,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with Prime Minister Demirel of Turkey, May 11, 1992. Release status: Partial. NAID 428082217.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1992-05-11--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082217."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1992-05-11--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082217.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415892021",
+        "naid": "415892021",
+        "title": "[Presidential Daily Diary] 5/11/1992",
+        "date": "1992-05-11",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892021",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-05_11_92-12889-019_415892021.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-05_11_92-12889-019_415892021.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 5/11/1992. Access restriction: Restricted - Possibly. NAID 415892021.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-05_11_92-12889-019_415892021.pdf. Catalog: https://catalog.archives.gov/id/415892021."
+      },
+      {
+        "id": "daily-diary-ref-415892022",
+        "naid": "415892022",
+        "title": "[Presidential Daily Backup] 5/11/1992",
+        "date": "1992-05-11",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892022",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-05_11_92-12889-020_415892022.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-05_11_92-12889-020_415892022.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 5/11/1992. Access restriction: Restricted - Possibly. NAID 415892022.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-05_11_92-12889-020_415892022.pdf. Catalog: https://catalog.archives.gov/id/415892022."
+      }
+    ]
   },
   {
     "id": "conversation-428082239",
@@ -3804,7 +7979,61 @@ window.GCT_RECORDS = [
       "Greece"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with Constantine Mitsotakis, Prime Minister of Greece, June 10, 1992. Release status: Full. NAID 428082239.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1992-06-10--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428082239."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1992-06-10--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428082239.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415892082",
+        "naid": "415892082",
+        "title": "[Presidential Daily Diary] 6/10/1992",
+        "date": "1992-06-10",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892082",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-06_10_92-12892-017_415892082.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-06_10_92-12892-017_415892082.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 6/10/1992. Access restriction: Restricted - Possibly. NAID 415892082.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-06_10_92-12892-017_415892082.pdf. Catalog: https://catalog.archives.gov/id/415892082."
+      },
+      {
+        "id": "daily-diary-ref-415892083",
+        "naid": "415892083",
+        "title": "[Presidential Daily Backup] 6/10/1992",
+        "date": "1992-06-10",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892083",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-06_10_92-12892-018_415892083.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-06_10_92-12892-018_415892083.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 6/10/1992. Access restriction: Restricted - Possibly. NAID 415892083.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-06_10_92-12892-018_415892083.pdf. Catalog: https://catalog.archives.gov/id/415892083."
+      }
+    ]
   },
   {
     "id": "conversation-428082249",
@@ -3854,7 +8083,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with Prime Minister Demirel of Turkey, June 23, 1992. Release status: Full. NAID 428082249.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1992-06-23--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082249."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1992-06-23--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082249.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415892108",
+        "naid": "415892108",
+        "title": "[Presidential Daily Diary] 6/23/1992",
+        "date": "1992-06-23",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892108",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-06_23_92-12893-019_415892108.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-06_23_92-12893-019_415892108.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 6/23/1992. Access restriction: Restricted - Possibly. NAID 415892108.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-06_23_92-12893-019_415892108.pdf. Catalog: https://catalog.archives.gov/id/415892108."
+      },
+      {
+        "id": "daily-diary-ref-415892109",
+        "naid": "415892109",
+        "title": "[Presidential Daily Backup] 6/23/1992",
+        "date": "1992-06-23",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892109",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-06_23_92-12893-020_415892109.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-06_23_92-12893-020_415892109.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 6/23/1992. Access restriction: Restricted - Possibly. NAID 415892109.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-06_23_92-12893-020_415892109.pdf. Catalog: https://catalog.archives.gov/id/415892109."
+      }
+    ]
   },
   {
     "id": "conversation-428082251",
@@ -3904,7 +8187,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with Prime Minister Demirel of Turkey, June 26, 1992. Release status: Full. NAID 428082251.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1992-06-26--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082251."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1992-06-26--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082251.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415892114",
+        "naid": "415892114",
+        "title": "[Presidential Daily Diary] 6/26/1992  [EMPTY]",
+        "date": "1992-06-26",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892114",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-06_26_92-12894-003_415892114.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-06_26_92-12894-003_415892114.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 6/26/1992 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415892114.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-06_26_92-12894-003_415892114.pdf. Catalog: https://catalog.archives.gov/id/415892114."
+      },
+      {
+        "id": "daily-diary-ref-415892115",
+        "naid": "415892115",
+        "title": "[Presidential Daily Backup] 6/26/1992",
+        "date": "1992-06-26",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892115",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-06_26_92-12894-004_415892115.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-06_26_92-12894-004_415892115.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 6/26/1992. Access restriction: Restricted - Possibly. NAID 415892115.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-06_26_92-12894-004_415892115.pdf. Catalog: https://catalog.archives.gov/id/415892115."
+      }
+    ]
   },
   {
     "id": "conversation-428082291",
@@ -3954,7 +8291,61 @@ window.GCT_RECORDS = [
       "Greece"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting With Prime Minister Constantine Mitsotakis of Greece, July 9, 1992. Release status: Full. NAID 428082291.",
-    "researchNote": "PDF extent: 5 pages. Digital object: 1992-07-09--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428082291."
+    "researchNote": "PDF extent: 5 pages. Digital object: 1992-07-09--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428082291.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415892141",
+        "naid": "415892141",
+        "title": "[Presidential Daily Diary] 7/9/1992  [EMPTY]",
+        "date": "1992-07-09",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892141",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-07_09_92-12895-013_415892141.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_09_92-12895-013_415892141.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 7/9/1992 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415892141.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-07_09_92-12895-013_415892141.pdf. Catalog: https://catalog.archives.gov/id/415892141."
+      },
+      {
+        "id": "daily-diary-ref-415892142",
+        "naid": "415892142",
+        "title": "[Presidential Daily Backup] 7/9/1992",
+        "date": "1992-07-09",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892142",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-07_09_92-12895-014_415892142.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_09_92-12895-014_415892142.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 7/9/1992. Access restriction: Restricted - Possibly. NAID 415892142.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-07_09_92-12895-014_415892142.pdf. Catalog: https://catalog.archives.gov/id/415892142."
+      }
+    ]
   },
   {
     "id": "conversation-428082289",
@@ -4004,7 +8395,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting With Prime Minister Suleyman Demirel of Turkey, July 9, 1992. Release status: Full. NAID 428082289.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1992-07-09--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082289."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1992-07-09--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082289.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415892141",
+        "naid": "415892141",
+        "title": "[Presidential Daily Diary] 7/9/1992  [EMPTY]",
+        "date": "1992-07-09",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892141",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-07_09_92-12895-013_415892141.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_09_92-12895-013_415892141.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 7/9/1992 [EMPTY]. Access restriction: Restricted - Possibly. NAID 415892141.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-07_09_92-12895-013_415892141.pdf. Catalog: https://catalog.archives.gov/id/415892141."
+      },
+      {
+        "id": "daily-diary-ref-415892142",
+        "naid": "415892142",
+        "title": "[Presidential Daily Backup] 7/9/1992",
+        "date": "1992-07-09",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892142",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-07_09_92-12895-014_415892142.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-07_09_92-12895-014_415892142.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 7/9/1992. Access restriction: Restricted - Possibly. NAID 415892142.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-07_09_92-12895-014_415892142.pdf. Catalog: https://catalog.archives.gov/id/415892142."
+      }
+    ]
   },
   {
     "id": "conversation-428082337",
@@ -4054,7 +8499,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telephone Conversation with Prime Minister Suleyman Demirel of Turkey, August 1, 1992. Release status: Partial. NAID 428082337.",
-    "researchNote": "PDF extent: 4 pages. Digital object: 1992-08-01--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082337."
+    "researchNote": "PDF extent: 4 pages. Digital object: 1992-08-01--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082337.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415892188",
+        "naid": "415892188",
+        "title": "[Presidential Daily Diary] 8/1/1992",
+        "date": "1992-08-01",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892188",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-08_01_92-12897-009_415892188.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_01_92-12897-009_415892188.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 8/1/1992. Access restriction: Restricted - Possibly. NAID 415892188.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-08_01_92-12897-009_415892188.pdf. Catalog: https://catalog.archives.gov/id/415892188."
+      },
+      {
+        "id": "daily-diary-ref-415892189",
+        "naid": "415892189",
+        "title": "[Presidential Daily Backup] 8/1/1992",
+        "date": "1992-08-01",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892189",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-08_01_92-12897-010_415892189.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-08_01_92-12897-010_415892189.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 8/1/1992. Access restriction: Restricted - Possibly. NAID 415892189.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-08_01_92-12897-010_415892189.pdf. Catalog: https://catalog.archives.gov/id/415892189."
+      }
+    ]
   },
   {
     "id": "conversation-428082333",
@@ -4104,7 +8603,61 @@ window.GCT_RECORDS = [
       "Greece"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Memcon Files, Meeting with Prime Minister Mitsotakis of Greece, November 17, 1992. Release status: Full. NAID 428082333.",
-    "researchNote": "PDF extent: 7 pages. Digital object: 1992-11-17--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428082333."
+    "researchNote": "PDF extent: 7 pages. Digital object: 1992-11-17--Mitsotakis.pdf. Catalog: https://catalog.archives.gov/id/428082333.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415892404",
+        "naid": "415892404",
+        "title": "[Presidential Daily Diary] 11/17/1992",
+        "date": "1992-11-17",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892404",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-11_17_92-26863-003_415892404.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-11_17_92-26863-003_415892404.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 11/17/1992. Access restriction: Restricted - Possibly. NAID 415892404.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-11_17_92-26863-003_415892404.pdf. Catalog: https://catalog.archives.gov/id/415892404."
+      },
+      {
+        "id": "daily-diary-ref-415892405",
+        "naid": "415892405",
+        "title": "[Presidential Daily Backup] 11/17/1992",
+        "date": "1992-11-17",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892405",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-11_17_92-26863-004_415892405.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-11_17_92-26863-004_415892405.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 11/17/1992. Access restriction: Restricted - Possibly. NAID 415892405.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-11_17_92-26863-004_415892405.pdf. Catalog: https://catalog.archives.gov/id/415892405."
+      }
+    ]
   },
   {
     "id": "conversation-428082409",
@@ -4204,6 +8757,34 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with Suleyman Demirel, Prime Minister of Turkey, December 24, 1992. Release status: Full. NAID 428082437.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1992-12-24--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082437."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1992-12-24--Demirel.pdf. Catalog: https://catalog.archives.gov/id/428082437.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415892479",
+        "naid": "415892479",
+        "title": "[Presidential Daily Backup] 12/24/1992",
+        "date": "1992-12-24",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892479",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-12_24_92-26865-020_415892479.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_24_92-26865-020_415892479.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 12/24/1992. Access restriction: Restricted - Possibly. NAID 415892479.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-12_24_92-26865-020_415892479.pdf. Catalog: https://catalog.archives.gov/id/415892479."
+      }
+    ]
   }
 ];

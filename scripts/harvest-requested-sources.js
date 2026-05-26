@@ -25,6 +25,14 @@ const REQUESTED_SOURCES = [
     note: "User-requested online Presidential Daily File search-within set."
   },
   {
+    id: "presidential-daily-diary",
+    label: "Presidential Daily Diary and Backup",
+    shortLabel: "Daily Diary",
+    naid: "186322",
+    requestedUrl: "https://catalog.archives.gov/id/186322",
+    note: "User-requested Presidential Daily Diary and Daily Backup source for meetings, calls, schedules, attendees, and call-status corroboration."
+  },
+  {
     id: "nsc",
     label: "NSC",
     shortLabel: "NSC",

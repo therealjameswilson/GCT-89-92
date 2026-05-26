@@ -4309,6 +4309,124 @@ window.REQUESTED_SOURCE_SERIES = [
     "researchNote": "Query totals: telephone conversation (1037), memorandum of conversation (1026), NSC/DC (834), Turkey (715), Greek (390), Greece (363), Turkish (328), Cyprus (267). Children found: 2174. Online children: 2174. Retained EastMed leads: 30. Catalog: https://catalog.archives.gov/id/595141. Search Within: https://catalog.archives.gov/search-within/595141?availableOnline=true&limit=100."
   },
   {
+    "id": "presidential-daily-diary",
+    "label": "Presidential Daily Diary and Backup",
+    "shortLabel": "Daily Diary",
+    "naid": "186322",
+    "title": "Presidential Daily Diary and Presidential Daily Backup Materials",
+    "levelOfDescription": "series",
+    "localIdentifier": "GB-WHASF-001",
+    "dateRange": "1989-01-20 to 1993-01-20",
+    "catalogUrl": "https://catalog.archives.gov/id/186322",
+    "searchWithinUrl": "https://catalog.archives.gov/search-within/186322?limit=100",
+    "requestedUrl": "https://catalog.archives.gov/id/186322",
+    "accessRestriction": "Restricted - Partly",
+    "useRestriction": "Unrestricted",
+    "scopeAndContentNote": "The daily diary and daily backup chronicle the daily activities of the President, including personal and private meetings (with lists of attendees), events, social and speaking engagements, trips, telephone calls, meals, routine tasks, and recreational pursuits.  The daily diary and the daily backup do not contain summaries of telephone calls or meeting minutes.\n\nFor any given meeting, telephone call, or event, the daily diary usually lists the time, location, persons involved (or a reference to an appendix listing individuals present), and, in cases where ambiguity prevails, a brief description of what took place.  Except in rare instances, each daily diary entry provides a comprehensive list of presidential activities.  However, there are missing dates (sometimes covering as long as a month) in the series.  They generally occurred when the President was on vacation, most often in August and December.  These omissions are clearly marked in the folder title list.\n\nThe daily backup contains telephone memoranda that record times of calls, status (incoming or outgoing), and parties involved.  Other materials in the daily backup include briefing memoranda used to inform the President about the purpose, duration, and size of upcoming events; schedules describing the minute-by-minute visits of foreign leaders; documentation supporting trips and short excursions of the President; meeting agendas and talking points (in the form of outlines) for some cabinet meetings and diplomatic conferences; notes concerning recommended telephone calls for the 1992 Presidential Campaign; and items concerning President Bush's weekend stays at Camp David.\n\nThe diary entries from January 15, 1991 to February 27, 1991 cover the period of Operation Desert Storm, otherwise known as the Persian Gulf War.  The entries document the President's daily intelligence and national security briefings and his frequent contacts with the heads of state of coalition partners.",
+    "childTotal": 3008,
+    "onlineChildTotal": 3008,
+    "harvestedChildren": 0,
+    "queryHitFiles": 4,
+    "queryHitTotal": 7,
+    "priority": "Schedule corroboration source",
+    "note": "User-requested Presidential Daily Diary and Daily Backup source for meetings, calls, schedules, attendees, and call-status corroboration.",
+    "queryTotals": [
+      {
+        "id": "turkey",
+        "q": "Turkey",
+        "label": "Turkey",
+        "total": 3,
+        "returned": 3
+      },
+      {
+        "id": "ozal",
+        "q": "Ozal",
+        "label": "Ozal",
+        "total": 2,
+        "returned": 2
+      },
+      {
+        "id": "samaras",
+        "q": "Samaras",
+        "label": "Samaras",
+        "total": 1,
+        "returned": 1
+      },
+      {
+        "id": "greece",
+        "q": "Greece",
+        "label": "Greece",
+        "total": 1,
+        "returned": 1
+      }
+    ],
+    "leads": [
+      {
+        "naid": "186327",
+        "title": "President's Daily Diary Entry, January 21, 1991",
+        "date": "1991-01-21",
+        "catalogUrl": "https://catalog.archives.gov/id/186327",
+        "queryLabels": [
+          "Turkey"
+        ],
+        "sourceNote": "Source: George H.W. Bush Library, President's Daily Diary Entry, January 21, 1991. NAID 186327.",
+        "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/186327."
+      },
+      {
+        "naid": "186336",
+        "title": "President's Daily Diary Entry, January 30, 1991",
+        "date": "1991-01-30",
+        "catalogUrl": "https://catalog.archives.gov/id/186336",
+        "queryLabels": [
+          "Ozal",
+          "Samaras",
+          "Greece"
+        ],
+        "sourceNote": "Source: George H.W. Bush Library, President's Daily Diary Entry, January 30, 1991. NAID 186336.",
+        "researchNote": "Query hit(s): Ozal, Samaras, Greece. Catalog: https://catalog.archives.gov/id/186336."
+      },
+      {
+        "naid": "186342",
+        "title": "President's Daily Diary Entry, February 5, 1991",
+        "date": "1991-02-05",
+        "catalogUrl": "https://catalog.archives.gov/id/186342",
+        "queryLabels": [
+          "Ozal",
+          "Turkey"
+        ],
+        "sourceNote": "Source: George H.W. Bush Library, President's Daily Diary Entry, February 5, 1991. NAID 186342.",
+        "researchNote": "Query hit(s): Ozal, Turkey. Catalog: https://catalog.archives.gov/id/186342."
+      },
+      {
+        "naid": "186359",
+        "title": "President's Daily Diary Entry, February 22, 1991",
+        "date": "1991-02-22",
+        "catalogUrl": "https://catalog.archives.gov/id/186359",
+        "queryLabels": [
+          "Turkey"
+        ],
+        "sourceNote": "Source: George H.W. Bush Library, President's Daily Diary Entry, February 22, 1991. NAID 186359.",
+        "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/186359."
+      }
+    ],
+    "children": [],
+    "frusVolume": {
+      "id": "frus1989-92v06",
+      "title": "Foreign Relations of the United States, 1989-1992, Volume VI, Eastern Mediterranean",
+      "url": "https://history.state.gov/historicaldocuments/frus1989-92v06",
+      "status": "Being Researched"
+    },
+    "source": {
+      "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+      "url": "https://catalog.archives.gov/id/186322",
+      "collection": "White House Office of Appointments and Scheduling Files",
+      "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+      "seriesNaid": "186322"
+    },
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials. Access restriction: Restricted - Partly. NAID 186322.",
+    "researchNote": "Query totals: Turkey (3), Ozal (2), Samaras (1), Greece (1). Children found: 3008. Online children: 3008. Retained EastMed leads: 4. Catalog: https://catalog.archives.gov/id/186322. Search Within: https://catalog.archives.gov/search-within/186322?limit=100."
+  },
+  {
     "id": "nsc",
     "label": "NSC",
     "shortLabel": "NSC",

@@ -1,23 +1,23 @@
 [
   {
-    "id": "scout-559710194",
+    "id": "scout-323151746",
     "recordSet": "NARA Scout lead",
-    "date": "1989-01-01",
-    "sortDate": "1989-01-01",
-    "year": 1989,
-    "title": "[Press Releases]: Greece [OA/ID 12715]",
-    "documentTitle": "[Press Releases]: Greece [OA/ID 12715]",
+    "date": "1991-12-06",
+    "sortDate": "1991-12-06",
+    "year": 1991,
+    "title": "Prime Minister Mitsotakis Departure 12/6/91 [OA 6040]",
+    "documentTitle": "Prime Minister Mitsotakis Departure 12/6/91 [OA 6040]",
     "chapter": {
       "number": 1,
       "name": "Greece"
     },
     "category": "MDR / restriction candidate",
-    "score": 27,
-    "naid": "559710194",
-    "catalogUrl": "https://catalog.archives.gov/id/559710194",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
+    "score": 62,
+    "naid": "323151746",
+    "catalogUrl": "https://catalog.archives.gov/id/323151746",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_draft_chron_578973/41-bpr-speech-draft-chron-13593-003_323151746.pdf",
+    "objectFilename": "41-bpr-speech-draft-chron-13593-003_323151746.pdf",
+    "objectCount": 1,
     "levelOfDescription": "fileUnit",
     "accessRestriction": "Restricted - Possibly",
     "countries": [
@@ -28,15 +28,15 @@
       "Greece",
       "MDR / restriction candidate",
       "Greece",
-      "Press Release Files"
+      "Speech Draft Files"
     ],
     "source": {
       "name": "NARA Scout / National Archives Catalog",
       "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Office of Management and Administration (George H. W. Bush Administration)",
-      "collectionNaid": 2163576,
-      "series": "Press Release Files",
-      "seriesNaid": 2198546,
+      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
+      "collectionNaid": 578954,
+      "series": "Speech Draft Files",
+      "seriesNaid": 578973,
       "fileTitle": "",
       "fileNaid": ""
     },
@@ -50,28 +50,28 @@
     "scoutUrls": [
       "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
     ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Management and Administration, Press Release Files, [Press Releases]: Greece [OA/ID 12715]. Access restriction: Restricted - Possibly. NAID 559710194.",
-    "researchNote": "Query hit(s): Greece. Catalog: https://catalog.archives.gov/id/559710194."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Draft Files, Prime Minister Mitsotakis Departure 12/6/91 [OA 6040]. Access restriction: Restricted - Possibly. NAID 323151746.",
+    "researchNote": "Query hit(s): Greece. Digital object: 41-bpr-speech-draft-chron-13593-003_323151746.pdf. Catalog: https://catalog.archives.gov/id/323151746."
   },
   {
-    "id": "scout-471796212",
+    "id": "scout-323153724",
     "recordSet": "NARA Scout lead",
-    "date": "1989-01-01",
-    "sortDate": "1989-01-01",
-    "year": 1989,
-    "title": "Greece",
-    "documentTitle": "Greece",
+    "date": "1991-12-12",
+    "sortDate": "1991-12-12",
+    "year": 1991,
+    "title": "Mitsotakis Departure 12/12/91 [OA 8332]",
+    "documentTitle": "Mitsotakis Departure 12/12/91 [OA 8332]",
     "chapter": {
       "number": 1,
       "name": "Greece"
     },
     "category": "MDR / restriction candidate",
-    "score": 27,
-    "naid": "471796212",
-    "catalogUrl": "https://catalog.archives.gov/id/471796212",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
+    "score": 62,
+    "naid": "323153724",
+    "catalogUrl": "https://catalog.archives.gov/id/323153724",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13786-008_323153724.pdf",
+    "objectFilename": "41-bpr-speech-backup-chron-13786-008_323153724.pdf",
+    "objectCount": 1,
     "levelOfDescription": "fileUnit",
     "accessRestriction": "Restricted - Possibly",
     "countries": [
@@ -82,15 +82,15 @@
       "Greece",
       "MDR / restriction candidate",
       "Greece",
-      "Marlin Fitzwater Alphabetical Subject Files"
+      "Speech Backup Chronological Files"
     ],
     "source": {
       "name": "NARA Scout / National Archives Catalog",
       "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Office of Press Secretary (George H. W. Bush Administration)",
-      "collectionNaid": 573356,
-      "series": "Marlin Fitzwater Alphabetical Subject Files",
-      "seriesNaid": 566270,
+      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
+      "collectionNaid": 578954,
+      "series": "Speech Backup Chronological Files",
+      "seriesNaid": 579003,
       "fileTitle": "",
       "fileNaid": ""
     },
@@ -104,28 +104,28 @@
     "scoutUrls": [
       "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
     ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Press Secretary, Marlin Fitzwater Alphabetical Subject Files, Greece. Access restriction: Restricted - Possibly. NAID 471796212.",
-    "researchNote": "Query hit(s): Greece. Catalog: https://catalog.archives.gov/id/471796212."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Mitsotakis Departure 12/12/91 [OA 8332]. Access restriction: Restricted - Possibly. NAID 323153724.",
+    "researchNote": "Query hit(s): Greece. Digital object: 41-bpr-speech-backup-chron-13786-008_323153724.pdf. Catalog: https://catalog.archives.gov/id/323153724."
   },
   {
-    "id": "scout-518603665",
+    "id": "scout-323153427",
     "recordSet": "NARA Scout lead",
-    "date": "1989-01-01",
-    "sortDate": "1989-01-01",
-    "year": 1989,
-    "title": "Greece",
-    "documentTitle": "Greece",
+    "date": "1991-07-10",
+    "sortDate": "1991-07-10",
+    "year": 1991,
+    "title": "Greece 7/10/91 [OA 8326] [1]",
+    "documentTitle": "Greece 7/10/91 [OA 8326] [1]",
     "chapter": {
       "number": 1,
       "name": "Greece"
     },
     "category": "MDR / restriction candidate",
-    "score": 27,
-    "naid": "518603665",
-    "catalogUrl": "https://catalog.archives.gov/id/518603665",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
+    "score": 49,
+    "naid": "323153427",
+    "catalogUrl": "https://catalog.archives.gov/id/323153427",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13763-004_323153427.pdf",
+    "objectFilename": "41-bpr-speech-backup-chron-13763-004_323153427.pdf",
+    "objectCount": 1,
     "levelOfDescription": "fileUnit",
     "accessRestriction": "Restricted - Possibly",
     "countries": [
@@ -136,50 +136,54 @@
       "Greece",
       "MDR / restriction candidate",
       "Greece",
-      "Country Files"
+      "Eastern Mediterranean",
+      "Speech Backup Chronological Files"
     ],
     "source": {
       "name": "NARA Scout / National Archives Catalog",
       "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration)",
-      "collectionNaid": 2579439,
-      "series": "Country Files",
-      "seriesNaid": 2579545,
+      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
+      "collectionNaid": 578954,
+      "series": "Speech Backup Chronological Files",
+      "seriesNaid": 579003,
       "fileTitle": "",
       "fileNaid": ""
     },
     "scopeAndContentNote": "",
     "queryHits": [
-      "greece"
+      "greece",
+      "eastmed"
     ],
     "queryLabels": [
-      "Greece"
+      "Greece",
+      "Eastern Mediterranean"
     ],
     "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
+      "https://therealjameswilson.github.io/nara-scout/#q=Eastern+Mediterranean&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
     ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration), Country Files, Greece. Access restriction: Restricted - Possibly. NAID 518603665.",
-    "researchNote": "Query hit(s): Greece. Catalog: https://catalog.archives.gov/id/518603665."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Greece 7/10/91 [OA 8326] [1]. Access restriction: Restricted - Possibly. NAID 323153427.",
+    "researchNote": "Query hit(s): Greece, Eastern Mediterranean. Digital object: 41-bpr-speech-backup-chron-13763-004_323153427.pdf. Catalog: https://catalog.archives.gov/id/323153427."
   },
   {
-    "id": "scout-492080059",
+    "id": "scout-323153437",
     "recordSet": "NARA Scout lead",
-    "date": "1990-06-06",
-    "sortDate": "1990-06-06",
-    "year": 1990,
-    "title": "6/6/90 Tea, Mrs. Mitsotakis of Greece, Wife of the Prime Minister",
-    "documentTitle": "6/6/90 Tea, Mrs. Mitsotakis of Greece, Wife of the Prime Minister",
+    "date": "1991-07-19",
+    "sortDate": "1991-07-19",
+    "year": 1991,
+    "title": "Greece 7/19/91 [OA 8325] [3]",
+    "documentTitle": "Greece 7/19/91 [OA 8325] [3]",
     "chapter": {
       "number": 1,
       "name": "Greece"
     },
     "category": "MDR / restriction candidate",
-    "score": 43,
-    "naid": "492080059",
-    "catalogUrl": "https://catalog.archives.gov/id/492080059",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
+    "score": 49,
+    "naid": "323153437",
+    "catalogUrl": "https://catalog.archives.gov/id/323153437",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13764-003_323153437.pdf",
+    "objectFilename": "41-bpr-speech-backup-chron-13764-003_323153437.pdf",
+    "objectCount": 1,
     "levelOfDescription": "fileUnit",
     "accessRestriction": "Restricted - Possibly",
     "countries": [
@@ -190,30 +194,34 @@
       "Greece",
       "MDR / restriction candidate",
       "Greece",
-      "Cathy Fenton Subject Files"
+      "Eastern Mediterranean",
+      "Speech Backup Chronological Files"
     ],
     "source": {
       "name": "NARA Scout / National Archives Catalog",
       "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Social Office (George H. W. Bush Administration)",
-      "collectionNaid": 2163595,
-      "series": "Cathy Fenton Subject Files",
-      "seriesNaid": 2596211,
+      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
+      "collectionNaid": 578954,
+      "series": "Speech Backup Chronological Files",
+      "seriesNaid": 579003,
       "fileTitle": "",
       "fileNaid": ""
     },
     "scopeAndContentNote": "",
     "queryHits": [
-      "greece"
+      "greece",
+      "eastmed"
     ],
     "queryLabels": [
-      "Greece"
+      "Greece",
+      "Eastern Mediterranean"
     ],
     "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
+      "https://therealjameswilson.github.io/nara-scout/#q=Eastern+Mediterranean&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
     ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the White House Social Office (George H. W. Bush Administration), Cathy Fenton Subject Files, 6/6/90 Tea, Mrs. Mitsotakis of Greece, Wife of the Prime Minister. Access restriction: Restricted - Possibly. NAID 492080059.",
-    "researchNote": "Query hit(s): Greece. Catalog: https://catalog.archives.gov/id/492080059."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Greece 7/19/91 [OA 8325] [3]. Access restriction: Restricted - Possibly. NAID 323153437.",
+    "researchNote": "Query hit(s): Greece, Eastern Mediterranean. Digital object: 41-bpr-speech-backup-chron-13764-003_323153437.pdf. Catalog: https://catalog.archives.gov/id/323153437."
   },
   {
     "id": "scout-323151398",
@@ -322,64 +330,6 @@
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Greek Independence Day Proclamation Signing 3/25/91 [OA 6856]. Access restriction: Restricted - Possibly. NAID 323153259.",
     "researchNote": "Query hit(s): Greece. Digital object: 41-bpr-speech-backup-chron-13750-006_323153259.pdf. Catalog: https://catalog.archives.gov/id/323153259."
-  },
-  {
-    "id": "scout-323153427",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-07-10",
-    "sortDate": "1991-07-10",
-    "year": 1991,
-    "title": "Greece 7/10/91 [OA 8326] [1]",
-    "documentTitle": "Greece 7/10/91 [OA 8326] [1]",
-    "chapter": {
-      "number": 1,
-      "name": "Greece"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 49,
-    "naid": "323153427",
-    "catalogUrl": "https://catalog.archives.gov/id/323153427",
-    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13763-004_323153427.pdf",
-    "objectFilename": "41-bpr-speech-backup-chron-13763-004_323153427.pdf",
-    "objectCount": 1,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Greece"
-    ],
-    "topics": [
-      "Greece",
-      "MDR / restriction candidate",
-      "Greece",
-      "Eastern Mediterranean",
-      "Speech Backup Chronological Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
-      "collectionNaid": 578954,
-      "series": "Speech Backup Chronological Files",
-      "seriesNaid": 579003,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "greece",
-      "eastmed"
-    ],
-    "queryLabels": [
-      "Greece",
-      "Eastern Mediterranean"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
-      "https://therealjameswilson.github.io/nara-scout/#q=Eastern+Mediterranean&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Greece 7/10/91 [OA 8326] [1]. Access restriction: Restricted - Possibly. NAID 323153427.",
-    "researchNote": "Query hit(s): Greece, Eastern Mediterranean. Digital object: 41-bpr-speech-backup-chron-13763-004_323153427.pdf. Catalog: https://catalog.archives.gov/id/323153427."
   },
   {
     "id": "scout-323153428",
@@ -652,60 +602,6 @@
     "researchNote": "Query hit(s): Greece. Digital object: 41-bpr-speech-draft-chron-13575-009_323151540.pdf. Catalog: https://catalog.archives.gov/id/323151540."
   },
   {
-    "id": "scout-492076316",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-07-19",
-    "sortDate": "1991-07-19",
-    "year": 1991,
-    "title": "1991-07-19 - [Enrolled Bill H.R. 5412 - Transfer of Certain Naval Vessels to Greece and Taiwan]",
-    "documentTitle": "1991-07-19 - [Enrolled Bill H.R. 5412 - Transfer of Certain Naval Vessels to Greece and Taiwan]",
-    "chapter": {
-      "number": 1,
-      "name": "Greece"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 27,
-    "naid": "492076316",
-    "catalogUrl": "https://catalog.archives.gov/id/492076316",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Greece"
-    ],
-    "topics": [
-      "Greece",
-      "MDR / restriction candidate",
-      "Greece",
-      "Bill Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Executive Clerk (George H. W. Bush Administration)",
-      "collectionNaid": 2163563,
-      "series": "Bill Files",
-      "seriesNaid": 2198184,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "greece"
-    ],
-    "queryLabels": [
-      "Greece"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the White House Executive Clerk (George H. W. Bush Administration), Bill Files, 1991-07-19 - [Enrolled Bill H.R. 5412 - Transfer of Certain Naval Vessels to Greece and Taiwan]. Access restriction: Restricted - Possibly. NAID 492076316.",
-    "researchNote": "Query hit(s): Greece. Catalog: https://catalog.archives.gov/id/492076316."
-  },
-  {
     "id": "scout-323153434",
     "recordSet": "NARA Scout lead",
     "date": "1991-07-19",
@@ -974,64 +870,6 @@
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Greece 7/19/91 [OA 8325] [2]. Access restriction: Restricted - Possibly. NAID 323153436.",
     "researchNote": "Query hit(s): Greece. Digital object: 41-bpr-speech-backup-chron-13764-002_323153436.pdf. Catalog: https://catalog.archives.gov/id/323153436."
-  },
-  {
-    "id": "scout-323153437",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-07-19",
-    "sortDate": "1991-07-19",
-    "year": 1991,
-    "title": "Greece 7/19/91 [OA 8325] [3]",
-    "documentTitle": "Greece 7/19/91 [OA 8325] [3]",
-    "chapter": {
-      "number": 1,
-      "name": "Greece"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 49,
-    "naid": "323153437",
-    "catalogUrl": "https://catalog.archives.gov/id/323153437",
-    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13764-003_323153437.pdf",
-    "objectFilename": "41-bpr-speech-backup-chron-13764-003_323153437.pdf",
-    "objectCount": 1,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Greece"
-    ],
-    "topics": [
-      "Greece",
-      "MDR / restriction candidate",
-      "Greece",
-      "Eastern Mediterranean",
-      "Speech Backup Chronological Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
-      "collectionNaid": 578954,
-      "series": "Speech Backup Chronological Files",
-      "seriesNaid": 579003,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "greece",
-      "eastmed"
-    ],
-    "queryLabels": [
-      "Greece",
-      "Eastern Mediterranean"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
-      "https://therealjameswilson.github.io/nara-scout/#q=Eastern+Mediterranean&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Greece 7/19/91 [OA 8325] [3]. Access restriction: Restricted - Possibly. NAID 323153437.",
-    "researchNote": "Query hit(s): Greece, Eastern Mediterranean. Digital object: 41-bpr-speech-backup-chron-13764-003_323153437.pdf. Catalog: https://catalog.archives.gov/id/323153437."
   },
   {
     "id": "scout-323153438",
@@ -1466,114 +1304,6 @@
     "researchNote": "Query hit(s): Greece. Digital object: 41-bpr-speech-draft-chron-13575-014_323151545.pdf. Catalog: https://catalog.archives.gov/id/323151545."
   },
   {
-    "id": "scout-323151746",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-12-06",
-    "sortDate": "1991-12-06",
-    "year": 1991,
-    "title": "Prime Minister Mitsotakis Departure 12/6/91 [OA 6040]",
-    "documentTitle": "Prime Minister Mitsotakis Departure 12/6/91 [OA 6040]",
-    "chapter": {
-      "number": 1,
-      "name": "Greece"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 62,
-    "naid": "323151746",
-    "catalogUrl": "https://catalog.archives.gov/id/323151746",
-    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_draft_chron_578973/41-bpr-speech-draft-chron-13593-003_323151746.pdf",
-    "objectFilename": "41-bpr-speech-draft-chron-13593-003_323151746.pdf",
-    "objectCount": 1,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Greece"
-    ],
-    "topics": [
-      "Greece",
-      "MDR / restriction candidate",
-      "Greece",
-      "Speech Draft Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
-      "collectionNaid": 578954,
-      "series": "Speech Draft Files",
-      "seriesNaid": 578973,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "greece"
-    ],
-    "queryLabels": [
-      "Greece"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Draft Files, Prime Minister Mitsotakis Departure 12/6/91 [OA 6040]. Access restriction: Restricted - Possibly. NAID 323151746.",
-    "researchNote": "Query hit(s): Greece. Digital object: 41-bpr-speech-draft-chron-13593-003_323151746.pdf. Catalog: https://catalog.archives.gov/id/323151746."
-  },
-  {
-    "id": "scout-323153724",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-12-12",
-    "sortDate": "1991-12-12",
-    "year": 1991,
-    "title": "Mitsotakis Departure 12/12/91 [OA 8332]",
-    "documentTitle": "Mitsotakis Departure 12/12/91 [OA 8332]",
-    "chapter": {
-      "number": 1,
-      "name": "Greece"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 62,
-    "naid": "323153724",
-    "catalogUrl": "https://catalog.archives.gov/id/323153724",
-    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13786-008_323153724.pdf",
-    "objectFilename": "41-bpr-speech-backup-chron-13786-008_323153724.pdf",
-    "objectCount": 1,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Greece"
-    ],
-    "topics": [
-      "Greece",
-      "MDR / restriction candidate",
-      "Greece",
-      "Speech Backup Chronological Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
-      "collectionNaid": 578954,
-      "series": "Speech Backup Chronological Files",
-      "seriesNaid": 579003,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "greece"
-    ],
-    "queryLabels": [
-      "Greece"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Mitsotakis Departure 12/12/91 [OA 8332]. Access restriction: Restricted - Possibly. NAID 323153724.",
-    "researchNote": "Query hit(s): Greece. Digital object: 41-bpr-speech-backup-chron-13786-008_323153724.pdf. Catalog: https://catalog.archives.gov/id/323153724."
-  },
-  {
     "id": "scout-323151938",
     "recordSet": "NARA Scout lead",
     "date": "1992-03-25",
@@ -1734,6 +1464,330 @@
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Greek Independence Day 3/25/92 [OA 7570] [2]. Access restriction: Restricted - Possibly. NAID 323153975.",
     "researchNote": "Query hit(s): Greece. Digital object: 41-bpr-speech-backup-chron-13805-001_323153975.pdf. Catalog: https://catalog.archives.gov/id/323153975."
+  },
+  {
+    "id": "scout-492080059",
+    "recordSet": "NARA Scout lead",
+    "date": "1990-06-06",
+    "sortDate": "1990-06-06",
+    "year": 1990,
+    "title": "6/6/90 Tea, Mrs. Mitsotakis of Greece, Wife of the Prime Minister",
+    "documentTitle": "6/6/90 Tea, Mrs. Mitsotakis of Greece, Wife of the Prime Minister",
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 43,
+    "naid": "492080059",
+    "catalogUrl": "https://catalog.archives.gov/id/492080059",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "topics": [
+      "Greece",
+      "MDR / restriction candidate",
+      "Greece",
+      "Cathy Fenton Subject Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the White House Social Office (George H. W. Bush Administration)",
+      "collectionNaid": 2163595,
+      "series": "Cathy Fenton Subject Files",
+      "seriesNaid": 2596211,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "greece"
+    ],
+    "queryLabels": [
+      "Greece"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Records of the White House Social Office (George H. W. Bush Administration), Cathy Fenton Subject Files, 6/6/90 Tea, Mrs. Mitsotakis of Greece, Wife of the Prime Minister. Access restriction: Restricted - Possibly. NAID 492080059.",
+    "researchNote": "Query hit(s): Greece. Catalog: https://catalog.archives.gov/id/492080059."
+  },
+  {
+    "id": "scout-559710194",
+    "recordSet": "NARA Scout lead",
+    "date": "1989-01-01",
+    "sortDate": "1989-01-01",
+    "year": 1989,
+    "title": "[Press Releases]: Greece [OA/ID 12715]",
+    "documentTitle": "[Press Releases]: Greece [OA/ID 12715]",
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 27,
+    "naid": "559710194",
+    "catalogUrl": "https://catalog.archives.gov/id/559710194",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "topics": [
+      "Greece",
+      "MDR / restriction candidate",
+      "Greece",
+      "Press Release Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the White House Office of Management and Administration (George H. W. Bush Administration)",
+      "collectionNaid": 2163576,
+      "series": "Press Release Files",
+      "seriesNaid": 2198546,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "greece"
+    ],
+    "queryLabels": [
+      "Greece"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Management and Administration, Press Release Files, [Press Releases]: Greece [OA/ID 12715]. Access restriction: Restricted - Possibly. NAID 559710194.",
+    "researchNote": "Query hit(s): Greece. Catalog: https://catalog.archives.gov/id/559710194."
+  },
+  {
+    "id": "scout-471796212",
+    "recordSet": "NARA Scout lead",
+    "date": "1989-01-01",
+    "sortDate": "1989-01-01",
+    "year": 1989,
+    "title": "Greece",
+    "documentTitle": "Greece",
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 27,
+    "naid": "471796212",
+    "catalogUrl": "https://catalog.archives.gov/id/471796212",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "topics": [
+      "Greece",
+      "MDR / restriction candidate",
+      "Greece",
+      "Marlin Fitzwater Alphabetical Subject Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the White House Office of Press Secretary (George H. W. Bush Administration)",
+      "collectionNaid": 573356,
+      "series": "Marlin Fitzwater Alphabetical Subject Files",
+      "seriesNaid": 566270,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "greece"
+    ],
+    "queryLabels": [
+      "Greece"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Press Secretary, Marlin Fitzwater Alphabetical Subject Files, Greece. Access restriction: Restricted - Possibly. NAID 471796212.",
+    "researchNote": "Query hit(s): Greece. Catalog: https://catalog.archives.gov/id/471796212."
+  },
+  {
+    "id": "scout-518603665",
+    "recordSet": "NARA Scout lead",
+    "date": "1989-01-01",
+    "sortDate": "1989-01-01",
+    "year": 1989,
+    "title": "Greece",
+    "documentTitle": "Greece",
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 27,
+    "naid": "518603665",
+    "catalogUrl": "https://catalog.archives.gov/id/518603665",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "topics": [
+      "Greece",
+      "MDR / restriction candidate",
+      "Greece",
+      "Country Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration)",
+      "collectionNaid": 2579439,
+      "series": "Country Files",
+      "seriesNaid": 2579545,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "greece"
+    ],
+    "queryLabels": [
+      "Greece"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration), Country Files, Greece. Access restriction: Restricted - Possibly. NAID 518603665.",
+    "researchNote": "Query hit(s): Greece. Catalog: https://catalog.archives.gov/id/518603665."
+  },
+  {
+    "id": "scout-492076316",
+    "recordSet": "NARA Scout lead",
+    "date": "1991-07-19",
+    "sortDate": "1991-07-19",
+    "year": 1991,
+    "title": "1991-07-19 - [Enrolled Bill H.R. 5412 - Transfer of Certain Naval Vessels to Greece and Taiwan]",
+    "documentTitle": "1991-07-19 - [Enrolled Bill H.R. 5412 - Transfer of Certain Naval Vessels to Greece and Taiwan]",
+    "chapter": {
+      "number": 1,
+      "name": "Greece"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 27,
+    "naid": "492076316",
+    "catalogUrl": "https://catalog.archives.gov/id/492076316",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Greece"
+    ],
+    "topics": [
+      "Greece",
+      "MDR / restriction candidate",
+      "Greece",
+      "Bill Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the White House Executive Clerk (George H. W. Bush Administration)",
+      "collectionNaid": 2163563,
+      "series": "Bill Files",
+      "seriesNaid": 2198184,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "greece"
+    ],
+    "queryLabels": [
+      "Greece"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Records of the White House Executive Clerk (George H. W. Bush Administration), Bill Files, 1991-07-19 - [Enrolled Bill H.R. 5412 - Transfer of Certain Naval Vessels to Greece and Taiwan]. Access restriction: Restricted - Possibly. NAID 492076316.",
+    "researchNote": "Query hit(s): Greece. Catalog: https://catalog.archives.gov/id/492076316."
+  },
+  {
+    "id": "scout-470426153",
+    "recordSet": "NARA Scout lead",
+    "date": "1991-01-01",
+    "sortDate": "1991-01-01",
+    "year": 1991,
+    "title": "Cyprus Diary 1991",
+    "documentTitle": "Cyprus Diary 1991",
+    "chapter": {
+      "number": 2,
+      "name": "Cyprus"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 73,
+    "naid": "470426153",
+    "catalogUrl": "https://catalog.archives.gov/id/470426153",
+    "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/haass/correspondence_2554865/41-bpr-nsc-haass_correspondence-cf01479-016.pdf",
+    "objectFilename": "41-bpr-nsc-haass_correspondence-cf01479-016.pdf",
+    "objectCount": 1,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Cyprus"
+    ],
+    "topics": [
+      "Cyprus",
+      "MDR / restriction candidate",
+      "Cyprus",
+      "Richard N. Haass' Correspondence Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Richard N. Haass' Correspondence Files",
+      "seriesNaid": 2554865,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "cyprus"
+    ],
+    "queryLabels": [
+      "Cyprus"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Cyprus&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Richard N. Haass' Correspondence Files, Cyprus Diary 1991. Access restriction: Restricted - Possibly. NAID 470426153.",
+    "researchNote": "Query hit(s): Cyprus. Digital object: 41-bpr-nsc-haass_correspondence-cf01479-016.pdf. Catalog: https://catalog.archives.gov/id/470426153."
   },
   {
     "id": "scout-559710171",
@@ -1898,97 +1952,189 @@
     "researchNote": "Query hit(s): Cyprus. Catalog: https://catalog.archives.gov/id/518603720."
   },
   {
-    "id": "scout-470426153",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-01-01",
-    "sortDate": "1991-01-01",
+    "id": "daily-diary-item-186342",
+    "naid": "186342",
+    "title": "President's Daily Diary Entry, February 5, 1991",
+    "date": "1991-02-05",
+    "levelOfDescription": "item",
+    "accessRestriction": "Unrestricted",
+    "catalogUrl": "https://catalog.archives.gov/id/186342",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/42/1863/186342/content/arcmedia/media/images/40/21/40-2053a.gif",
+    "objectFilename": "40-2053a.gif",
+    "objectCount": 11,
+    "scopeAndContentNote": "Prior to his morning national security and intelligence briefings, the President played tennis with Chris Evert. Later in the morning, he spoke by telephone with President Carlos Salinas of Mexico, Prime Minister Brian Mulroney of Canada, and President Turgat Ozal of Turkey. Meetings with his domestic policy staff including Roger B. Porter followed. Before lunch, the President held his 71st news conference for members of the press. In the afternoon, the President spoke with President Francois Mitterand of France, and met with senior advisors to discuss the Highway Reauthorization Bill. In the evening after dinner, President Bush spoke with Margaret Thatcher and Walter H. Annenberg.",
+    "matchBasis": "Daily Diary item-level description",
+    "queryLabels": [
+      "Ozal",
+      "Turkey"
+    ],
+    "source": {
+      "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+      "url": "https://catalog.archives.gov/id/186322",
+      "collection": "White House Office of Appointments and Scheduling Files",
+      "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+      "seriesNaid": "186322"
+    },
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, President's Daily Diary Entry, February 5, 1991. Access restriction: Unrestricted. NAID 186342.",
+    "researchNote": "Match basis: Daily Diary item-level description. Query hit(s): Ozal, Turkey. Digital object: 40-2053a.gif. Catalog: https://catalog.archives.gov/id/186342.",
+    "recordSet": "Presidential Daily Diary item",
+    "sortDate": "1991-02-05",
     "year": 1991,
-    "title": "Cyprus Diary 1991",
-    "documentTitle": "Cyprus Diary 1991",
+    "documentTitle": "President's Daily Diary Entry, February 5, 1991",
     "chapter": {
-      "number": 2,
-      "name": "Cyprus"
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "Schedule corroboration",
+    "score": 132,
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Meetings and calls",
+      "Ozal",
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://catalog.archives.gov/search-within/186322?limit=100&q=Ozal"
+    ]
+  },
+  {
+    "id": "daily-diary-item-186327",
+    "naid": "186327",
+    "title": "President's Daily Diary Entry, January 21, 1991",
+    "date": "1991-01-21",
+    "levelOfDescription": "item",
+    "accessRestriction": "Unrestricted",
+    "catalogUrl": "https://catalog.archives.gov/id/186327",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/27/1863/186327/content/arcmedia/media/images/40/19/40-1899a.gif",
+    "objectFilename": "40-1899a.gif",
+    "objectCount": 8,
+    "scopeAndContentNote": "In a busy day at the White House, President Bush met with his senior national security and defense advisors about ongoing hostilities in the Persian Gulf. He also briefed members of Congress, including House Speaker Thomas Foley of Washington. Later in the day, he met with the former Prime Minister of Singapore. Throughout the day, the President made numerous telephone calls to world leaders, including the Prime Ministers of Spain, Italy, and Turkey.",
+    "matchBasis": "Daily Diary item-level description",
+    "queryLabels": [
+      "Turkey"
+    ],
+    "source": {
+      "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+      "url": "https://catalog.archives.gov/id/186322",
+      "collection": "White House Office of Appointments and Scheduling Files",
+      "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+      "seriesNaid": "186322"
+    },
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, President's Daily Diary Entry, January 21, 1991. Access restriction: Unrestricted. NAID 186327.",
+    "researchNote": "Match basis: Daily Diary item-level description. Query hit(s): Turkey. Digital object: 40-1899a.gif. Catalog: https://catalog.archives.gov/id/186327.",
+    "recordSet": "Presidential Daily Diary item",
+    "sortDate": "1991-01-21",
+    "year": 1991,
+    "documentTitle": "President's Daily Diary Entry, January 21, 1991",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "Schedule corroboration",
+    "score": 126,
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Meetings and calls",
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://catalog.archives.gov/search-within/186322?limit=100&q=Turkey"
+    ]
+  },
+  {
+    "id": "daily-diary-item-186359",
+    "naid": "186359",
+    "title": "President's Daily Diary Entry, February 22, 1991",
+    "date": "1991-02-22",
+    "levelOfDescription": "item",
+    "accessRestriction": "Unrestricted",
+    "catalogUrl": "https://catalog.archives.gov/id/186359",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/59/1863/186359/content/arcmedia/media/images/40/23/40-2225a.gif",
+    "objectFilename": "40-2225a.gif",
+    "objectCount": 13,
+    "scopeAndContentNote": "The President received his morning intelligence and national security briefings. Later in the morning, the President spoke with Francois Mitterand, President of France and met with a delegation from Turkey. He spoke by conference call with Hosni Mubarak, President of Egypt, and then released a statement to the press regarding Operation Desert Storm. After swearing in Lynn Martin as Secretary of Labor, the President spoke on a conference call with Mikhail Gorbachev. He also held a meeting with Richard B. Cheney and Colin L. Powell to discuss Operation Desert Storm.",
+    "matchBasis": "Daily Diary item-level description",
+    "queryLabels": [
+      "Turkey"
+    ],
+    "source": {
+      "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+      "url": "https://catalog.archives.gov/id/186322",
+      "collection": "White House Office of Appointments and Scheduling Files",
+      "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+      "seriesNaid": "186322"
+    },
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, President's Daily Diary Entry, February 22, 1991. Access restriction: Unrestricted. NAID 186359.",
+    "researchNote": "Match basis: Daily Diary item-level description. Query hit(s): Turkey. Digital object: 40-2225a.gif. Catalog: https://catalog.archives.gov/id/186359.",
+    "recordSet": "Presidential Daily Diary item",
+    "sortDate": "1991-02-22",
+    "year": 1991,
+    "documentTitle": "President's Daily Diary Entry, February 22, 1991",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "Schedule corroboration",
+    "score": 126,
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Meetings and calls",
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://catalog.archives.gov/search-within/186322?limit=100&q=Turkey"
+    ]
+  },
+  {
+    "id": "scout-470426507",
+    "recordSet": "NARA Scout lead",
+    "date": "1991-06-06",
+    "sortDate": "1991-06-06",
+    "year": 1991,
+    "title": "Richard Haass, Trip to NY, Germany, and Turkey - June 6-11, 1991",
+    "documentTitle": "Richard Haass, Trip to NY, Germany, and Turkey - June 6-11, 1991",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
     },
     "category": "MDR / restriction candidate",
-    "score": 73,
-    "naid": "470426153",
-    "catalogUrl": "https://catalog.archives.gov/id/470426153",
-    "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/haass/correspondence_2554865/41-bpr-nsc-haass_correspondence-cf01479-016.pdf",
-    "objectFilename": "41-bpr-nsc-haass_correspondence-cf01479-016.pdf",
+    "score": 75,
+    "naid": "470426507",
+    "catalogUrl": "https://catalog.archives.gov/id/470426507",
+    "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/haass/trip_2554876/41-bpr-nsc-haass_trip-cf01352-011.pdf",
+    "objectFilename": "41-bpr-nsc-haass_trip-cf01352-011.pdf",
     "objectCount": 1,
     "levelOfDescription": "fileUnit",
     "accessRestriction": "Restricted - Possibly",
     "countries": [
       "United States",
-      "Cyprus"
+      "Turkey"
     ],
     "topics": [
-      "Cyprus",
+      "Turkey",
       "MDR / restriction candidate",
-      "Cyprus",
-      "Richard N. Haass' Correspondence Files"
+      "Turkey",
+      "Richard N. Haass' Trip Files"
     ],
     "source": {
       "name": "NARA Scout / National Archives Catalog",
       "url": "https://therealjameswilson.github.io/nara-scout/",
       "collection": "Records of the National Security Council (George H. W. Bush Administration)",
       "collectionNaid": 2163580,
-      "series": "Richard N. Haass' Correspondence Files",
-      "seriesNaid": 2554865,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "cyprus"
-    ],
-    "queryLabels": [
-      "Cyprus"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Cyprus&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Richard N. Haass' Correspondence Files, Cyprus Diary 1991. Access restriction: Restricted - Possibly. NAID 470426153.",
-    "researchNote": "Query hit(s): Cyprus. Digital object: 41-bpr-nsc-haass_correspondence-cf01479-016.pdf. Catalog: https://catalog.archives.gov/id/470426153."
-  },
-  {
-    "id": "scout-559710234",
-    "recordSet": "NARA Scout lead",
-    "date": "1989-01-01",
-    "sortDate": "1989-01-01",
-    "year": 1989,
-    "title": "[Press Releases]: Turkey [OA/ID 12718]",
-    "documentTitle": "[Press Releases]: Turkey [OA/ID 12718]",
-    "chapter": {
-      "number": 3,
-      "name": "Turkey"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 27,
-    "naid": "559710234",
-    "catalogUrl": "https://catalog.archives.gov/id/559710234",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Turkey"
-    ],
-    "topics": [
-      "Turkey",
-      "MDR / restriction candidate",
-      "Turkey",
-      "Press Release Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Office of Management and Administration (George H. W. Bush Administration)",
-      "collectionNaid": 2163576,
-      "series": "Press Release Files",
-      "seriesNaid": 2198546,
+      "series": "Richard N. Haass' Trip Files",
+      "seriesNaid": 2554876,
       "fileTitle": "",
       "fileNaid": ""
     },
@@ -2002,552 +2148,8 @@
     "scoutUrls": [
       "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
     ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Management and Administration, Press Release Files, [Press Releases]: Turkey [OA/ID 12718]. Access restriction: Restricted - Possibly. NAID 559710234.",
-    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/559710234."
-  },
-  {
-    "id": "scout-415892719",
-    "recordSet": "NARA Scout lead",
-    "date": "1989-01-01",
-    "sortDate": "1989-01-01",
-    "year": 1989,
-    "title": "[Snow Gift from Turgut Ozal]",
-    "documentTitle": "[Snow Gift from Turgut Ozal]",
-    "chapter": {
-      "number": 3,
-      "name": "Turkey"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 62,
-    "naid": "415892719",
-    "catalogUrl": "https://catalog.archives.gov/id/415892719",
-    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_snow_313173092/41-bpr-speech-snow-subj-13899-004_415892719.pdf",
-    "objectFilename": "41-bpr-speech-snow-subj-13899-004_415892719.pdf",
-    "objectCount": 1,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Turkey"
-    ],
-    "topics": [
-      "Turkey",
-      "MDR / restriction candidate",
-      "Turkey",
-      "Tony Snow Subject Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
-      "collectionNaid": 578954,
-      "series": "Tony Snow Subject Files",
-      "seriesNaid": 313173092,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "turkey"
-    ],
-    "queryLabels": [
-      "Turkey"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Tony Snow Subject Files, [Snow Gift from Turgut Ozal]. Access restriction: Restricted - Possibly. NAID 415892719.",
-    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-snow-subj-13899-004_415892719.pdf. Catalog: https://catalog.archives.gov/id/415892719."
-  },
-  {
-    "id": "scout-360020364",
-    "recordSet": "NARA Scout lead",
-    "date": "1989-01-01",
-    "sortDate": "1989-01-01",
-    "year": 1989,
-    "title": "Cards-Menus, Luncheon, Honoring His Excellency The President of the Republic of Turkey, The White House, January 18, 1990",
-    "documentTitle": "Cards-Menus, Luncheon, Honoring His Excellency The President of the Republic of Turkey, The White House, January 18, 1990",
-    "chapter": {
-      "number": 3,
-      "name": "Turkey"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 27,
-    "naid": "360020364",
-    "catalogUrl": "https://catalog.archives.gov/id/360020364",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Partly",
-    "countries": [
-      "United States",
-      "Turkey"
-    ],
-    "topics": [
-      "Turkey",
-      "MDR / restriction candidate",
-      "Turkey",
-      "Calligraphy Office Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the First Lady's Office of Calligraphy (George H. W. Bush Administration)",
-      "collectionNaid": 2163567,
-      "series": "Calligraphy Office Files",
-      "seriesNaid": 312288193,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "turkey"
-    ],
-    "queryLabels": [
-      "Turkey"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the First Lady's Office of Calligraphy (George H. W. Bush Administration), Calligraphy Office Files, Cards-Menus, Luncheon, Honoring His Excellency The President of the Republic of Turkey, The White House, January 18, 1990. Access restriction: Restricted - Partly. NAID 360020364.",
-    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/360020364."
-  },
-  {
-    "id": "scout-360020366",
-    "recordSet": "NARA Scout lead",
-    "date": "1989-01-01",
-    "sortDate": "1989-01-01",
-    "year": 1989,
-    "title": "Cards-Menus, Luncheon, Honoring His Excellency The President of the Republic of Turkey, The White House, September 25, 1990",
-    "documentTitle": "Cards-Menus, Luncheon, Honoring His Excellency The President of the Republic of Turkey, The White House, September 25, 1990",
-    "chapter": {
-      "number": 3,
-      "name": "Turkey"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 27,
-    "naid": "360020366",
-    "catalogUrl": "https://catalog.archives.gov/id/360020366",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Partly",
-    "countries": [
-      "United States",
-      "Turkey"
-    ],
-    "topics": [
-      "Turkey",
-      "MDR / restriction candidate",
-      "Turkey",
-      "Calligraphy Office Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the First Lady's Office of Calligraphy (George H. W. Bush Administration)",
-      "collectionNaid": 2163567,
-      "series": "Calligraphy Office Files",
-      "seriesNaid": 312288193,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "turkey"
-    ],
-    "queryLabels": [
-      "Turkey"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the First Lady's Office of Calligraphy (George H. W. Bush Administration), Calligraphy Office Files, Cards-Menus, Luncheon, Honoring His Excellency The President of the Republic of Turkey, The White House, September 25, 1990. Access restriction: Restricted - Partly. NAID 360020366.",
-    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/360020366."
-  },
-  {
-    "id": "scout-360020376",
-    "recordSet": "NARA Scout lead",
-    "date": "1989-01-01",
-    "sortDate": "1989-01-01",
-    "year": 1989,
-    "title": "Cards-Menus, Luncheon, Honoring His Excellency The Prime Minister of the Republic of Turkey, The White House, February 11, 1992",
-    "documentTitle": "Cards-Menus, Luncheon, Honoring His Excellency The Prime Minister of the Republic of Turkey, The White House, February 11, 1992",
-    "chapter": {
-      "number": 3,
-      "name": "Turkey"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 27,
-    "naid": "360020376",
-    "catalogUrl": "https://catalog.archives.gov/id/360020376",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Partly",
-    "countries": [
-      "United States",
-      "Turkey"
-    ],
-    "topics": [
-      "Turkey",
-      "MDR / restriction candidate",
-      "Turkey",
-      "Calligraphy Office Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the First Lady's Office of Calligraphy (George H. W. Bush Administration)",
-      "collectionNaid": 2163567,
-      "series": "Calligraphy Office Files",
-      "seriesNaid": 312288193,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "turkey"
-    ],
-    "queryLabels": [
-      "Turkey"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the First Lady's Office of Calligraphy (George H. W. Bush Administration), Calligraphy Office Files, Cards-Menus, Luncheon, Honoring His Excellency The Prime Minister of the Republic of Turkey, The White House, February 11, 1992. Access restriction: Restricted - Partly. NAID 360020376.",
-    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/360020376."
-  },
-  {
-    "id": "scout-492061873",
-    "recordSet": "NARA Scout lead",
-    "date": "1989-01-01",
-    "sortDate": "1989-01-01",
-    "year": 1989,
-    "title": "Turkey",
-    "documentTitle": "Turkey",
-    "chapter": {
-      "number": 3,
-      "name": "Turkey"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 27,
-    "naid": "492061873",
-    "catalogUrl": "https://catalog.archives.gov/id/492061873",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Turkey"
-    ],
-    "topics": [
-      "Turkey",
-      "MDR / restriction candidate",
-      "Turkey",
-      "Trade Policy Review Group (TPRG) Staff Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the Council of Economic Advisors (George H. W. Bush Administration)",
-      "collectionNaid": 2163561,
-      "series": "Trade Policy Review Group (TPRG) Staff Files",
-      "seriesNaid": 486388768,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "turkey"
-    ],
-    "queryLabels": [
-      "Turkey"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the Council of Economic Advisors (George H. W. Bush Administration), Trade Policy Review Group (TPRG) Staff Files, Turkey. Access restriction: Restricted - Possibly. NAID 492061873.",
-    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/492061873."
-  },
-  {
-    "id": "scout-518603621",
-    "recordSet": "NARA Scout lead",
-    "date": "1989-01-01",
-    "sortDate": "1989-01-01",
-    "year": 1989,
-    "title": "Turkey",
-    "documentTitle": "Turkey",
-    "chapter": {
-      "number": 3,
-      "name": "Turkey"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 27,
-    "naid": "518603621",
-    "catalogUrl": "https://catalog.archives.gov/id/518603621",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Turkey"
-    ],
-    "topics": [
-      "Turkey",
-      "MDR / restriction candidate",
-      "Turkey",
-      "Country Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration)",
-      "collectionNaid": 2579439,
-      "series": "Country Files",
-      "seriesNaid": 2579545,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "turkey"
-    ],
-    "queryLabels": [
-      "Turkey"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration), Country Files, Turkey. Access restriction: Restricted - Possibly. NAID 518603621.",
-    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/518603621."
-  },
-  {
-    "id": "scout-323153443",
-    "recordSet": "NARA Scout lead",
-    "date": "1989-01-01",
-    "sortDate": "1989-01-01",
-    "year": 1989,
-    "title": "Turkey 7/19/20 [OA 8325]",
-    "documentTitle": "Turkey 7/19/20 [OA 8325]",
-    "chapter": {
-      "number": 3,
-      "name": "Turkey"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 49,
-    "naid": "323153443",
-    "catalogUrl": "https://catalog.archives.gov/id/323153443",
-    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13764-009_323153443.pdf",
-    "objectFilename": "41-bpr-speech-backup-chron-13764-009_323153443.pdf",
-    "objectCount": 1,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Turkey"
-    ],
-    "topics": [
-      "Turkey",
-      "MDR / restriction candidate",
-      "Turkey",
-      "Eastern Mediterranean",
-      "Speech Backup Chronological Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
-      "collectionNaid": 578954,
-      "series": "Speech Backup Chronological Files",
-      "seriesNaid": 579003,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "turkey",
-      "eastmed"
-    ],
-    "queryLabels": [
-      "Turkey",
-      "Eastern Mediterranean"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
-      "https://therealjameswilson.github.io/nara-scout/#q=Eastern+Mediterranean&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Turkey 7/19/20 [OA 8325]. Access restriction: Restricted - Possibly. NAID 323153443.",
-    "researchNote": "Query hit(s): Turkey, Eastern Mediterranean. Digital object: 41-bpr-speech-backup-chron-13764-009_323153443.pdf. Catalog: https://catalog.archives.gov/id/323153443."
-  },
-  {
-    "id": "scout-323153044",
-    "recordSet": "NARA Scout lead",
-    "date": "1990-09-25",
-    "sortDate": "1990-09-25",
-    "year": 1990,
-    "title": "[Turgut] Ozal Departure 9/25/90 [OA 8316]",
-    "documentTitle": "[Turgut] Ozal Departure 9/25/90 [OA 8316]",
-    "chapter": {
-      "number": 3,
-      "name": "Turkey"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 62,
-    "naid": "323153044",
-    "catalogUrl": "https://catalog.archives.gov/id/323153044",
-    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13729-010_323153044.pdf",
-    "objectFilename": "41-bpr-speech-backup-chron-13729-010_323153044.pdf",
-    "objectCount": 1,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Turkey"
-    ],
-    "topics": [
-      "Turkey",
-      "MDR / restriction candidate",
-      "Turkey",
-      "Speech Backup Chronological Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
-      "collectionNaid": 578954,
-      "series": "Speech Backup Chronological Files",
-      "seriesNaid": 579003,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "turkey"
-    ],
-    "queryLabels": [
-      "Turkey"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, [Turgut] Ozal Departure 9/25/90 [OA 8316]. Access restriction: Restricted - Possibly. NAID 323153044.",
-    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-backup-chron-13729-010_323153044.pdf. Catalog: https://catalog.archives.gov/id/323153044."
-  },
-  {
-    "id": "scout-492080072",
-    "recordSet": "NARA Scout lead",
-    "date": "1990-09-25",
-    "sortDate": "1990-09-25",
-    "year": 1990,
-    "title": "9/25/90 Tea, Mrs. Ozal of Turkey",
-    "documentTitle": "9/25/90 Tea, Mrs. Ozal of Turkey",
-    "chapter": {
-      "number": 3,
-      "name": "Turkey"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 43,
-    "naid": "492080072",
-    "catalogUrl": "https://catalog.archives.gov/id/492080072",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Turkey"
-    ],
-    "topics": [
-      "Turkey",
-      "MDR / restriction candidate",
-      "Turkey",
-      "Cathy Fenton Subject Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Social Office (George H. W. Bush Administration)",
-      "collectionNaid": 2163595,
-      "series": "Cathy Fenton Subject Files",
-      "seriesNaid": 2596211,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "turkey"
-    ],
-    "queryLabels": [
-      "Turkey"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the White House Social Office (George H. W. Bush Administration), Cathy Fenton Subject Files, 9/25/90 Tea, Mrs. Ozal of Turkey. Access restriction: Restricted - Possibly. NAID 492080072.",
-    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/492080072."
-  },
-  {
-    "id": "scout-323154834",
-    "recordSet": "NARA Scout lead",
-    "date": "1990-09-25",
-    "sortDate": "1990-09-25",
-    "year": 1990,
-    "title": "Ozal Departure, Washington, DC 9/25/90 [OA 8130]",
-    "documentTitle": "Ozal Departure, Washington, DC 9/25/90 [OA 8130]",
-    "chapter": {
-      "number": 3,
-      "name": "Turkey"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 62,
-    "naid": "323154834",
-    "catalogUrl": "https://catalog.archives.gov/id/323154834",
-    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_smith_284337261/41-bpr-speech-smith-chron-13889-025_323154834.pdf",
-    "objectFilename": "41-bpr-speech-smith-chron-13889-025_323154834.pdf",
-    "objectCount": 1,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Turkey"
-    ],
-    "topics": [
-      "Turkey",
-      "MDR / restriction candidate",
-      "Turkey",
-      "Curt Smith Chronological Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
-      "collectionNaid": 578954,
-      "series": "Curt Smith Chronological Files",
-      "seriesNaid": 284337261,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "turkey"
-    ],
-    "queryLabels": [
-      "Turkey"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Curt Smith Chronological Files, Ozal Departure, Washington, DC 9/25/90 [OA 8130]. Access restriction: Restricted - Possibly. NAID 323154834.",
-    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-smith-chron-13889-025_323154834.pdf. Catalog: https://catalog.archives.gov/id/323154834."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Richard N. Haass' Trip Files, Richard Haass, Trip to NY, Germany, and Turkey - June 6-11, 1991. Access restriction: Restricted - Possibly. NAID 470426507.",
+    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-nsc-haass_trip-cf01352-011.pdf. Catalog: https://catalog.archives.gov/id/470426507."
   },
   {
     "id": "scout-323151171",
@@ -2608,21 +2210,79 @@
     "researchNote": "Query hit(s): Turkey, Eastern Mediterranean. Digital object: 41-bpr-speech-draft-chron-13541-006_323151171.pdf. Catalog: https://catalog.archives.gov/id/323151171."
   },
   {
-    "id": "scout-486208695",
+    "id": "scout-323153875",
     "recordSet": "NARA Scout lead",
-    "date": "1990-09-25",
-    "sortDate": "1990-09-25",
-    "year": 1990,
-    "title": "Tea with Mrs. Ozal (Turkey) - 9/25/90, Residence",
-    "documentTitle": "Tea with Mrs. Ozal (Turkey) - 9/25/90, Residence",
+    "date": "1992-02-11",
+    "sortDate": "1992-02-11",
+    "year": 1992,
+    "title": "Prime Minister Demirel [Turkey] Departure 2/11/92 [OA 7568]",
+    "documentTitle": "Prime Minister Demirel [Turkey] Departure 2/11/92 [OA 7568]",
     "chapter": {
       "number": 3,
       "name": "Turkey"
     },
     "category": "MDR / restriction candidate",
-    "score": 43,
-    "naid": "486208695",
-    "catalogUrl": "https://catalog.archives.gov/id/486208695",
+    "score": 65,
+    "naid": "323153875",
+    "catalogUrl": "https://catalog.archives.gov/id/323153875",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13797-011_323153875.pdf",
+    "objectFilename": "41-bpr-speech-backup-chron-13797-011_323153875.pdf",
+    "objectCount": 1,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Turkey",
+      "MDR / restriction candidate",
+      "Turkey",
+      "Eastern Mediterranean",
+      "Speech Backup Chronological Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
+      "collectionNaid": 578954,
+      "series": "Speech Backup Chronological Files",
+      "seriesNaid": 579003,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "turkey",
+      "eastmed"
+    ],
+    "queryLabels": [
+      "Turkey",
+      "Eastern Mediterranean"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
+      "https://therealjameswilson.github.io/nara-scout/#q=Eastern+Mediterranean&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Prime Minister Demirel [Turkey] Departure 2/11/92 [OA 7568]. Access restriction: Restricted - Possibly. NAID 323153875.",
+    "researchNote": "Query hit(s): Turkey, Eastern Mediterranean. Digital object: 41-bpr-speech-backup-chron-13797-011_323153875.pdf. Catalog: https://catalog.archives.gov/id/323153875."
+  },
+  {
+    "id": "scout-492062477",
+    "recordSet": "NARA Scout lead",
+    "date": "1991-10-02",
+    "sortDate": "1991-10-02",
+    "year": 1991,
+    "title": "[1991]: Meeting with Turkish Ambassador and Boskin, re: Presidential Trip to Turkey [10/2/91]",
+    "documentTitle": "[1991]: Meeting with Turkish Ambassador and Boskin, re: Presidential Trip to Turkey [10/2/91]",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 63,
+    "naid": "492062477",
+    "catalogUrl": "https://catalog.archives.gov/id/492062477",
     "pdfUrl": "",
     "objectFilename": "",
     "objectCount": 0,
@@ -2636,15 +2296,15 @@
       "Turkey",
       "MDR / restriction candidate",
       "Turkey",
-      "Ann Brock Subject Files"
+      "Michael J. Boskin National Security Council (NSC) Meeting Files"
     ],
     "source": {
       "name": "NARA Scout / National Archives Catalog",
       "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the First Lady's Office of Scheduling (George H. W. Bush Administration)",
-      "collectionNaid": 2163572,
-      "series": "Ann Brock Subject Files",
-      "seriesNaid": 2363754,
+      "collection": "Records of the Council of Economic Advisors (George H. W. Bush Administration)",
+      "collectionNaid": 2163561,
+      "series": "Michael J. Boskin National Security Council (NSC) Meeting Files",
+      "seriesNaid": 473987122,
       "fileTitle": "",
       "fileNaid": ""
     },
@@ -2658,28 +2318,28 @@
     "scoutUrls": [
       "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
     ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the First Lady's Office of Scheduling (George H. W. Bush Administration), Ann Brock Subject Files, Tea with Mrs. Ozal (Turkey) - 9/25/90, Residence. Access restriction: Restricted - Possibly. NAID 486208695.",
-    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/486208695."
+    "sourceNote": "Source: George H.W. Bush Library, Records of the Council of Economic Advisors (George H. W. Bush Administration), Michael J. Boskin National Security Council (NSC) Meeting Files, [1991]: Meeting with Turkish Ambassador and Boskin, re: Presidential Trip to Turkey [10/2/91]. Access restriction: Restricted - Possibly. NAID 492062477.",
+    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/492062477."
   },
   {
-    "id": "scout-492079874",
+    "id": "scout-415892719",
     "recordSet": "NARA Scout lead",
-    "date": "1990-09-25",
-    "sortDate": "1990-09-25",
-    "year": 1990,
-    "title": "Tuesday, 9/25/90 Tea with Mrs. Ozal, Wife of the President of Turkey 4:30 PM",
-    "documentTitle": "Tuesday, 9/25/90 Tea with Mrs. Ozal, Wife of the President of Turkey 4:30 PM",
+    "date": "1989-01-01",
+    "sortDate": "1989-01-01",
+    "year": 1989,
+    "title": "[Snow Gift from Turgut Ozal]",
+    "documentTitle": "[Snow Gift from Turgut Ozal]",
     "chapter": {
       "number": 3,
       "name": "Turkey"
     },
     "category": "MDR / restriction candidate",
-    "score": 43,
-    "naid": "492079874",
-    "catalogUrl": "https://catalog.archives.gov/id/492079874",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
+    "score": 62,
+    "naid": "415892719",
+    "catalogUrl": "https://catalog.archives.gov/id/415892719",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_snow_313173092/41-bpr-speech-snow-subj-13899-004_415892719.pdf",
+    "objectFilename": "41-bpr-speech-snow-subj-13899-004_415892719.pdf",
+    "objectCount": 1,
     "levelOfDescription": "fileUnit",
     "accessRestriction": "Restricted - Possibly",
     "countries": [
@@ -2690,15 +2350,15 @@
       "Turkey",
       "MDR / restriction candidate",
       "Turkey",
-      "Laurie Firestone Subject Files"
+      "Tony Snow Subject Files"
     ],
     "source": {
       "name": "NARA Scout / National Archives Catalog",
       "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Social Office (George H. W. Bush Administration)",
-      "collectionNaid": 2163595,
-      "series": "Laurie Firestone Subject Files",
-      "seriesNaid": 2596283,
+      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
+      "collectionNaid": 578954,
+      "series": "Tony Snow Subject Files",
+      "seriesNaid": 313173092,
       "fileTitle": "",
       "fileNaid": ""
     },
@@ -2712,27 +2372,27 @@
     "scoutUrls": [
       "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
     ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the White House Social Office (George H. W. Bush Administration), Laurie Firestone Subject Files, Tuesday, 9/25/90 Tea with Mrs. Ozal, Wife of the President of Turkey 4:30 PM. Access restriction: Restricted - Possibly. NAID 492079874.",
-    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/492079874."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Tony Snow Subject Files, [Snow Gift from Turgut Ozal]. Access restriction: Restricted - Possibly. NAID 415892719.",
+    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-snow-subj-13899-004_415892719.pdf. Catalog: https://catalog.archives.gov/id/415892719."
   },
   {
-    "id": "scout-323153111",
+    "id": "scout-323153044",
     "recordSet": "NARA Scout lead",
-    "date": "1990-11-14",
-    "sortDate": "1990-11-14",
+    "date": "1990-09-25",
+    "sortDate": "1990-09-25",
     "year": 1990,
-    "title": "[Thanksgiving] Turkey Presentation 11/14/90 [OA 8318]",
-    "documentTitle": "[Thanksgiving] Turkey Presentation 11/14/90 [OA 8318]",
+    "title": "[Turgut] Ozal Departure 9/25/90 [OA 8316]",
+    "documentTitle": "[Turgut] Ozal Departure 9/25/90 [OA 8316]",
     "chapter": {
       "number": 3,
       "name": "Turkey"
     },
     "category": "MDR / restriction candidate",
-    "score": 46,
-    "naid": "323153111",
-    "catalogUrl": "https://catalog.archives.gov/id/323153111",
-    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13737-003_323153111.pdf",
-    "objectFilename": "41-bpr-speech-backup-chron-13737-003_323153111.pdf",
+    "score": 62,
+    "naid": "323153044",
+    "catalogUrl": "https://catalog.archives.gov/id/323153044",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13729-010_323153044.pdf",
+    "objectFilename": "41-bpr-speech-backup-chron-13729-010_323153044.pdf",
     "objectCount": 1,
     "levelOfDescription": "fileUnit",
     "accessRestriction": "Restricted - Possibly",
@@ -2766,135 +2426,27 @@
     "scoutUrls": [
       "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
     ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, [Thanksgiving] Turkey Presentation 11/14/90 [OA 8318]. Access restriction: Restricted - Possibly. NAID 323153111.",
-    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-backup-chron-13737-003_323153111.pdf. Catalog: https://catalog.archives.gov/id/323153111."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, [Turgut] Ozal Departure 9/25/90 [OA 8316]. Access restriction: Restricted - Possibly. NAID 323153044.",
+    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-backup-chron-13729-010_323153044.pdf. Catalog: https://catalog.archives.gov/id/323153044."
   },
   {
-    "id": "scout-518602383",
+    "id": "scout-323154834",
     "recordSet": "NARA Scout lead",
-    "date": "1991-02-22",
-    "sortDate": "1991-02-22",
-    "year": 1991,
-    "title": "2/22/91 - VP Remarks to American Friends of Turkey",
-    "documentTitle": "2/22/91 - VP Remarks to American Friends of Turkey",
+    "date": "1990-09-25",
+    "sortDate": "1990-09-25",
+    "year": 1990,
+    "title": "Ozal Departure, Washington, DC 9/25/90 [OA 8130]",
+    "documentTitle": "Ozal Departure, Washington, DC 9/25/90 [OA 8130]",
     "chapter": {
       "number": 3,
       "name": "Turkey"
     },
     "category": "MDR / restriction candidate",
-    "score": 34,
-    "naid": "518602383",
-    "catalogUrl": "https://catalog.archives.gov/id/518602383",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Turkey"
-    ],
-    "topics": [
-      "Turkey",
-      "MDR / restriction candidate",
-      "Turkey",
-      "Joanne Hilty Speech Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration)",
-      "collectionNaid": 2579439,
-      "series": "Joanne Hilty Speech Files",
-      "seriesNaid": 2579556,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "turkey"
-    ],
-    "queryLabels": [
-      "Turkey"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration), Joanne Hilty Speech Files, 2/22/91 - VP Remarks to American Friends of Turkey. Access restriction: Restricted - Possibly. NAID 518602383.",
-    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/518602383."
-  },
-  {
-    "id": "scout-518603164",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-02-22",
-    "sortDate": "1991-02-22",
-    "year": 1991,
-    "title": "2/22/91 VP Meetings - Meeting with American Friends of Turkey Annual Conference",
-    "documentTitle": "2/22/91 VP Meetings - Meeting with American Friends of Turkey Annual Conference",
-    "chapter": {
-      "number": 3,
-      "name": "Turkey"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 45,
-    "naid": "518603164",
-    "catalogUrl": "https://catalog.archives.gov/id/518603164",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Turkey"
-    ],
-    "topics": [
-      "Turkey",
-      "MDR / restriction candidate",
-      "Turkey",
-      "Meetings Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration)",
-      "collectionNaid": 2579439,
-      "series": "Meetings Files",
-      "seriesNaid": 2579573,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "turkey"
-    ],
-    "queryLabels": [
-      "Turkey"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration), Meetings Files, 2/22/91 VP Meetings - Meeting with American Friends of Turkey Annual Conference. Access restriction: Restricted - Possibly. NAID 518603164.",
-    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/518603164."
-  },
-  {
-    "id": "scout-470426507",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-06-06",
-    "sortDate": "1991-06-06",
-    "year": 1991,
-    "title": "Richard Haass, Trip to NY, Germany, and Turkey - June 6-11, 1991",
-    "documentTitle": "Richard Haass, Trip to NY, Germany, and Turkey - June 6-11, 1991",
-    "chapter": {
-      "number": 3,
-      "name": "Turkey"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 75,
-    "naid": "470426507",
-    "catalogUrl": "https://catalog.archives.gov/id/470426507",
-    "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/haass/trip_2554876/41-bpr-nsc-haass_trip-cf01352-011.pdf",
-    "objectFilename": "41-bpr-nsc-haass_trip-cf01352-011.pdf",
+    "score": 62,
+    "naid": "323154834",
+    "catalogUrl": "https://catalog.archives.gov/id/323154834",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_smith_284337261/41-bpr-speech-smith-chron-13889-025_323154834.pdf",
+    "objectFilename": "41-bpr-speech-smith-chron-13889-025_323154834.pdf",
     "objectCount": 1,
     "levelOfDescription": "fileUnit",
     "accessRestriction": "Restricted - Possibly",
@@ -2906,15 +2458,15 @@
       "Turkey",
       "MDR / restriction candidate",
       "Turkey",
-      "Richard N. Haass' Trip Files"
+      "Curt Smith Chronological Files"
     ],
     "source": {
       "name": "NARA Scout / National Archives Catalog",
       "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
-      "collectionNaid": 2163580,
-      "series": "Richard N. Haass' Trip Files",
-      "seriesNaid": 2554876,
+      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
+      "collectionNaid": 578954,
+      "series": "Curt Smith Chronological Files",
+      "seriesNaid": 284337261,
       "fileTitle": "",
       "fileNaid": ""
     },
@@ -2928,27 +2480,27 @@
     "scoutUrls": [
       "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
     ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Richard N. Haass' Trip Files, Richard Haass, Trip to NY, Germany, and Turkey - June 6-11, 1991. Access restriction: Restricted - Possibly. NAID 470426507.",
-    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-nsc-haass_trip-cf01352-011.pdf. Catalog: https://catalog.archives.gov/id/470426507."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Curt Smith Chronological Files, Ozal Departure, Washington, DC 9/25/90 [OA 8130]. Access restriction: Restricted - Possibly. NAID 323154834.",
+    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-smith-chron-13889-025_323154834.pdf. Catalog: https://catalog.archives.gov/id/323154834."
   },
   {
-    "id": "scout-323153429",
+    "id": "scout-323151852",
     "recordSet": "NARA Scout lead",
-    "date": "1991-07-10",
-    "sortDate": "1991-07-10",
-    "year": 1991,
-    "title": "Turkey 7/10/91 [OA 8326] [1]",
-    "documentTitle": "Turkey 7/10/91 [OA 8326] [1]",
+    "date": "1992-02-11",
+    "sortDate": "1992-02-11",
+    "year": 1992,
+    "title": "[Prime Minister] Demirel Departure Statement 2/11/92 [OA 6097]",
+    "documentTitle": "[Prime Minister] Demirel Departure Statement 2/11/92 [OA 6097]",
     "chapter": {
       "number": 3,
       "name": "Turkey"
     },
     "category": "MDR / restriction candidate",
-    "score": 46,
-    "naid": "323153429",
-    "catalogUrl": "https://catalog.archives.gov/id/323153429",
-    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13763-006_323153429.pdf",
-    "objectFilename": "41-bpr-speech-backup-chron-13763-006_323153429.pdf",
+    "score": 62,
+    "naid": "323151852",
+    "catalogUrl": "https://catalog.archives.gov/id/323151852",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_draft_chron_578973/41-bpr-speech-draft-chron-13604-001_323151852.pdf",
+    "objectFilename": "41-bpr-speech-draft-chron-13604-001_323151852.pdf",
     "objectCount": 1,
     "levelOfDescription": "fileUnit",
     "accessRestriction": "Restricted - Possibly",
@@ -2960,6 +2512,61 @@
       "Turkey",
       "MDR / restriction candidate",
       "Turkey",
+      "Speech Draft Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
+      "collectionNaid": 578954,
+      "series": "Speech Draft Files",
+      "seriesNaid": 578973,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "turkey"
+    ],
+    "queryLabels": [
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Draft Files, [Prime Minister] Demirel Departure Statement 2/11/92 [OA 6097]. Access restriction: Restricted - Possibly. NAID 323151852.",
+    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-draft-chron-13604-001_323151852.pdf. Catalog: https://catalog.archives.gov/id/323151852."
+  },
+  {
+    "id": "scout-323153443",
+    "recordSet": "NARA Scout lead",
+    "date": "1989-01-01",
+    "sortDate": "1989-01-01",
+    "year": 1989,
+    "title": "Turkey 7/19/20 [OA 8325]",
+    "documentTitle": "Turkey 7/19/20 [OA 8325]",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 49,
+    "naid": "323153443",
+    "catalogUrl": "https://catalog.archives.gov/id/323153443",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13764-009_323153443.pdf",
+    "objectFilename": "41-bpr-speech-backup-chron-13764-009_323153443.pdf",
+    "objectCount": 1,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Turkey",
+      "MDR / restriction candidate",
+      "Turkey",
+      "Eastern Mediterranean",
       "Speech Backup Chronological Files"
     ],
     "source": {
@@ -2974,16 +2581,19 @@
     },
     "scopeAndContentNote": "",
     "queryHits": [
-      "turkey"
+      "turkey",
+      "eastmed"
     ],
     "queryLabels": [
-      "Turkey"
+      "Turkey",
+      "Eastern Mediterranean"
     ],
     "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
+      "https://therealjameswilson.github.io/nara-scout/#q=Eastern+Mediterranean&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
     ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Turkey 7/10/91 [OA 8326] [1]. Access restriction: Restricted - Possibly. NAID 323153429.",
-    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-backup-chron-13763-006_323153429.pdf. Catalog: https://catalog.archives.gov/id/323153429."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Turkey 7/19/20 [OA 8325]. Access restriction: Restricted - Possibly. NAID 323153443.",
+    "researchNote": "Query hit(s): Turkey, Eastern Mediterranean. Digital object: 41-bpr-speech-backup-chron-13764-009_323153443.pdf. Catalog: https://catalog.archives.gov/id/323153443."
   },
   {
     "id": "scout-323153430",
@@ -3042,6 +2652,172 @@
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Turkey 7/10/91 [OA 8326] [2]. Access restriction: Restricted - Possibly. NAID 323153430.",
     "researchNote": "Query hit(s): Turkey, Eastern Mediterranean. Digital object: 41-bpr-speech-backup-chron-13763-007_323153430.pdf. Catalog: https://catalog.archives.gov/id/323153430."
+  },
+  {
+    "id": "scout-323153442",
+    "recordSet": "NARA Scout lead",
+    "date": "1991-07-19",
+    "sortDate": "1991-07-19",
+    "year": 1991,
+    "title": "Turkey 7/19/91 [OA 8325] [2]",
+    "documentTitle": "Turkey 7/19/91 [OA 8325] [2]",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 49,
+    "naid": "323153442",
+    "catalogUrl": "https://catalog.archives.gov/id/323153442",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13764-008_323153442.pdf",
+    "objectFilename": "41-bpr-speech-backup-chron-13764-008_323153442.pdf",
+    "objectCount": 1,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Turkey",
+      "MDR / restriction candidate",
+      "Turkey",
+      "Eastern Mediterranean",
+      "Speech Backup Chronological Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
+      "collectionNaid": 578954,
+      "series": "Speech Backup Chronological Files",
+      "seriesNaid": 579003,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "turkey",
+      "eastmed"
+    ],
+    "queryLabels": [
+      "Turkey",
+      "Eastern Mediterranean"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
+      "https://therealjameswilson.github.io/nara-scout/#q=Eastern+Mediterranean&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Turkey 7/19/91 [OA 8325] [2]. Access restriction: Restricted - Possibly. NAID 323153442.",
+    "researchNote": "Query hit(s): Turkey, Eastern Mediterranean. Digital object: 41-bpr-speech-backup-chron-13764-008_323153442.pdf. Catalog: https://catalog.archives.gov/id/323153442."
+  },
+  {
+    "id": "scout-323153111",
+    "recordSet": "NARA Scout lead",
+    "date": "1990-11-14",
+    "sortDate": "1990-11-14",
+    "year": 1990,
+    "title": "[Thanksgiving] Turkey Presentation 11/14/90 [OA 8318]",
+    "documentTitle": "[Thanksgiving] Turkey Presentation 11/14/90 [OA 8318]",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 46,
+    "naid": "323153111",
+    "catalogUrl": "https://catalog.archives.gov/id/323153111",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13737-003_323153111.pdf",
+    "objectFilename": "41-bpr-speech-backup-chron-13737-003_323153111.pdf",
+    "objectCount": 1,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Turkey",
+      "MDR / restriction candidate",
+      "Turkey",
+      "Speech Backup Chronological Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
+      "collectionNaid": 578954,
+      "series": "Speech Backup Chronological Files",
+      "seriesNaid": 579003,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "turkey"
+    ],
+    "queryLabels": [
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, [Thanksgiving] Turkey Presentation 11/14/90 [OA 8318]. Access restriction: Restricted - Possibly. NAID 323153111.",
+    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-backup-chron-13737-003_323153111.pdf. Catalog: https://catalog.archives.gov/id/323153111."
+  },
+  {
+    "id": "scout-323153429",
+    "recordSet": "NARA Scout lead",
+    "date": "1991-07-10",
+    "sortDate": "1991-07-10",
+    "year": 1991,
+    "title": "Turkey 7/10/91 [OA 8326] [1]",
+    "documentTitle": "Turkey 7/10/91 [OA 8326] [1]",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 46,
+    "naid": "323153429",
+    "catalogUrl": "https://catalog.archives.gov/id/323153429",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13763-006_323153429.pdf",
+    "objectFilename": "41-bpr-speech-backup-chron-13763-006_323153429.pdf",
+    "objectCount": 1,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Turkey",
+      "MDR / restriction candidate",
+      "Turkey",
+      "Speech Backup Chronological Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
+      "collectionNaid": 578954,
+      "series": "Speech Backup Chronological Files",
+      "seriesNaid": 579003,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "turkey"
+    ],
+    "queryLabels": [
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Turkey 7/10/91 [OA 8326] [1]. Access restriction: Restricted - Possibly. NAID 323153429.",
+    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-backup-chron-13763-006_323153429.pdf. Catalog: https://catalog.archives.gov/id/323153429."
   },
   {
     "id": "scout-323153431",
@@ -3204,64 +2980,6 @@
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Turkey 7/19/91 [OA 8325] [1]. Access restriction: Restricted - Possibly. NAID 323153441.",
     "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-backup-chron-13764-007_323153441.pdf. Catalog: https://catalog.archives.gov/id/323153441."
-  },
-  {
-    "id": "scout-323153442",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-07-19",
-    "sortDate": "1991-07-19",
-    "year": 1991,
-    "title": "Turkey 7/19/91 [OA 8325] [2]",
-    "documentTitle": "Turkey 7/19/91 [OA 8325] [2]",
-    "chapter": {
-      "number": 3,
-      "name": "Turkey"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 49,
-    "naid": "323153442",
-    "catalogUrl": "https://catalog.archives.gov/id/323153442",
-    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13764-008_323153442.pdf",
-    "objectFilename": "41-bpr-speech-backup-chron-13764-008_323153442.pdf",
-    "objectCount": 1,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Turkey"
-    ],
-    "topics": [
-      "Turkey",
-      "MDR / restriction candidate",
-      "Turkey",
-      "Eastern Mediterranean",
-      "Speech Backup Chronological Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
-      "collectionNaid": 578954,
-      "series": "Speech Backup Chronological Files",
-      "seriesNaid": 579003,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "turkey",
-      "eastmed"
-    ],
-    "queryLabels": [
-      "Turkey",
-      "Eastern Mediterranean"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
-      "https://therealjameswilson.github.io/nara-scout/#q=Eastern+Mediterranean&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Turkey 7/19/91 [OA 8325] [2]. Access restriction: Restricted - Possibly. NAID 323153442.",
-    "researchNote": "Query hit(s): Turkey, Eastern Mediterranean. Digital object: 41-bpr-speech-backup-chron-13764-008_323153442.pdf. Catalog: https://catalog.archives.gov/id/323153442."
   },
   {
     "id": "scout-323151548",
@@ -3696,60 +3414,6 @@
     "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-backup-chron-13765-003_323153449.pdf. Catalog: https://catalog.archives.gov/id/323153449."
   },
   {
-    "id": "scout-492062477",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-10-02",
-    "sortDate": "1991-10-02",
-    "year": 1991,
-    "title": "[1991]: Meeting with Turkish Ambassador and Boskin, re: Presidential Trip to Turkey [10/2/91]",
-    "documentTitle": "[1991]: Meeting with Turkish Ambassador and Boskin, re: Presidential Trip to Turkey [10/2/91]",
-    "chapter": {
-      "number": 3,
-      "name": "Turkey"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 63,
-    "naid": "492062477",
-    "catalogUrl": "https://catalog.archives.gov/id/492062477",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Turkey"
-    ],
-    "topics": [
-      "Turkey",
-      "MDR / restriction candidate",
-      "Turkey",
-      "Michael J. Boskin National Security Council (NSC) Meeting Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the Council of Economic Advisors (George H. W. Bush Administration)",
-      "collectionNaid": 2163561,
-      "series": "Michael J. Boskin National Security Council (NSC) Meeting Files",
-      "seriesNaid": 473987122,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "turkey"
-    ],
-    "queryLabels": [
-      "Turkey"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the Council of Economic Advisors (George H. W. Bush Administration), Michael J. Boskin National Security Council (NSC) Meeting Files, [1991]: Meeting with Turkish Ambassador and Boskin, re: Presidential Trip to Turkey [10/2/91]. Access restriction: Restricted - Possibly. NAID 492062477.",
-    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/492062477."
-  },
-  {
     "id": "scout-323153674",
     "recordSet": "NARA Scout lead",
     "date": "1991-11-20",
@@ -3804,23 +3468,23 @@
     "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-backup-chron-13782-003_323153674.pdf. Catalog: https://catalog.archives.gov/id/323153674."
   },
   {
-    "id": "scout-323151852",
+    "id": "scout-323152291",
     "recordSet": "NARA Scout lead",
-    "date": "1992-02-11",
-    "sortDate": "1992-02-11",
+    "date": "1992-11-24",
+    "sortDate": "1992-11-24",
     "year": 1992,
-    "title": "[Prime Minister] Demirel Departure Statement 2/11/92 [OA 6097]",
-    "documentTitle": "[Prime Minister] Demirel Departure Statement 2/11/92 [OA 6097]",
+    "title": "Turkey Presentation 11/24/92 [OA 8485]",
+    "documentTitle": "Turkey Presentation 11/24/92 [OA 8485]",
     "chapter": {
       "number": 3,
       "name": "Turkey"
     },
     "category": "MDR / restriction candidate",
-    "score": 62,
-    "naid": "323151852",
-    "catalogUrl": "https://catalog.archives.gov/id/323151852",
-    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_draft_chron_578973/41-bpr-speech-draft-chron-13604-001_323151852.pdf",
-    "objectFilename": "41-bpr-speech-draft-chron-13604-001_323151852.pdf",
+    "score": 46,
+    "naid": "323152291",
+    "catalogUrl": "https://catalog.archives.gov/id/323152291",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_draft_chron_578973/41-bpr-speech-draft-chron-13648-022_323152291.pdf",
+    "objectFilename": "41-bpr-speech-draft-chron-13648-022_323152291.pdf",
     "objectCount": 1,
     "levelOfDescription": "fileUnit",
     "accessRestriction": "Restricted - Possibly",
@@ -3854,28 +3518,28 @@
     "scoutUrls": [
       "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
     ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Draft Files, [Prime Minister] Demirel Departure Statement 2/11/92 [OA 6097]. Access restriction: Restricted - Possibly. NAID 323151852.",
-    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-draft-chron-13604-001_323151852.pdf. Catalog: https://catalog.archives.gov/id/323151852."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Draft Files, Turkey Presentation 11/24/92 [OA 8485]. Access restriction: Restricted - Possibly. NAID 323152291.",
+    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-draft-chron-13648-022_323152291.pdf. Catalog: https://catalog.archives.gov/id/323152291."
   },
   {
-    "id": "scout-323153875",
+    "id": "scout-518603164",
     "recordSet": "NARA Scout lead",
-    "date": "1992-02-11",
-    "sortDate": "1992-02-11",
-    "year": 1992,
-    "title": "Prime Minister Demirel [Turkey] Departure 2/11/92 [OA 7568]",
-    "documentTitle": "Prime Minister Demirel [Turkey] Departure 2/11/92 [OA 7568]",
+    "date": "1991-02-22",
+    "sortDate": "1991-02-22",
+    "year": 1991,
+    "title": "2/22/91 VP Meetings - Meeting with American Friends of Turkey Annual Conference",
+    "documentTitle": "2/22/91 VP Meetings - Meeting with American Friends of Turkey Annual Conference",
     "chapter": {
       "number": 3,
       "name": "Turkey"
     },
     "category": "MDR / restriction candidate",
-    "score": 65,
-    "naid": "323153875",
-    "catalogUrl": "https://catalog.archives.gov/id/323153875",
-    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13797-011_323153875.pdf",
-    "objectFilename": "41-bpr-speech-backup-chron-13797-011_323153875.pdf",
-    "objectCount": 1,
+    "score": 45,
+    "naid": "518603164",
+    "catalogUrl": "https://catalog.archives.gov/id/518603164",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
     "levelOfDescription": "fileUnit",
     "accessRestriction": "Restricted - Possibly",
     "countries": [
@@ -3886,34 +3550,192 @@
       "Turkey",
       "MDR / restriction candidate",
       "Turkey",
-      "Eastern Mediterranean",
-      "Speech Backup Chronological Files"
+      "Meetings Files"
     ],
     "source": {
       "name": "NARA Scout / National Archives Catalog",
       "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
-      "collectionNaid": 578954,
-      "series": "Speech Backup Chronological Files",
-      "seriesNaid": 579003,
+      "collection": "Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration)",
+      "collectionNaid": 2579439,
+      "series": "Meetings Files",
+      "seriesNaid": 2579573,
       "fileTitle": "",
       "fileNaid": ""
     },
     "scopeAndContentNote": "",
     "queryHits": [
-      "turkey",
-      "eastmed"
+      "turkey"
     ],
     "queryLabels": [
-      "Turkey",
-      "Eastern Mediterranean"
+      "Turkey"
     ],
     "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
-      "https://therealjameswilson.github.io/nara-scout/#q=Eastern+Mediterranean&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
     ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Backup Chronological Files, Prime Minister Demirel [Turkey] Departure 2/11/92 [OA 7568]. Access restriction: Restricted - Possibly. NAID 323153875.",
-    "researchNote": "Query hit(s): Turkey, Eastern Mediterranean. Digital object: 41-bpr-speech-backup-chron-13797-011_323153875.pdf. Catalog: https://catalog.archives.gov/id/323153875."
+    "sourceNote": "Source: George H.W. Bush Library, Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration), Meetings Files, 2/22/91 VP Meetings - Meeting with American Friends of Turkey Annual Conference. Access restriction: Restricted - Possibly. NAID 518603164.",
+    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/518603164."
+  },
+  {
+    "id": "scout-492080072",
+    "recordSet": "NARA Scout lead",
+    "date": "1990-09-25",
+    "sortDate": "1990-09-25",
+    "year": 1990,
+    "title": "9/25/90 Tea, Mrs. Ozal of Turkey",
+    "documentTitle": "9/25/90 Tea, Mrs. Ozal of Turkey",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 43,
+    "naid": "492080072",
+    "catalogUrl": "https://catalog.archives.gov/id/492080072",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Turkey",
+      "MDR / restriction candidate",
+      "Turkey",
+      "Cathy Fenton Subject Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the White House Social Office (George H. W. Bush Administration)",
+      "collectionNaid": 2163595,
+      "series": "Cathy Fenton Subject Files",
+      "seriesNaid": 2596211,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "turkey"
+    ],
+    "queryLabels": [
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Records of the White House Social Office (George H. W. Bush Administration), Cathy Fenton Subject Files, 9/25/90 Tea, Mrs. Ozal of Turkey. Access restriction: Restricted - Possibly. NAID 492080072.",
+    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/492080072."
+  },
+  {
+    "id": "scout-486208695",
+    "recordSet": "NARA Scout lead",
+    "date": "1990-09-25",
+    "sortDate": "1990-09-25",
+    "year": 1990,
+    "title": "Tea with Mrs. Ozal (Turkey) - 9/25/90, Residence",
+    "documentTitle": "Tea with Mrs. Ozal (Turkey) - 9/25/90, Residence",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 43,
+    "naid": "486208695",
+    "catalogUrl": "https://catalog.archives.gov/id/486208695",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Turkey",
+      "MDR / restriction candidate",
+      "Turkey",
+      "Ann Brock Subject Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the First Lady's Office of Scheduling (George H. W. Bush Administration)",
+      "collectionNaid": 2163572,
+      "series": "Ann Brock Subject Files",
+      "seriesNaid": 2363754,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "turkey"
+    ],
+    "queryLabels": [
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Records of the First Lady's Office of Scheduling (George H. W. Bush Administration), Ann Brock Subject Files, Tea with Mrs. Ozal (Turkey) - 9/25/90, Residence. Access restriction: Restricted - Possibly. NAID 486208695.",
+    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/486208695."
+  },
+  {
+    "id": "scout-492079874",
+    "recordSet": "NARA Scout lead",
+    "date": "1990-09-25",
+    "sortDate": "1990-09-25",
+    "year": 1990,
+    "title": "Tuesday, 9/25/90 Tea with Mrs. Ozal, Wife of the President of Turkey 4:30 PM",
+    "documentTitle": "Tuesday, 9/25/90 Tea with Mrs. Ozal, Wife of the President of Turkey 4:30 PM",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 43,
+    "naid": "492079874",
+    "catalogUrl": "https://catalog.archives.gov/id/492079874",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Turkey",
+      "MDR / restriction candidate",
+      "Turkey",
+      "Laurie Firestone Subject Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the White House Social Office (George H. W. Bush Administration)",
+      "collectionNaid": 2163595,
+      "series": "Laurie Firestone Subject Files",
+      "seriesNaid": 2596283,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "turkey"
+    ],
+    "queryLabels": [
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Records of the White House Social Office (George H. W. Bush Administration), Laurie Firestone Subject Files, Tuesday, 9/25/90 Tea with Mrs. Ozal, Wife of the President of Turkey 4:30 PM. Access restriction: Restricted - Possibly. NAID 492079874.",
+    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/492079874."
   },
   {
     "id": "scout-492080372",
@@ -4078,24 +3900,24 @@
     "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/486208897."
   },
   {
-    "id": "scout-323152291",
+    "id": "scout-518602383",
     "recordSet": "NARA Scout lead",
-    "date": "1992-11-24",
-    "sortDate": "1992-11-24",
-    "year": 1992,
-    "title": "Turkey Presentation 11/24/92 [OA 8485]",
-    "documentTitle": "Turkey Presentation 11/24/92 [OA 8485]",
+    "date": "1991-02-22",
+    "sortDate": "1991-02-22",
+    "year": 1991,
+    "title": "2/22/91 - VP Remarks to American Friends of Turkey",
+    "documentTitle": "2/22/91 - VP Remarks to American Friends of Turkey",
     "chapter": {
       "number": 3,
       "name": "Turkey"
     },
     "category": "MDR / restriction candidate",
-    "score": 46,
-    "naid": "323152291",
-    "catalogUrl": "https://catalog.archives.gov/id/323152291",
-    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_draft_chron_578973/41-bpr-speech-draft-chron-13648-022_323152291.pdf",
-    "objectFilename": "41-bpr-speech-draft-chron-13648-022_323152291.pdf",
-    "objectCount": 1,
+    "score": 34,
+    "naid": "518602383",
+    "catalogUrl": "https://catalog.archives.gov/id/518602383",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
     "levelOfDescription": "fileUnit",
     "accessRestriction": "Restricted - Possibly",
     "countries": [
@@ -4106,15 +3928,15 @@
       "Turkey",
       "MDR / restriction candidate",
       "Turkey",
-      "Speech Draft Files"
+      "Joanne Hilty Speech Files"
     ],
     "source": {
       "name": "NARA Scout / National Archives Catalog",
       "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Office of Speechwriting (George H. W. Bush Administration)",
-      "collectionNaid": 578954,
-      "series": "Speech Draft Files",
-      "seriesNaid": 578973,
+      "collection": "Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration)",
+      "collectionNaid": 2579439,
+      "series": "Joanne Hilty Speech Files",
+      "seriesNaid": 2579556,
       "fileTitle": "",
       "fileNaid": ""
     },
@@ -4128,30 +3950,407 @@
     "scoutUrls": [
       "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
     ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Speechwriting, Speech Draft Files, Turkey Presentation 11/24/92 [OA 8485]. Access restriction: Restricted - Possibly. NAID 323152291.",
-    "researchNote": "Query hit(s): Turkey. Digital object: 41-bpr-speech-draft-chron-13648-022_323152291.pdf. Catalog: https://catalog.archives.gov/id/323152291."
+    "sourceNote": "Source: George H.W. Bush Library, Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration), Joanne Hilty Speech Files, 2/22/91 - VP Remarks to American Friends of Turkey. Access restriction: Restricted - Possibly. NAID 518602383.",
+    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/518602383."
   },
   {
-    "id": "scout-318368020",
+    "id": "scout-559710234",
     "recordSet": "NARA Scout lead",
     "date": "1989-01-01",
     "sortDate": "1989-01-01",
     "year": 1989,
-    "title": "Preliminary Outline Press Schedules: Trip to [Paris], France; London, [England]; Athens, Greece and Turkey [OA/ID 07939]",
-    "documentTitle": "Preliminary Outline Press Schedules: Trip to [Paris], France; London, [England]; Athens, Greece and Turkey [OA/ID 07939]",
+    "title": "[Press Releases]: Turkey [OA/ID 12718]",
+    "documentTitle": "[Press Releases]: Turkey [OA/ID 12718]",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 27,
+    "naid": "559710234",
+    "catalogUrl": "https://catalog.archives.gov/id/559710234",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Turkey",
+      "MDR / restriction candidate",
+      "Turkey",
+      "Press Release Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the White House Office of Management and Administration (George H. W. Bush Administration)",
+      "collectionNaid": 2163576,
+      "series": "Press Release Files",
+      "seriesNaid": 2198546,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "turkey"
+    ],
+    "queryLabels": [
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Management and Administration, Press Release Files, [Press Releases]: Turkey [OA/ID 12718]. Access restriction: Restricted - Possibly. NAID 559710234.",
+    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/559710234."
+  },
+  {
+    "id": "scout-360020364",
+    "recordSet": "NARA Scout lead",
+    "date": "1989-01-01",
+    "sortDate": "1989-01-01",
+    "year": 1989,
+    "title": "Cards-Menus, Luncheon, Honoring His Excellency The President of the Republic of Turkey, The White House, January 18, 1990",
+    "documentTitle": "Cards-Menus, Luncheon, Honoring His Excellency The President of the Republic of Turkey, The White House, January 18, 1990",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 27,
+    "naid": "360020364",
+    "catalogUrl": "https://catalog.archives.gov/id/360020364",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Partly",
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Turkey",
+      "MDR / restriction candidate",
+      "Turkey",
+      "Calligraphy Office Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the First Lady's Office of Calligraphy (George H. W. Bush Administration)",
+      "collectionNaid": 2163567,
+      "series": "Calligraphy Office Files",
+      "seriesNaid": 312288193,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "turkey"
+    ],
+    "queryLabels": [
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Records of the First Lady's Office of Calligraphy (George H. W. Bush Administration), Calligraphy Office Files, Cards-Menus, Luncheon, Honoring His Excellency The President of the Republic of Turkey, The White House, January 18, 1990. Access restriction: Restricted - Partly. NAID 360020364.",
+    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/360020364."
+  },
+  {
+    "id": "scout-360020366",
+    "recordSet": "NARA Scout lead",
+    "date": "1989-01-01",
+    "sortDate": "1989-01-01",
+    "year": 1989,
+    "title": "Cards-Menus, Luncheon, Honoring His Excellency The President of the Republic of Turkey, The White House, September 25, 1990",
+    "documentTitle": "Cards-Menus, Luncheon, Honoring His Excellency The President of the Republic of Turkey, The White House, September 25, 1990",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 27,
+    "naid": "360020366",
+    "catalogUrl": "https://catalog.archives.gov/id/360020366",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Partly",
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Turkey",
+      "MDR / restriction candidate",
+      "Turkey",
+      "Calligraphy Office Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the First Lady's Office of Calligraphy (George H. W. Bush Administration)",
+      "collectionNaid": 2163567,
+      "series": "Calligraphy Office Files",
+      "seriesNaid": 312288193,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "turkey"
+    ],
+    "queryLabels": [
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Records of the First Lady's Office of Calligraphy (George H. W. Bush Administration), Calligraphy Office Files, Cards-Menus, Luncheon, Honoring His Excellency The President of the Republic of Turkey, The White House, September 25, 1990. Access restriction: Restricted - Partly. NAID 360020366.",
+    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/360020366."
+  },
+  {
+    "id": "scout-360020376",
+    "recordSet": "NARA Scout lead",
+    "date": "1989-01-01",
+    "sortDate": "1989-01-01",
+    "year": 1989,
+    "title": "Cards-Menus, Luncheon, Honoring His Excellency The Prime Minister of the Republic of Turkey, The White House, February 11, 1992",
+    "documentTitle": "Cards-Menus, Luncheon, Honoring His Excellency The Prime Minister of the Republic of Turkey, The White House, February 11, 1992",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 27,
+    "naid": "360020376",
+    "catalogUrl": "https://catalog.archives.gov/id/360020376",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Partly",
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Turkey",
+      "MDR / restriction candidate",
+      "Turkey",
+      "Calligraphy Office Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the First Lady's Office of Calligraphy (George H. W. Bush Administration)",
+      "collectionNaid": 2163567,
+      "series": "Calligraphy Office Files",
+      "seriesNaid": 312288193,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "turkey"
+    ],
+    "queryLabels": [
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Records of the First Lady's Office of Calligraphy (George H. W. Bush Administration), Calligraphy Office Files, Cards-Menus, Luncheon, Honoring His Excellency The Prime Minister of the Republic of Turkey, The White House, February 11, 1992. Access restriction: Restricted - Partly. NAID 360020376.",
+    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/360020376."
+  },
+  {
+    "id": "scout-492061873",
+    "recordSet": "NARA Scout lead",
+    "date": "1989-01-01",
+    "sortDate": "1989-01-01",
+    "year": 1989,
+    "title": "Turkey",
+    "documentTitle": "Turkey",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 27,
+    "naid": "492061873",
+    "catalogUrl": "https://catalog.archives.gov/id/492061873",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Turkey",
+      "MDR / restriction candidate",
+      "Turkey",
+      "Trade Policy Review Group (TPRG) Staff Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the Council of Economic Advisors (George H. W. Bush Administration)",
+      "collectionNaid": 2163561,
+      "series": "Trade Policy Review Group (TPRG) Staff Files",
+      "seriesNaid": 486388768,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "turkey"
+    ],
+    "queryLabels": [
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Records of the Council of Economic Advisors (George H. W. Bush Administration), Trade Policy Review Group (TPRG) Staff Files, Turkey. Access restriction: Restricted - Possibly. NAID 492061873.",
+    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/492061873."
+  },
+  {
+    "id": "scout-518603621",
+    "recordSet": "NARA Scout lead",
+    "date": "1989-01-01",
+    "sortDate": "1989-01-01",
+    "year": 1989,
+    "title": "Turkey",
+    "documentTitle": "Turkey",
+    "chapter": {
+      "number": 3,
+      "name": "Turkey"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 27,
+    "naid": "518603621",
+    "catalogUrl": "https://catalog.archives.gov/id/518603621",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Turkey"
+    ],
+    "topics": [
+      "Turkey",
+      "MDR / restriction candidate",
+      "Turkey",
+      "Country Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration)",
+      "collectionNaid": 2579439,
+      "series": "Country Files",
+      "seriesNaid": 2579545,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "turkey"
+    ],
+    "queryLabels": [
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Records of the National Security Affairs Office in the Office of the Vice President (George H. W. Bush Administration), Country Files, Turkey. Access restriction: Restricted - Possibly. NAID 518603621.",
+    "researchNote": "Query hit(s): Turkey. Catalog: https://catalog.archives.gov/id/518603621."
+  },
+  {
+    "id": "daily-diary-item-186336",
+    "naid": "186336",
+    "title": "President's Daily Diary Entry, January 30, 1991",
+    "date": "1991-01-30",
+    "levelOfDescription": "item",
+    "accessRestriction": "Unrestricted",
+    "catalogUrl": "https://catalog.archives.gov/id/186336",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/36/1863/186336/content/arcmedia/media/images/40/20/40-1983a.gif",
+    "objectFilename": "40-1983a.gif",
+    "objectCount": 12,
+    "scopeAndContentNote": "The President met with his senior staff for his morning national intelligence and security briefings. Following these meetings, the President had his morning meeting with Chief of Staff John Sununu and telephoned Turkish President Turgat Ozal. He then met with Antonios Samaras, Foreign Minister of Greece. Later in the morning, he traveled to Capitol Hill where he attended the 50th anniversary of President Franklin D. Roosevelt's Four Freedoms Speech. He also met with Congressional leadership including Senator Robert Dole and Congressman Bob Michel. In the evening, the President dined with the Reverend Billy Graham.",
+    "matchBasis": "Daily Diary item-level description",
+    "queryLabels": [
+      "Ozal",
+      "Samaras",
+      "Greece"
+    ],
+    "source": {
+      "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+      "url": "https://catalog.archives.gov/id/186322",
+      "collection": "White House Office of Appointments and Scheduling Files",
+      "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+      "seriesNaid": "186322"
+    },
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, President's Daily Diary Entry, January 30, 1991. Access restriction: Unrestricted. NAID 186336.",
+    "researchNote": "Match basis: Daily Diary item-level description. Query hit(s): Ozal, Samaras, Greece. Digital object: 40-1983a.gif. Catalog: https://catalog.archives.gov/id/186336.",
+    "recordSet": "Presidential Daily Diary item",
+    "sortDate": "1991-01-30",
+    "year": 1991,
+    "documentTitle": "President's Daily Diary Entry, January 30, 1991",
+    "chapter": {
+      "number": 4,
+      "name": "Regional"
+    },
+    "category": "Schedule corroboration",
+    "score": 138,
+    "countries": [
+      "United States",
+      "Greece",
+      "Turkey"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Meetings and calls",
+      "Ozal",
+      "Samaras",
+      "Greece"
+    ],
+    "scoutUrls": [
+      "https://catalog.archives.gov/search-within/186322?limit=100&q=Ozal"
+    ]
+  },
+  {
+    "id": "scout-470768987",
+    "recordSet": "NARA Scout lead",
+    "date": "1991-07-18",
+    "sortDate": "1991-07-18",
+    "year": 1991,
+    "title": "Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [2]",
+    "documentTitle": "Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [2]",
     "chapter": {
       "number": 4,
       "name": "Regional"
     },
     "category": "MDR / restriction candidate",
-    "score": 48,
-    "naid": "318368020",
-    "catalogUrl": "https://catalog.archives.gov/id/318368020",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
+    "score": 81,
+    "naid": "470768987",
+    "catalogUrl": "https://catalog.archives.gov/id/470768987",
+    "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/sum_brief_books_376217868/41-bpr-nsc-sum_brief_bks-cf01695-004.pdf",
+    "objectFilename": "41-bpr-nsc-sum_brief_bks-cf01695-004.pdf",
+    "objectCount": 1,
     "levelOfDescription": "fileUnit",
-    "accessRestriction": "Unrestricted",
+    "accessRestriction": "Restricted - Possibly",
     "countries": [
       "United States",
       "Greece",
@@ -4161,34 +4360,148 @@
       "Regional",
       "MDR / restriction candidate",
       "Greece",
-      "Turkey",
-      "Michael J. Busch Files"
+      "Aegean",
+      "Eastern Mediterranean",
+      "Summit Briefing Books Files"
     ],
     "source": {
       "name": "NARA Scout / National Archives Catalog",
       "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the White House Office of Press Secretary (George H. W. Bush Administration)",
-      "collectionNaid": 573356,
-      "series": "Michael J. Busch Files",
-      "seriesNaid": 580990,
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Summit Briefing Books Files",
+      "seriesNaid": 376217868,
       "fileTitle": "",
       "fileNaid": ""
     },
     "scopeAndContentNote": "",
     "queryHits": [
       "greece",
-      "turkey"
+      "aegean",
+      "eastmed"
     ],
     "queryLabels": [
       "Greece",
-      "Turkey"
+      "Aegean",
+      "Eastern Mediterranean"
     ],
     "scoutUrls": [
       "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+      "https://therealjameswilson.github.io/nara-scout/#q=Aegean&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
+      "https://therealjameswilson.github.io/nara-scout/#q=Eastern+Mediterranean&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
     ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Press Secretary, Michael J. Busch Files, Preliminary Outline Press Schedules: Trip to [Paris], France; London, [England]; Athens, Greece and Turkey [OA/ID 07939]. Access restriction: Unrestricted. NAID 318368020.",
-    "researchNote": "Query hit(s): Greece, Turkey. Catalog: https://catalog.archives.gov/id/318368020."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Summit Briefing Books Files, Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [2]. Access restriction: Restricted - Possibly. NAID 470768987.",
+    "researchNote": "Query hit(s): Greece, Aegean, Eastern Mediterranean. Digital object: 41-bpr-nsc-sum_brief_bks-cf01695-004.pdf. Catalog: https://catalog.archives.gov/id/470768987."
+  },
+  {
+    "id": "scout-470768986",
+    "recordSet": "NARA Scout lead",
+    "date": "1991-07-18",
+    "sortDate": "1991-07-18",
+    "year": 1991,
+    "title": "Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [1]",
+    "documentTitle": "Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [1]",
+    "chapter": {
+      "number": 4,
+      "name": "Regional"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 75,
+    "naid": "470768986",
+    "catalogUrl": "https://catalog.archives.gov/id/470768986",
+    "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/sum_brief_books_376217868/41-bpr-nsc-sum_brief_bks-cf01695-003.pdf",
+    "objectFilename": "41-bpr-nsc-sum_brief_bks-cf01695-003.pdf",
+    "objectCount": 1,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Greece",
+      "Turkey"
+    ],
+    "topics": [
+      "Regional",
+      "MDR / restriction candidate",
+      "Greece",
+      "Summit Briefing Books Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Summit Briefing Books Files",
+      "seriesNaid": 376217868,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "greece"
+    ],
+    "queryLabels": [
+      "Greece"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Summit Briefing Books Files, Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [1]. Access restriction: Restricted - Possibly. NAID 470768986.",
+    "researchNote": "Query hit(s): Greece. Digital object: 41-bpr-nsc-sum_brief_bks-cf01695-003.pdf. Catalog: https://catalog.archives.gov/id/470768986."
+  },
+  {
+    "id": "scout-470768988",
+    "recordSet": "NARA Scout lead",
+    "date": "1991-07-18",
+    "sortDate": "1991-07-18",
+    "year": 1991,
+    "title": "Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [3]",
+    "documentTitle": "Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [3]",
+    "chapter": {
+      "number": 4,
+      "name": "Regional"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 75,
+    "naid": "470768988",
+    "catalogUrl": "https://catalog.archives.gov/id/470768988",
+    "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/sum_brief_books_376217868/41-bpr-nsc-sum_brief_bks-cf01695-005.pdf",
+    "objectFilename": "41-bpr-nsc-sum_brief_bks-cf01695-005.pdf",
+    "objectCount": 1,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Greece",
+      "Turkey"
+    ],
+    "topics": [
+      "Regional",
+      "MDR / restriction candidate",
+      "Greece",
+      "Summit Briefing Books Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
+      "collectionNaid": 2163580,
+      "series": "Summit Briefing Books Files",
+      "seriesNaid": 376217868,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "greece"
+    ],
+    "queryLabels": [
+      "Greece"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Summit Briefing Books Files, Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [3]. Access restriction: Restricted - Possibly. NAID 470768988.",
+    "researchNote": "Query hit(s): Greece. Digital object: 41-bpr-nsc-sum_brief_bks-cf01695-005.pdf. Catalog: https://catalog.archives.gov/id/470768988."
   },
   {
     "id": "scout-323154678",
@@ -4319,6 +4632,65 @@
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of the Chief of Staff to the President, Andrew Card Briefing Books Files, Briefing Book: Foreign Presidential Travel - London, Greece, & Turkey - 1991. Access restriction: Restricted - Possibly. NAID 563878198.",
     "researchNote": "Query hit(s): Greece, Turkey. Digital object: bpr-cos-card-CF00555-007.pdf. Catalog: https://catalog.archives.gov/id/563878198."
+  },
+  {
+    "id": "scout-318368020",
+    "recordSet": "NARA Scout lead",
+    "date": "1989-01-01",
+    "sortDate": "1989-01-01",
+    "year": 1989,
+    "title": "Preliminary Outline Press Schedules: Trip to [Paris], France; London, [England]; Athens, Greece and Turkey [OA/ID 07939]",
+    "documentTitle": "Preliminary Outline Press Schedules: Trip to [Paris], France; London, [England]; Athens, Greece and Turkey [OA/ID 07939]",
+    "chapter": {
+      "number": 4,
+      "name": "Regional"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 48,
+    "naid": "318368020",
+    "catalogUrl": "https://catalog.archives.gov/id/318368020",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Unrestricted",
+    "countries": [
+      "United States",
+      "Greece",
+      "Turkey"
+    ],
+    "topics": [
+      "Regional",
+      "MDR / restriction candidate",
+      "Greece",
+      "Turkey",
+      "Michael J. Busch Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the White House Office of Press Secretary (George H. W. Bush Administration)",
+      "collectionNaid": 573356,
+      "series": "Michael J. Busch Files",
+      "seriesNaid": 580990,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "greece",
+      "turkey"
+    ],
+    "queryLabels": [
+      "Greece",
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Press Secretary, Michael J. Busch Files, Preliminary Outline Press Schedules: Trip to [Paris], France; London, [England]; Athens, Greece and Turkey [OA/ID 07939]. Access restriction: Unrestricted. NAID 318368020.",
+    "researchNote": "Query hit(s): Greece, Turkey. Catalog: https://catalog.archives.gov/id/318368020."
   },
   {
     "id": "scout-498156204",
@@ -5383,6 +5755,183 @@
     "researchNote": "Query hit(s): Greece, Turkey. Catalog: https://catalog.archives.gov/id/498156488."
   },
   {
+    "id": "scout-492076917",
+    "recordSet": "NARA Scout lead",
+    "date": "1991-07-14",
+    "sortDate": "1991-07-14",
+    "year": 1991,
+    "title": "The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [1]",
+    "documentTitle": "The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [1]",
+    "chapter": {
+      "number": 4,
+      "name": "Regional"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 48,
+    "naid": "492076917",
+    "catalogUrl": "https://catalog.archives.gov/id/492076917",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Greece",
+      "Turkey"
+    ],
+    "topics": [
+      "Regional",
+      "MDR / restriction candidate",
+      "Greece",
+      "Turkey",
+      "Susan Porter Rose Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the First Lady's Office of Chief of Staff (George H. W. Bush Administration)",
+      "collectionNaid": 2163568,
+      "series": "Susan Porter Rose Files",
+      "seriesNaid": 2363687,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "greece",
+      "turkey"
+    ],
+    "queryLabels": [
+      "Greece",
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Records of the First Lady's Office of Chief of Staff (George H. W. Bush Administration), Susan Porter Rose Files, The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [1]. Access restriction: Restricted - Possibly. NAID 492076917.",
+    "researchNote": "Query hit(s): Greece, Turkey. Catalog: https://catalog.archives.gov/id/492076917."
+  },
+  {
+    "id": "scout-492076918",
+    "recordSet": "NARA Scout lead",
+    "date": "1991-07-14",
+    "sortDate": "1991-07-14",
+    "year": 1991,
+    "title": "The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [2]",
+    "documentTitle": "The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [2]",
+    "chapter": {
+      "number": 4,
+      "name": "Regional"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 48,
+    "naid": "492076918",
+    "catalogUrl": "https://catalog.archives.gov/id/492076918",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Greece",
+      "Turkey"
+    ],
+    "topics": [
+      "Regional",
+      "MDR / restriction candidate",
+      "Greece",
+      "Turkey",
+      "Susan Porter Rose Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the First Lady's Office of Chief of Staff (George H. W. Bush Administration)",
+      "collectionNaid": 2163568,
+      "series": "Susan Porter Rose Files",
+      "seriesNaid": 2363687,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "greece",
+      "turkey"
+    ],
+    "queryLabels": [
+      "Greece",
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Records of the First Lady's Office of Chief of Staff (George H. W. Bush Administration), Susan Porter Rose Files, The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [2]. Access restriction: Restricted - Possibly. NAID 492076918.",
+    "researchNote": "Query hit(s): Greece, Turkey. Catalog: https://catalog.archives.gov/id/492076918."
+  },
+  {
+    "id": "scout-492076919",
+    "recordSet": "NARA Scout lead",
+    "date": "1991-07-14",
+    "sortDate": "1991-07-14",
+    "year": 1991,
+    "title": "The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [3]",
+    "documentTitle": "The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [3]",
+    "chapter": {
+      "number": 4,
+      "name": "Regional"
+    },
+    "category": "MDR / restriction candidate",
+    "score": 48,
+    "naid": "492076919",
+    "catalogUrl": "https://catalog.archives.gov/id/492076919",
+    "pdfUrl": "",
+    "objectFilename": "",
+    "objectCount": 0,
+    "levelOfDescription": "fileUnit",
+    "accessRestriction": "Restricted - Possibly",
+    "countries": [
+      "United States",
+      "Greece",
+      "Turkey"
+    ],
+    "topics": [
+      "Regional",
+      "MDR / restriction candidate",
+      "Greece",
+      "Turkey",
+      "Susan Porter Rose Files"
+    ],
+    "source": {
+      "name": "NARA Scout / National Archives Catalog",
+      "url": "https://therealjameswilson.github.io/nara-scout/",
+      "collection": "Records of the First Lady's Office of Chief of Staff (George H. W. Bush Administration)",
+      "collectionNaid": 2163568,
+      "series": "Susan Porter Rose Files",
+      "seriesNaid": 2363687,
+      "fileTitle": "",
+      "fileNaid": ""
+    },
+    "scopeAndContentNote": "",
+    "queryHits": [
+      "greece",
+      "turkey"
+    ],
+    "queryLabels": [
+      "Greece",
+      "Turkey"
+    ],
+    "scoutUrls": [
+      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
+      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
+    ],
+    "sourceNote": "Source: George H.W. Bush Library, Records of the First Lady's Office of Chief of Staff (George H. W. Bush Administration), Susan Porter Rose Files, The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [3]. Access restriction: Restricted - Possibly. NAID 492076919.",
+    "researchNote": "Query hit(s): Greece, Turkey. Catalog: https://catalog.archives.gov/id/492076919."
+  },
+  {
     "id": "scout-472437749",
     "recordSet": "NARA Scout lead",
     "date": "1991-07-14",
@@ -5853,356 +6402,6 @@
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Advance, Peggy Hazelrigg Files, Park, London, England; Athens, Greece, Souda Bay, Crete; Ankara, Turkey, Istanbul, Turkey - Schedules [7/14/91-7/22/91] [2]. Access restriction: Restricted - Possibly. NAID 472437627.",
     "researchNote": "Query hit(s): Greece, Turkey. Catalog: https://catalog.archives.gov/id/472437627."
-  },
-  {
-    "id": "scout-492076917",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-07-14",
-    "sortDate": "1991-07-14",
-    "year": 1991,
-    "title": "The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [1]",
-    "documentTitle": "The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [1]",
-    "chapter": {
-      "number": 4,
-      "name": "Regional"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 48,
-    "naid": "492076917",
-    "catalogUrl": "https://catalog.archives.gov/id/492076917",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Greece",
-      "Turkey"
-    ],
-    "topics": [
-      "Regional",
-      "MDR / restriction candidate",
-      "Greece",
-      "Turkey",
-      "Susan Porter Rose Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the First Lady's Office of Chief of Staff (George H. W. Bush Administration)",
-      "collectionNaid": 2163568,
-      "series": "Susan Porter Rose Files",
-      "seriesNaid": 2363687,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "greece",
-      "turkey"
-    ],
-    "queryLabels": [
-      "Greece",
-      "Turkey"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the First Lady's Office of Chief of Staff (George H. W. Bush Administration), Susan Porter Rose Files, The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [1]. Access restriction: Restricted - Possibly. NAID 492076917.",
-    "researchNote": "Query hit(s): Greece, Turkey. Catalog: https://catalog.archives.gov/id/492076917."
-  },
-  {
-    "id": "scout-492076918",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-07-14",
-    "sortDate": "1991-07-14",
-    "year": 1991,
-    "title": "The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [2]",
-    "documentTitle": "The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [2]",
-    "chapter": {
-      "number": 4,
-      "name": "Regional"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 48,
-    "naid": "492076918",
-    "catalogUrl": "https://catalog.archives.gov/id/492076918",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Greece",
-      "Turkey"
-    ],
-    "topics": [
-      "Regional",
-      "MDR / restriction candidate",
-      "Greece",
-      "Turkey",
-      "Susan Porter Rose Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the First Lady's Office of Chief of Staff (George H. W. Bush Administration)",
-      "collectionNaid": 2163568,
-      "series": "Susan Porter Rose Files",
-      "seriesNaid": 2363687,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "greece",
-      "turkey"
-    ],
-    "queryLabels": [
-      "Greece",
-      "Turkey"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the First Lady's Office of Chief of Staff (George H. W. Bush Administration), Susan Porter Rose Files, The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [2]. Access restriction: Restricted - Possibly. NAID 492076918.",
-    "researchNote": "Query hit(s): Greece, Turkey. Catalog: https://catalog.archives.gov/id/492076918."
-  },
-  {
-    "id": "scout-492076919",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-07-14",
-    "sortDate": "1991-07-14",
-    "year": 1991,
-    "title": "The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [3]",
-    "documentTitle": "The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [3]",
-    "chapter": {
-      "number": 4,
-      "name": "Regional"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 48,
-    "naid": "492076919",
-    "catalogUrl": "https://catalog.archives.gov/id/492076919",
-    "pdfUrl": "",
-    "objectFilename": "",
-    "objectCount": 0,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Greece",
-      "Turkey"
-    ],
-    "topics": [
-      "Regional",
-      "MDR / restriction candidate",
-      "Greece",
-      "Turkey",
-      "Susan Porter Rose Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the First Lady's Office of Chief of Staff (George H. W. Bush Administration)",
-      "collectionNaid": 2163568,
-      "series": "Susan Porter Rose Files",
-      "seriesNaid": 2363687,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "greece",
-      "turkey"
-    ],
-    "queryLabels": [
-      "Greece",
-      "Turkey"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
-      "https://therealjameswilson.github.io/nara-scout/#q=Turkey&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Records of the First Lady's Office of Chief of Staff (George H. W. Bush Administration), Susan Porter Rose Files, The Visit of Mrs. Bush to the Economic Summit, London, England and Greece and Turkey, Sunday, July 14 to Monday, July 22, 1991 - Susan Porter Rose's Copy [3]. Access restriction: Restricted - Possibly. NAID 492076919.",
-    "researchNote": "Query hit(s): Greece, Turkey. Catalog: https://catalog.archives.gov/id/492076919."
-  },
-  {
-    "id": "scout-470768986",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-07-18",
-    "sortDate": "1991-07-18",
-    "year": 1991,
-    "title": "Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [1]",
-    "documentTitle": "Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [1]",
-    "chapter": {
-      "number": 4,
-      "name": "Regional"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 75,
-    "naid": "470768986",
-    "catalogUrl": "https://catalog.archives.gov/id/470768986",
-    "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/sum_brief_books_376217868/41-bpr-nsc-sum_brief_bks-cf01695-003.pdf",
-    "objectFilename": "41-bpr-nsc-sum_brief_bks-cf01695-003.pdf",
-    "objectCount": 1,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Greece",
-      "Turkey"
-    ],
-    "topics": [
-      "Regional",
-      "MDR / restriction candidate",
-      "Greece",
-      "Summit Briefing Books Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
-      "collectionNaid": 2163580,
-      "series": "Summit Briefing Books Files",
-      "seriesNaid": 376217868,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "greece"
-    ],
-    "queryLabels": [
-      "Greece"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Summit Briefing Books Files, Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [1]. Access restriction: Restricted - Possibly. NAID 470768986.",
-    "researchNote": "Query hit(s): Greece. Digital object: 41-bpr-nsc-sum_brief_bks-cf01695-003.pdf. Catalog: https://catalog.archives.gov/id/470768986."
-  },
-  {
-    "id": "scout-470768987",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-07-18",
-    "sortDate": "1991-07-18",
-    "year": 1991,
-    "title": "Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [2]",
-    "documentTitle": "Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [2]",
-    "chapter": {
-      "number": 4,
-      "name": "Regional"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 81,
-    "naid": "470768987",
-    "catalogUrl": "https://catalog.archives.gov/id/470768987",
-    "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/sum_brief_books_376217868/41-bpr-nsc-sum_brief_bks-cf01695-004.pdf",
-    "objectFilename": "41-bpr-nsc-sum_brief_bks-cf01695-004.pdf",
-    "objectCount": 1,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Greece",
-      "Turkey"
-    ],
-    "topics": [
-      "Regional",
-      "MDR / restriction candidate",
-      "Greece",
-      "Aegean",
-      "Eastern Mediterranean",
-      "Summit Briefing Books Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
-      "collectionNaid": 2163580,
-      "series": "Summit Briefing Books Files",
-      "seriesNaid": 376217868,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "greece",
-      "aegean",
-      "eastmed"
-    ],
-    "queryLabels": [
-      "Greece",
-      "Aegean",
-      "Eastern Mediterranean"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
-      "https://therealjameswilson.github.io/nara-scout/#q=Aegean&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41",
-      "https://therealjameswilson.github.io/nara-scout/#q=Eastern+Mediterranean&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Summit Briefing Books Files, Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [2]. Access restriction: Restricted - Possibly. NAID 470768987.",
-    "researchNote": "Query hit(s): Greece, Aegean, Eastern Mediterranean. Digital object: 41-bpr-nsc-sum_brief_bks-cf01695-004.pdf. Catalog: https://catalog.archives.gov/id/470768987."
-  },
-  {
-    "id": "scout-470768988",
-    "recordSet": "NARA Scout lead",
-    "date": "1991-07-18",
-    "sortDate": "1991-07-18",
-    "year": 1991,
-    "title": "Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [3]",
-    "documentTitle": "Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [3]",
-    "chapter": {
-      "number": 4,
-      "name": "Regional"
-    },
-    "category": "MDR / restriction candidate",
-    "score": 75,
-    "naid": "470768988",
-    "catalogUrl": "https://catalog.archives.gov/id/470768988",
-    "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/sum_brief_books_376217868/41-bpr-nsc-sum_brief_bks-cf01695-005.pdf",
-    "objectFilename": "41-bpr-nsc-sum_brief_bks-cf01695-005.pdf",
-    "objectCount": 1,
-    "levelOfDescription": "fileUnit",
-    "accessRestriction": "Restricted - Possibly",
-    "countries": [
-      "United States",
-      "Greece",
-      "Turkey"
-    ],
-    "topics": [
-      "Regional",
-      "MDR / restriction candidate",
-      "Greece",
-      "Summit Briefing Books Files"
-    ],
-    "source": {
-      "name": "NARA Scout / National Archives Catalog",
-      "url": "https://therealjameswilson.github.io/nara-scout/",
-      "collection": "Records of the National Security Council (George H. W. Bush Administration)",
-      "collectionNaid": 2163580,
-      "series": "Summit Briefing Books Files",
-      "seriesNaid": 376217868,
-      "fileTitle": "",
-      "fileNaid": ""
-    },
-    "scopeAndContentNote": "",
-    "queryHits": [
-      "greece"
-    ],
-    "queryLabels": [
-      "Greece"
-    ],
-    "scoutUrls": [
-      "https://therealjameswilson.github.io/nara-scout/#q=Greece&from=1989&to=1993&sort=relevance&perColl=50&perPage=50&scope=bush41"
-    ],
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Summit Briefing Books Files, Presidential Briefing Book: The Visit of President Bush to Greece and Turkey 7/18-22/91 [3]. Access restriction: Restricted - Possibly. NAID 470768988.",
-    "researchNote": "Query hit(s): Greece. Digital object: 41-bpr-nsc-sum_brief_bks-cf01695-005.pdf. Catalog: https://catalog.archives.gov/id/470768988."
   },
   {
     "id": "scout-503119747",

@@ -63,6 +63,7 @@ function formatCollection(value) {
   }
   const whiteHouse = text.match(/^Records of the White House Office of (.+) \(George H\. W\. Bush Administration\)$/i);
   if (whiteHouse) return `Bush Presidential Records, White House Office of ${whiteHouse[1]}`;
+  if (/^White House Office of .+ Files$/i.test(text)) return `Bush Presidential Records, ${text}`;
   if (/^Brent Scowcroft Papers$/i.test(text)) return "Bush Presidential Records, Brent Scowcroft Collection";
   return text;
 }
@@ -116,6 +117,7 @@ function buildFrusSourceNote(item) {
 
 function buildResearchNote(item) {
   const parts = [];
+  if (item.matchBasis) parts.push(`Match basis: ${item.matchBasis}.`);
   if (item.queryLabels?.length) parts.push(`Query hit(s): ${item.queryLabels.join(", ")}.`);
   if (item.queryTotals?.length) {
     const totals = [...item.queryTotals]
