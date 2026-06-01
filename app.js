@@ -273,6 +273,16 @@ function gapItems(restrictions) {
 function exportItems() {
   return [
     {
+      href: "reports/compiler-gap-audit.md",
+      label: "Gap audit",
+      detail: "Chapter-by-chapter risk register comparing selected chronology records against source-lane leads."
+    },
+    {
+      href: "reports/compiler-gap-audit.csv",
+      label: "Gap audit spreadsheet",
+      detail: "CSV matrix for sorting chapter coverage, source leads, schedule gaps, and release markers."
+    },
+    {
       href: "reports/compiler-chronology.md",
       label: "Working chronology pack",
       detail: "Markdown export with doc numbers, source notes, research notes, schedule references, and links."

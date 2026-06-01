@@ -37,6 +37,8 @@ The script writes:
 
 - `reports/compiler-chronology.md`
 - `reports/compiler-source-notes.csv`
+- `reports/compiler-gap-audit.md`
+- `reports/compiler-gap-audit.csv`
 
 ## NARA Scout
 
