@@ -770,6 +770,21 @@ footer {
   margin: 8px 0 0;
 }
 
+.record-note-block {
+  display: grid;
+  gap: 8px;
+  margin-top: 8px;
+  padding: 10px;
+  background: rgba(22, 58, 89, 0.04);
+  border: 1px solid rgba(22, 58, 89, 0.08);
+  border-radius: 6px;
+}
+
+.record-schedule-reference {
+  background: rgba(198, 152, 61, 0.08);
+  border-color: rgba(198, 152, 61, 0.16);
+}
+
 .record-frus-source-note {
   color: var(--ink);
   font-family: Georgia, "Times New Roman", serif;
@@ -779,6 +794,30 @@ footer {
 
 .record-research-note {
   color: var(--muted);
+}
+
+.record-note-copy {
+  width: fit-content;
+  min-height: 30px;
+  padding: 0 10px;
+  color: white;
+  font: inherit;
+  font-size: 0.76rem;
+  font-weight: 900;
+  background: var(--navy);
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.record-note-copy:hover,
+.record-note-copy:focus-visible {
+  background: var(--green);
+  outline: none;
+}
+
+.record-note-copy.copy-failed {
+  background: var(--red);
 }
 
 .loading,

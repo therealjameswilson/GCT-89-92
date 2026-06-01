@@ -435,20 +435,69 @@ function createFlags(values) {
   return flags;
 }
 
+async function copyToClipboard(text) {
+  if (navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return;
+    } catch {
+      // Fall through to the textarea copy path for stricter browser contexts.
+    }
+  }
+  const input = document.createElement("textarea");
+  input.value = text;
+  input.setAttribute("readonly", "");
+  input.style.position = "fixed";
+  input.style.top = "-1000px";
+  document.body.append(input);
+  input.select();
+  const copied = document.execCommand("copy");
+  input.remove();
+  if (!copied) throw new Error("Copy command was rejected.");
+}
+
+function createCopyButton(label, text) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "record-note-copy";
+  button.textContent = label;
+  button.addEventListener("click", async (event) => {
+    event.stopPropagation();
+    const originalLabel = button.textContent;
+    try {
+      await copyToClipboard(text);
+      button.textContent = "Copied";
+      button.classList.remove("copy-failed");
+    } catch {
+      button.textContent = "Copy failed";
+      button.classList.add("copy-failed");
+    }
+    setTimeout(() => {
+      button.textContent = originalLabel;
+      button.classList.remove("copy-failed");
+    }, 1400);
+  });
+  return button;
+}
+
+function createCopyableNote(className, text, buttonLabel, copyText = text) {
+  const wrap = document.createElement("div");
+  wrap.className = "record-note-block";
+  const paragraph = document.createElement("p");
+  paragraph.className = className;
+  paragraph.textContent = text;
+  wrap.append(paragraph, createCopyButton(buttonLabel, copyText));
+  return wrap;
+}
+
 function createSourceDetails(summaryText, sourceNote, bodyText = "") {
   const details = document.createElement("details");
   details.className = "record-source-note";
   const summary = document.createElement("summary");
   summary.textContent = summaryText;
-  const source = document.createElement("p");
-  source.className = "record-frus-source-note";
-  source.textContent = sourceNote || "Source note pending.";
-  details.append(summary, source);
+  details.append(summary, createCopyableNote("record-frus-source-note", sourceNote || "Source note pending.", "Copy source"));
   if (bodyText) {
-    const body = document.createElement("p");
-    body.className = "record-research-note";
-    body.textContent = bodyText;
-    details.append(body);
+    details.append(createCopyableNote("record-research-note", bodyText, "Copy research"));
   }
   return details;
 }
@@ -464,18 +513,25 @@ function createScheduleReferenceDetails(references = []) {
   details.append(summary);
 
   for (const reference of usableReferences) {
+    const noteText = [reference.researchNote, reference.scopeAndContentNote].filter(Boolean).join(" ");
+    const copyText = [reference.sourceNote, noteText, reference.catalogUrl ? `Catalog: ${reference.catalogUrl}` : "", reference.pdfUrl ? `PDF: ${reference.pdfUrl}` : ""]
+      .filter(Boolean)
+      .join(" ");
+    const block = document.createElement("div");
+    block.className = "record-note-block record-schedule-reference";
     const source = document.createElement("p");
     source.className = "record-frus-source-note";
     source.textContent = reference.sourceNote;
-    details.append(source);
+    block.append(source);
 
-    const noteText = [reference.researchNote, reference.scopeAndContentNote].filter(Boolean).join(" ");
     if (noteText) {
       const note = document.createElement("p");
       note.className = "record-research-note";
       note.textContent = noteText;
-      details.append(note);
+      block.append(note);
     }
+    block.append(createCopyButton("Copy reference", copyText));
+    details.append(block);
   }
 
   return details;
