@@ -435,6 +435,20 @@ footer {
   padding-left: 20px;
 }
 
+.compiler-list a {
+  color: var(--navy);
+  font-weight: 900;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.compiler-list li span {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .records-tools {
   display: grid;
   grid-template-columns: minmax(260px, 1.3fr) repeat(3, minmax(140px, 0.7fr)) auto;

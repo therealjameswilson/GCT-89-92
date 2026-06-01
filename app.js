@@ -188,6 +188,85 @@ function createMetric(label, value, detail) {
   return card;
 }
 
+function createCompilerTextItem(text) {
+  const item = document.createElement("li");
+  item.textContent = text;
+  return item;
+}
+
+function createCompilerLinkItem(href, label, detail) {
+  const item = document.createElement("li");
+  const link = document.createElement("a");
+  link.href = href;
+  link.rel = "noreferrer";
+  link.textContent = label;
+  item.append(link);
+  if (detail) {
+    const detailNode = document.createElement("span");
+    detailNode.textContent = detail;
+    item.append(detailNode);
+  }
+  return item;
+}
+
+function openQueueItems() {
+  const central = allCentralFiles
+    .filter((file) => file.priority === "Open packet first")
+    .map((file) => ({
+      href: file.pdfUrl || file.catalogUrl,
+      label: `${file.fileNumber}: ${file.title}`,
+      detail: `Central Chronology / ${file.chapter.name} / ${file.documentSignals?.length || 0} OCR signals`,
+      rank: 100 + (file.documentSignals?.length || 0) * 8 + (file.score || 0)
+    }));
+  const blackwillChron = allBlackwillChronFiles
+    .filter((file) => file.priority === "Open packet first")
+    .map((file) => ({
+      href: file.pdfUrl || file.catalogUrl,
+      label: `${file.fileNumber}: ${file.title}`,
+      detail: `Blackwill Chronology / ${file.chapter.name} / ${file.documentSignals?.length || 0} OCR signals`,
+      rank: 92 + (file.documentSignals?.length || 0) * 8 + (file.score || 0)
+    }));
+  const gates = allGatesChronFiles
+    .filter((file) => /High-value|Personnel/i.test(file.priority))
+    .map((file) => ({
+      href: file.pdfUrl || file.catalogUrl,
+      label: `${file.fileNumber}: ${file.title}`,
+      detail: `Gates Chronology / ${file.priority}`,
+      rank: 76 + (file.documentSignals?.length || 0) * 6 + (file.score || 0)
+    }));
+  const requestedSources = allRequestedSources
+    .filter((source) => /High-value|Conversation/i.test(source.priority))
+    .map((source) => ({
+      href: source.searchWithinUrl || source.catalogUrl,
+      label: `${source.sourceNumber}: ${source.label}`,
+      detail: `${source.queryHitFiles || 0} retained EastMed leads / ${source.priority}`,
+      rank: 60 + (source.queryHitFiles || 0)
+    }));
+  return [...central, ...blackwillChron, ...gates, ...requestedSources]
+    .sort((a, b) => b.rank - a.rank || a.label.localeCompare(b.label))
+    .slice(0, 12);
+}
+
+function gapItems(restrictions) {
+  const output = [];
+  const chapterCounts = new Map(CHAPTER_ORDER.map((chapter) => [chapter, allRecords.filter((record) => record.chapter.name === chapter).length]));
+  for (const chapterName of ["Cyprus", "Regional"]) {
+    output.push(`${chapterName}: ${chapterCounts.get(chapterName)} selected chronology records; compare against Scout, Central Chronology, and requested source-pool leads.`);
+  }
+  const missingScheduleRefs = allRecords.filter((record) => !(record.scheduleReferences || []).length);
+  if (missingScheduleRefs.length) {
+    output.push(
+      `${missingScheduleRefs.length} chronology record lacks a Daily Diary/Backup date reference: ${missingScheduleRefs
+        .slice(0, 2)
+        .map((record) => `Doc ${record.compilerNumber}`)
+        .join(", ")}.`
+    );
+  }
+  output.push(`${restrictions.length} chronology rows need release-status or marker review before compiler selection.`);
+  output.push(`${allScoutLeads.filter((lead) => /MDR|restriction/i.test(lead.category)).length} NARA Scout leads remain MDR/restriction candidates.`);
+  return output;
+}
+
 function renderCompilerDesk() {
   if (!compilerRoot) return;
   const pages = allRecords.reduce((sum, record) => sum + (record.pageCount || 0), 0);
@@ -255,7 +334,25 @@ function renderCompilerDesk() {
   }
   ledger.append(ledgerTitle, ledgerList);
 
-  compilerRoot.replaceChildren(metrics, sourcePanel, scoutPanel, ledger);
+  const queuePanel = document.createElement("div");
+  queuePanel.className = "compiler-panel compiler-panel-wide";
+  const queueTitle = document.createElement("h3");
+  queueTitle.textContent = "Next Opens";
+  const queueList = document.createElement("ol");
+  queueList.className = "compiler-list compiler-action-list";
+  for (const item of openQueueItems()) queueList.append(createCompilerLinkItem(item.href, item.label, item.detail));
+  queuePanel.append(queueTitle, queueList);
+
+  const gapPanel = document.createElement("div");
+  gapPanel.className = "compiler-panel compiler-panel-wide";
+  const gapTitle = document.createElement("h3");
+  gapTitle.textContent = "Gap Checks";
+  const gapList = document.createElement("ol");
+  gapList.className = "compiler-list";
+  for (const item of gapItems(restrictions)) gapList.append(createCompilerTextItem(item));
+  gapPanel.append(gapTitle, gapList);
+
+  compilerRoot.replaceChildren(metrics, queuePanel, gapPanel, sourcePanel, scoutPanel, ledger);
 }
 
 function createMeta(values) {
