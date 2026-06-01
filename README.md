@@ -39,6 +39,7 @@ The script writes:
 - `reports/compiler-source-notes.csv`
 - `reports/compiler-gap-audit.md`
 - `reports/compiler-gap-audit.csv`
+- `reports/compiler-selection-worksheet.csv`
 
 ## NARA Scout
 

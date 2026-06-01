@@ -273,6 +273,11 @@ function gapItems(restrictions) {
 function exportItems() {
   return [
     {
+      href: "reports/compiler-selection-worksheet.csv",
+      label: "Selection worksheet",
+      detail: "Spreadsheet queue with blank review/decision columns for chronology rows and source-lane leads."
+    },
+    {
       href: "reports/compiler-gap-audit.md",
       label: "Gap audit",
       detail: "Chapter-by-chapter risk register comparing selected chronology records against source-lane leads."

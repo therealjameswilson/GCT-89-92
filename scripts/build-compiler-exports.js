@@ -297,6 +297,169 @@ function buildGapCsv(records, data) {
   return `${csvRow(header)}\n${rows.join("\n")}\n`;
 }
 
+function padNumber(value) {
+  return String(value).padStart(3, "0");
+}
+
+function itemChapterNames(item) {
+  if (item.chapter?.name) return item.chapter.name;
+  const matches = CHAPTER_ORDER.filter((chapterName) => chapterMatches(item, chapterName));
+  return matches.join("; ") || "Cross-chapter";
+}
+
+function itemDate(item) {
+  return item.date || item.sortDate || item.dateRange || "";
+}
+
+function itemSourceSeries(item) {
+  return item.source?.series || item.series || item.collection || "";
+}
+
+function worksheetRank(row) {
+  if (row.lane === "Selected chronology") return 1000 - Number(row.sortKey || 0) / 10000;
+  let rank = Number(row.score || 0);
+  if (/Open packet first/i.test(row.priority)) rank += 500;
+  if (/High-value/i.test(row.priority)) rank += 350;
+  if (/MDR|restriction|Partial|Denied|Marker/i.test(`${row.priority} ${row.releaseStatus} ${row.accessRestriction}`)) rank += 90;
+  if (/Regional|Cyprus/.test(row.chapter)) rank += 40;
+  return rank;
+}
+
+function selectedWorksheetRows(records) {
+  return records.map((record, index) => ({
+    reviewStatus: "",
+    compilerDecision: "",
+    compilerNotes: "",
+    candidateId: `Doc ${record.compilerNumber}`,
+    lane: "Selected chronology",
+    suggestedAction: releaseNeedsAttention(record) ? "Review release/marker before final selection" : "Review for inclusion",
+    priority: releaseNeedsAttention(record) ? "Release/marker review" : "Selected chronology",
+    chapter: record.chapter.name,
+    date: record.date,
+    type: record.type,
+    title: record.documentTitle || record.title,
+    peopleOrSignals: (record.participants || []).join("; "),
+    releaseStatus: record.releaseStatus,
+    accessRestriction: record.accessRestriction,
+    pageCount: record.pageCount,
+    score: "",
+    naid: record.naid,
+    sourceSeries: itemSourceSeries(record),
+    sourceNote: record.sourceNote,
+    researchNote: record.researchNote,
+    scheduleReferences: scheduleSummary(record),
+    catalogUrl: record.catalogUrl,
+    pdfUrl: record.pdfUrl,
+    sortKey: index + 1
+  }));
+}
+
+function flatLeadRows(items, lane, prefix, suggestedAction) {
+  return [...items]
+    .sort((a, b) => (b.score || 0) - (a.score || 0) || clean(a.sortDate || a.date).localeCompare(clean(b.sortDate || b.date)) || clean(a.title).localeCompare(clean(b.title)))
+    .map((item, index) => ({
+      reviewStatus: "",
+      compilerDecision: "",
+      compilerNotes: "",
+      candidateId: `${prefix} ${padNumber(index + 1)}`,
+      lane,
+      suggestedAction,
+      priority: item.priority || item.category || "",
+      chapter: itemChapterNames(item),
+      date: itemDate(item),
+      type: item.type || item.category || item.levelOfDescription || "",
+      title: item.documentTitle || item.title || item.label,
+      peopleOrSignals: [...(item.documentSignals || []).slice(0, 3), ...(item.queryLabels || []).slice(0, 8)].join(" | "),
+      releaseStatus: item.releaseStatus || "",
+      accessRestriction: item.accessRestriction || "",
+      pageCount: item.pageCount || "",
+      score: item.score || "",
+      naid: item.naid,
+      sourceSeries: itemSourceSeries(item),
+      sourceNote: item.sourceNote,
+      researchNote: item.researchNote,
+      scheduleReferences: "",
+      catalogUrl: item.catalogUrl,
+      pdfUrl: item.pdfUrl,
+      sortKey: 2000 + index + 1
+    }));
+}
+
+function requestedLeadRows(sources) {
+  const rows = [];
+  sources.forEach((source, sourceIndex) => {
+    [...(source.leads || [])]
+      .sort((a, b) => (b.score || 0) - (a.score || 0) || clean(a.title).localeCompare(clean(b.title)))
+      .forEach((lead, leadIndex) => {
+        rows.push({
+          reviewStatus: "",
+          compilerDecision: "",
+          compilerNotes: "",
+          candidateId: `RS ${padNumber(sourceIndex + 1)}-${padNumber(leadIndex + 1)}`,
+          lane: `Requested source pool: ${source.label}`,
+          suggestedAction: "Review requested source-pool lead",
+          priority: lead.priority || source.priority || "",
+          chapter: itemChapterNames(lead),
+          date: itemDate(lead),
+          type: lead.levelOfDescription || "",
+          title: lead.title,
+          peopleOrSignals: (lead.queryLabels || []).slice(0, 10).join(" | "),
+          releaseStatus: lead.releaseStatus || "",
+          accessRestriction: lead.accessRestriction || "",
+          pageCount: lead.pageCount || "",
+          score: lead.score || "",
+          naid: lead.naid,
+          sourceSeries: lead.series || source.title || source.label,
+          sourceNote: lead.sourceNote || source.sourceNote,
+          researchNote: lead.researchNote || source.researchNote,
+          scheduleReferences: "",
+          catalogUrl: lead.catalogUrl,
+          pdfUrl: lead.pdfUrl,
+          sortKey: 7000 + sourceIndex * 1000 + leadIndex + 1
+        });
+      });
+  });
+  return rows;
+}
+
+function buildSelectionWorksheet(records, data) {
+  const rows = [
+    ...selectedWorksheetRows(records),
+    ...flatLeadRows(data.central, "Central Chronological Files", "CC", "Open or screen packet index"),
+    ...flatLeadRows(data.blackwill, "Blackwill Subject Files", "BW", "Complete-series review"),
+    ...flatLeadRows(data.blackwillChron, "Blackwill Chronological Files", "BC", "Open or screen chronological packet"),
+    ...flatLeadRows(data.gates, "Gates Chronological Files", "GC", "Screen for copied or staff-context records"),
+    ...flatLeadRows(data.scout, "NARA Scout", "Scout", "Screen Scout lead"),
+    ...requestedLeadRows(data.requested)
+  ].sort((a, b) => worksheetRank(b) - worksheetRank(a) || clean(a.candidateId).localeCompare(clean(b.candidateId)));
+  const header = [
+    "reviewStatus",
+    "compilerDecision",
+    "compilerNotes",
+    "candidateId",
+    "lane",
+    "suggestedAction",
+    "priority",
+    "chapter",
+    "date",
+    "type",
+    "title",
+    "peopleOrSignals",
+    "releaseStatus",
+    "accessRestriction",
+    "pageCount",
+    "score",
+    "naid",
+    "sourceSeries",
+    "sourceNote",
+    "researchNote",
+    "scheduleReferences",
+    "catalogUrl",
+    "pdfUrl"
+  ];
+  return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
+}
+
 function buildMarkdown(records) {
   const pages = records.reduce((sum, record) => sum + (record.pageCount || 0), 0);
   const restrictions = records.filter(releaseNeedsAttention);
@@ -411,6 +574,7 @@ function main() {
   fs.writeFileSync(path.join(ROOT, "reports/compiler-source-notes.csv"), buildCsv(records));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-audit.md"), buildGapAudit(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-audit.csv"), buildGapCsv(records, data));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-selection-worksheet.csv"), buildSelectionWorksheet(records, data));
   console.log(`Wrote compiler exports for ${records.length} records.`);
 }
 
