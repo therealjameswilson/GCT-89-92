@@ -27,6 +27,17 @@ After re-running any harvest, normalize the source-note fields:
 node scripts/normalize-source-notes.js
 ```
 
+Build the compiler-ready chronology and source-note exports:
+
+```bash
+node scripts/build-compiler-exports.js
+```
+
+The script writes:
+
+- `reports/compiler-chronology.md`
+- `reports/compiler-source-notes.csv`
+
 ## NARA Scout
 
 The candidate-lead lane is built from NARA Scout searches using the Bush 41

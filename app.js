@@ -161,8 +161,11 @@ function populateFilters() {
 }
 
 function releaseNeedsAttention(record) {
-  return /partial|denied|restricted|marker|no memorandum|unknown/i.test(
-    `${record.releaseStatus || ""} ${record.accessRestriction || ""} ${record.type || ""}`
+  const releaseAndType = `${record.releaseStatus || ""} ${record.type || ""}`;
+  const accessRestriction = `${record.accessRestriction || ""}`;
+  return (
+    /partial|denied|marker|no memorandum|unknown/i.test(releaseAndType) ||
+    (/restricted/i.test(accessRestriction) && !/unrestricted/i.test(accessRestriction))
   );
 }
 
@@ -267,6 +270,31 @@ function gapItems(restrictions) {
   return output;
 }
 
+function exportItems() {
+  return [
+    {
+      href: "reports/compiler-chronology.md",
+      label: "Working chronology pack",
+      detail: "Markdown export with doc numbers, source notes, research notes, schedule references, and links."
+    },
+    {
+      href: "reports/compiler-source-notes.csv",
+      label: "Source-note spreadsheet",
+      detail: "CSV for sorting, filtering, and manuscript/source-note review."
+    },
+    {
+      href: "reports/persons-list.md",
+      label: "Persons list source file",
+      detail: "FRUS-style persons list working copy generated from the Bush names authority file."
+    },
+    {
+      href: "data/records.json",
+      label: "Chronology JSON",
+      detail: "Structured source data for downstream compiler tooling."
+    }
+  ];
+}
+
 function renderCompilerDesk() {
   if (!compilerRoot) return;
   const pages = allRecords.reduce((sum, record) => sum + (record.pageCount || 0), 0);
@@ -352,7 +380,16 @@ function renderCompilerDesk() {
   for (const item of gapItems(restrictions)) gapList.append(createCompilerTextItem(item));
   gapPanel.append(gapTitle, gapList);
 
-  compilerRoot.replaceChildren(metrics, queuePanel, gapPanel, sourcePanel, scoutPanel, ledger);
+  const exportPanel = document.createElement("div");
+  exportPanel.className = "compiler-panel compiler-panel-wide";
+  const exportTitle = document.createElement("h3");
+  exportTitle.textContent = "Compiler Exports";
+  const exportList = document.createElement("ol");
+  exportList.className = "compiler-list";
+  for (const item of exportItems()) exportList.append(createCompilerLinkItem(item.href, item.label, item.detail));
+  exportPanel.append(exportTitle, exportList);
+
+  compilerRoot.replaceChildren(metrics, queuePanel, gapPanel, exportPanel, sourcePanel, scoutPanel, ledger);
 }
 
 function createMeta(values) {
