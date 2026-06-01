@@ -788,6 +788,157 @@ function buildSelectionWorksheet(records, data) {
   return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
 }
 
+function sourceLeadWorksheetRows(data) {
+  return [
+    ...flatLeadRows(data.central, "Central Chronological Files", "CC", "Open or screen packet index"),
+    ...flatLeadRows(data.blackwill, "Blackwill Subject Files", "BW", "Complete-series review"),
+    ...flatLeadRows(data.blackwillChron, "Blackwill Chronological Files", "BC", "Open or screen chronological packet"),
+    ...flatLeadRows(data.gates, "Gates Chronological Files", "GC", "Screen for copied or staff-context records"),
+    ...flatLeadRows(data.scout, "NARA Scout", "Scout", "Screen Scout lead"),
+    ...requestedLeadRows(data.requested)
+  ];
+}
+
+function reviewQueueBucket(row) {
+  const text = `${row.lane} ${row.priority} ${row.peopleOrSignals} ${row.suggestedAction}`;
+  if (/Open packet first/i.test(text)) return "Open first";
+  if (/High-value/i.test(text)) return "High-value source pool";
+  if (/memcon|telcon|memorandum of conversation|telephone conversation/i.test(text)) return "Conversation signal";
+  if (/MDR|restriction|restricted/i.test(text)) return "Restriction/MDR check";
+  if (/OCR/i.test(text) || row.peopleOrSignals) return "Signal review";
+  return "Screen";
+}
+
+function reviewQueueReason(row) {
+  const signals = clean(row.peopleOrSignals);
+  if (signals) return signals;
+  return clean([row.priority, row.suggestedAction, row.sourceSeries].filter(Boolean).join("; "));
+}
+
+function reviewQueueRows(data) {
+  return sourceLeadWorksheetRows(data)
+    .map((row) => ({
+      ...row,
+      queueRank: Math.round(worksheetRank(row)),
+      queueBucket: reviewQueueBucket(row),
+      reviewReason: reviewQueueReason(row)
+    }))
+    .sort((a, b) => b.queueRank - a.queueRank || clean(a.chapter).localeCompare(clean(b.chapter)) || clean(a.candidateId).localeCompare(clean(b.candidateId)));
+}
+
+function chapterQueueRows(rows, chapterName, limit) {
+  return rows
+    .filter((row) => {
+      if (row.chapter === "Cross-chapter") return chapterName === "Regional";
+      return row.chapter.split(";").map((chapter) => chapter.trim()).includes(chapterName);
+    })
+    .slice(0, limit);
+}
+
+function reviewQueueLink(row) {
+  return [mdLink("Catalog", row.catalogUrl), mdLink("PDF", row.pdfUrl)].filter(Boolean).join(" | ");
+}
+
+function reviewQueueMarkdownReason(row) {
+  const reason = clean(row.reviewReason);
+  return reason.length > 260 ? `${reason.slice(0, 257)}...` : reason;
+}
+
+function buildReviewQueueMarkdown(data) {
+  const rows = reviewQueueRows(data);
+  const topRows = CHAPTER_ORDER.flatMap((chapterName) => chapterQueueRows(rows, chapterName, 15));
+  const bucketCounts = [...new Set(rows.map((row) => row.queueBucket))]
+    .sort()
+    .map((bucket) => [bucket, rows.filter((row) => row.queueBucket === bucket).length]);
+  const lines = [
+    "# FRUS 1989-1992 Volume VI Next Review Queue",
+    "",
+    "This packet distills the source-lane worksheet into a chapter-by-chapter opening queue. It keeps the same candidate IDs as the selection worksheet, so a compiler can move from this list to the spreadsheet without remapping rows.",
+    "",
+    "## Snapshot",
+    "",
+    `- Source-lane candidates in queue: ${rows.length}`,
+    `- Markdown chapter slots shown: ${topRows.length} (15 per chapter where available; some cross-chapter candidates repeat where useful)`,
+    "- Ranking favors open-first packets, high-value source pools, memcon/telcon signals, OCR/document signals, and Cyprus/Regional gaps.",
+    "",
+    markdownTable(["Bucket", "Rows"], bucketCounts),
+    ""
+  ];
+  for (const chapterName of CHAPTER_ORDER) {
+    const chapterRows = chapterQueueRows(rows, chapterName, 15);
+    lines.push(`## Chapter ${CHAPTER_ORDER.indexOf(chapterName) + 1}: ${chapterName}`, "");
+    lines.push(
+      markdownTable(
+        ["Rank", "Bucket", "Candidate", "Lane", "Date", "Title", "Why Open", "Links"],
+        chapterRows.map((row) => [
+          row.queueRank,
+          row.queueBucket,
+          row.candidateId,
+          row.lane,
+          row.date,
+          row.title,
+          reviewQueueMarkdownReason(row),
+          reviewQueueLink(row)
+        ])
+      ),
+      ""
+    );
+  }
+  return `${lines.join("\n")}\n`;
+}
+
+function buildReviewQueueCsv(data) {
+  const rows = reviewQueueRows(data);
+  const header = [
+    "reviewStatus",
+    "compilerDecision",
+    "compilerNotes",
+    "queueRank",
+    "queueBucket",
+    "candidateId",
+    "lane",
+    "suggestedAction",
+    "priority",
+    "chapter",
+    "date",
+    "title",
+    "whyOpen",
+    "score",
+    "naid",
+    "sourceSeries",
+    "sourceNote",
+    "researchNote",
+    "catalogUrl",
+    "pdfUrl"
+  ];
+  return `${csvRow(header)}\n${rows
+    .map((row) =>
+      csvRow([
+        "",
+        "",
+        "",
+        row.queueRank,
+        row.queueBucket,
+        row.candidateId,
+        row.lane,
+        row.suggestedAction,
+        row.priority,
+        row.chapter,
+        row.date,
+        row.title,
+        row.reviewReason,
+        row.score,
+        row.naid,
+        row.sourceSeries,
+        row.sourceNote,
+        row.researchNote,
+        row.catalogUrl,
+        row.pdfUrl
+      ])
+    )
+    .join("\n")}\n`;
+}
+
 function declassificationAction(record) {
   const status = `${record.releaseStatus || ""} ${record.type || ""}`;
   if (/denied/i.test(status)) return "Request denial review and capture agency/referral rationale.";
@@ -1025,6 +1176,8 @@ function main() {
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-audit.md"), buildGapAudit(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-audit.csv"), buildGapCsv(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-selection-worksheet.csv"), buildSelectionWorksheet(records, data));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-next-review-queue.md"), buildReviewQueueMarkdown(data));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-next-review-queue.csv"), buildReviewQueueCsv(data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-declassification-review.md"), buildDeclassificationMarkdown(records));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-declassification-review.csv"), buildDeclassificationCsv(records));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-data-quality-audit.md"), buildDataQualityMarkdown(records, data));

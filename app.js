@@ -288,6 +288,16 @@ function exportItems() {
       detail: "Spreadsheet queue with blank review/decision columns for chronology rows and source-lane leads."
     },
     {
+      href: "reports/compiler-next-review-queue.md",
+      label: "Next review queue",
+      detail: "Chapter-ranked opening queue for the strongest source-lane packets and leads."
+    },
+    {
+      href: "reports/compiler-next-review-queue.csv",
+      label: "Next review spreadsheet",
+      detail: "Sortable queue using the same candidate IDs as the selection worksheet."
+    },
+    {
       href: "reports/compiler-data-quality-audit.md",
       label: "Data-quality audit",
       detail: "Markdown review queue for title variants, date mismatches, schedule caveats, and harvest notes."
