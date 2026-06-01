@@ -11,11 +11,12 @@ This is the start-here packet for the Eastern Mediterranean research assistant. 
 ## Recommended Opening Order
 
 1. Start with the live chronology. It is the first section of the page and is organized into Greece, Cyprus, Turkey, and Regional chapters.
-2. Open [Next Review Queue](compiler-next-review-queue.md) for the chapter-ranked source-lane packets most worth opening next.
-3. Open [Declassification Packet](compiler-declassification-review.md) before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.
-4. Open [Data-Quality Audit](compiler-data-quality-audit.md) before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.
-5. Use [Selection Worksheet](compiler-selection-worksheet.csv) as the master working spreadsheet for review status, compiler decisions, and notes.
-6. Use [Persons List](persons-list.md) when drafting or checking FRUS-style identifications.
+2. Open [Chapter Dossiers](compiler-chapter-dossiers.md) when working one chapter at a time; it gathers selected chronology rows, top source leads, release follow-ups, and citation issues.
+3. Open [Next Review Queue](compiler-next-review-queue.md) for the cross-chapter source-lane packets most worth opening next.
+4. Open [Declassification Packet](compiler-declassification-review.md) before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.
+5. Open [Data-Quality Audit](compiler-data-quality-audit.md) before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.
+6. Use [Selection Worksheet](compiler-selection-worksheet.csv) as the master working spreadsheet for review status, compiler decisions, and notes.
+7. Use [Persons List](persons-list.md) when drafting or checking FRUS-style identifications.
 
 ## Current Inventory
 
@@ -23,6 +24,7 @@ This is the start-here packet for the Eastern Mediterranean research assistant. 
 | --- | --- | --- |
 | [Working chronology pack](compiler-chronology.md) | Selected declassified chronology with source notes and schedule references | 84 records / 335 PDF pages |
 | [Source-note spreadsheet](compiler-source-notes.csv) | Sortable source-note and schedule-reference export | 84 rows |
+| [Chapter dossiers](compiler-chapter-dossiers.md) | Per-chapter workbench combining chronology, top leads, declassification, and data-quality issues | 243 dossier rows |
 | [Next review queue](compiler-next-review-queue.md) | Chapter-ranked source-lane opening queue | 545 source-lane candidates |
 | [Selection worksheet](compiler-selection-worksheet.csv) | Master decision spreadsheet across selected records and source leads | 629 rows |
 | [Gap audit](compiler-gap-audit.md) | Chapter coverage and risk register | 4 chapter rows |

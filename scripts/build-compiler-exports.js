@@ -947,6 +947,7 @@ function buildCompilerHandoff(records, data, persons) {
   const pages = records.reduce((sum, record) => sum + (record.pageCount || 0), 0);
   const sourceRows = sourceLeadWorksheetRows(data);
   const reviewRows = reviewQueueRows(data);
+  const dossierRows = chapterDossierRows(records, data);
   const declassRows = declassificationReviewRows(records);
   const qualityRows = dataQualityRows(records, data);
   const qualityFixRows = qualityRows.filter((row) => row.severity === "fix before citation");
@@ -967,11 +968,12 @@ function buildCompilerHandoff(records, data, persons) {
     "## Recommended Opening Order",
     "",
     "1. Start with the live chronology. It is the first section of the page and is organized into Greece, Cyprus, Turkey, and Regional chapters.",
-    `2. Open ${reportLink("Next Review Queue", "compiler-next-review-queue.md")} for the chapter-ranked source-lane packets most worth opening next.`,
-    `3. Open ${reportLink("Declassification Packet", "compiler-declassification-review.md")} before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.`,
-    `4. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
-    `5. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
-    `6. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
+    `2. Open ${reportLink("Chapter Dossiers", "compiler-chapter-dossiers.md")} when working one chapter at a time; it gathers selected chronology rows, top source leads, release follow-ups, and citation issues.`,
+    `3. Open ${reportLink("Next Review Queue", "compiler-next-review-queue.md")} for the cross-chapter source-lane packets most worth opening next.`,
+    `4. Open ${reportLink("Declassification Packet", "compiler-declassification-review.md")} before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.`,
+    `5. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
+    `6. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
+    `7. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
     "",
     "## Current Inventory",
     "",
@@ -980,6 +982,7 @@ function buildCompilerHandoff(records, data, persons) {
       [
         [reportLink("Working chronology pack", "compiler-chronology.md"), "Selected declassified chronology with source notes and schedule references", `${records.length} records / ${pages} PDF pages`],
         [reportLink("Source-note spreadsheet", "compiler-source-notes.csv"), "Sortable source-note and schedule-reference export", `${records.length} rows`],
+        [reportLink("Chapter dossiers", "compiler-chapter-dossiers.md"), "Per-chapter workbench combining chronology, top leads, declassification, and data-quality issues", `${dossierRows.length} dossier rows`],
         [reportLink("Next review queue", "compiler-next-review-queue.md"), "Chapter-ranked source-lane opening queue", `${reviewRows.length} source-lane candidates`],
         [reportLink("Selection worksheet", "compiler-selection-worksheet.csv"), "Master decision spreadsheet across selected records and source leads", `${records.length + sourceRows.length} rows`],
         [reportLink("Gap audit", "compiler-gap-audit.md"), "Chapter coverage and risk register", `${CHAPTER_ORDER.length} chapter rows`],
@@ -1019,6 +1022,243 @@ function buildCompilerHandoff(records, data, persons) {
     ""
   ];
   return `${lines.join("\n")}\n`;
+}
+
+function rowAppliesToChapter(row, chapterName) {
+  const chapter = clean(row.chapter);
+  if (!chapter) return false;
+  if (chapter === "Cross-chapter") return chapterName === "Regional";
+  return chapter.split(/[;,]/).map((part) => part.trim()).includes(chapterName);
+}
+
+function chapterDossierRows(records, data) {
+  const reviewRows = reviewQueueRows(data);
+  const declassRows = declassificationReviewRows(records);
+  const qualityRows = dataQualityRows(records, data);
+  const rows = [];
+  for (const chapterName of CHAPTER_ORDER) {
+    records
+      .filter((record) => record.chapter.name === chapterName)
+      .forEach((record) => {
+        rows.push({
+          reviewStatus: "",
+          compilerDecision: "",
+          compilerNotes: "",
+          chapter: chapterName,
+          rowType: "Selected chronology",
+          priority: releaseNeedsAttention(record) ? "Release/marker review" : "Selected",
+          candidateId: `Doc ${record.compilerNumber}`,
+          date: record.date,
+          title: record.documentTitle || record.title,
+          lane: record.type,
+          reason: (record.participants || []).join("; "),
+          sourceNote: record.sourceNote,
+          researchNote: record.researchNote,
+          catalogUrl: record.catalogUrl,
+          pdfUrl: record.pdfUrl
+        });
+      });
+    chapterQueueRows(reviewRows, chapterName, 25).forEach((row) => {
+      rows.push({
+        reviewStatus: "",
+        compilerDecision: "",
+        compilerNotes: "",
+        chapter: chapterName,
+        rowType: "Source lead",
+        priority: `${row.queueRank} / ${row.queueBucket}`,
+        candidateId: row.candidateId,
+        date: row.date,
+        title: row.title,
+        lane: row.lane,
+        reason: row.reviewReason,
+        sourceNote: row.sourceNote,
+        researchNote: row.researchNote,
+        catalogUrl: row.catalogUrl,
+        pdfUrl: row.pdfUrl
+      });
+    });
+    declassRows
+      .filter((row) => row.chapter === chapterName)
+      .forEach((row) => {
+        rows.push({
+          reviewStatus: row.reviewStatus,
+          compilerDecision: "",
+          compilerNotes: row.outcome,
+          chapter: chapterName,
+          rowType: "Declassification follow-up",
+          priority: row.releaseStatus,
+          candidateId: `Doc ${row.compilerNumber}`,
+          date: row.date,
+          title: row.title,
+          lane: row.type,
+          reason: row.suggestedAction,
+          sourceNote: row.sourceNote,
+          researchNote: row.researchNote,
+          catalogUrl: row.catalogUrl,
+          pdfUrl: row.pdfUrl
+        });
+      });
+    qualityRows
+      .filter((row) => rowAppliesToChapter(row, chapterName))
+      .forEach((row) => {
+        rows.push({
+          reviewStatus: row.reviewStatus || "",
+          compilerDecision: "",
+          compilerNotes: row.outcome || "",
+          chapter: chapterName,
+          rowType: "Citation/data-quality issue",
+          priority: row.severity,
+          candidateId: row.candidateId,
+          date: row.date,
+          title: row.title,
+          lane: row.lane,
+          reason: `${row.issue}: ${row.detail}`,
+          sourceNote: row.suggestedAction,
+          researchNote: "",
+          catalogUrl: row.catalogUrl,
+          pdfUrl: row.pdfUrl
+        });
+      });
+  }
+  return rows;
+}
+
+function buildChapterDossiersMarkdown(records, data) {
+  const reviewRows = reviewQueueRows(data);
+  const declassRows = declassificationReviewRows(records);
+  const qualityRows = dataQualityRows(records, data);
+  const coverage = chapterCoverage(records, data);
+  const lines = [
+    "# FRUS 1989-1992 Volume VI Chapter Dossiers",
+    "",
+    "This packet is a chapter workbench. Each chapter gathers the selected chronology, highest-ranked source leads, declassification follow-ups, and citation/data-quality issues so a compiler can work one chapter without jumping across every export.",
+    ""
+  ];
+  lines.push(
+    markdownTable(
+      ["Chapter", "Selected records", "Pages", "Top source slots", "Declassification rows", "Data-quality rows"],
+      CHAPTER_ORDER.map((chapterName) => {
+        const row = coverage.find((item) => item.chapterName === chapterName);
+        return [
+          chapterName,
+          row.records,
+          row.pages,
+          chapterQueueRows(reviewRows, chapterName, 25).length,
+          declassRows.filter((item) => item.chapter === chapterName).length,
+          qualityRows.filter((item) => rowAppliesToChapter(item, chapterName)).length
+        ];
+      })
+    ),
+    ""
+  );
+  for (const chapterName of CHAPTER_ORDER) {
+    const coverageRow = coverage.find((row) => row.chapterName === chapterName);
+    const selectedRows = records.filter((record) => record.chapter.name === chapterName);
+    const sourceRows = chapterQueueRows(reviewRows, chapterName, 12);
+    const releaseRows = declassRows.filter((row) => row.chapter === chapterName);
+    const citationRows = qualityRows.filter((row) => rowAppliesToChapter(row, chapterName));
+    lines.push(`## Chapter ${CHAPTER_ORDER.indexOf(chapterName) + 1}: ${chapterName}`, "");
+    lines.push(
+      markdownTable(
+        ["Metric", "Value"],
+        [
+          ["Selected chronology records", coverageRow.records],
+          ["Selected PDF pages", coverageRow.pages],
+          ["Central Chron leads / open first", `${coverageRow.central} / ${coverageRow.centralOpenFirst}`],
+          ["Blackwill Chron leads / open first", `${coverageRow.blackwillChron} / ${coverageRow.blackwillOpenFirst}`],
+          ["Gates leads", coverageRow.gates],
+          ["Requested-pool leads", coverageRow.requestedLeads]
+        ]
+      ),
+      "",
+      "### Selected Chronology",
+      "",
+      markdownTable(
+        ["Doc", "Date", "Type", "Title", "Release", "Links"],
+        selectedRows.map((record) => [
+          `Doc ${record.compilerNumber}`,
+          record.date,
+          record.type,
+          record.documentTitle || record.title,
+          record.releaseStatus,
+          recordLinks(record)
+        ])
+      ),
+      "",
+      "### Source Leads To Open Next",
+      "",
+      markdownTable(
+        ["Rank", "Bucket", "Candidate", "Lane", "Date", "Title", "Why Open", "Links"],
+        sourceRows.map((row) => [
+          row.queueRank,
+          row.queueBucket,
+          row.candidateId,
+          row.lane,
+          row.date,
+          row.title,
+          reviewQueueMarkdownReason(row),
+          reviewQueueLink(row)
+        ])
+      ),
+      "",
+      "### Declassification Follow-Up",
+      "",
+      releaseRows.length
+        ? markdownTable(
+            ["Doc", "Date", "Release", "Title", "Suggested Action", "Links"],
+            releaseRows.map((row) => [
+              `Doc ${row.compilerNumber}`,
+              row.date,
+              row.releaseStatus,
+              row.title,
+              row.suggestedAction,
+              recordLinks(row)
+            ])
+          )
+        : "No chapter-specific declassification follow-up rows.",
+      "",
+      "### Citation And Data-Quality Issues",
+      "",
+      citationRows.length
+        ? markdownTable(
+            ["Severity", "Candidate", "Date", "Title", "Issue", "Action", "Links"],
+            citationRows.map((row) => [
+              row.severity,
+              row.candidateId,
+              row.date,
+              row.title,
+              row.issue,
+              row.suggestedAction,
+              issueLinks(row)
+            ])
+          )
+        : "No chapter-specific data-quality rows.",
+      ""
+    );
+  }
+  return `${lines.join("\n")}\n`;
+}
+
+function buildChapterDossiersCsv(records, data) {
+  const rows = chapterDossierRows(records, data);
+  const header = [
+    "reviewStatus",
+    "compilerDecision",
+    "compilerNotes",
+    "chapter",
+    "rowType",
+    "priority",
+    "candidateId",
+    "date",
+    "title",
+    "lane",
+    "reason",
+    "sourceNote",
+    "researchNote",
+    "catalogUrl",
+    "pdfUrl"
+  ];
+  return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
 }
 
 function declassificationAction(record) {
@@ -1259,6 +1499,8 @@ function main() {
   fs.writeFileSync(path.join(ROOT, "reports/compiler-source-notes.csv"), buildCsv(records));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-audit.md"), buildGapAudit(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-audit.csv"), buildGapCsv(records, data));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-chapter-dossiers.md"), buildChapterDossiersMarkdown(records, data));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-chapter-dossiers.csv"), buildChapterDossiersCsv(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-selection-worksheet.csv"), buildSelectionWorksheet(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-next-review-queue.md"), buildReviewQueueMarkdown(data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-next-review-queue.csv"), buildReviewQueueCsv(data));

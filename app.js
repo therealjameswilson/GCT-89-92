@@ -278,6 +278,16 @@ function exportItems() {
       detail: "Start-here packet with live links, clone command, workflow, report inventory, and risk snapshot."
     },
     {
+      href: "reports/compiler-chapter-dossiers.md",
+      label: "Chapter dossiers",
+      detail: "Per-chapter workbench with selected records, source leads, release follow-ups, and citation issues."
+    },
+    {
+      href: "reports/compiler-chapter-dossiers.csv",
+      label: "Chapter dossier spreadsheet",
+      detail: "Sortable per-chapter rows for chronology, source leads, declassification, and data-quality work."
+    },
+    {
       href: "reports/compiler-declassification-review.md",
       label: "Declassification packet",
       detail: "Markdown packet for partial, denied, marker, and no-document chronology rows."
