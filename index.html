@@ -9,8 +9,77 @@
       content="A FRUS research assistant for Greece, Cyprus, Turkey, and regional Eastern Mediterranean records in the George H. W. Bush administration."
     />
     <link rel="stylesheet" href="styles.css?v=review-queue-20260601" />
+    <style id="compiler-network-style">
+      .compiler-network {
+        border-bottom: 1px solid rgba(31, 41, 51, 0.14);
+        background: #ffffff;
+        color: #1f2933;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      .compiler-network__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        width: min(1180px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 9px 0;
+      }
+      .compiler-network__label {
+        color: #52606d;
+        font-size: 0.76rem;
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+      .compiler-network__links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 8px;
+      }
+      .compiler-network__links a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 30px;
+        border: 1px solid #d9e2ec;
+        border-radius: 7px;
+        padding: 0 9px;
+        color: #0b5cab;
+        background: #f8fafc;
+        font-size: 0.82rem;
+        font-weight: 800;
+        line-height: 1;
+        text-decoration: none;
+      }
+      .compiler-network__links a:hover {
+        border-color: #0b5cab;
+        background: #edf6ff;
+      }
+      @media (max-width: 640px) {
+        .compiler-network__inner {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+        .compiler-network__links {
+          justify-content: flex-start;
+        }
+      }
+    </style>
   </head>
   <body>
+    <div class="compiler-network" role="navigation" aria-label="Compiler network">
+      <div class="compiler-network__inner">
+        <span class="compiler-network__label">Compiler Network</span>
+        <div class="compiler-network__links">
+          <a href="https://therealjameswilson.github.io/Compiler-Assist/" rel="noreferrer">Main Hub</a>
+          <a href="https://history.state.gov/historicaldocuments/status-of-the-series" rel="noreferrer">FRUS Status</a>
+          <a href="https://therealjameswilson.github.io/nara-scout/" rel="noreferrer">NARA Scout</a>
+          <a href="https://therealjameswilson.github.io/strobe-talbott-foia/" rel="noreferrer">Strobe FOIA</a>
+        </div>
+      </div>
+    </div>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="FRUS Volume VI research assistant home">
         <span class="brand-mark">VI</span>
