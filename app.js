@@ -288,6 +288,16 @@ function exportItems() {
       detail: "Spreadsheet queue with blank review/decision columns for chronology rows and source-lane leads."
     },
     {
+      href: "reports/compiler-data-quality-audit.md",
+      label: "Data-quality audit",
+      detail: "Markdown review queue for title variants, date mismatches, schedule caveats, and harvest notes."
+    },
+    {
+      href: "reports/compiler-data-quality-audit.csv",
+      label: "Data-quality spreadsheet",
+      detail: "CSV tracker with owner/outcome columns for metadata and citation cleanup."
+    },
+    {
       href: "reports/compiler-gap-audit.md",
       label: "Gap audit",
       detail: "Chapter-by-chapter risk register comparing selected chronology records against source-lane leads."

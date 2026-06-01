@@ -9,6 +9,38 @@ const CHAPTER_PATTERNS = {
   Turkey: /turkey|turkish|ozal|demirel|yilmaz|evren|pkk/i,
   Regional: /aegean|eastern mediterranean|greece \/ turkey \/ cyprus|nato|regional/i
 };
+const QUALITY_TEXT_FIELDS = ["title", "documentTitle", "sourceNote", "researchNote", "scopeAndContentNote", "objectFilename"];
+const QUALITY_VARIANTS = [
+  {
+    pattern: /Papandreaou/i,
+    preferred: "Papandreou",
+    issue: "Name/title spelling variant",
+    suggestedAction: "Verify whether to preserve the Catalog title spelling or normalize in compiler notes."
+  },
+  {
+    pattern: /Turgat Ozal/i,
+    preferred: "Turgut Ozal",
+    issue: "Name/title spelling variant",
+    suggestedAction: "Verify diary text against the PDF before using this wording in notes or names."
+  },
+  {
+    pattern: /Mitterand/i,
+    preferred: "Mitterrand",
+    issue: "Name/title spelling variant",
+    suggestedAction: "Verify diary text against the PDF before using this wording in notes or names."
+  },
+  {
+    pattern: /Stationn/i,
+    preferred: "Station",
+    issue: "Title spelling variant",
+    suggestedAction: "Verify whether the Catalog title contains a typo before citation or selection."
+  }
+];
+const SEVERITY_ORDER = {
+  "fix before citation": 0,
+  review: 1,
+  caveat: 2
+};
 
 function readJson(relativePath) {
   return JSON.parse(fs.readFileSync(path.join(ROOT, relativePath), "utf8"));
@@ -187,6 +219,302 @@ function markdownTable(headers, rows) {
     `| ${headers.map(() => "---").join(" | ")} |`,
     ...rows.map((row) => `| ${row.map((cell) => clean(cell).replaceAll("|", "/")).join(" | ")} |`)
   ].join("\n");
+}
+
+function issueSort(a, b) {
+  return (
+    (SEVERITY_ORDER[a.severity] ?? 9) - (SEVERITY_ORDER[b.severity] ?? 9) ||
+    clean(a.lane).localeCompare(clean(b.lane)) ||
+    clean(a.date).localeCompare(clean(b.date)) ||
+    clean(a.candidateId).localeCompare(clean(b.candidateId))
+  );
+}
+
+function itemTitle(item) {
+  return item.documentTitle || item.title || item.label || item.shortLabel || "";
+}
+
+function itemCatalogUrl(item) {
+  return item.catalogUrl || item.searchWithinUrl || item.requestedUrl || "";
+}
+
+function itemPdfUrl(item) {
+  return item.pdfUrl || "";
+}
+
+function issueChapter(context, item) {
+  return context.chapter || item.chapter?.name || itemChapterNames(item);
+}
+
+function issueDate(context, item) {
+  return context.date || itemDate(item);
+}
+
+function qualityTextHits(item, pattern) {
+  return QUALITY_TEXT_FIELDS.filter((field) => pattern.test(clean(item[field])));
+}
+
+function addQualityIssue(rows, context, item, issue) {
+  rows.push({
+    severity: issue.severity,
+    lane: context.lane,
+    candidateId: context.candidateId,
+    chapter: issueChapter(context, item),
+    date: issueDate(context, item),
+    title: itemTitle(item),
+    issue: issue.issue,
+    detail: issue.detail,
+    suggestedAction: issue.suggestedAction,
+    catalogUrl: itemCatalogUrl(item),
+    pdfUrl: itemPdfUrl(item)
+  });
+}
+
+function issueLinks(row) {
+  return [mdLink("Catalog", row.catalogUrl), mdLink("PDF", row.pdfUrl)].filter(Boolean).join(" | ");
+}
+
+function collectVariantIssues(rows, context, item) {
+  for (const variant of QUALITY_VARIANTS) {
+    const fields = qualityTextHits(item, variant.pattern);
+    if (!fields.length) continue;
+    const matched = fields
+      .map((field) => {
+        const match = clean(item[field]).match(variant.pattern);
+        return match?.[0];
+      })
+      .filter(Boolean);
+    addQualityIssue(rows, context, item, {
+      severity: "fix before citation",
+      issue: variant.issue,
+      detail: `Found ${[...new Set(matched)].join(", ")} in ${fields.join(", ")}; review against preferred form ${variant.preferred}.`,
+      suggestedAction: variant.suggestedAction
+    });
+  }
+}
+
+function parseFilenameDate(filename) {
+  const text = clean(filename);
+  let match = text.match(/(?:^|[^\d])((?:19|20)\d{2})[-_](\d{2})[-_](\d{2})(?:[^\d]|$)/);
+  if (match) return `${match[1]}-${match[2]}-${match[3]}`;
+  match = text.match(/(?:^|[^\d])(\d{2})_(\d{2})_(\d{2,4})(?:[^\d]|$)/);
+  if (!match) return "";
+  let year = Number(match[3]);
+  if (match[3].length === 2) year += year >= 70 ? 1900 : 2000;
+  return `${year}-${match[1]}-${match[2]}`;
+}
+
+function collectFilenameDateIssue(rows, context, item) {
+  const expected = issueDate(context, item);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(expected)) return;
+  const filename = item.objectFilename || "";
+  const filenameDate = parseFilenameDate(filename);
+  if (!filenameDate || filenameDate === expected) return;
+  addQualityIssue(rows, context, item, {
+    severity: "fix before citation",
+    issue: "Filename/date mismatch",
+    detail: `Item date is ${expected}, but digital object filename suggests ${filenameDate}: ${filename}.`,
+    suggestedAction: "Open the Catalog/PDF and verify the correct date before citation or selection."
+  });
+}
+
+function collectTitleDateIssue(rows, context, item) {
+  const title = itemTitle(item);
+  const match = title.match(/\b\d{1,2}\/\d{1,2}\/20\b/);
+  if (!match) return;
+  addQualityIssue(rows, context, item, {
+    severity: "review",
+    issue: "Suspect date token in title",
+    detail: `Title contains ${match[0]}, which may be a truncated or miscoded Bush-era date.`,
+    suggestedAction: "Verify the title/date against the PDF and Catalog record before relying on this lead."
+  });
+}
+
+function collectScheduleIssues(rows, record) {
+  const refs = record.scheduleReferences || [];
+  if (!refs.length) {
+    addQualityIssue(rows, {
+      lane: "Selected chronology",
+      candidateId: `Doc ${record.compilerNumber}`,
+      chapter: record.chapter.name,
+      date: record.date
+    }, record, {
+      severity: "review",
+      issue: "Missing schedule corroboration",
+      detail: "Selected chronology row has no attached Presidential Daily Diary/Backup reference.",
+      suggestedAction: "Check Presidential Daily Diary/Backup folders for same-date corroboration."
+    });
+    return;
+  }
+  for (const reference of refs) {
+    const context = {
+      lane: "Schedule corroboration",
+      candidateId: `Doc ${record.compilerNumber} / Schedule NAID ${reference.naid || "pending"}`,
+      chapter: record.chapter.name,
+      date: reference.date || record.date
+    };
+    collectVariantIssues(rows, context, reference);
+    collectFilenameDateIssue(rows, context, reference);
+    if (/\[EMPTY\]/i.test(clean(reference.title))) {
+      addQualityIssue(rows, context, reference, {
+        severity: "caveat",
+        issue: "Schedule title caveat",
+        detail: `Schedule title includes [EMPTY]: ${reference.title}.`,
+        suggestedAction: "Use as schedule corroboration only after reviewing the PDF content."
+      });
+    }
+  }
+}
+
+function collectItemQualityIssues(rows, context, item) {
+  collectVariantIssues(rows, context, item);
+  collectFilenameDateIssue(rows, context, item);
+  collectTitleDateIssue(rows, context, item);
+}
+
+function collectRequestedSourceIssues(rows, source, sourceIndex) {
+  const context = {
+    lane: "Requested source pool",
+    candidateId: `RS ${padNumber(sourceIndex + 1)}`,
+    chapter: "Cross-chapter",
+    date: source.dateRange || ""
+  };
+  collectItemQualityIssues(rows, context, source);
+  if (source.childHarvestError) {
+    addQualityIssue(rows, context, source, {
+      severity: "review",
+      issue: "Catalog child-harvest caveat",
+      detail: source.childHarvestError,
+      suggestedAction: "Use the Search Within URL or direct Catalog page to continue source-pool review."
+    });
+  }
+  if (Number(source.queryHarvestErrors || 0) > 0) {
+    addQualityIssue(rows, context, source, {
+      severity: "review",
+      issue: "Catalog query-harvest caveat",
+      detail: `${source.queryHarvestErrors} query harvest error(s) recorded for this source pool.`,
+      suggestedAction: "Re-run or manually spot-check failed query lanes before treating coverage as complete."
+    });
+  }
+  (source.leads || []).forEach((lead, leadIndex) => {
+    collectItemQualityIssues(rows, {
+      lane: `Requested source pool: ${source.label}`,
+      candidateId: `RS ${padNumber(sourceIndex + 1)}-${padNumber(leadIndex + 1)}`,
+      chapter: itemChapterNames(lead),
+      date: itemDate(lead)
+    }, lead);
+  });
+}
+
+function dataQualityRows(records, data) {
+  const rows = [];
+  records.forEach((record) => {
+    collectItemQualityIssues(rows, {
+      lane: "Selected chronology",
+      candidateId: `Doc ${record.compilerNumber}`,
+      chapter: record.chapter.name,
+      date: record.date
+    }, record);
+    collectScheduleIssues(rows, record);
+  });
+  [
+    ["NARA Scout", "Scout", data.scout],
+    ["Central Chronological Files", "CC", data.central],
+    ["Blackwill Subject Files", "BW", data.blackwill],
+    ["Blackwill Chronological Files", "BC", data.blackwillChron],
+    ["Gates Chronological Files", "GC", data.gates]
+  ].forEach(([lane, prefix, items]) => {
+    items.forEach((item, index) => {
+      collectItemQualityIssues(rows, {
+        lane,
+        candidateId: `${prefix} ${padNumber(index + 1)}`,
+        chapter: itemChapterNames(item),
+        date: itemDate(item)
+      }, item);
+    });
+  });
+  data.requested.forEach((source, sourceIndex) => collectRequestedSourceIssues(rows, source, sourceIndex));
+  return rows.sort(issueSort);
+}
+
+function buildDataQualityMarkdown(records, data) {
+  const rows = dataQualityRows(records, data);
+  const severityCounts = ["fix before citation", "review", "caveat"].map((severity) => [
+    severity,
+    rows.filter((row) => row.severity === severity).length
+  ]);
+  const citationRows = rows.filter((row) => row.severity !== "caveat");
+  const scheduleRows = rows.filter((row) => row.lane === "Schedule corroboration");
+  const lines = [
+    "# FRUS 1989-1992 Volume VI Data-Quality Audit",
+    "",
+    "This audit flags metadata and citation risks without silently changing archival titles. It is a review queue for source-note cleanup, date verification, and schedule-evidence caveats.",
+    "",
+    "## Snapshot",
+    "",
+    `- Total data-quality rows: ${rows.length}`,
+    `- Citation/metadata review rows: ${citationRows.length}`,
+    `- Schedule evidence review rows: ${scheduleRows.length}`,
+    "",
+    markdownTable(["Severity", "Rows"], severityCounts),
+    "",
+    "## Citation and Metadata Review Queue",
+    "",
+    markdownTable(
+      ["Severity", "Lane", "Candidate", "Chapter", "Date", "Title", "Issue", "Detail", "Action", "Links"],
+      citationRows.map((row) => [
+        row.severity,
+        row.lane,
+        row.candidateId,
+        row.chapter,
+        row.date,
+        row.title,
+        row.issue,
+        row.detail,
+        row.suggestedAction,
+        issueLinks(row)
+      ])
+    ),
+    "",
+    "## Schedule Evidence Review Queue",
+    "",
+    markdownTable(
+      ["Candidate", "Chapter", "Date", "Title", "Issue", "Detail", "Action", "Links"],
+      scheduleRows.map((row) => [
+        row.candidateId,
+        row.chapter,
+        row.date,
+        row.title,
+        row.issue,
+        row.detail,
+        row.suggestedAction,
+        issueLinks(row)
+      ])
+    ),
+    ""
+  ];
+  return `${lines.join("\n")}\n`;
+}
+
+function buildDataQualityCsv(records, data) {
+  const rows = dataQualityRows(records, data);
+  const header = [
+    "reviewStatus",
+    "followUpOwner",
+    "outcome",
+    "severity",
+    "lane",
+    "candidateId",
+    "chapter",
+    "date",
+    "title",
+    "issue",
+    "detail",
+    "suggestedAction",
+    "catalogUrl",
+    "pdfUrl"
+  ];
+  return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
 }
 
 function buildGapAudit(records, data) {
@@ -699,6 +1027,8 @@ function main() {
   fs.writeFileSync(path.join(ROOT, "reports/compiler-selection-worksheet.csv"), buildSelectionWorksheet(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-declassification-review.md"), buildDeclassificationMarkdown(records));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-declassification-review.csv"), buildDeclassificationCsv(records));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-data-quality-audit.md"), buildDataQualityMarkdown(records, data));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-data-quality-audit.csv"), buildDataQualityCsv(records, data));
   console.log(`Wrote compiler exports for ${records.length} records.`);
 }
 
