@@ -273,6 +273,16 @@ function gapItems(restrictions) {
 function exportItems() {
   return [
     {
+      href: "reports/compiler-declassification-review.md",
+      label: "Declassification packet",
+      detail: "Markdown packet for partial, denied, marker, and no-document chronology rows."
+    },
+    {
+      href: "reports/compiler-declassification-review.csv",
+      label: "Declassification spreadsheet",
+      detail: "Follow-up tracker with owner/date/outcome columns and schedule-corroboration links."
+    },
+    {
       href: "reports/compiler-selection-worksheet.csv",
       label: "Selection worksheet",
       detail: "Spreadsheet queue with blank review/decision columns for chronology rows and source-lane leads."

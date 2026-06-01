@@ -460,6 +460,128 @@ function buildSelectionWorksheet(records, data) {
   return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
 }
 
+function declassificationAction(record) {
+  const status = `${record.releaseStatus || ""} ${record.type || ""}`;
+  if (/denied/i.test(status)) return "Request denial review and capture agency/referral rationale.";
+  if (/partial/i.test(status)) return "Compare released text against source context and request full review of withheld passages if needed.";
+  if (/marker|no memorandum|no memcon|no telcon/i.test(status)) return "Confirm whether a memorandum/telcon exists; use schedule references as evidence of the meeting or call.";
+  return "Review release/access status before final selection.";
+}
+
+function scheduleReferenceLinks(record) {
+  return (record.scheduleReferences || [])
+    .filter((reference) => reference.sourceNote)
+    .map((reference) =>
+      [
+        reference.title,
+        reference.naid ? `NAID ${reference.naid}` : "",
+        reference.catalogUrl ? `Catalog: ${reference.catalogUrl}` : "",
+        reference.pdfUrl ? `PDF: ${reference.pdfUrl}` : ""
+      ]
+        .filter(Boolean)
+        .join(" - ")
+    )
+    .join(" || ");
+}
+
+function declassificationReviewRows(records) {
+  return records.filter(releaseNeedsAttention).map((record) => ({
+    reviewStatus: "",
+    followUpOwner: "",
+    followUpDate: "",
+    outcome: "",
+    compilerNumber: record.compilerNumber,
+    chapter: record.chapter.name,
+    date: record.date,
+    type: record.type,
+    title: record.documentTitle || record.title,
+    releaseStatus: record.releaseStatus,
+    accessRestriction: record.accessRestriction,
+    suggestedAction: declassificationAction(record),
+    participants: (record.participants || []).join("; "),
+    pageCount: record.pageCount,
+    naid: record.naid,
+    sourceNote: record.sourceNote,
+    researchNote: record.researchNote,
+    scheduleReferences: scheduleReferenceLinks(record),
+    catalogUrl: record.catalogUrl,
+    pdfUrl: record.pdfUrl
+  }));
+}
+
+function buildDeclassificationMarkdown(records) {
+  const rows = declassificationReviewRows(records);
+  const byChapter = CHAPTER_ORDER.map((chapterName) => [
+    chapterName,
+    rows.filter((row) => row.chapter === chapterName).length
+  ]);
+  const lines = [
+    "# FRUS 1989-1992 Volume VI Declassification Review Packet",
+    "",
+    "This packet isolates selected chronology rows with partial releases, denied records, marker sheets, or no-memorandum/no-telcon indicators. It is designed as a follow-up checklist for declassification review, MDR planning, and final compiler selection.",
+    "",
+    "## Snapshot",
+    "",
+    `- Review rows: ${rows.length}`,
+    `- Partial releases: ${rows.filter((row) => /partial/i.test(row.releaseStatus)).length}`,
+    `- Denied records: ${rows.filter((row) => /denied/i.test(row.releaseStatus)).length}`,
+    `- Marker/no-document rows: ${rows.filter((row) => /marker|no memorandum|no memcon|no telcon/i.test(`${row.releaseStatus} ${row.type}`)).length}`,
+    "",
+    markdownTable(["Chapter", "Review rows"], byChapter),
+    "",
+    "## Review Queue",
+    ""
+  ];
+  for (const row of rows) {
+    lines.push(
+      `### Doc ${row.compilerNumber} - ${row.date} - ${row.releaseStatus}`,
+      "",
+      `**Title:** ${row.title}`,
+      "",
+      `**Participants:** ${row.participants || "Participants pending"}`,
+      "",
+      `**Suggested action:** ${row.suggestedAction}`,
+      "",
+      `**Source Note:** ${row.sourceNote}`,
+      "",
+      `**Research Note:** ${row.researchNote}`,
+      "",
+      `**Schedule Evidence:** ${row.scheduleReferences || "No schedule corroboration attached."}`,
+      "",
+      `**Links:** ${recordLinks(row) || "Links pending."}`,
+      ""
+    );
+  }
+  return `${lines.join("\n")}\n`;
+}
+
+function buildDeclassificationCsv(records) {
+  const rows = declassificationReviewRows(records);
+  const header = [
+    "reviewStatus",
+    "followUpOwner",
+    "followUpDate",
+    "outcome",
+    "compilerNumber",
+    "chapter",
+    "date",
+    "type",
+    "title",
+    "releaseStatus",
+    "accessRestriction",
+    "suggestedAction",
+    "participants",
+    "pageCount",
+    "naid",
+    "sourceNote",
+    "researchNote",
+    "scheduleReferences",
+    "catalogUrl",
+    "pdfUrl"
+  ];
+  return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
+}
+
 function buildMarkdown(records) {
   const pages = records.reduce((sum, record) => sum + (record.pageCount || 0), 0);
   const restrictions = records.filter(releaseNeedsAttention);
@@ -575,6 +697,8 @@ function main() {
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-audit.md"), buildGapAudit(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-audit.csv"), buildGapCsv(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-selection-worksheet.csv"), buildSelectionWorksheet(records, data));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-declassification-review.md"), buildDeclassificationMarkdown(records));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-declassification-review.csv"), buildDeclassificationCsv(records));
   console.log(`Wrote compiler exports for ${records.length} records.`);
 }
 

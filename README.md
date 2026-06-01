@@ -40,6 +40,8 @@ The script writes:
 - `reports/compiler-gap-audit.md`
 - `reports/compiler-gap-audit.csv`
 - `reports/compiler-selection-worksheet.csv`
+- `reports/compiler-declassification-review.md`
+- `reports/compiler-declassification-review.csv`
 
 ## NARA Scout
 
