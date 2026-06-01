@@ -939,6 +939,88 @@ function buildReviewQueueCsv(data) {
     .join("\n")}\n`;
 }
 
+function reportLink(label, filename) {
+  return `[${label}](${filename})`;
+}
+
+function buildCompilerHandoff(records, data, persons) {
+  const pages = records.reduce((sum, record) => sum + (record.pageCount || 0), 0);
+  const sourceRows = sourceLeadWorksheetRows(data);
+  const reviewRows = reviewQueueRows(data);
+  const declassRows = declassificationReviewRows(records);
+  const qualityRows = dataQualityRows(records, data);
+  const qualityFixRows = qualityRows.filter((row) => row.severity === "fix before citation");
+  const missingScheduleRefs = records.filter((record) => !(record.scheduleReferences || []).length);
+  const coverage = chapterCoverage(records, data);
+  const requestedTotal = data.requested.reduce((sum, source) => sum + (source.queryHitFiles || 0), 0);
+  const lines = [
+    "# FRUS 1989-1992 Volume VI Compiler Handoff",
+    "",
+    "This is the start-here packet for the Eastern Mediterranean research assistant. It points the compiler to the live site, the cloneable repository, and the exports that should be opened first.",
+    "",
+    "## Links",
+    "",
+    "- Live site: https://therealjameswilson.github.io/GCT-89-92/",
+    "- GitHub repository: https://github.com/therealjameswilson/GCT-89-92",
+    "- Clone command: `git clone https://github.com/therealjameswilson/GCT-89-92.git`",
+    "",
+    "## Recommended Opening Order",
+    "",
+    "1. Start with the live chronology. It is the first section of the page and is organized into Greece, Cyprus, Turkey, and Regional chapters.",
+    `2. Open ${reportLink("Next Review Queue", "compiler-next-review-queue.md")} for the chapter-ranked source-lane packets most worth opening next.`,
+    `3. Open ${reportLink("Declassification Packet", "compiler-declassification-review.md")} before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.`,
+    `4. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
+    `5. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
+    `6. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
+    "",
+    "## Current Inventory",
+    "",
+    markdownTable(
+      ["Artifact", "Use", "Current count"],
+      [
+        [reportLink("Working chronology pack", "compiler-chronology.md"), "Selected declassified chronology with source notes and schedule references", `${records.length} records / ${pages} PDF pages`],
+        [reportLink("Source-note spreadsheet", "compiler-source-notes.csv"), "Sortable source-note and schedule-reference export", `${records.length} rows`],
+        [reportLink("Next review queue", "compiler-next-review-queue.md"), "Chapter-ranked source-lane opening queue", `${reviewRows.length} source-lane candidates`],
+        [reportLink("Selection worksheet", "compiler-selection-worksheet.csv"), "Master decision spreadsheet across selected records and source leads", `${records.length + sourceRows.length} rows`],
+        [reportLink("Gap audit", "compiler-gap-audit.md"), "Chapter coverage and risk register", `${CHAPTER_ORDER.length} chapter rows`],
+        [reportLink("Declassification packet", "compiler-declassification-review.md"), "Release-status and marker follow-up queue", `${declassRows.length} rows`],
+        [reportLink("Data-quality audit", "compiler-data-quality-audit.md"), "Metadata, date, title, and schedule-caveat cleanup queue", `${qualityRows.length} rows`],
+        [reportLink("Persons list", "persons-list.md"), "FRUS-style persons list working copy", `${persons.length} entries`]
+      ]
+    ),
+    "",
+    "## Source-Lane Counts",
+    "",
+    markdownTable(["Lane", "Count"], sourceLaneTotals(data)),
+    "",
+    "## Risk Snapshot",
+    "",
+    `- Declassification review rows: ${declassRows.length}`,
+    `- Data-quality rows marked fix before citation: ${qualityFixRows.length}`,
+    `- Selected chronology rows without schedule corroboration: ${missingScheduleRefs.length ? missingScheduleRefs.map((record) => `Doc ${record.compilerNumber}`).join(", ") : "none"}`,
+    `- Requested source pools retained for review: ${data.requested.length} pools / ${requestedTotal} EastMed leads`,
+    "",
+    markdownTable(
+      ["Chapter", "Selected records", "Central leads", "Central open first", "Blackwill chron leads", "Gates leads", "Requested-pool leads"],
+      coverage.map((row) => [
+        row.chapterName,
+        row.records,
+        row.central,
+        row.centralOpenFirst,
+        row.blackwillChron,
+        row.gates,
+        row.requestedLeads
+      ])
+    ),
+    "",
+    "## Working Rule",
+    "",
+    "Do not treat the source-lane leads as selected documents until the compiler has opened the packet/PDF, verified relevance, resolved release or citation issues, and recorded a decision in the selection worksheet.",
+    ""
+  ];
+  return `${lines.join("\n")}\n`;
+}
+
 function declassificationAction(record) {
   const status = `${record.releaseStatus || ""} ${record.type || ""}`;
   if (/denied/i.test(status)) return "Request denial review and capture agency/referral rationale.";
@@ -1162,6 +1244,7 @@ function buildCsv(records) {
 
 function main() {
   const records = assignCompilerNumbers(readJson("data/records.json"));
+  const persons = readJson("data/persons.json");
   const data = {
     scout: readJson("data/nara-scout-leads.json"),
     central: readJson("data/central-chronology-files.json"),
@@ -1171,6 +1254,7 @@ function main() {
     requested: readJson("data/requested-source-series.json")
   };
   fs.mkdirSync(path.join(ROOT, "reports"), { recursive: true });
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-handoff.md"), buildCompilerHandoff(records, data, persons));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-chronology.md"), buildMarkdown(records));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-source-notes.csv"), buildCsv(records));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-audit.md"), buildGapAudit(records, data));

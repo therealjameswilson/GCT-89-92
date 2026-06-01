@@ -273,6 +273,11 @@ function gapItems(restrictions) {
 function exportItems() {
   return [
     {
+      href: "reports/compiler-handoff.md",
+      label: "Compiler handoff",
+      detail: "Start-here packet with live links, clone command, workflow, report inventory, and risk snapshot."
+    },
+    {
       href: "reports/compiler-declassification-review.md",
       label: "Declassification packet",
       detail: "Markdown packet for partial, denied, marker, and no-document chronology rows."
