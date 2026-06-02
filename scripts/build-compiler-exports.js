@@ -150,6 +150,15 @@ function sourceLaneTotals(data) {
   ];
 }
 
+function countBy(items, getter) {
+  const counts = new Map();
+  for (const item of items) {
+    const key = getter(item) || "Unspecified";
+    counts.set(key, (counts.get(key) || 0) + 1);
+  }
+  return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+}
+
 function chapterCoverage(records, data) {
   return CHAPTER_ORDER.map((chapterName) => {
     const selected = records.filter((record) => record.chapter.name === chapterName);
@@ -1332,6 +1341,7 @@ function buildCompilerHandoff(records, data, persons) {
   const sourceCrosswalk = sourceCrosswalkRows(records, data);
   const personRows = personDocumentRows(records, persons);
   const declassRows = declassificationReviewRows(records);
+  const declassRequestRows = declassificationRequestRows(records, data);
   const qualityRows = dataQualityRows(records, data);
   const qualityFixRows = qualityRows.filter((row) => row.severity === "fix before citation");
   const missingScheduleRefs = records.filter((record) => !(record.scheduleReferences || []).length);
@@ -1355,10 +1365,11 @@ function buildCompilerHandoff(records, data, persons) {
     `3. Open ${reportLink("Selected Document Source Crosswalk", "compiler-source-crosswalk.md")} to see likely Central/Blackwill/Scowcroft/source-pool packets for each selected document.`,
     `4. Open ${reportLink("Next Review Queue", "compiler-next-review-queue.md")} for the cross-chapter source-lane packets most worth opening next.`,
     `5. Open ${reportLink("Declassification Packet", "compiler-declassification-review.md")} before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.`,
-    `6. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
-    `7. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
-    `8. Use ${reportLink("Persons Document Index", "compiler-persons-document-index.md")} to connect selected documents to persons-list entries and participant variants.`,
-    `9. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
+    `6. Use ${reportLink("Declassification Request Worksheet", "compiler-declassification-requests.md")} to turn those release-status risks into assignable request language and MDR/search follow-up rows.`,
+    `7. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
+    `8. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
+    `9. Use ${reportLink("Persons Document Index", "compiler-persons-document-index.md")} to connect selected documents to persons-list entries and participant variants.`,
+    `10. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
     "",
     "## Current Inventory",
     "",
@@ -1373,6 +1384,7 @@ function buildCompilerHandoff(records, data, persons) {
         [reportLink("Selection worksheet", "compiler-selection-worksheet.csv"), "Master decision spreadsheet across selected records and source leads", `${records.length + sourceRows.length} rows`],
         [reportLink("Gap audit", "compiler-gap-audit.md"), "Chapter coverage and risk register", `${CHAPTER_ORDER.length} chapter rows`],
         [reportLink("Declassification packet", "compiler-declassification-review.md"), "Release-status and marker follow-up queue", `${declassRows.length} rows`],
+        [reportLink("Declassification request worksheet", "compiler-declassification-requests.md"), "Assignable request language with schedule evidence and source-packet context", `${declassRequestRows.length} rows`],
         [reportLink("Data-quality audit", "compiler-data-quality-audit.md"), "Metadata, date, title, and schedule-caveat cleanup queue", `${qualityRows.length} rows`],
         [reportLink("Persons document index", "compiler-persons-document-index.md"), "Participant-to-document coverage index for selected chronology records", `${personRows.length} rows`],
         [reportLink("Persons list", "persons-list.md"), "FRUS-style persons list working copy", `${persons.length} entries`]
@@ -1885,6 +1897,91 @@ function declassificationReviewRows(records) {
   }));
 }
 
+function declassificationRequestType(record) {
+  const status = `${record.releaseStatus || ""} ${record.type || ""}`;
+  if (/denied/i.test(status)) return "Denial review";
+  if (/partial/i.test(status)) return "Full review of withheld portions";
+  if (/marker|no memorandum|no memcon|no telcon/i.test(status)) return "Search or existence confirmation";
+  return "Release-status review";
+}
+
+function declassificationRequestLanguage(record) {
+  const requestType = declassificationRequestType(record);
+  const title = record.documentTitle || record.title;
+  if (requestType === "Denial review") {
+    return `Review the denial for Doc ${record.compilerNumber}, "${title}", and provide a release determination or written referral/withholding rationale for the denied memorandum/call.`;
+  }
+  if (requestType === "Full review of withheld portions") {
+    return `Conduct full declassification review of withheld or redacted portions for Doc ${record.compilerNumber}, "${title}", using related source-packet context and schedule evidence where available.`;
+  }
+  if (requestType === "Search or existence confirmation") {
+    return `Search for, confirm, or locate the memorandum/telcon for Doc ${record.compilerNumber}, "${title}", using the attached Presidential Daily Diary/Backup references as evidence of the meeting or call.`;
+  }
+  return `Review the release/access status for Doc ${record.compilerNumber}, "${title}", before final compiler selection.`;
+}
+
+function compactSourcePacket(row) {
+  return [
+    row.matchRank ? `rank ${row.matchRank}` : "",
+    row.lane,
+    row.candidateId,
+    row.candidateDate,
+    row.candidateTitle,
+    row.candidateNaid ? `NAID ${row.candidateNaid}` : ""
+  ]
+    .filter(Boolean)
+    .join(" - ");
+}
+
+function sourcePacketLinks(row) {
+  return [
+    row.candidateCatalogUrl ? `${row.candidateId || row.lane} Catalog: ${row.candidateCatalogUrl}` : "",
+    row.candidatePdfUrl ? `${row.candidateId || row.lane} PDF: ${row.candidatePdfUrl}` : ""
+  ]
+    .filter(Boolean)
+    .join(" | ");
+}
+
+function declassificationRequestRows(records, data) {
+  const crosswalkByDoc = new Map();
+  for (const row of sourceCrosswalkRows(records, data).filter((row) => row.candidateId)) {
+    const rows = crosswalkByDoc.get(row.compilerNumber) || [];
+    rows.push(row);
+    crosswalkByDoc.set(row.compilerNumber, rows);
+  }
+
+  return records.filter(releaseNeedsAttention).map((record) => {
+    const packets = (crosswalkByDoc.get(record.compilerNumber) || []).slice(0, 3);
+    return {
+      requestStatus: "",
+      followUpOwner: "",
+      followUpDate: "",
+      outcome: "",
+      compilerNumber: record.compilerNumber,
+      chapter: record.chapter.name,
+      date: record.date,
+      releaseStatus: record.releaseStatus,
+      accessRestriction: record.accessRestriction,
+      requestType: declassificationRequestType(record),
+      requestLanguage: declassificationRequestLanguage(record),
+      title: record.documentTitle || record.title,
+      type: record.type,
+      participants: (record.participants || []).join("; "),
+      pageCount: record.pageCount,
+      selectedNaid: record.naid,
+      selectedCatalogUrl: record.catalogUrl,
+      selectedPdfUrl: record.pdfUrl,
+      scheduleNaids: (record.scheduleReferences || []).map((reference) => reference.naid).filter(Boolean).join("; "),
+      scheduleReferences: scheduleReferenceLinks(record),
+      sourcePackets: packets.map(compactSourcePacket).join(" || "),
+      sourcePacketLinks: packets.map(sourcePacketLinks).filter(Boolean).join(" || "),
+      suggestedAction: declassificationAction(record),
+      sourceNote: record.sourceNote,
+      researchNote: record.researchNote
+    };
+  });
+}
+
 function buildDeclassificationMarkdown(records) {
   const rows = declassificationReviewRows(records);
   const byChapter = CHAPTER_ORDER.map((chapterName) => [
@@ -1954,6 +2051,93 @@ function buildDeclassificationCsv(records) {
     "scheduleReferences",
     "catalogUrl",
     "pdfUrl"
+  ];
+  return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
+}
+
+function buildDeclassificationRequestsMarkdown(records, data) {
+  const rows = declassificationRequestRows(records, data);
+  const byType = countBy(rows, (row) => row.requestType);
+  const lines = [
+    "# FRUS 1989-1992 Volume VI Declassification Request Worksheet",
+    "",
+    "This worksheet turns the declassification review packet into an action queue. It preserves blank status/owner/date/outcome columns, request language, schedule evidence, and the most likely source-packet context for each partial, denied, marker, or no-document chronology row.",
+    "",
+    "## Snapshot",
+    "",
+    `- Request rows: ${rows.length}`,
+    `- Partial-release requests: ${rows.filter((row) => /partial/i.test(row.releaseStatus)).length}`,
+    `- Denial-review requests: ${rows.filter((row) => /denied/i.test(row.releaseStatus)).length}`,
+    `- Search/existence-confirmation requests: ${rows.filter((row) => /Search or existence confirmation/i.test(row.requestType)).length}`,
+    "",
+    markdownTable(["Request type", "Rows"], byType),
+    "",
+    "## Request Batch",
+    "",
+    markdownTable(
+      ["Doc", "Chapter", "Date", "Release status", "Request type", "Schedule NAIDs", "Top source packets", "Links"],
+      rows.map((row) => [
+        row.compilerNumber,
+        row.chapter,
+        row.date,
+        row.releaseStatus,
+        row.requestType,
+        row.scheduleNaids || "pending",
+        row.sourcePackets || "No source-packet match above threshold",
+        recordLinks({ catalogUrl: row.selectedCatalogUrl, pdfUrl: row.selectedPdfUrl }) || "Links pending"
+      ])
+    ),
+    "",
+    "## Ready-To-Copy Request Notes",
+    ""
+  ];
+  for (const row of rows) {
+    lines.push(
+      `### Doc ${row.compilerNumber} - ${row.requestType}`,
+      "",
+      row.requestLanguage,
+      "",
+      `Selected record: ${row.title}; ${row.date}; ${row.releaseStatus || "release status pending"}; NAID ${row.selectedNaid || "pending"}.`,
+      "",
+      `Schedule evidence: ${row.scheduleReferences || "No schedule corroboration attached."}`,
+      "",
+      `Source-packet context: ${row.sourcePackets || "No source-lane match above threshold."}`,
+      "",
+      `Selected links: ${recordLinks({ catalogUrl: row.selectedCatalogUrl, pdfUrl: row.selectedPdfUrl }) || "Links pending."}`,
+      ""
+    );
+  }
+  return `${lines.join("\n")}\n`;
+}
+
+function buildDeclassificationRequestsCsv(records, data) {
+  const rows = declassificationRequestRows(records, data);
+  const header = [
+    "requestStatus",
+    "followUpOwner",
+    "followUpDate",
+    "outcome",
+    "compilerNumber",
+    "chapter",
+    "date",
+    "releaseStatus",
+    "accessRestriction",
+    "requestType",
+    "requestLanguage",
+    "title",
+    "type",
+    "participants",
+    "pageCount",
+    "selectedNaid",
+    "selectedCatalogUrl",
+    "selectedPdfUrl",
+    "scheduleNaids",
+    "scheduleReferences",
+    "sourcePackets",
+    "sourcePacketLinks",
+    "suggestedAction",
+    "sourceNote",
+    "researchNote"
   ];
   return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
 }
@@ -2083,6 +2267,8 @@ function main() {
   fs.writeFileSync(path.join(ROOT, "reports/compiler-next-review-queue.csv"), buildReviewQueueCsv(data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-declassification-review.md"), buildDeclassificationMarkdown(records));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-declassification-review.csv"), buildDeclassificationCsv(records));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-declassification-requests.md"), buildDeclassificationRequestsMarkdown(records, data));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-declassification-requests.csv"), buildDeclassificationRequestsCsv(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-data-quality-audit.md"), buildDataQualityMarkdown(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-data-quality-audit.csv"), buildDataQualityCsv(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-persons-document-index.md"), buildPersonsDocumentIndexMarkdown(records, persons));

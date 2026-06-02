@@ -15,10 +15,11 @@ This is the start-here packet for the Eastern Mediterranean research assistant. 
 3. Open [Selected Document Source Crosswalk](compiler-source-crosswalk.md) to see likely Central/Blackwill/Scowcroft/source-pool packets for each selected document.
 4. Open [Next Review Queue](compiler-next-review-queue.md) for the cross-chapter source-lane packets most worth opening next.
 5. Open [Declassification Packet](compiler-declassification-review.md) before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.
-6. Open [Data-Quality Audit](compiler-data-quality-audit.md) before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.
-7. Use [Selection Worksheet](compiler-selection-worksheet.csv) as the master working spreadsheet for review status, compiler decisions, and notes.
-8. Use [Persons Document Index](compiler-persons-document-index.md) to connect selected documents to persons-list entries and participant variants.
-9. Use [Persons List](persons-list.md) when drafting or checking FRUS-style identifications.
+6. Use [Declassification Request Worksheet](compiler-declassification-requests.md) to turn those release-status risks into assignable request language and MDR/search follow-up rows.
+7. Open [Data-Quality Audit](compiler-data-quality-audit.md) before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.
+8. Use [Selection Worksheet](compiler-selection-worksheet.csv) as the master working spreadsheet for review status, compiler decisions, and notes.
+9. Use [Persons Document Index](compiler-persons-document-index.md) to connect selected documents to persons-list entries and participant variants.
+10. Use [Persons List](persons-list.md) when drafting or checking FRUS-style identifications.
 
 ## Current Inventory
 
@@ -32,6 +33,7 @@ This is the start-here packet for the Eastern Mediterranean research assistant. 
 | [Selection worksheet](compiler-selection-worksheet.csv) | Master decision spreadsheet across selected records and source leads | 629 rows |
 | [Gap audit](compiler-gap-audit.md) | Chapter coverage and risk register | 4 chapter rows |
 | [Declassification packet](compiler-declassification-review.md) | Release-status and marker follow-up queue | 14 rows |
+| [Declassification request worksheet](compiler-declassification-requests.md) | Assignable request language with schedule evidence and source-packet context | 14 rows |
 | [Data-quality audit](compiler-data-quality-audit.md) | Metadata, date, title, and schedule-caveat cleanup queue | 44 rows |
 | [Persons document index](compiler-persons-document-index.md) | Participant-to-document coverage index for selected chronology records | 13 rows |
 | [Persons list](persons-list.md) | FRUS-style persons list working copy | 41 entries |

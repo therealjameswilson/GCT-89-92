@@ -308,6 +308,16 @@ function exportItems() {
       detail: "Follow-up tracker with owner/date/outcome columns and schedule-corroboration links."
     },
     {
+      href: "reports/compiler-declassification-requests.md",
+      label: "Declassification request worksheet",
+      detail: "Assignable request language for partial, denied, marker, and no-document rows with source context."
+    },
+    {
+      href: "reports/compiler-declassification-requests.csv",
+      label: "Declassification request spreadsheet",
+      detail: "Sortable MDR/search follow-up queue with owner, date, outcome, schedule, and source-packet columns."
+    },
+    {
       href: "reports/compiler-selection-worksheet.csv",
       label: "Selection worksheet",
       detail: "Spreadsheet queue with blank review/decision columns for chronology rows and source-lane leads."

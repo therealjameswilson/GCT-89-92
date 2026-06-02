@@ -49,6 +49,8 @@ The script writes:
 - `reports/compiler-next-review-queue.csv`
 - `reports/compiler-declassification-review.md`
 - `reports/compiler-declassification-review.csv`
+- `reports/compiler-declassification-requests.md`
+- `reports/compiler-declassification-requests.csv`
 - `reports/compiler-data-quality-audit.md`
 - `reports/compiler-data-quality-audit.csv`
 - `reports/compiler-persons-document-index.md`
