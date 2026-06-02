@@ -38,6 +38,8 @@ The script writes:
 - `reports/compiler-chronology.md`
 - `reports/compiler-handoff.md`
 - `reports/compiler-source-notes.csv`
+- `reports/compiler-document-register.md`
+- `reports/compiler-document-register.csv`
 - `reports/compiler-gap-audit.md`
 - `reports/compiler-gap-audit.csv`
 - `reports/compiler-gap-fill-candidates.md`

@@ -283,6 +283,16 @@ function exportItems() {
       detail: "Per-chapter workbench with selected records, source leads, release follow-ups, and citation issues."
     },
     {
+      href: "reports/compiler-document-register.md",
+      label: "Draft document register",
+      detail: "Continuous draft document numbers, heading drafts, source-note drafts, and apparatus cleanup flags."
+    },
+    {
+      href: "reports/compiler-document-register.csv",
+      label: "Draft document register spreadsheet",
+      detail: "Sortable publication-apparatus worksheet for document numbering, source notes, and schedule evidence."
+    },
+    {
       href: "reports/compiler-chapter-dossiers.csv",
       label: "Chapter dossier spreadsheet",
       detail: "Sortable per-chapter rows for chronology, source leads, declassification, and data-quality work."

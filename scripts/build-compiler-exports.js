@@ -1530,6 +1530,7 @@ function buildCompilerHandoff(records, data, persons) {
   const pages = records.reduce((sum, record) => sum + (record.pageCount || 0), 0);
   const sourceRows = sourceLeadWorksheetRows(data);
   const reviewRows = reviewQueueRows(data);
+  const documentRegisterRowsCount = documentRegisterRows(records, data).length;
   const dossierRows = chapterDossierRows(records, data);
   const sourceCrosswalk = sourceCrosswalkRows(records, data);
   const gapFillCandidateRows = gapFillRows(records, data);
@@ -1555,16 +1556,17 @@ function buildCompilerHandoff(records, data, persons) {
     "## Recommended Opening Order",
     "",
     "1. Start with the live chronology. It is the first section of the page and is organized into Greece, Cyprus, Turkey, and Regional chapters.",
-    `2. Open ${reportLink("Chapter Dossiers", "compiler-chapter-dossiers.md")} when working one chapter at a time; it gathers selected chronology rows, top source leads, release follow-ups, and citation issues.`,
-    `3. Open ${reportLink("Gap-Fill Candidate Worksheet", "compiler-gap-fill-candidates.md")} to work the Cyprus and Regional selection gaps from a narrowed candidate-addition shortlist.`,
-    `4. Open ${reportLink("Selected Document Source Crosswalk", "compiler-source-crosswalk.md")} to see likely Central/Blackwill/Scowcroft/source-pool packets for each selected document.`,
-    `5. Open ${reportLink("Next Review Queue", "compiler-next-review-queue.md")} for the cross-chapter source-lane packets most worth opening next.`,
-    `6. Open ${reportLink("Declassification Packet", "compiler-declassification-review.md")} before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.`,
-    `7. Use ${reportLink("Declassification Request Worksheet", "compiler-declassification-requests.md")} to turn those release-status risks into assignable request language and MDR/search follow-up rows.`,
-    `8. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
-    `9. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
-    `10. Use ${reportLink("Persons Document Index", "compiler-persons-document-index.md")} to connect selected documents to persons-list entries and participant variants.`,
-    `11. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
+    `2. Open ${reportLink("Draft Document Register", "compiler-document-register.md")} to translate the selected chronology into continuous draft document numbers, source-note drafts, and publication-apparatus cleanup flags.`,
+    `3. Open ${reportLink("Chapter Dossiers", "compiler-chapter-dossiers.md")} when working one chapter at a time; it gathers selected chronology rows, top source leads, release follow-ups, and citation issues.`,
+    `4. Open ${reportLink("Gap-Fill Candidate Worksheet", "compiler-gap-fill-candidates.md")} to work the Cyprus and Regional selection gaps from a narrowed candidate-addition shortlist.`,
+    `5. Open ${reportLink("Selected Document Source Crosswalk", "compiler-source-crosswalk.md")} to see likely Central/Blackwill/Scowcroft/source-pool packets for each selected document.`,
+    `6. Open ${reportLink("Next Review Queue", "compiler-next-review-queue.md")} for the cross-chapter source-lane packets most worth opening next.`,
+    `7. Open ${reportLink("Declassification Packet", "compiler-declassification-review.md")} before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.`,
+    `8. Use ${reportLink("Declassification Request Worksheet", "compiler-declassification-requests.md")} to turn those release-status risks into assignable request language and MDR/search follow-up rows.`,
+    `9. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
+    `10. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
+    `11. Use ${reportLink("Persons Document Index", "compiler-persons-document-index.md")} to connect selected documents to persons-list entries and participant variants.`,
+    `12. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
     "",
     "## Current Inventory",
     "",
@@ -1573,6 +1575,7 @@ function buildCompilerHandoff(records, data, persons) {
       [
         [reportLink("Working chronology pack", "compiler-chronology.md"), "Selected declassified chronology with source notes and schedule references", `${records.length} records / ${pages} PDF pages`],
         [reportLink("Source-note spreadsheet", "compiler-source-notes.csv"), "Sortable source-note and schedule-reference export", `${records.length} rows`],
+        [reportLink("Draft document register", "compiler-document-register.md"), "Continuous draft document numbers, heading drafts, source-note drafts, and apparatus cleanup flags", `${documentRegisterRowsCount} rows`],
         [reportLink("Chapter dossiers", "compiler-chapter-dossiers.md"), "Per-chapter workbench combining chronology, top leads, declassification, and data-quality issues", `${dossierRows.length} dossier rows`],
         [reportLink("Gap-fill candidate worksheet", "compiler-gap-fill-candidates.md"), "Ranked candidate-addition shortlist focused on Cyprus and Regional selection gaps", `${gapFillCandidateRows.length} rows`],
         [reportLink("Selected document source crosswalk", "compiler-source-crosswalk.md"), "Likely source/context packets for each selected chronology document", `${sourceCrosswalk.length} rows`],
@@ -2338,6 +2341,200 @@ function buildDeclassificationRequestsCsv(records, data) {
   return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
 }
 
+function draftDocumentHeading(record) {
+  const type = clean(record.type);
+  if (/no memorandum|no memcon|no telcon|marker/i.test(`${type} ${record.releaseStatus || ""}`)) return "Editorial Note / Document Search Pending";
+  if (/telcon/i.test(type)) return "Memorandum of Telephone Conversation";
+  if (/memcon/i.test(type)) return "Memorandum of Conversation";
+  return type || "Document";
+}
+
+function scheduleEvidenceCompact(record) {
+  return (record.scheduleReferences || [])
+    .map((reference) => [reference.title, reference.naid ? `NAID ${reference.naid}` : ""].filter(Boolean).join(" - "))
+    .filter(Boolean)
+    .join(" || ");
+}
+
+function catalogDerivedSourceNote(record) {
+  const source = record.source || {};
+  const pathParts = [
+    "George H.W. Bush Library",
+    "Bush Presidential Records",
+    "National Security Council",
+    source.series || "",
+    record.documentTitle || record.title
+  ].filter(Boolean);
+  return [
+    `Source: ${pathParts.join(", ")}.`,
+    record.accessRestriction ? `Catalog access: ${record.accessRestriction}.` : "",
+    record.releaseStatus ? `Release status: ${record.releaseStatus}.` : "",
+    record.naid ? `NAID ${record.naid}.` : ""
+  ]
+    .filter(Boolean)
+    .join(" ");
+}
+
+function sourceNoteGaps(record, qualityRows) {
+  const issues = qualityRows.filter((row) => {
+    const selectedId = `Doc ${record.compilerNumber}`;
+    return row.candidateId === selectedId || row.candidateId.startsWith(`${selectedId} / Schedule`);
+  });
+  const gaps = [
+    "Confirm classification marking from PDF",
+    "Confirm place/time and drafting/clearance details from text",
+    "Replace Catalog-only release/access wording with final FRUS editorial wording where needed"
+  ];
+  if (releaseNeedsAttention(record)) gaps.push("Resolve release/marker status before final selection");
+  if (!(record.scheduleReferences || []).length) gaps.push("Attach Presidential Daily Diary/Backup schedule corroboration");
+  if (/memcon/i.test(record.type || "") && /telcon/i.test(record.source?.series || "")) {
+    gaps.push("Verify document type against source series: memcon-type title is cataloged in Presidential Telcon Files");
+  }
+  if (/telcon/i.test(record.type || "") && /memcon/i.test(record.source?.series || "")) {
+    gaps.push("Verify document type against source series: telcon-type title is cataloged in Presidential Memcon Files");
+  }
+  if (issues.length) {
+    gaps.push(
+      `Resolve data-quality issue(s): ${[
+        ...new Set(issues.map((row) => `${row.issue} (${row.candidateId})`))
+      ].join("; ")}`
+    );
+  }
+  return gaps.join(" | ");
+}
+
+function documentRegisterRows(records, data) {
+  const qualityRows = dataQualityRows(records, data);
+  return records.map((record, index) => ({
+    reviewStatus: "",
+    compilerDecision: "",
+    compilerNotes: "",
+    draftDocumentNumber: index + 1,
+    compilerNumber: record.compilerNumber,
+    chapter: record.chapter.name,
+    date: record.date,
+    headingDraft: draftDocumentHeading(record),
+    title: record.documentTitle || record.title,
+    participants: (record.participants || []).join("; "),
+    releaseStatus: record.releaseStatus,
+    accessRestriction: record.accessRestriction,
+    pageCount: record.pageCount,
+    naid: record.naid,
+    catalogDerivedSourceNote: catalogDerivedSourceNote(record),
+    currentSourceNote: record.sourceNote,
+    sourceNoteGaps: sourceNoteGaps(record, qualityRows),
+    scheduleEvidence: scheduleEvidenceCompact(record),
+    catalogUrl: record.catalogUrl,
+    pdfUrl: record.pdfUrl
+  }));
+}
+
+function buildDocumentRegisterMarkdown(records, data) {
+  const rows = documentRegisterRows(records, data);
+  const releaseRows = rows.filter((row) => /partial|denied|marker|no memorandum|no memcon|no telcon/i.test(`${row.releaseStatus} ${row.headingDraft}`));
+  const issueRows = rows.filter((row) => /Resolve data-quality/.test(row.sourceNoteGaps));
+  const lines = [
+    "# FRUS 1989-1992 Volume VI Draft Document Register",
+    "",
+    "This is a publication-apparatus bridge, not a final document list. It gives the compiler continuous draft document numbers, chapter placement, heading drafts, catalog-derived source-note text, schedule evidence, and the remaining FRUS source-note checks for each selected chronology record.",
+    "",
+    "## Source-Note Guardrails",
+    "",
+    "- Published FRUS source notes begin with the repository/collection/file path and then add verified classification and editorial details; do not treat Catalog release status or NAID as a substitute for final source-note work.",
+    "- Official style examples checked: https://history.state.gov/historicaldocuments/frus1989-92v31/d60 and https://history.state.gov/historicaldocuments/frus1989-92v31/d61.",
+    "- Use this register to draft and triage; verify final wording against each PDF and any archival container/file metadata before publication.",
+    "",
+    "## Snapshot",
+    "",
+    `- Draft document rows: ${rows.length}`,
+    `- Release/marker rows needing selection or declassification review: ${releaseRows.length}`,
+    `- Rows with data-quality/source-note cleanup flags: ${issueRows.length}`,
+    "",
+    markdownTable(
+      ["Chapter", "Draft docs", "Release/marker rows", "Cleanup flags"],
+      CHAPTER_ORDER.map((chapterName) => {
+        const chapterRows = rows.filter((row) => row.chapter === chapterName);
+        return [
+          chapterName,
+          chapterRows.length,
+          chapterRows.filter((row) => releaseRows.includes(row)).length,
+          chapterRows.filter((row) => issueRows.includes(row)).length
+        ];
+      })
+    ),
+    "",
+    "## Draft Register",
+    ""
+  ];
+  for (const chapterName of CHAPTER_ORDER) {
+    const chapterRows = rows.filter((row) => row.chapter === chapterName);
+    lines.push(`### Chapter ${CHAPTER_ORDER.indexOf(chapterName) + 1}: ${chapterName}`, "");
+    lines.push(
+      markdownTable(
+        ["Draft Doc", "Compiler Doc", "Date", "Heading Draft", "Title", "Release", "Source-Note Gaps", "Links"],
+        chapterRows.map((row) => [
+          row.draftDocumentNumber,
+          row.compilerNumber,
+          row.date,
+          row.headingDraft,
+          row.title,
+          row.releaseStatus,
+          row.sourceNoteGaps,
+          recordLinks({ catalogUrl: row.catalogUrl, pdfUrl: row.pdfUrl })
+        ])
+      ),
+      ""
+    );
+  }
+  lines.push("## Source-Note Drafts", "");
+  for (const row of rows) {
+    lines.push(
+      `### Draft Document ${row.draftDocumentNumber} / Doc ${row.compilerNumber}`,
+      "",
+      `**Heading draft:** ${row.headingDraft}`,
+      "",
+      `**Title:** ${row.title}`,
+      "",
+      `**Participants:** ${row.participants || "Participants pending"}`,
+      "",
+      `**Catalog-derived source note:** ${row.catalogDerivedSourceNote}`,
+      "",
+      `**Schedule evidence:** ${row.scheduleEvidence || "No schedule corroboration attached."}`,
+      "",
+      `**Source-note gaps:** ${row.sourceNoteGaps}`,
+      ""
+    );
+  }
+  return `${lines.join("\n")}\n`;
+}
+
+function buildDocumentRegisterCsv(records, data) {
+  const rows = documentRegisterRows(records, data);
+  const header = [
+    "reviewStatus",
+    "compilerDecision",
+    "compilerNotes",
+    "draftDocumentNumber",
+    "compilerNumber",
+    "chapter",
+    "date",
+    "headingDraft",
+    "title",
+    "participants",
+    "releaseStatus",
+    "accessRestriction",
+    "pageCount",
+    "naid",
+    "catalogDerivedSourceNote",
+    "currentSourceNote",
+    "sourceNoteGaps",
+    "scheduleEvidence",
+    "catalogUrl",
+    "pdfUrl"
+  ];
+  return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
+}
+
 function buildMarkdown(records) {
   const pages = records.reduce((sum, record) => sum + (record.pageCount || 0), 0);
   const restrictions = records.filter(releaseNeedsAttention);
@@ -2452,6 +2649,8 @@ function main() {
   fs.writeFileSync(path.join(ROOT, "reports/compiler-handoff.md"), buildCompilerHandoff(records, data, persons));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-chronology.md"), buildMarkdown(records));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-source-notes.csv"), buildCsv(records));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-document-register.md"), buildDocumentRegisterMarkdown(records, data));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-document-register.csv"), buildDocumentRegisterCsv(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-audit.md"), buildGapAudit(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-audit.csv"), buildGapCsv(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-fill-candidates.md"), buildGapFillMarkdown(records, data));
