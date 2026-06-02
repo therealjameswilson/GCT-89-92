@@ -1,5 +1,5 @@
 chapter,selectedRecords,pages,releaseMarkerRows,missingScheduleRefs,scoutLeads,centralLeads,centralOpenFirst,centralOcr,blackwillChronLeads,blackwillOpenFirst,blackwillOcr,gatesLeads,gatesPriority,requestedPoolLeads
 Greece,14,64,1,0,32,3,3,3,3,3,3,2,0,85
 Cyprus,3,15,1,0,4,24,6,6,3,2,2,1,1,74
-Turkey,66,252,12,1,43,12,8,8,9,4,4,1,0,104
+Turkey,66,252,12,0,43,12,8,8,9,4,4,1,0,104
 Regional,1,4,0,0,39,40,0,0,41,0,0,17,13,59

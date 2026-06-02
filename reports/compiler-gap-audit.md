@@ -19,7 +19,7 @@ This audit is a risk register for compiler selection. It compares the selected d
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Greece | 14 | 64 | 1 | 0 | 32 | 3 | 3 | 3 | 3 | 3 | 2 | 85 |
 | Cyprus | 3 | 15 | 1 | 0 | 4 | 24 | 6 | 6 | 3 | 2 | 1 | 74 |
-| Turkey | 66 | 252 | 12 | 1 | 43 | 12 | 8 | 8 | 9 | 4 | 1 | 104 |
+| Turkey | 66 | 252 | 12 | 0 | 43 | 12 | 8 | 8 | 9 | 4 | 1 | 104 |
 | Regional | 1 | 4 | 0 | 0 | 39 | 40 | 0 | 0 | 41 | 0 | 17 | 59 |
 
 ## Risk Calls
@@ -27,7 +27,7 @@ This audit is a risk register for compiler selection. It compares the selected d
 - Cyprus is thin in the selected chronology (3 records) relative to 24 Central Chronology leads, 6 Central open-first packets, and 74 requested-pool leads.
 - Regional is the largest apparent selection gap: 1 selected record versus 39 Scout leads, 40 Central leads, 41 Blackwill Chron leads, 17 Gates leads, and 59 requested-pool leads.
 - Declassification review should start with 14 selected chronology rows: Doc 1.010, Doc 2.003, Doc 3.002, Doc 3.009, Doc 3.012, Doc 3.016, Doc 3.027, Doc 3.031, Doc 3.040, Doc 3.043, Doc 3.046, Doc 3.049, Doc 3.060, Doc 3.064.
-- Schedule corroboration is almost complete; only 1 selected row lacks a Daily Diary/Backup reference: Doc 3.065.
+- Schedule corroboration is almost complete; only 0 selected row lacks a Daily Diary/Backup reference: none.
 - Requested source pools remain a major review lane: 9 pools retain 242 EastMed leads, including Scowcroft, Presidential Daily File, NSC, NSC/DC, NSR, NSD, and IF Transition sources.
 
 ## Next Packet Queue

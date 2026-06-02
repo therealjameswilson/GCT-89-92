@@ -7,13 +7,12 @@ Working export from the GCT research assistant. It preserves the compiler chrono
 - Conversation records: 84
 - PDF pages counted: 335
 - Restriction or marker-review rows: 14
-- Rows without Daily Diary/Backup schedule references: 1
+- Rows without Daily Diary/Backup schedule references: 0
 
 ## Gap Checks
 
 - Cyprus: 3 selected chronology records; compare against Scout, Central Chronology, and requested source-pool leads.
 - Regional: 1 selected chronology records; compare against Scout, Central Chronology, and requested source-pool leads.
-- Missing schedule references: Doc 3.065.
 - Release or marker review: Doc 1.010, Doc 2.003, Doc 3.002, Doc 3.009, Doc 3.012, Doc 3.016, Doc 3.027, Doc 3.031, Doc 3.040, Doc 3.043, Doc 3.046, Doc 3.049, Doc 3.060, Doc 3.064.
 
 ## Chapter 1: Greece
@@ -1332,7 +1331,7 @@ Working export from the GCT research assistant. It preserves the compiler chrono
 
 **Research Note:** PDF extent: 3 pages. Digital object: 1992-12-05--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082409.
 
-**Schedule References:** No same-date Daily Diary/Backup reference attached.
+**Schedule References:** [Presidential Daily Diary] 12/05/1992 - Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 12/05/1992. Access restriction: Restricted - Possibly. NAID 415892440. - Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-12_05_92-26864-003_415892440.pdf. Catalog: https://catalog.archives.gov/id/415892440. - Catalog: https://catalog.archives.gov/id/415892440 - PDF: https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-12_05_92-26864-003_415892440.pdf || [Presidential Daily Backup] 12/05/1992 - Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 12/05/1992. Access restriction: Restricted - Possibly. NAID 415892441. - Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-12_05_92-26864-004_415892441.pdf. Catalog: https://catalog.archives.gov/id/415892441. - Catalog: https://catalog.archives.gov/id/415892441 - PDF: https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-12_05_92-26864-004_415892441.pdf
 
 **Links:** [Catalog](https://catalog.archives.gov/id/428082409) | [PDF](https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-05--Ozal.pdf)
 

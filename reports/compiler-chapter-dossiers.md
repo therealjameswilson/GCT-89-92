@@ -6,7 +6,7 @@ This packet is a chapter workbench. Each chapter gathers the selected chronology
 | --- | --- | --- | --- | --- | --- |
 | Greece | 14 | 64 | 25 | 1 | 7 |
 | Cyprus | 3 | 15 | 25 | 1 | 1 |
-| Turkey | 66 | 252 | 25 | 12 | 29 |
+| Turkey | 66 | 252 | 25 | 12 | 28 |
 | Regional | 1 | 4 | 25 | 0 | 8 |
 
 ## Chapter 1: Greece
@@ -256,7 +256,6 @@ This packet is a chapter workbench. Each chapter gathers the selected chronology
 | fix before citation | Doc 3.036 / Schedule NAID 415891120 | 1991-02-19 | [Presidential Daily Diary] 2/19/1991 | Name/title spelling variant | Verify diary text against the PDF before using this wording in notes or names. | [Catalog](https://catalog.archives.gov/id/415891120) / [PDF](https://s3.amazonaws.com/NARAprodstorage/opastorage/live/56/1863/186356/content/arcmedia/media/images/40/22/40-2184a.gif) |
 | fix before citation | Doc 3.057 | 1992-01-12 | Telcon with President Turgut Ozal of Turkey, January 12, 1991 | Filename/date mismatch | Open the Catalog/PDF and verify the correct date before citation or selection. | [Catalog](https://catalog.archives.gov/id/428082117) / [PDF](https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1991-01-12--Ozal.pdf) |
 | review | Scout 048 | 1989-01-01 | Turkey 7/19/20 [OA 8325] | Suspect date token in title | Verify the title/date against the PDF and Catalog record before relying on this lead. | [Catalog](https://catalog.archives.gov/id/323153443) / [PDF](https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-spe/speechwriting_backup_chron_579003/41-bpr-speech-backup-chron-13764-009_323153443.pdf) |
-| review | Doc 3.065 | 1992-12-05 | Telcon with President Turgut Ozal of Turkey, December 5, 1992 | Missing schedule corroboration | Check Presidential Daily Diary/Backup folders for same-date corroboration. | [Catalog](https://catalog.archives.gov/id/428082409) / [PDF](https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-05--Ozal.pdf) |
 | caveat | Doc 3.001 / Schedule NAID 415889668 | 1989-02-24 | [Presidential Daily Diary] 2/24/1989 [EMPTY] | Schedule title caveat | Use as schedule corroboration only after reviewing the PDF content. | [Catalog](https://catalog.archives.gov/id/415889668) / [PDF](https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-02_24_89-12791-015_415889668.pdf) |
 | caveat | Doc 3.002 / Schedule NAID 415889856 | 1989-05-29 | [Presidential Daily Diary] 5/29/1989 [EMPTY] | Schedule title caveat | Use as schedule corroboration only after reviewing the PDF content. | [Catalog](https://catalog.archives.gov/id/415889856) / [PDF](https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-05_29_98-12798-009_415889856.pdf) |
 | caveat | Doc 3.003 / Schedule NAID 415889926 | 1989-07-03 | [Presidential Daily Diary] 7/3/1989 [EMPTY] | Schedule title caveat | Use as schedule corroboration only after reviewing the PDF content. | [Catalog](https://catalog.archives.gov/id/415889926) / [PDF](https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1989/41-bpr-apts_sch-dd-07_03_89-12801-007_415889926.pdf) |

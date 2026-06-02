@@ -4,14 +4,14 @@ This audit flags metadata and citation risks without silently changing archival 
 
 ## Snapshot
 
-- Total data-quality rows: 45
-- Citation/metadata review rows: 25
+- Total data-quality rows: 44
+- Citation/metadata review rows: 24
 - Schedule evidence review rows: 29
 
 | Severity | Rows |
 | --- | --- |
 | fix before citation | 16 |
-| review | 9 |
+| review | 8 |
 | caveat | 20 |
 
 ## Citation and Metadata Review Queue
@@ -42,7 +42,6 @@ This audit flags metadata and citation risks without silently changing archival 
 | review | Requested source pool | RS 007 | Cross-chapter | 1989-01-20 to 1993-01-20 | H-Files - National Security Review (NSR) Files | Catalog child-harvest caveat | Catalog returned HTML for q=*&ancestorNaId=313189297&limit=200 | Use the Search Within URL or direct Catalog page to continue source-pool review. | [Catalog](https://catalog.archives.gov/id/313189297) |
 | review | Requested source pool | RS 008 | Cross-chapter | 1989-01-20 to 1993-01-20 | National Security Directives (NSD) Files | Catalog child-harvest caveat | Catalog returned HTML for q=*&ancestorNaId=313189290&limit=200 | Use the Search Within URL or direct Catalog page to continue source-pool review. | [Catalog](https://catalog.archives.gov/id/313189290) |
 | review | Requested source pool | RS 009 | Cross-chapter | 1989-01-20 to 1993-01-20 | National Security Council (NSC) Institutional Files (IF) Transition Files | Catalog child-harvest caveat | Catalog returned HTML for q=*&ancestorNaId=348937136&limit=200 | Use the Search Within URL or direct Catalog page to continue source-pool review. | [Catalog](https://catalog.archives.gov/id/348937136) |
-| review | Selected chronology | Doc 3.065 | Turkey | 1992-12-05 | Telcon with President Turgut Ozal of Turkey, December 5, 1992 | Missing schedule corroboration | Selected chronology row has no attached Presidential Daily Diary/Backup reference. | Check Presidential Daily Diary/Backup folders for same-date corroboration. | [Catalog](https://catalog.archives.gov/id/428082409) / [PDF](https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-nsc/321498139/1992-12-05--Ozal.pdf) |
 
 ## Schedule Evidence Review Queue
 

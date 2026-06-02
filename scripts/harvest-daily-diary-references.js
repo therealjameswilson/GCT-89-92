@@ -125,6 +125,16 @@ function slashDate(date) {
   return `${Number(month)}/${Number(day)}/${year}`;
 }
 
+function slashDateVariants(date) {
+  const [year, month, day] = date.split("-");
+  return [
+    `${Number(month)}/${Number(day)}/${year}`,
+    `${Number(month)}/${day}/${year}`,
+    `${month}/${Number(day)}/${year}`,
+    `${month}/${day}/${year}`
+  ].filter((value, index, values) => value && values.indexOf(value) === index);
+}
+
 function firstDigitalObject(record) {
   return (record.digitalObjects || []).find((object) => /pdf|gif|jpeg|image/i.test(object.objectType || object.objectFilename || object.objectUrl || ""));
 }
@@ -237,22 +247,24 @@ async function buildItemLeads() {
 async function buildFileReferenceIndex(recordDates) {
   const byDate = new Map();
   for (const date of [...new Set(recordDates)].sort()) {
-    let search;
-    try {
-      search = await searchAncestor({ title: slashDate(date), limit: "10" });
-    } catch {
-      continue;
-    }
-    for (const hit of search.records) {
-      const hitDate = dateFromTitle(hit.record.title);
-      if (hitDate !== date) continue;
-      if (!/Presidential Daily (Diary|Backup)|President's Daily Diary Entry/i.test(hit.record.title || "")) continue;
-      if (/Block Calendar/i.test(hit.record.title || "")) continue;
-      if (!byDate.has(hitDate)) byDate.set(hitDate, new Map());
-      const records = byDate.get(hitDate);
-      const key = String(hit.record.naId);
-      const label = /Backup/i.test(hit.record.title || "") ? "Daily Backup" : "Daily Diary";
-      records.set(key, { record: hit.record, queryLabels: [label], score: hit.score || 0 });
+    for (const title of slashDateVariants(date)) {
+      let search;
+      try {
+        search = await searchAncestor({ title, limit: "10" });
+      } catch {
+        continue;
+      }
+      for (const hit of search.records) {
+        const hitDate = dateFromTitle(hit.record.title);
+        if (hitDate !== date) continue;
+        if (!/Presidential Daily (Diary|Backup)|President's Daily Diary Entry/i.test(hit.record.title || "")) continue;
+        if (/Block Calendar/i.test(hit.record.title || "")) continue;
+        if (!byDate.has(hitDate)) byDate.set(hitDate, new Map());
+        const records = byDate.get(hitDate);
+        const key = String(hit.record.naId);
+        const label = /Backup/i.test(hit.record.title || "") ? "Daily Backup" : "Daily Diary";
+        records.set(key, { record: hit.record, queryLabels: [label], score: hit.score || 0 });
+      }
     }
   }
   return byDate;

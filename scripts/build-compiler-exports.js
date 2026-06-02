@@ -571,7 +571,9 @@ function buildGapAudit(records, data) {
     `- Cyprus is thin in the selected chronology (${coverage.find((row) => row.chapterName === "Cyprus").records} records) relative to ${coverage.find((row) => row.chapterName === "Cyprus").central} Central Chronology leads, ${coverage.find((row) => row.chapterName === "Cyprus").centralOpenFirst} Central open-first packets, and ${coverage.find((row) => row.chapterName === "Cyprus").requestedLeads} requested-pool leads.`,
     `- Regional is the largest apparent selection gap: ${coverage.find((row) => row.chapterName === "Regional").records} selected record versus ${coverage.find((row) => row.chapterName === "Regional").scout} Scout leads, ${coverage.find((row) => row.chapterName === "Regional").central} Central leads, ${coverage.find((row) => row.chapterName === "Regional").blackwillChron} Blackwill Chron leads, ${coverage.find((row) => row.chapterName === "Regional").gates} Gates leads, and ${coverage.find((row) => row.chapterName === "Regional").requestedLeads} requested-pool leads.`,
     `- Declassification review should start with ${restrictions.length} selected chronology rows: ${restrictions.map((record) => `Doc ${record.compilerNumber}`).join(", ")}.`,
-    `- Schedule corroboration is almost complete; only ${missingScheduleRefs.length} selected row lacks a Daily Diary/Backup reference: ${missingScheduleRefs.map((record) => `Doc ${record.compilerNumber}`).join(", ") || "none"}.`,
+    missingScheduleRefs.length
+      ? `- Schedule corroboration is almost complete; ${missingScheduleRefs.length} selected ${missingScheduleRefs.length === 1 ? "row lacks" : "rows lack"} a Daily Diary/Backup reference: ${missingScheduleRefs.map((record) => `Doc ${record.compilerNumber}`).join(", ")}.`
+      : "- Schedule corroboration is complete for selected chronology rows; each selected record has a Daily Diary/Backup reference.",
     `- Requested source pools remain a major review lane: ${data.requested.length} pools retain ${requestedTotal} EastMed leads, including Scowcroft, Presidential Daily File, NSC, NSC/DC, NSR, NSD, and IF Transition sources.`,
     "",
     "## Next Packet Queue",

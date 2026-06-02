@@ -25,12 +25,12 @@ This is the start-here packet for the Eastern Mediterranean research assistant. 
 | --- | --- | --- |
 | [Working chronology pack](compiler-chronology.md) | Selected declassified chronology with source notes and schedule references | 84 records / 335 PDF pages |
 | [Source-note spreadsheet](compiler-source-notes.csv) | Sortable source-note and schedule-reference export | 84 rows |
-| [Chapter dossiers](compiler-chapter-dossiers.md) | Per-chapter workbench combining chronology, top leads, declassification, and data-quality issues | 243 dossier rows |
+| [Chapter dossiers](compiler-chapter-dossiers.md) | Per-chapter workbench combining chronology, top leads, declassification, and data-quality issues | 242 dossier rows |
 | [Next review queue](compiler-next-review-queue.md) | Chapter-ranked source-lane opening queue | 545 source-lane candidates |
 | [Selection worksheet](compiler-selection-worksheet.csv) | Master decision spreadsheet across selected records and source leads | 629 rows |
 | [Gap audit](compiler-gap-audit.md) | Chapter coverage and risk register | 4 chapter rows |
 | [Declassification packet](compiler-declassification-review.md) | Release-status and marker follow-up queue | 14 rows |
-| [Data-quality audit](compiler-data-quality-audit.md) | Metadata, date, title, and schedule-caveat cleanup queue | 45 rows |
+| [Data-quality audit](compiler-data-quality-audit.md) | Metadata, date, title, and schedule-caveat cleanup queue | 44 rows |
 | [Persons document index](compiler-persons-document-index.md) | Participant-to-document coverage index for selected chronology records | 13 rows |
 | [Persons list](persons-list.md) | FRUS-style persons list working copy | 41 entries |
 
@@ -49,7 +49,7 @@ This is the start-here packet for the Eastern Mediterranean research assistant. 
 
 - Declassification review rows: 14
 - Data-quality rows marked fix before citation: 16
-- Selected chronology rows without schedule corroboration: Doc 3.065
+- Selected chronology rows without schedule corroboration: none
 - Requested source pools retained for review: 9 pools / 242 EastMed leads
 
 | Chapter | Selected records | Central leads | Central open first | Blackwill chron leads | Gates leads | Requested-pool leads |

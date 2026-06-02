@@ -8707,7 +8707,61 @@ window.GCT_RECORDS = [
       "Turkey"
     ],
     "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Presidential Telcon Files, Telcon with President Turgut Ozal of Turkey, December 5, 1992. Release status: Full. NAID 428082409.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 1992-12-05--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082409."
+    "researchNote": "PDF extent: 3 pages. Digital object: 1992-12-05--Ozal.pdf. Catalog: https://catalog.archives.gov/id/428082409.",
+    "scheduleReferences": [
+      {
+        "id": "daily-diary-ref-415892440",
+        "naid": "415892440",
+        "title": "[Presidential Daily Diary] 12/05/1992",
+        "date": "1992-12-05",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892440",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-12_05_92-26864-003_415892440.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_05_92-26864-003_415892440.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Diary"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Diary] 12/05/1992. Access restriction: Restricted - Possibly. NAID 415892440.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Diary. Digital object: 41-bpr-apts_sch-dd-12_05_92-26864-003_415892440.pdf. Catalog: https://catalog.archives.gov/id/415892440."
+      },
+      {
+        "id": "daily-diary-ref-415892441",
+        "naid": "415892441",
+        "title": "[Presidential Daily Backup] 12/05/1992",
+        "date": "1992-12-05",
+        "levelOfDescription": "fileUnit",
+        "accessRestriction": "Restricted - Possibly",
+        "catalogUrl": "https://catalog.archives.gov/id/415892441",
+        "pdfUrl": "https://s3.dualstack.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/bush/gb-whasf/Presidential_Daily_Diary_186322/1992/41-bpr-apts_sch-dd-12_05_92-26864-004_415892441.pdf",
+        "objectFilename": "41-bpr-apts_sch-dd-12_05_92-26864-004_415892441.pdf",
+        "objectCount": 1,
+        "scopeAndContentNote": "",
+        "matchBasis": "same-date Daily Diary/Backup folder",
+        "queryLabels": [
+          "Daily Backup"
+        ],
+        "source": {
+          "name": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "url": "https://catalog.archives.gov/id/186322",
+          "collection": "White House Office of Appointments and Scheduling Files",
+          "series": "Presidential Daily Diary and Presidential Daily Backup Materials",
+          "seriesNaid": "186322"
+        },
+        "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, White House Office of Appointments and Scheduling Files, Presidential Daily Diary and Presidential Daily Backup Materials, [Presidential Daily Backup] 12/05/1992. Access restriction: Restricted - Possibly. NAID 415892441.",
+        "researchNote": "Match basis: same-date Daily Diary/Backup folder. Query hit(s): Daily Backup. Digital object: 41-bpr-apts_sch-dd-12_05_92-26864-004_415892441.pdf. Catalog: https://catalog.archives.gov/id/415892441."
+      }
+    ]
   },
   {
     "id": "conversation-428082437",
