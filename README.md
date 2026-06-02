@@ -40,6 +40,8 @@ The script writes:
 - `reports/compiler-source-notes.csv`
 - `reports/compiler-gap-audit.md`
 - `reports/compiler-gap-audit.csv`
+- `reports/compiler-gap-fill-candidates.md`
+- `reports/compiler-gap-fill-candidates.csv`
 - `reports/compiler-chapter-dossiers.md`
 - `reports/compiler-chapter-dossiers.csv`
 - `reports/compiler-source-crosswalk.md`

@@ -288,6 +288,16 @@ function exportItems() {
       detail: "Sortable per-chapter rows for chronology, source leads, declassification, and data-quality work."
     },
     {
+      href: "reports/compiler-gap-fill-candidates.md",
+      label: "Gap-fill candidate worksheet",
+      detail: "Ranked candidate-addition shortlist focused on Cyprus and Regional selection gaps."
+    },
+    {
+      href: "reports/compiler-gap-fill-candidates.csv",
+      label: "Gap-fill candidate spreadsheet",
+      detail: "Sortable gap-rank queue with candidate disposition, selected-context matches, and direct links."
+    },
+    {
       href: "reports/compiler-source-crosswalk.md",
       label: "Selected document source crosswalk",
       detail: "Likely Central, Blackwill, Scowcroft, and source-pool packets for each selected chronology document."

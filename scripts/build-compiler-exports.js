@@ -950,6 +950,199 @@ function buildReviewQueueCsv(data) {
     .join("\n")}\n`;
 }
 
+function selectedContextByCandidate(records, data) {
+  const matches = new Map();
+  for (const row of sourceCrosswalkRows(records, data).filter((row) => row.candidateId)) {
+    const items = matches.get(row.candidateId) || [];
+    items.push(`Doc ${row.compilerNumber}`);
+    matches.set(row.candidateId, [...new Set(items)]);
+  }
+  return matches;
+}
+
+function gapNeed(chapterName, coverageRow) {
+  if (chapterName === "Cyprus") {
+    return `Thin selected chronology: ${coverageRow.records} selected records versus ${coverageRow.central} Central leads and ${coverageRow.requestedLeads} requested-pool leads.`;
+  }
+  if (chapterName === "Regional") {
+    return `Largest apparent gap: ${coverageRow.records} selected record versus ${coverageRow.scout} Scout, ${coverageRow.central} Central, ${coverageRow.blackwillChron} Blackwill Chron, ${coverageRow.gates} Gates, and ${coverageRow.requestedLeads} requested-pool leads.`;
+  }
+  return `Supplemental check: ${coverageRow.records} selected records; screen high-signal source packets for missed context or appendices.`;
+}
+
+function gapFillRank(row, chapterName, selectedContextMatches) {
+  let rank = Number(row.queueRank || worksheetRank(row) || 0);
+  if (chapterName === "Regional") rank += 230;
+  if (chapterName === "Cyprus") rank += 190;
+  if (/Open packet first/i.test(row.priority)) rank += 80;
+  if (/High-value/i.test(row.priority)) rank += 60;
+  if (/memcon|telcon|memorandum of conversation|telephone conversation/i.test(`${row.title} ${row.peopleOrSignals} ${row.sourceSeries}`)) rank += 70;
+  if (/Central Chronological|Blackwill Chronological/i.test(row.lane)) rank += 40;
+  if (/Scowcroft|NSC|NSR|NSD|Presidential Daily File|IF Transition/i.test(row.lane)) rank += 35;
+  if (row.pdfUrl) rank += 15;
+  if (selectedContextMatches.length) rank -= 35;
+  return Math.round(rank);
+}
+
+function gapFillDisposition(selectedContextMatches) {
+  return selectedContextMatches.length
+    ? "Context for selected record; screen for additional documents"
+    : "Potential gap-fill addition";
+}
+
+function compactReviewReason(row) {
+  const reason = reviewQueueReason(row);
+  return reason.length > 220 ? `${reason.slice(0, 217)}...` : reason;
+}
+
+function gapFillReason(row, chapterName, selectedContextMatches, coverageRow) {
+  const parts = [
+    gapNeed(chapterName, coverageRow),
+    reviewQueueBucket(row),
+    compactReviewReason(row),
+    selectedContextMatches.length ? `Already crosswalks to ${selectedContextMatches.join(", ")}; open for surrounding or enclosed material.` : "No selected-document crosswalk match above threshold."
+  ];
+  return parts.map(clean).filter(Boolean).join(" ");
+}
+
+function gapFillRows(records, data) {
+  const coverage = chapterCoverage(records, data);
+  const selectedContext = selectedContextByCandidate(records, data);
+  const reviewRows = reviewQueueRows(data);
+  const chapterLimits = {
+    Greece: 12,
+    Cyprus: 25,
+    Turkey: 12,
+    Regional: 25
+  };
+  const rows = [];
+  for (const chapterName of CHAPTER_ORDER) {
+    const coverageRow = coverage.find((row) => row.chapterName === chapterName);
+    const candidates = reviewRows
+      .filter((row) => rowAppliesToChapter(row, chapterName))
+      .map((row) => {
+        const selectedContextMatches = selectedContext.get(row.candidateId) || [];
+        return {
+          reviewStatus: "",
+          compilerDecision: "",
+          compilerNotes: "",
+          chapter: chapterName,
+          gapRank: gapFillRank(row, chapterName, selectedContextMatches),
+          gapNeed: gapNeed(chapterName, coverageRow),
+          candidateDisposition: gapFillDisposition(selectedContextMatches),
+          candidateId: row.candidateId,
+          lane: row.lane,
+          queueBucket: row.queueBucket,
+          priority: row.priority,
+          date: row.date,
+          title: row.title,
+          whyConsider: gapFillReason(row, chapterName, selectedContextMatches, coverageRow),
+          selectedContextMatches: selectedContextMatches.join("; "),
+          peopleOrSignals: row.peopleOrSignals,
+          score: row.score,
+          naid: row.naid,
+          sourceSeries: row.sourceSeries,
+          sourceNote: row.sourceNote,
+          researchNote: row.researchNote,
+          catalogUrl: row.catalogUrl,
+          pdfUrl: row.pdfUrl
+        };
+      })
+      .sort((a, b) => b.gapRank - a.gapRank || clean(a.candidateId).localeCompare(clean(b.candidateId)))
+      .slice(0, chapterLimits[chapterName]);
+    rows.push(...candidates);
+  }
+  return rows;
+}
+
+function buildGapFillMarkdown(records, data) {
+  const rows = gapFillRows(records, data);
+  const additionRows = rows.filter((row) => row.candidateDisposition === "Potential gap-fill addition");
+  const contextRows = rows.filter((row) => row.candidateDisposition !== "Potential gap-fill addition");
+  const lines = [
+    "# FRUS 1989-1992 Volume VI Gap-Fill Candidate Worksheet",
+    "",
+    "This worksheet re-ranks source-lane leads around the compiler's selection-gap problem. It narrows the broad source queue into chapter candidate shortlists, especially for Cyprus and Regional coverage, and flags whether a packet already crosswalks to a selected chronology document.",
+    "",
+    "## Snapshot",
+    "",
+    `- Candidate shortlist rows: ${rows.length}`,
+    `- Potential gap-fill additions: ${additionRows.length}`,
+    `- Context packets tied to selected records: ${contextRows.length}`,
+    "- Cyprus and Regional receive larger shortlists because the gap audit shows thin selected-document coverage relative to source-lane evidence.",
+    "",
+    markdownTable(
+      ["Chapter", "Rows", "Potential additions", "Context-linked rows"],
+      CHAPTER_ORDER.map((chapterName) => {
+        const chapterRows = rows.filter((row) => row.chapter === chapterName);
+        return [
+          chapterName,
+          chapterRows.length,
+          chapterRows.filter((row) => row.candidateDisposition === "Potential gap-fill addition").length,
+          chapterRows.filter((row) => row.candidateDisposition !== "Potential gap-fill addition").length
+        ];
+      })
+    ),
+    "",
+    "## Use",
+    "",
+    "Open candidates with the highest gap rank first. Record any inclusion, exclusion, or follow-up decision in the selection worksheet using the same candidate ID.",
+    ""
+  ];
+  for (const chapterName of CHAPTER_ORDER) {
+    const chapterRows = rows.filter((row) => row.chapter === chapterName);
+    lines.push(`## Chapter ${CHAPTER_ORDER.indexOf(chapterName) + 1}: ${chapterName}`, "");
+    lines.push(
+      markdownTable(
+        ["Rank", "Disposition", "Candidate", "Lane", "Date", "Title", "Why Consider", "Selected Context", "Links"],
+        chapterRows.map((row) => [
+          row.gapRank,
+          row.candidateDisposition,
+          row.candidateId,
+          row.lane,
+          row.date,
+          row.title,
+          row.whyConsider,
+          row.selectedContextMatches || "none",
+          reviewQueueLink(row)
+        ])
+      ),
+      ""
+    );
+  }
+  return `${lines.join("\n")}\n`;
+}
+
+function buildGapFillCsv(records, data) {
+  const rows = gapFillRows(records, data);
+  const header = [
+    "reviewStatus",
+    "compilerDecision",
+    "compilerNotes",
+    "chapter",
+    "gapRank",
+    "gapNeed",
+    "candidateDisposition",
+    "candidateId",
+    "lane",
+    "queueBucket",
+    "priority",
+    "date",
+    "title",
+    "whyConsider",
+    "selectedContextMatches",
+    "peopleOrSignals",
+    "score",
+    "naid",
+    "sourceSeries",
+    "sourceNote",
+    "researchNote",
+    "catalogUrl",
+    "pdfUrl"
+  ];
+  return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
+}
+
 function normalizeMatchText(value) {
   return clean(value)
     .normalize("NFD")
@@ -1339,6 +1532,7 @@ function buildCompilerHandoff(records, data, persons) {
   const reviewRows = reviewQueueRows(data);
   const dossierRows = chapterDossierRows(records, data);
   const sourceCrosswalk = sourceCrosswalkRows(records, data);
+  const gapFillCandidateRows = gapFillRows(records, data);
   const personRows = personDocumentRows(records, persons);
   const declassRows = declassificationReviewRows(records);
   const declassRequestRows = declassificationRequestRows(records, data);
@@ -1362,14 +1556,15 @@ function buildCompilerHandoff(records, data, persons) {
     "",
     "1. Start with the live chronology. It is the first section of the page and is organized into Greece, Cyprus, Turkey, and Regional chapters.",
     `2. Open ${reportLink("Chapter Dossiers", "compiler-chapter-dossiers.md")} when working one chapter at a time; it gathers selected chronology rows, top source leads, release follow-ups, and citation issues.`,
-    `3. Open ${reportLink("Selected Document Source Crosswalk", "compiler-source-crosswalk.md")} to see likely Central/Blackwill/Scowcroft/source-pool packets for each selected document.`,
-    `4. Open ${reportLink("Next Review Queue", "compiler-next-review-queue.md")} for the cross-chapter source-lane packets most worth opening next.`,
-    `5. Open ${reportLink("Declassification Packet", "compiler-declassification-review.md")} before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.`,
-    `6. Use ${reportLink("Declassification Request Worksheet", "compiler-declassification-requests.md")} to turn those release-status risks into assignable request language and MDR/search follow-up rows.`,
-    `7. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
-    `8. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
-    `9. Use ${reportLink("Persons Document Index", "compiler-persons-document-index.md")} to connect selected documents to persons-list entries and participant variants.`,
-    `10. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
+    `3. Open ${reportLink("Gap-Fill Candidate Worksheet", "compiler-gap-fill-candidates.md")} to work the Cyprus and Regional selection gaps from a narrowed candidate-addition shortlist.`,
+    `4. Open ${reportLink("Selected Document Source Crosswalk", "compiler-source-crosswalk.md")} to see likely Central/Blackwill/Scowcroft/source-pool packets for each selected document.`,
+    `5. Open ${reportLink("Next Review Queue", "compiler-next-review-queue.md")} for the cross-chapter source-lane packets most worth opening next.`,
+    `6. Open ${reportLink("Declassification Packet", "compiler-declassification-review.md")} before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.`,
+    `7. Use ${reportLink("Declassification Request Worksheet", "compiler-declassification-requests.md")} to turn those release-status risks into assignable request language and MDR/search follow-up rows.`,
+    `8. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
+    `9. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
+    `10. Use ${reportLink("Persons Document Index", "compiler-persons-document-index.md")} to connect selected documents to persons-list entries and participant variants.`,
+    `11. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
     "",
     "## Current Inventory",
     "",
@@ -1379,6 +1574,7 @@ function buildCompilerHandoff(records, data, persons) {
         [reportLink("Working chronology pack", "compiler-chronology.md"), "Selected declassified chronology with source notes and schedule references", `${records.length} records / ${pages} PDF pages`],
         [reportLink("Source-note spreadsheet", "compiler-source-notes.csv"), "Sortable source-note and schedule-reference export", `${records.length} rows`],
         [reportLink("Chapter dossiers", "compiler-chapter-dossiers.md"), "Per-chapter workbench combining chronology, top leads, declassification, and data-quality issues", `${dossierRows.length} dossier rows`],
+        [reportLink("Gap-fill candidate worksheet", "compiler-gap-fill-candidates.md"), "Ranked candidate-addition shortlist focused on Cyprus and Regional selection gaps", `${gapFillCandidateRows.length} rows`],
         [reportLink("Selected document source crosswalk", "compiler-source-crosswalk.md"), "Likely source/context packets for each selected chronology document", `${sourceCrosswalk.length} rows`],
         [reportLink("Next review queue", "compiler-next-review-queue.md"), "Chapter-ranked source-lane opening queue", `${reviewRows.length} source-lane candidates`],
         [reportLink("Selection worksheet", "compiler-selection-worksheet.csv"), "Master decision spreadsheet across selected records and source leads", `${records.length + sourceRows.length} rows`],
@@ -2258,6 +2454,8 @@ function main() {
   fs.writeFileSync(path.join(ROOT, "reports/compiler-source-notes.csv"), buildCsv(records));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-audit.md"), buildGapAudit(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-audit.csv"), buildGapCsv(records, data));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-fill-candidates.md"), buildGapFillMarkdown(records, data));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-fill-candidates.csv"), buildGapFillCsv(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-chapter-dossiers.md"), buildChapterDossiersMarkdown(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-chapter-dossiers.csv"), buildChapterDossiersCsv(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-source-crosswalk.md"), buildSourceCrosswalkMarkdown(records, data));
