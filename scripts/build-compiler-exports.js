@@ -1528,6 +1528,7 @@ function reportLink(label, filename) {
 
 function buildCompilerHandoff(records, data, persons) {
   const pages = records.reduce((sum, record) => sum + (record.pageCount || 0), 0);
+  const actionRows = compilerActionQueueRows(records, data, persons);
   const coverageRows = sourceCoverageRows(records, data, persons);
   const sourceRows = sourceLeadWorksheetRows(data);
   const reviewRows = reviewQueueRows(data);
@@ -1557,18 +1558,19 @@ function buildCompilerHandoff(records, data, persons) {
     "## Recommended Opening Order",
     "",
     "1. Start with the live chronology. It is the first section of the page and is organized into Greece, Cyprus, Turkey, and Regional chapters.",
-    `2. Open ${reportLink("Source Coverage Matrix", "compiler-source-coverage.md")} to verify which requested collections and compiler deliverables are covered, with counts and caveats.`,
-    `3. Open ${reportLink("Draft Document Register", "compiler-document-register.md")} to translate the selected chronology into continuous draft document numbers, source-note drafts, and publication-apparatus cleanup flags.`,
-    `4. Open ${reportLink("Chapter Dossiers", "compiler-chapter-dossiers.md")} when working one chapter at a time; it gathers selected chronology rows, top source leads, release follow-ups, and citation issues.`,
-    `5. Open ${reportLink("Gap-Fill Candidate Worksheet", "compiler-gap-fill-candidates.md")} to work the Cyprus and Regional selection gaps from a narrowed candidate-addition shortlist.`,
-    `6. Open ${reportLink("Selected Document Source Crosswalk", "compiler-source-crosswalk.md")} to see likely Central/Blackwill/Scowcroft/source-pool packets for each selected document.`,
-    `7. Open ${reportLink("Next Review Queue", "compiler-next-review-queue.md")} for the cross-chapter source-lane packets most worth opening next.`,
-    `8. Open ${reportLink("Declassification Packet", "compiler-declassification-review.md")} before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.`,
-    `9. Use ${reportLink("Declassification Request Worksheet", "compiler-declassification-requests.md")} to turn those release-status risks into assignable request language and MDR/search follow-up rows.`,
-    `10. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
-    `11. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
-    `12. Use ${reportLink("Persons Document Index", "compiler-persons-document-index.md")} to connect selected documents to persons-list entries and participant variants.`,
-    `13. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
+    `2. Open ${reportLink("Compiler Action Queue", "compiler-action-queue.md")} for the ranked Monday-morning worklist across declassification, citation cleanup, gap filling, source-pool caveats, and apparatus review.`,
+    `3. Open ${reportLink("Source Coverage Matrix", "compiler-source-coverage.md")} to verify which requested collections and compiler deliverables are covered, with counts and caveats.`,
+    `4. Open ${reportLink("Draft Document Register", "compiler-document-register.md")} to translate the selected chronology into continuous draft document numbers, source-note drafts, and publication-apparatus cleanup flags.`,
+    `5. Open ${reportLink("Chapter Dossiers", "compiler-chapter-dossiers.md")} when working one chapter at a time; it gathers selected chronology rows, top source leads, release follow-ups, and citation issues.`,
+    `6. Open ${reportLink("Gap-Fill Candidate Worksheet", "compiler-gap-fill-candidates.md")} to work the Cyprus and Regional selection gaps from a narrowed candidate-addition shortlist.`,
+    `7. Open ${reportLink("Selected Document Source Crosswalk", "compiler-source-crosswalk.md")} to see likely Central/Blackwill/Scowcroft/source-pool packets for each selected document.`,
+    `8. Open ${reportLink("Next Review Queue", "compiler-next-review-queue.md")} for the cross-chapter source-lane packets most worth opening next.`,
+    `9. Open ${reportLink("Declassification Packet", "compiler-declassification-review.md")} before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.`,
+    `10. Use ${reportLink("Declassification Request Worksheet", "compiler-declassification-requests.md")} to turn those release-status risks into assignable request language and MDR/search follow-up rows.`,
+    `11. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
+    `12. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
+    `13. Use ${reportLink("Persons Document Index", "compiler-persons-document-index.md")} to connect selected documents to persons-list entries and participant variants.`,
+    `14. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
     "",
     "## Current Inventory",
     "",
@@ -1577,6 +1579,7 @@ function buildCompilerHandoff(records, data, persons) {
       [
         [reportLink("Working chronology pack", "compiler-chronology.md"), "Selected declassified chronology with source notes and schedule references", `${records.length} records / ${pages} PDF pages`],
         [reportLink("Source-note spreadsheet", "compiler-source-notes.csv"), "Sortable source-note and schedule-reference export", `${records.length} rows`],
+        [reportLink("Compiler action queue", "compiler-action-queue.md"), "Single ranked worklist across release/search blockers, citation cleanup, gaps, coverage caveats, and apparatus review", `${actionRows.length} rows`],
         [reportLink("Source coverage matrix", "compiler-source-coverage.md"), "Requirement-to-artifact provenance matrix for requested source coverage and caveats", `${coverageRows.length} rows`],
         [reportLink("Draft document register", "compiler-document-register.md"), "Continuous draft document numbers, heading drafts, source-note drafts, and apparatus cleanup flags", `${documentRegisterRowsCount} rows`],
         [reportLink("Chapter dossiers", "compiler-chapter-dossiers.md"), "Per-chapter workbench combining chronology, top leads, declassification, and data-quality issues", `${dossierRows.length} dossier rows`],
@@ -2775,6 +2778,283 @@ function buildSourceCoverageCsv(records, data, persons) {
   return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
 }
 
+function compactActionDetail(value, limit = 240) {
+  const text = clean(value);
+  return text.length > limit ? `${text.slice(0, limit - 3)}...` : text;
+}
+
+function actionRowLinks(row) {
+  return [mdLink("Catalog", row.catalogUrl), mdLink("PDF", row.pdfUrl)].filter(Boolean).join(" | ");
+}
+
+function actionPriorityBase(row) {
+  if (/denial/i.test(row.requestType || row.actionType || "")) return 0;
+  if (/withheld|partial|full review/i.test(row.requestType || row.actionType || "")) return 20;
+  if (/search|existence|marker|no memorandum/i.test(row.requestType || row.actionType || "")) return 40;
+  return 60;
+}
+
+function declassificationActionQueueRows(records, data) {
+  return declassificationRequestRows(records, data).map((row, index) => ({
+    reviewStatus: "",
+    followUpOwner: "",
+    targetDate: "",
+    outcome: "",
+    actionRank: 100 + actionPriorityBase(row) + index,
+    priorityBand: "P0 - selected-document release/search blocker",
+    actionType: row.requestType,
+    chapter: row.chapter,
+    date: row.date,
+    candidateId: `Doc ${row.compilerNumber}`,
+    title: row.title,
+    whyNow: `${row.releaseStatus}; ${row.scheduleNaids ? `schedule NAIDs ${row.scheduleNaids}` : "schedule evidence pending"}; ${row.sourcePackets ? "source-packet context attached" : "no source-packet match above threshold"}.`,
+    nextAction: row.requestLanguage,
+    evidence: [row.scheduleReferences, row.sourcePackets].filter(Boolean).join(" || "),
+    sourceArtifacts: "reports/compiler-declassification-requests.md | reports/compiler-declassification-review.md | reports/compiler-document-register.md",
+    catalogUrl: row.selectedCatalogUrl,
+    pdfUrl: row.selectedPdfUrl
+  }));
+}
+
+function dataQualityActionQueueRows(records, data) {
+  return dataQualityRows(records, data)
+    .filter((row) => row.severity !== "caveat" && !/^Catalog (child|query)-harvest caveat$/i.test(row.issue))
+    .map((row, index) => ({
+      reviewStatus: row.reviewStatus || "",
+      followUpOwner: row.followUpOwner || "",
+      targetDate: "",
+      outcome: row.outcome || "",
+      actionRank: (row.severity === "fix before citation" ? 200 : 300) + index,
+      priorityBand: row.severity === "fix before citation" ? "P1 - citation blocker" : "P1 - metadata/source review",
+      actionType: row.issue,
+      chapter: row.chapter,
+      date: row.date,
+      candidateId: row.candidateId,
+      title: row.title,
+      whyNow: `${row.severity}: ${row.detail}`,
+      nextAction: row.suggestedAction,
+      evidence: row.detail,
+      sourceArtifacts: "reports/compiler-data-quality-audit.md | reports/compiler-data-quality-audit.csv",
+      catalogUrl: row.catalogUrl,
+      pdfUrl: row.pdfUrl
+    }));
+}
+
+function gapActionQueueRows(records, data) {
+  const rows = gapFillRows(records, data);
+  const quotas = {
+    Greece: 3,
+    Cyprus: 10,
+    Turkey: 5,
+    Regional: 10
+  };
+  const chapterOffsets = {
+    Cyprus: 0,
+    Regional: 40,
+    Turkey: 80,
+    Greece: 120
+  };
+  const selected = [];
+  for (const chapterName of CHAPTER_ORDER) {
+    const chapterRows = rows.filter((row) => row.chapter === chapterName);
+    const additions = chapterRows.filter((row) => row.candidateDisposition === "Potential gap-fill addition");
+    const context = chapterRows.filter((row) => row.candidateDisposition !== "Potential gap-fill addition");
+    selected.push(...[...additions, ...context].slice(0, quotas[chapterName]));
+  }
+  return selected.map((row, index) => ({
+    reviewStatus: row.reviewStatus || "",
+    followUpOwner: "",
+    targetDate: "",
+    outcome: row.compilerDecision || "",
+    actionRank: 400 + (chapterOffsets[row.chapter] || 0) + index,
+    priorityBand: "P2 - selection gap/source-packet review",
+    actionType: row.candidateDisposition,
+    chapter: row.chapter,
+    date: row.date,
+    candidateId: row.candidateId,
+    title: row.title,
+    whyNow: row.whyConsider,
+    nextAction: `Open ${row.candidateId}; record include, exclude, context-only, or follow-up decision in the selection worksheet.`,
+    evidence: row.peopleOrSignals || row.researchNote,
+    sourceArtifacts: "reports/compiler-gap-fill-candidates.md | reports/compiler-selection-worksheet.csv | reports/compiler-next-review-queue.md",
+    catalogUrl: row.catalogUrl,
+    pdfUrl: row.pdfUrl
+  }));
+}
+
+function coverageCaveatActionQueueRows(records, data, persons) {
+  return sourceCoverageRows(records, data, persons)
+    .filter((row) => /caveat|missing/i.test(row.status))
+    .map((row, index) => ({
+      reviewStatus: "",
+      followUpOwner: "",
+      targetDate: "",
+      outcome: "",
+      actionRank: 600 + index,
+      priorityBand: "P3 - source-pool coverage caveat",
+      actionType: row.status,
+      chapter: "Cross-chapter",
+      date: "",
+      candidateId: row.naid ? `NAID ${row.naid}` : row.sourceOrArtifact,
+      title: row.sourceOrArtifact,
+      whyNow: row.evidence,
+      nextAction: row.remainingFollowUp,
+      evidence: row.keyArtifacts,
+      sourceArtifacts: "reports/compiler-source-coverage.md | reports/requested-source-series-eastmed.json",
+      catalogUrl: row.catalogUrl,
+      pdfUrl: ""
+    }));
+}
+
+function scheduleCaveatActionQueueRows(records, data) {
+  const rows = dataQualityRows(records, data).filter((row) => row.severity === "caveat");
+  if (!rows.length) return [];
+  return [
+    {
+      reviewStatus: "",
+      followUpOwner: "",
+      targetDate: "",
+      outcome: "",
+      actionRank: 700,
+      priorityBand: "P4 - schedule-evidence caveat",
+      actionType: "Schedule title caveat batch",
+      chapter: "Cross-chapter",
+      date: "",
+      candidateId: `${rows.length} schedule caveats`,
+      title: "Presidential Daily Diary/Backup [EMPTY] title review",
+      whyNow: `${rows.length} schedule corroboration rows include [EMPTY] titles and should be used only after PDF spot-checking.`,
+      nextAction: "Open the listed Daily Diary/Backup PDFs from the data-quality audit and confirm the schedule evidence before final citation.",
+      evidence: rows.map((row) => `${row.candidateId}: ${row.title}`).join(" || "),
+      sourceArtifacts: "reports/compiler-data-quality-audit.md | reports/compiler-source-notes.csv | reports/compiler-document-register.md",
+      catalogUrl: "",
+      pdfUrl: ""
+    }
+  ];
+}
+
+function personsActionQueueRows(records, persons) {
+  return personDocumentRows(records, persons)
+    .filter((row) => row.personsListStatus === "Review")
+    .map((row, index) => ({
+      reviewStatus: "",
+      followUpOwner: "",
+      targetDate: "",
+      outcome: "",
+      actionRank: 720 + index,
+      priorityBand: "P4 - persons apparatus review",
+      actionType: "Persons-list coverage review",
+      chapter: row.chapters || "Cross-chapter",
+      date: row.firstDate,
+      candidateId: row.personKey,
+      title: row.participantVariants,
+      whyNow: `${row.documentCount} selected chronology document(s) use a participant string without a clear persons-list match.`,
+      nextAction: row.reviewNote,
+      evidence: row.documentDetails,
+      sourceArtifacts: "reports/compiler-persons-document-index.md | reports/persons-list.md",
+      catalogUrl: "",
+      pdfUrl: ""
+    }));
+}
+
+function compilerActionQueueRows(records, data, persons) {
+  return [
+    ...declassificationActionQueueRows(records, data),
+    ...dataQualityActionQueueRows(records, data),
+    ...gapActionQueueRows(records, data),
+    ...coverageCaveatActionQueueRows(records, data, persons),
+    ...scheduleCaveatActionQueueRows(records, data),
+    ...personsActionQueueRows(records, persons)
+  ].sort((a, b) => a.actionRank - b.actionRank || clean(a.candidateId).localeCompare(clean(b.candidateId)));
+}
+
+function buildCompilerActionQueueMarkdown(records, data, persons) {
+  const rows = compilerActionQueueRows(records, data, persons);
+  const bandCounts = countBy(rows, (row) => row.priorityBand).sort((a, b) => a[0].localeCompare(b[0]));
+  const lines = [
+    "# FRUS 1989-1992 Volume VI Compiler Action Queue",
+    "",
+    "This is the consolidated worklist for the compiler. It merges declassification/search blockers, citation and metadata cleanup, gap-fill packets, source-pool caveats, schedule-corroboration caveats, and persons-apparatus review into one ranked queue.",
+    "",
+    "## Snapshot",
+    "",
+    `- Action rows: ${rows.length}`,
+    `- Selected-document release/search blockers: ${rows.filter((row) => row.priorityBand.startsWith("P0")).length}`,
+    `- Citation or metadata rows: ${rows.filter((row) => row.priorityBand.startsWith("P1")).length}`,
+    `- Gap/source-packet rows: ${rows.filter((row) => row.priorityBand.startsWith("P2")).length}`,
+    "",
+    markdownTable(["Priority band", "Rows"], bandCounts),
+    "",
+    "## How To Use",
+    "",
+    "1. Clear P0 and P1 rows before treating the selected chronology as publication-ready.",
+    "2. Use P2 rows to test whether Cyprus and Regional, especially, need additional documents or source-context notes.",
+    "3. Use P3 and P4 rows to keep source-pool caveats, schedule-corroboration caveats, and apparatus cleanup visible during final review.",
+    "",
+    "## Top Worklist",
+    "",
+    markdownTable(
+      ["Rank", "Priority", "Type", "Candidate", "Chapter", "Date", "Title", "Next Action", "Links"],
+      rows.slice(0, 30).map((row) => [
+        row.actionRank,
+        row.priorityBand,
+        row.actionType,
+        row.candidateId,
+        row.chapter,
+        row.date,
+        row.title,
+        compactActionDetail(row.nextAction),
+        actionRowLinks(row)
+      ])
+    ),
+    ""
+  ];
+  for (const band of [...new Set(rows.map((row) => row.priorityBand))].sort()) {
+    const bandRows = rows.filter((row) => row.priorityBand === band);
+    lines.push(`## ${band}`, "");
+    lines.push(
+      markdownTable(
+        ["Rank", "Candidate", "Chapter", "Date", "Title", "Why Now", "Next Action", "Artifacts"],
+        bandRows.map((row) => [
+          row.actionRank,
+          row.candidateId,
+          row.chapter,
+          row.date,
+          row.title,
+          compactActionDetail(row.whyNow),
+          compactActionDetail(row.nextAction),
+          row.sourceArtifacts
+        ])
+      ),
+      ""
+    );
+  }
+  return `${lines.join("\n")}\n`;
+}
+
+function buildCompilerActionQueueCsv(records, data, persons) {
+  const rows = compilerActionQueueRows(records, data, persons);
+  const header = [
+    "reviewStatus",
+    "followUpOwner",
+    "targetDate",
+    "outcome",
+    "actionRank",
+    "priorityBand",
+    "actionType",
+    "chapter",
+    "date",
+    "candidateId",
+    "title",
+    "whyNow",
+    "nextAction",
+    "evidence",
+    "sourceArtifacts",
+    "catalogUrl",
+    "pdfUrl"
+  ];
+  return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
+}
+
 function buildMarkdown(records) {
   const pages = records.reduce((sum, record) => sum + (record.pageCount || 0), 0);
   const restrictions = records.filter(releaseNeedsAttention);
@@ -2889,6 +3169,8 @@ function main() {
   fs.writeFileSync(path.join(ROOT, "reports/compiler-handoff.md"), buildCompilerHandoff(records, data, persons));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-chronology.md"), buildMarkdown(records));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-source-notes.csv"), buildCsv(records));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-action-queue.md"), buildCompilerActionQueueMarkdown(records, data, persons));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-action-queue.csv"), buildCompilerActionQueueCsv(records, data, persons));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-source-coverage.md"), buildSourceCoverageMarkdown(records, data, persons));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-source-coverage.csv"), buildSourceCoverageCsv(records, data, persons));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-document-register.md"), buildDocumentRegisterMarkdown(records, data));

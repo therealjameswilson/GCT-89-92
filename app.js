@@ -278,6 +278,16 @@ function exportItems() {
       detail: "Start-here packet with live links, clone command, workflow, report inventory, and risk snapshot."
     },
     {
+      href: "reports/compiler-action-queue.md",
+      label: "Compiler action queue",
+      detail: "Ranked worklist across declassification blockers, citation cleanup, gap-fill packets, source-pool caveats, and apparatus review."
+    },
+    {
+      href: "reports/compiler-action-queue.csv",
+      label: "Compiler action spreadsheet",
+      detail: "Sortable queue with owner, status, action rank, evidence, source artifacts, and direct links."
+    },
+    {
       href: "reports/compiler-source-coverage.md",
       label: "Source coverage matrix",
       detail: "Requirement-to-artifact audit for requested collections, coverage counts, and source-pool caveats."
