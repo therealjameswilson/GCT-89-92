@@ -941,6 +941,385 @@ function buildReviewQueueCsv(data) {
     .join("\n")}\n`;
 }
 
+function normalizeMatchText(value) {
+  return clean(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+function regexEscape(value) {
+  return clean(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function termAppears(text, term) {
+  const normalizedTerm = normalizeMatchText(term);
+  if (!normalizedTerm) return false;
+  return new RegExp(`(^|[^a-z0-9])${regexEscape(normalizedTerm)}([^a-z0-9]|$)`, "i").test(text);
+}
+
+function monthName(month) {
+  return [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ][Number(month) - 1];
+}
+
+function shortYear(year) {
+  return String(year).slice(-2);
+}
+
+function dateVariants(date) {
+  const match = clean(date).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!match) return [];
+  const [, year, month, day] = match;
+  const numericMonth = String(Number(month));
+  const numericDay = String(Number(day));
+  const name = monthName(month);
+  return [
+    `${year}-${month}-${day}`,
+    `${numericMonth}/${numericDay}/${year}`,
+    `${numericMonth}/${numericDay}/${shortYear(year)}`,
+    `${numericMonth}/${day}/${year}`,
+    `${numericMonth}/${day}/${shortYear(year)}`,
+    `${month}/${numericDay}/${year}`,
+    `${month}/${numericDay}/${shortYear(year)}`,
+    `${month}/${day}/${year}`,
+    `${month}/${day}/${shortYear(year)}`,
+    `${name} ${numericDay}, ${year}`,
+    `${name} ${numericDay} ${year}`,
+    `${name} ${numericDay}`
+  ].filter((value, index, values) => values.indexOf(value) === index);
+}
+
+function normalizedIsoDate(year, month, day) {
+  let numericYear = Number(year);
+  if (String(year).length === 2) numericYear += numericYear >= 70 ? 1900 : 2000;
+  return `${numericYear}-${String(Number(month)).padStart(2, "0")}-${String(Number(day)).padStart(2, "0")}`;
+}
+
+function dateRangeSignals(record, row) {
+  const text = clean([row.title, row.date].join(" "));
+  const ranges = [];
+  const pattern = /(\d{1,2})\/(\d{1,2})\/(\d{2,4})\s*-\s*(\d{1,2})\/(\d{1,2})\/(\d{2,4})/g;
+  let match;
+  while ((match = pattern.exec(text))) {
+    const start = normalizedIsoDate(match[3], match[1], match[2]);
+    const end = normalizedIsoDate(match[6], match[4], match[5]);
+    if (record.date >= start && record.date <= end) ranges.push(`${match[1]}/${match[2]}/${match[3]}-${match[4]}/${match[5]}/${match[6]}`);
+  }
+  return ranges;
+}
+
+function selectedPersonTerms(record) {
+  const terms = new Set();
+  for (const participant of record.participants || []) {
+    if (/George H\.?\s*W\.?\s*Bush|NATO|allied representatives/i.test(participant)) continue;
+    const tokens = normalizeMatchText(participant).split(/[^a-z0-9]+/).filter(Boolean);
+    const last = tokens.at(-1);
+    if (last && last.length > 2) terms.add(last);
+  }
+  return [...terms].sort();
+}
+
+function recordTypeTerms(record) {
+  if (/telcon|telephone/i.test(record.type || record.title || "")) return ["telcon", "telephone conversation", "telephone call", "call"];
+  if (/memcon|meeting|memorandum/i.test(record.type || record.title || "")) return ["memcon", "memorandum of conversation", "meeting"];
+  return [];
+}
+
+function selectedCountryTerms(record) {
+  return (record.countries || [])
+    .filter((country) => country !== "United States")
+    .map((country) => normalizeMatchText(country))
+    .filter(Boolean);
+}
+
+function sourceLeadText(row) {
+  return normalizeMatchText([
+    row.title,
+    row.peopleOrSignals,
+    row.priority,
+    row.lane,
+    row.sourceSeries,
+    row.sourceNote,
+    row.researchNote
+  ].join(" "));
+}
+
+function sourceLeadAppliesToChapter(row, chapterName) {
+  if (row.chapter === "Cross-chapter") return chapterName === "Regional";
+  return row.chapter.split(/[;,]/).map((chapter) => chapter.trim()).includes(chapterName);
+}
+
+function sameMonth(record, row) {
+  const recordMonth = clean(record.date).slice(0, 7);
+  const rowDate = clean(row.date);
+  return /^\d{4}-\d{2}/.test(recordMonth) && rowDate.startsWith(recordMonth);
+}
+
+function sourceLeadMatch(record, row) {
+  const text = sourceLeadText(row);
+  const reasons = [];
+  let score = 0;
+
+  const chapterMatch = sourceLeadAppliesToChapter(row, record.chapter.name);
+  if (chapterMatch) {
+    score += 12;
+    reasons.push(`chapter match: ${record.chapter.name}`);
+  }
+
+  if (sameMonth(record, row)) {
+    score += 24;
+    reasons.push(`same month: ${clean(record.date).slice(0, 7)}`);
+  }
+
+  const dateHits = dateVariants(record.date).filter((variant) => termAppears(text, variant));
+  if (dateHits.length) {
+    score += 30;
+    reasons.push(`date signal: ${dateHits[0]}`);
+  }
+
+  const rangeHits = dateRangeSignals(record, row);
+  if (rangeHits.length) {
+    score += 28;
+    reasons.push(`date-range signal: ${rangeHits[0]}`);
+  }
+
+  const personTerms = selectedPersonTerms(record);
+  const personHits = personTerms.filter((term) => termAppears(text, term));
+  if (personHits.length) {
+    score += Math.min(54, personHits.length * 18);
+    reasons.push(`person signal: ${personHits.join(", ")}`);
+  }
+
+  const typeHits = recordTypeTerms(record).filter((term) => termAppears(text, term));
+  if (typeHits.length) {
+    score += 18;
+    reasons.push(`document-type signal: ${typeHits[0]}`);
+  }
+
+  const countryHits = selectedCountryTerms(record).filter((term) => termAppears(text, term));
+  if (countryHits.length) {
+    score += Math.min(10, countryHits.length * 5);
+    reasons.push(`country signal: ${countryHits.join(", ")}`);
+  }
+
+  if (/Open packet first/i.test(row.priority)) {
+    score += 8;
+    reasons.push("open-first packet");
+  } else if (/High-value/i.test(row.priority)) {
+    score += 6;
+    reasons.push("high-value packet");
+  }
+
+  if (/OCR|signal/i.test(row.priority) || row.peopleOrSignals) {
+    score += 4;
+  }
+
+  if (score < 46) return null;
+  const hasDateSignal = dateHits.length || rangeHits.length || sameMonth(record, row);
+  if (!hasDateSignal) return null;
+  const dailyContextLane = /Presidential Daily File|Presidential Daily Diary/i.test(row.lane);
+  if (!typeHits.length && !dailyContextLane) return null;
+  if (personTerms.length && !personHits.length) {
+    const regionalFallback = record.chapter.name === "Regional" && typeHits.length && countryHits.length && hasDateSignal;
+    if (!regionalFallback) return null;
+  }
+
+  return {
+    score,
+    reasons,
+    personHits,
+    typeHits,
+    dateHits,
+    countryHits
+  };
+}
+
+function sourceCrosswalkRows(records, data) {
+  const leadRows = sourceLeadWorksheetRows(data).filter((row) => row.catalogUrl || row.pdfUrl);
+  const rows = [];
+  for (const record of records) {
+    const matches = leadRows
+      .map((row) => ({ row, match: sourceLeadMatch(record, row) }))
+      .filter((entry) => entry.match)
+      .sort(
+        (a, b) =>
+          b.match.score - a.match.score ||
+          clean(a.row.lane).localeCompare(clean(b.row.lane)) ||
+          clean(a.row.candidateId).localeCompare(clean(b.row.candidateId))
+      )
+      .slice(0, 6);
+
+    if (!matches.length) {
+      rows.push({
+        reviewStatus: "",
+        compilerDecision: "",
+        compilerNotes: "",
+        compilerNumber: record.compilerNumber,
+        recordId: record.id,
+        chapter: record.chapter.name,
+        date: record.date,
+        type: record.type,
+        title: record.documentTitle || record.title,
+        selectedNaid: record.naid,
+        selectedCatalogUrl: record.catalogUrl,
+        selectedPdfUrl: record.pdfUrl,
+        scheduleNaids: (record.scheduleReferences || []).map((reference) => reference.naid).join("; "),
+        matchRank: "",
+        matchScore: "",
+        matchStatus: "No source-lane match above threshold",
+        matchReasons: "",
+        candidateId: "",
+        lane: "",
+        candidateDate: "",
+        candidateTitle: "",
+        candidateNaid: "",
+        candidatePriority: "",
+        sourceSeries: "",
+        candidateCatalogUrl: "",
+        candidatePdfUrl: ""
+      });
+      continue;
+    }
+
+    matches.forEach((entry, index) => {
+      rows.push({
+        reviewStatus: "",
+        compilerDecision: "",
+        compilerNotes: "",
+        compilerNumber: record.compilerNumber,
+        recordId: record.id,
+        chapter: record.chapter.name,
+        date: record.date,
+        type: record.type,
+        title: record.documentTitle || record.title,
+        selectedNaid: record.naid,
+        selectedCatalogUrl: record.catalogUrl,
+        selectedPdfUrl: record.pdfUrl,
+        scheduleNaids: (record.scheduleReferences || []).map((reference) => reference.naid).join("; "),
+        matchRank: index + 1,
+        matchScore: entry.match.score,
+        matchStatus: "Review likely source/context packet",
+        matchReasons: entry.match.reasons.join("; "),
+        candidateId: entry.row.candidateId,
+        lane: entry.row.lane,
+        candidateDate: entry.row.date,
+        candidateTitle: entry.row.title,
+        candidateNaid: entry.row.naid,
+        candidatePriority: entry.row.priority,
+        sourceSeries: entry.row.sourceSeries,
+        candidateCatalogUrl: entry.row.catalogUrl,
+        candidatePdfUrl: entry.row.pdfUrl
+      });
+    });
+  }
+  return rows;
+}
+
+function buildSourceCrosswalkMarkdown(records, data) {
+  const rows = sourceCrosswalkRows(records, data);
+  const matchedDocs = new Set(rows.filter((row) => row.candidateId).map((row) => row.compilerNumber));
+  const unmatched = rows.filter((row) => !row.candidateId);
+  const topRows = rows.filter((row) => row.matchRank === 1);
+  const lines = [
+    "# FRUS 1989-1992 Volume VI Selected Document Source Crosswalk",
+    "",
+    "This crosswalk maps each selected chronology document to likely source-lane packets in Central Chronological Files, Blackwill files, Gates files, NARA Scout leads, and requested source pools. Treat matches as review leads: open the packet/PDF and verify before making a compiler decision.",
+    "",
+    "## Snapshot",
+    "",
+    `- Selected chronology documents: ${records.length}`,
+    `- Documents with at least one source-lane match: ${matchedDocs.size}`,
+    `- Documents with no source-lane match above threshold: ${unmatched.length}`,
+    `- Crosswalk rows: ${rows.length}`,
+    "",
+    "## Best Match By Selected Document",
+    "",
+    markdownTable(
+      ["Doc", "Chapter", "Date", "Selected document", "Best candidate", "Lane", "Score", "Why", "Links"],
+      records.map((record) => {
+        const best = topRows.find((row) => row.compilerNumber === record.compilerNumber);
+        return [
+          `Doc ${record.compilerNumber}`,
+          record.chapter.name,
+          record.date,
+          record.documentTitle || record.title,
+          best ? `${best.candidateId} - ${best.candidateTitle}` : "No source-lane match above threshold",
+          best?.lane || "",
+          best?.matchScore || "",
+          best?.matchReasons || "",
+          best ? [mdLink("Selected", record.pdfUrl), mdLink("Candidate", best.candidatePdfUrl || best.candidateCatalogUrl)].filter(Boolean).join(" / ") : mdLink("Selected", record.pdfUrl)
+        ];
+      })
+    ),
+    "",
+    "## Review Rows",
+    "",
+    markdownTable(
+      ["Doc", "Rank", "Score", "Candidate", "Lane", "Date", "Why", "Links"],
+      rows
+        .filter((row) => row.candidateId)
+        .map((row) => [
+          `Doc ${row.compilerNumber}`,
+          row.matchRank,
+          row.matchScore,
+          `${row.candidateId} - ${row.candidateTitle}`,
+          row.lane,
+          row.candidateDate,
+          row.matchReasons,
+          [mdLink("Selected", row.selectedPdfUrl), mdLink("Candidate", row.candidatePdfUrl || row.candidateCatalogUrl)].filter(Boolean).join(" / ")
+        ])
+    ),
+    ""
+  ];
+  return `${lines.join("\n")}\n`;
+}
+
+function buildSourceCrosswalkCsv(records, data) {
+  const rows = sourceCrosswalkRows(records, data);
+  const header = [
+    "reviewStatus",
+    "compilerDecision",
+    "compilerNotes",
+    "compilerNumber",
+    "recordId",
+    "chapter",
+    "date",
+    "type",
+    "title",
+    "selectedNaid",
+    "selectedCatalogUrl",
+    "selectedPdfUrl",
+    "scheduleNaids",
+    "matchRank",
+    "matchScore",
+    "matchStatus",
+    "matchReasons",
+    "candidateId",
+    "lane",
+    "candidateDate",
+    "candidateTitle",
+    "candidateNaid",
+    "candidatePriority",
+    "sourceSeries",
+    "candidateCatalogUrl",
+    "candidatePdfUrl"
+  ];
+  return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
+}
+
 function reportLink(label, filename) {
   return `[${label}](${filename})`;
 }
@@ -950,6 +1329,7 @@ function buildCompilerHandoff(records, data, persons) {
   const sourceRows = sourceLeadWorksheetRows(data);
   const reviewRows = reviewQueueRows(data);
   const dossierRows = chapterDossierRows(records, data);
+  const sourceCrosswalk = sourceCrosswalkRows(records, data);
   const personRows = personDocumentRows(records, persons);
   const declassRows = declassificationReviewRows(records);
   const qualityRows = dataQualityRows(records, data);
@@ -972,12 +1352,13 @@ function buildCompilerHandoff(records, data, persons) {
     "",
     "1. Start with the live chronology. It is the first section of the page and is organized into Greece, Cyprus, Turkey, and Regional chapters.",
     `2. Open ${reportLink("Chapter Dossiers", "compiler-chapter-dossiers.md")} when working one chapter at a time; it gathers selected chronology rows, top source leads, release follow-ups, and citation issues.`,
-    `3. Open ${reportLink("Next Review Queue", "compiler-next-review-queue.md")} for the cross-chapter source-lane packets most worth opening next.`,
-    `4. Open ${reportLink("Declassification Packet", "compiler-declassification-review.md")} before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.`,
-    `5. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
-    `6. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
-    `7. Use ${reportLink("Persons Document Index", "compiler-persons-document-index.md")} to connect selected documents to persons-list entries and participant variants.`,
-    `8. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
+    `3. Open ${reportLink("Selected Document Source Crosswalk", "compiler-source-crosswalk.md")} to see likely Central/Blackwill/Scowcroft/source-pool packets for each selected document.`,
+    `4. Open ${reportLink("Next Review Queue", "compiler-next-review-queue.md")} for the cross-chapter source-lane packets most worth opening next.`,
+    `5. Open ${reportLink("Declassification Packet", "compiler-declassification-review.md")} before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.`,
+    `6. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
+    `7. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
+    `8. Use ${reportLink("Persons Document Index", "compiler-persons-document-index.md")} to connect selected documents to persons-list entries and participant variants.`,
+    `9. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
     "",
     "## Current Inventory",
     "",
@@ -987,6 +1368,7 @@ function buildCompilerHandoff(records, data, persons) {
         [reportLink("Working chronology pack", "compiler-chronology.md"), "Selected declassified chronology with source notes and schedule references", `${records.length} records / ${pages} PDF pages`],
         [reportLink("Source-note spreadsheet", "compiler-source-notes.csv"), "Sortable source-note and schedule-reference export", `${records.length} rows`],
         [reportLink("Chapter dossiers", "compiler-chapter-dossiers.md"), "Per-chapter workbench combining chronology, top leads, declassification, and data-quality issues", `${dossierRows.length} dossier rows`],
+        [reportLink("Selected document source crosswalk", "compiler-source-crosswalk.md"), "Likely source/context packets for each selected chronology document", `${sourceCrosswalk.length} rows`],
         [reportLink("Next review queue", "compiler-next-review-queue.md"), "Chapter-ranked source-lane opening queue", `${reviewRows.length} source-lane candidates`],
         [reportLink("Selection worksheet", "compiler-selection-worksheet.csv"), "Master decision spreadsheet across selected records and source leads", `${records.length + sourceRows.length} rows`],
         [reportLink("Gap audit", "compiler-gap-audit.md"), "Chapter coverage and risk register", `${CHAPTER_ORDER.length} chapter rows`],
@@ -1694,6 +2076,8 @@ function main() {
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-audit.csv"), buildGapCsv(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-chapter-dossiers.md"), buildChapterDossiersMarkdown(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-chapter-dossiers.csv"), buildChapterDossiersCsv(records, data));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-source-crosswalk.md"), buildSourceCrosswalkMarkdown(records, data));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-source-crosswalk.csv"), buildSourceCrosswalkCsv(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-selection-worksheet.csv"), buildSelectionWorksheet(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-next-review-queue.md"), buildReviewQueueMarkdown(data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-next-review-queue.csv"), buildReviewQueueCsv(data));

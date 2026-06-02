@@ -288,6 +288,16 @@ function exportItems() {
       detail: "Sortable per-chapter rows for chronology, source leads, declassification, and data-quality work."
     },
     {
+      href: "reports/compiler-source-crosswalk.md",
+      label: "Selected document source crosswalk",
+      detail: "Likely Central, Blackwill, Scowcroft, and source-pool packets for each selected chronology document."
+    },
+    {
+      href: "reports/compiler-source-crosswalk.csv",
+      label: "Source crosswalk spreadsheet",
+      detail: "Sortable document-to-source match table with scores, reasons, and direct selected/candidate links."
+    },
+    {
       href: "reports/compiler-declassification-review.md",
       label: "Declassification packet",
       detail: "Markdown packet for partial, denied, marker, and no-document chronology rows."

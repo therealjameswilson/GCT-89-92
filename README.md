@@ -42,6 +42,8 @@ The script writes:
 - `reports/compiler-gap-audit.csv`
 - `reports/compiler-chapter-dossiers.md`
 - `reports/compiler-chapter-dossiers.csv`
+- `reports/compiler-source-crosswalk.md`
+- `reports/compiler-source-crosswalk.csv`
 - `reports/compiler-selection-worksheet.csv`
 - `reports/compiler-next-review-queue.md`
 - `reports/compiler-next-review-queue.csv`
