@@ -479,6 +479,74 @@ footer {
   font-size: 0.9rem;
 }
 
+.compiler-panel-note {
+  margin: -2px 0 12px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 850;
+  line-height: 1.45;
+}
+
+.compiler-priority-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.compiler-priority-item {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+  min-height: 48px;
+  padding: 9px 0;
+  border-top: 1px solid rgba(217, 208, 191, 0.72);
+}
+
+.compiler-priority-item:first-child {
+  border-top: 0;
+}
+
+.compiler-priority-item > div {
+  min-width: 0;
+}
+
+.compiler-priority-item .compiler-priority-badge {
+  display: inline-grid;
+  width: 36px;
+  min-height: 26px;
+  place-items: center;
+  color: white;
+  background: var(--red);
+  border-radius: 6px;
+  font-size: 0.76rem;
+  font-weight: 950;
+  line-height: 1;
+}
+
+.compiler-priority-detail {
+  overflow-wrap: anywhere;
+}
+
+.compiler-inline-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.compiler-inline-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 10px;
+  color: white;
+  background: var(--navy);
+  border-radius: 6px;
+  font-size: 0.84rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
 .records-tools {
   display: grid;
   grid-template-columns: minmax(260px, 1.3fr) repeat(3, minmax(140px, 0.7fr)) auto;

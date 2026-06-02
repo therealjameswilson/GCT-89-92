@@ -2967,8 +2967,7 @@ function compilerActionQueueRows(records, data, persons) {
   ].sort((a, b) => a.actionRank - b.actionRank || clean(a.candidateId).localeCompare(clean(b.candidateId)));
 }
 
-function buildCompilerActionQueueMarkdown(records, data, persons) {
-  const rows = compilerActionQueueRows(records, data, persons);
+function buildCompilerActionQueueMarkdown(records, data, persons, rows = compilerActionQueueRows(records, data, persons)) {
   const bandCounts = countBy(rows, (row) => row.priorityBand).sort((a, b) => a[0].localeCompare(b[0]));
   const lines = [
     "# FRUS 1989-1992 Volume VI Compiler Action Queue",
@@ -3031,8 +3030,7 @@ function buildCompilerActionQueueMarkdown(records, data, persons) {
   return `${lines.join("\n")}\n`;
 }
 
-function buildCompilerActionQueueCsv(records, data, persons) {
-  const rows = compilerActionQueueRows(records, data, persons);
+function buildCompilerActionQueueCsv(records, data, persons, rows = compilerActionQueueRows(records, data, persons)) {
   const header = [
     "reviewStatus",
     "followUpOwner",
@@ -3053,6 +3051,10 @@ function buildCompilerActionQueueCsv(records, data, persons) {
     "pdfUrl"
   ];
   return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
+}
+
+function buildCompilerActionQueueJs(rows) {
+  return `window.COMPILER_ACTION_QUEUE = ${JSON.stringify(rows, null, 2)};\n`;
 }
 
 function buildMarkdown(records) {
@@ -3166,11 +3168,15 @@ function main() {
     requested: readJson("data/requested-source-series.json")
   };
   fs.mkdirSync(path.join(ROOT, "reports"), { recursive: true });
+  fs.mkdirSync(path.join(ROOT, "data"), { recursive: true });
+  const actionRows = compilerActionQueueRows(records, data, persons);
   fs.writeFileSync(path.join(ROOT, "reports/compiler-handoff.md"), buildCompilerHandoff(records, data, persons));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-chronology.md"), buildMarkdown(records));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-source-notes.csv"), buildCsv(records));
-  fs.writeFileSync(path.join(ROOT, "reports/compiler-action-queue.md"), buildCompilerActionQueueMarkdown(records, data, persons));
-  fs.writeFileSync(path.join(ROOT, "reports/compiler-action-queue.csv"), buildCompilerActionQueueCsv(records, data, persons));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-action-queue.md"), buildCompilerActionQueueMarkdown(records, data, persons, actionRows));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-action-queue.csv"), buildCompilerActionQueueCsv(records, data, persons, actionRows));
+  fs.writeFileSync(path.join(ROOT, "data/compiler-action-queue.json"), `${JSON.stringify(actionRows, null, 2)}\n`);
+  fs.writeFileSync(path.join(ROOT, "data/compiler-action-queue.js"), buildCompilerActionQueueJs(actionRows));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-source-coverage.md"), buildSourceCoverageMarkdown(records, data, persons));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-source-coverage.csv"), buildSourceCoverageCsv(records, data, persons));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-document-register.md"), buildDocumentRegisterMarkdown(records, data));

@@ -40,6 +40,8 @@ The script writes:
 - `reports/compiler-source-notes.csv`
 - `reports/compiler-action-queue.md`
 - `reports/compiler-action-queue.csv`
+- `data/compiler-action-queue.json`
+- `data/compiler-action-queue.js`
 - `reports/compiler-source-coverage.md`
 - `reports/compiler-source-coverage.csv`
 - `reports/compiler-document-register.md`

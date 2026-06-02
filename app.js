@@ -66,6 +66,7 @@ let allBlackwillFiles = [];
 let allBlackwillChronFiles = [];
 let allGatesChronFiles = [];
 let allRequestedSources = [];
+let allActionRows = [];
 
 function chapterId(chapterName) {
   return `chapter-${chapterName.toLowerCase().replaceAll(" ", "-")}`;
@@ -210,6 +211,56 @@ function createCompilerLinkItem(href, label, detail) {
     item.append(detailNode);
   }
   return item;
+}
+
+function createInlineLink(href, label) {
+  const link = document.createElement("a");
+  link.href = href;
+  link.rel = "noreferrer";
+  link.textContent = label;
+  return link;
+}
+
+function compactText(value, limit = 190) {
+  const text = String(value || "").replace(/\s+/g, " ").trim();
+  return text.length > limit ? `${text.slice(0, limit - 3)}...` : text;
+}
+
+function priorityShortLabel(priorityBand) {
+  const match = String(priorityBand || "").match(/^P\d/);
+  return match ? match[0] : "P?";
+}
+
+function createActionQueueItem(row) {
+  const item = document.createElement("li");
+  item.className = "compiler-priority-item";
+
+  const badge = document.createElement("span");
+  badge.className = "compiler-priority-badge";
+  badge.textContent = priorityShortLabel(row.priorityBand);
+
+  const body = document.createElement("div");
+  const href = row.pdfUrl || row.catalogUrl || "reports/compiler-action-queue.md";
+  const link = document.createElement("a");
+  link.href = href;
+  link.rel = "noreferrer";
+  link.textContent = `${row.candidateId}: ${row.title}`;
+
+  const detail = document.createElement("span");
+  detail.className = "compiler-priority-detail";
+  detail.textContent = `${row.actionType} / ${row.chapter || "Cross-chapter"} / ${compactText(row.nextAction)}`;
+
+  body.append(link, detail);
+  item.append(badge, body);
+  return item;
+}
+
+function actionQueueSummary() {
+  const counts = countBy(allActionRows, (row) => priorityShortLabel(row.priorityBand));
+  return counts
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([band, count]) => `${band}: ${count}`)
+    .join(" / ");
 }
 
 function openQueueItems() {
@@ -448,6 +499,29 @@ function renderCompilerDesk() {
     )
   );
 
+  const actionPanel = document.createElement("div");
+  actionPanel.className = "compiler-panel compiler-panel-wide compiler-immediate-panel";
+  const actionTitle = document.createElement("h3");
+  actionTitle.textContent = "Immediate Actions";
+  const actionSummary = document.createElement("p");
+  actionSummary.className = "compiler-panel-note";
+  actionSummary.textContent = allActionRows.length
+    ? `${allActionRows.length} ranked rows / ${actionQueueSummary()}`
+    : "Action queue data is not loaded.";
+  const actionList = document.createElement("ol");
+  actionList.className = "compiler-list compiler-priority-list";
+  for (const row of allActionRows.slice(0, 8)) actionList.append(createActionQueueItem(row));
+  if (!actionList.children.length) {
+    actionList.append(createCompilerTextItem("No immediate action rows are loaded."));
+  }
+  const actionLinks = document.createElement("div");
+  actionLinks.className = "compiler-inline-links";
+  actionLinks.append(
+    createInlineLink("reports/compiler-action-queue.md", "Full action queue"),
+    createInlineLink("reports/compiler-action-queue.csv", "Spreadsheet")
+  );
+  actionPanel.append(actionTitle, actionSummary, actionList, actionLinks);
+
   const sourcePanel = document.createElement("div");
   sourcePanel.className = "compiler-panel";
   const sourceTitle = document.createElement("h3");
@@ -519,7 +593,7 @@ function renderCompilerDesk() {
   for (const item of exportItems()) exportList.append(createCompilerLinkItem(item.href, item.label, item.detail));
   exportPanel.append(exportTitle, exportList);
 
-  compilerRoot.replaceChildren(metrics, queuePanel, gapPanel, exportPanel, sourcePanel, scoutPanel, ledger);
+  compilerRoot.replaceChildren(metrics, actionPanel, queuePanel, gapPanel, exportPanel, sourcePanel, scoutPanel, ledger);
 }
 
 function createMeta(values) {
@@ -1406,6 +1480,9 @@ async function init() {
     );
     allRequestedSources = (window.REQUESTED_SOURCE_SERIES || (await loadJson("data/requested-source-series.json"))).map(
       (source, index) => ({ ...source, sourceNumber: `RS ${String(index + 1).padStart(3, "0")}` })
+    );
+    allActionRows = (window.COMPILER_ACTION_QUEUE || (await loadJson("data/compiler-action-queue.json"))).sort(
+      (a, b) => Number(a.actionRank || 0) - Number(b.actionRank || 0) || String(a.candidateId || "").localeCompare(String(b.candidateId || ""))
     );
     setCounts();
     populateFilters();
