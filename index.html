@@ -8,7 +8,7 @@
       name="description"
       content="A FRUS research assistant for Greece, Cyprus, Turkey, and regional Eastern Mediterranean records in the George H. W. Bush administration."
     />
-    <link rel="stylesheet" href="styles.css?v=action-panel-20260602" />
+    <link rel="stylesheet" href="styles.css?v=action-workbench-20260602" />
     <style id="compiler-network-style">
       .compiler-network {
         border-bottom: 1px solid rgba(31, 41, 51, 0.14);
@@ -114,6 +114,7 @@
       </a>
       <nav aria-label="Primary navigation">
         <a href="#records">Chronology</a>
+        <a href="#actions">Actions</a>
         <a href="#chapters">Chapters</a>
         <a href="#scout">NARA Scout</a>
         <a href="#central">Central Chron</a>
@@ -171,6 +172,37 @@
         </div>
         <div id="compiler-root" class="compiler-root" aria-live="polite">
           <p class="loading">Loading compiler audit...</p>
+        </div>
+      </section>
+
+      <section class="section action-section" id="actions" aria-labelledby="actions-title">
+        <div class="section-heading">
+          <p class="kicker">Compiler Worklist</p>
+          <h2 id="actions-title">Ranked Action Queue</h2>
+        </div>
+        <p class="records-intro">
+          This is the live version of the compiler action queue: declassification
+          blockers, citation cleanup, gap-fill packets, source-pool caveats,
+          schedule checks, and apparatus review in one sortable workbench.
+        </p>
+        <div class="records-tools action-tools" aria-label="Search and filter compiler actions">
+          <label class="search-field">
+            <span>Search actions</span>
+            <input id="action-search" type="search" placeholder="Search docs, NAIDs, next actions, evidence" />
+          </label>
+          <label>
+            <span>Priority</span>
+            <select id="action-priority-filter"></select>
+          </label>
+          <label>
+            <span>Chapter</span>
+            <select id="action-chapter-filter"></select>
+          </label>
+          <button id="action-clear" type="button">Reset</button>
+          <p id="action-summary" class="records-summary">Loading action queue...</p>
+        </div>
+        <div id="action-root" class="records-root action-root" aria-live="polite">
+          <p class="loading">Loading compiler action queue...</p>
         </div>
       </section>
 
@@ -585,15 +617,15 @@
       <p>Published with GitHub Pages.</p>
       <a href="https://github.com/therealjameswilson/GCT-89-92">Repository</a>
     </footer>
-    <script src="data/records.js?v=action-panel-20260602"></script>
-    <script src="data/nara-scout-leads.js?v=action-panel-20260602"></script>
-    <script src="data/central-chronology-files.js?v=action-panel-20260602"></script>
-    <script src="data/blackwill-files.js?v=action-panel-20260602"></script>
-    <script src="data/blackwill-chron-files.js?v=action-panel-20260602"></script>
-    <script src="data/gates-chron-files.js?v=action-panel-20260602"></script>
-    <script src="data/requested-source-series.js?v=action-panel-20260602"></script>
-    <script src="data/compiler-action-queue.js?v=action-panel-20260602"></script>
-    <script src="app.js?v=action-panel-20260602"></script>
+    <script src="data/records.js?v=action-workbench-20260602"></script>
+    <script src="data/nara-scout-leads.js?v=action-workbench-20260602"></script>
+    <script src="data/central-chronology-files.js?v=action-workbench-20260602"></script>
+    <script src="data/blackwill-files.js?v=action-workbench-20260602"></script>
+    <script src="data/blackwill-chron-files.js?v=action-workbench-20260602"></script>
+    <script src="data/gates-chron-files.js?v=action-workbench-20260602"></script>
+    <script src="data/requested-source-series.js?v=action-workbench-20260602"></script>
+    <script src="data/compiler-action-queue.js?v=action-workbench-20260602"></script>
+    <script src="app.js?v=action-workbench-20260602"></script>
     <script id="compiler-network-script">
       (() => {
         const button = document.querySelector("[data-compiler-handoff]");

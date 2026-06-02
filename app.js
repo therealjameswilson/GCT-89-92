@@ -8,6 +8,7 @@ const blackwillChronRoot = document.querySelector("#blackwill-chron-root");
 const gatesChronRoot = document.querySelector("#gates-chron-root");
 const requestedSourceRoot = document.querySelector("#requested-source-root");
 const compilerRoot = document.querySelector("#compiler-root");
+const actionRoot = document.querySelector("#action-root");
 
 const totalRecords = document.querySelector("#total-records");
 const totalPages = document.querySelector("#total-pages");
@@ -58,6 +59,12 @@ const requestedSourceSearch = document.querySelector("#requested-source-search")
 const requestedSourcePriorityFilter = document.querySelector("#requested-source-priority-filter");
 const requestedSourceClear = document.querySelector("#requested-source-clear");
 const requestedSourceSummary = document.querySelector("#requested-source-summary");
+
+const actionSearch = document.querySelector("#action-search");
+const actionPriorityFilter = document.querySelector("#action-priority-filter");
+const actionChapterFilter = document.querySelector("#action-chapter-filter");
+const actionClear = document.querySelector("#action-clear");
+const actionSummary = document.querySelector("#action-summary");
 
 let allRecords = [];
 let allScoutLeads = [];
@@ -147,6 +154,8 @@ function populateFilters() {
   addOptions(releaseFilter, uniqueSorted(allRecords.map((record) => record.releaseStatus)), "All release statuses");
   addOptions(scoutChapterFilter, CHAPTER_ORDER, "All chapters");
   addOptions(scoutCategoryFilter, uniqueSorted(allScoutLeads.map((lead) => lead.category)), "All categories");
+  addOptions(actionPriorityFilter, uniqueSorted(allActionRows.map((row) => row.priorityBand)), "All priorities");
+  addOptions(actionChapterFilter, uniqueSorted(allActionRows.map((row) => row.chapter)), "All chapters");
   addOptions(centralChapterFilter, CHAPTER_ORDER, "All chapters");
   addOptions(centralPriorityFilter, uniqueSorted(allCentralFiles.map((file) => file.priority)), "All priorities");
   addOptions(blackwillChronChapterFilter, CHAPTER_ORDER, "All chapters");
@@ -854,6 +863,94 @@ function renderRecords() {
   }
 }
 
+function priorityClass(priorityBand) {
+  const label = priorityShortLabel(priorityBand).toLowerCase();
+  return `action-priority-${label.replace(/[^a-z0-9]+/g, "")}`;
+}
+
+function createActionRow(row) {
+  const article = document.createElement("article");
+  article.className = `record-row action-row ${priorityClass(row.priorityBand)}`;
+
+  const dateStack = document.createElement("div");
+  dateStack.className = "record-date-stack";
+  const number = document.createElement("span");
+  number.className = "record-doc-number";
+  number.textContent = `Rank ${row.actionRank}`;
+  const badge = document.createElement("span");
+  badge.className = "record-date action-rank-priority";
+  badge.textContent = priorityShortLabel(row.priorityBand);
+  dateStack.append(number, badge);
+
+  const body = document.createElement("div");
+  const title = document.createElement("a");
+  title.className = "record-title";
+  title.href = row.pdfUrl || row.catalogUrl || "reports/compiler-action-queue.md";
+  title.rel = "noreferrer";
+  title.textContent = `${row.candidateId}: ${row.title}`;
+
+  const subject = document.createElement("p");
+  subject.className = "record-subject";
+  subject.textContent = row.nextAction;
+
+  const sourceLine = document.createElement("p");
+  sourceLine.className = "record-source-line";
+  sourceLine.textContent = `${row.priorityBand} / ${row.actionType}`;
+
+  body.append(
+    title,
+    subject,
+    sourceLine,
+    createMeta([row.chapter, row.date, row.candidateId, row.actionType]),
+    createFlags([row.priorityBand.startsWith("P0") ? "Selected-document blocker" : "", row.priorityBand.startsWith("P1") ? "Citation cleanup" : ""]),
+    createSourceDetails("Why now", row.whyNow, [row.evidence, row.sourceArtifacts].filter(Boolean).join(" "))
+  );
+
+  article.append(
+    dateStack,
+    body,
+    createLinks([
+      ["Catalog", row.catalogUrl],
+      ["PDF", row.pdfUrl],
+      ["Queue", "reports/compiler-action-queue.md"],
+      ["CSV", "reports/compiler-action-queue.csv"]
+    ])
+  );
+  return article;
+}
+
+function filterActionRows() {
+  const query = actionSearch?.value.trim().toLowerCase() || "";
+  const priority = actionPriorityFilter?.value || "";
+  const chapter = actionChapterFilter?.value || "";
+  return allActionRows.filter((row) => {
+    if (priority && row.priorityBand !== priority) return false;
+    if (chapter && row.chapter !== chapter) return false;
+    return !query || searchText(row).includes(query);
+  });
+}
+
+function renderActionQueue() {
+  if (!actionRoot) return;
+  const rows = filterActionRows().sort((a, b) => Number(a.actionRank || 0) - Number(b.actionRank || 0));
+  const visibleCounts = countBy(rows, (row) => priorityShortLabel(row.priorityBand))
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([band, count]) => `${band}: ${count}`)
+    .join(" / ");
+  if (actionSummary) {
+    actionSummary.textContent = `Showing ${rows.length} of ${allActionRows.length} actions${visibleCounts ? ` / ${visibleCounts}` : ""}`;
+  }
+  actionRoot.replaceChildren();
+  if (!rows.length) {
+    const empty = document.createElement("p");
+    empty.className = "empty-chapter";
+    empty.textContent = "No compiler action rows match the current filters.";
+    actionRoot.append(empty);
+    return;
+  }
+  for (const row of rows) actionRoot.append(createActionRow(row));
+}
+
 function createScoutRow(lead) {
   const row = document.createElement("article");
   row.className = "record-row scout-row";
@@ -1380,6 +1477,18 @@ function bindFilters() {
     scoutSearch?.focus();
   });
 
+  for (const control of [actionSearch, actionPriorityFilter, actionChapterFilter]) {
+    control?.addEventListener("input", renderActionQueue);
+    control?.addEventListener("change", renderActionQueue);
+  }
+  actionClear?.addEventListener("click", () => {
+    if (actionSearch) actionSearch.value = "";
+    if (actionPriorityFilter) actionPriorityFilter.value = "";
+    if (actionChapterFilter) actionChapterFilter.value = "";
+    renderActionQueue();
+    actionSearch?.focus();
+  });
+
   for (const control of [centralSearch, centralChapterFilter, centralPriorityFilter]) {
     control?.addEventListener("input", renderCentralFiles);
     control?.addEventListener("change", renderCentralFiles);
@@ -1489,6 +1598,7 @@ async function init() {
     bindFilters();
     renderCompilerDesk();
     renderRecords();
+    renderActionQueue();
     renderScoutLeads();
     renderCentralFiles();
     renderBlackwillFiles();

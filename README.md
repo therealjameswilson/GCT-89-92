@@ -14,6 +14,10 @@ The core chronology is harvested from the Bush Library memcons and telcons index
 and enriched with National Archives Catalog metadata, direct PDFs, page counts,
 and source notes.
 
+The live site also renders the generated compiler action queue as a filterable
+workbench so release blockers, citation cleanup, gap-fill packets, and source
+caveats can be reviewed without opening the CSV first.
+
 ## Source Notes
 
 Public source notes use a FRUS-style archival citation: repository, collection,
