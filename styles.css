@@ -920,6 +920,13 @@ footer {
   color: var(--muted);
 }
 
+.record-action-note {
+  color: var(--ink);
+  font-size: 0.94rem;
+  font-weight: 760;
+  line-height: 1.52;
+}
+
 .record-note-copy {
   width: fit-content;
   min-height: 30px;
@@ -942,6 +949,24 @@ footer {
 
 .record-note-copy.copy-failed {
   background: var(--red);
+}
+
+.record-copy-fallback {
+  width: min(100%, 720px);
+  margin-top: 0.4rem;
+  padding: 0.55rem 0.65rem;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.86rem;
+  line-height: 1.45;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(31, 41, 51, 0.18);
+  border-radius: 6px;
+  resize: vertical;
+}
+
+[hidden].record-copy-fallback {
+  display: none;
 }
 
 .loading,

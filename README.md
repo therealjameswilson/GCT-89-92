@@ -16,7 +16,8 @@ and source notes.
 
 The live site also renders the generated compiler action queue as a filterable
 workbench so release blockers, citation cleanup, gap-fill packets, and source
-caveats can be reviewed without opening the CSV first.
+caveats can be reviewed without opening the CSV first. Each action row includes
+copyable next-action language with links and evidence.
 
 ## Source Notes
 

@@ -651,12 +651,40 @@ async function copyToClipboard(text) {
   input.value = text;
   input.setAttribute("readonly", "");
   input.style.position = "fixed";
-  input.style.top = "-1000px";
+  input.style.top = "0";
+  input.style.left = "0";
+  input.style.width = "1px";
+  input.style.height = "1px";
+  input.style.opacity = "0";
   document.body.append(input);
+  input.focus();
   input.select();
+  input.setSelectionRange(0, input.value.length);
   const copied = document.execCommand("copy");
   input.remove();
   if (!copied) throw new Error("Copy command was rejected.");
+}
+
+function showCopyFallback(button, text) {
+  const wrap = button.closest(".record-note-block");
+  if (!wrap) return;
+  let fallback = wrap.querySelector(".record-copy-fallback");
+  if (!fallback) {
+    fallback = document.createElement("textarea");
+    fallback.className = "record-copy-fallback";
+    fallback.setAttribute("readonly", "");
+    button.insertAdjacentElement("afterend", fallback);
+  }
+  fallback.value = text;
+  fallback.rows = Math.min(8, Math.max(3, text.split("\n").length));
+  fallback.hidden = false;
+  fallback.focus();
+  fallback.select();
+}
+
+function hideCopyFallback(button) {
+  const fallback = button.closest(".record-note-block")?.querySelector(".record-copy-fallback");
+  if (fallback) fallback.hidden = true;
 }
 
 function createCopyButton(label, text) {
@@ -669,10 +697,12 @@ function createCopyButton(label, text) {
     const originalLabel = button.textContent;
     try {
       await copyToClipboard(text);
+      hideCopyFallback(button);
       button.textContent = "Copied";
       button.classList.remove("copy-failed");
     } catch {
-      button.textContent = "Copy failed";
+      showCopyFallback(button, text);
+      button.textContent = "Select text";
       button.classList.add("copy-failed");
     }
     setTimeout(() => {
@@ -868,6 +898,20 @@ function priorityClass(priorityBand) {
   return `action-priority-${label.replace(/[^a-z0-9]+/g, "")}`;
 }
 
+function actionCopyText(row) {
+  return [
+    row.nextAction,
+    row.candidateId ? `Candidate: ${row.candidateId}` : "",
+    row.title ? `Title: ${row.title}` : "",
+    row.priorityBand ? `Priority: ${row.priorityBand}` : "",
+    row.catalogUrl ? `Catalog: ${row.catalogUrl}` : "",
+    row.pdfUrl ? `PDF: ${row.pdfUrl}` : "",
+    row.evidence ? `Evidence: ${row.evidence}` : ""
+  ]
+    .filter(Boolean)
+    .join("\n");
+}
+
 function createActionRow(row) {
   const article = document.createElement("article");
   article.className = `record-row action-row ${priorityClass(row.priorityBand)}`;
@@ -889,20 +933,16 @@ function createActionRow(row) {
   title.rel = "noreferrer";
   title.textContent = `${row.candidateId}: ${row.title}`;
 
-  const subject = document.createElement("p");
-  subject.className = "record-subject";
-  subject.textContent = row.nextAction;
-
   const sourceLine = document.createElement("p");
   sourceLine.className = "record-source-line";
   sourceLine.textContent = `${row.priorityBand} / ${row.actionType}`;
 
   body.append(
     title,
-    subject,
     sourceLine,
     createMeta([row.chapter, row.date, row.candidateId, row.actionType]),
     createFlags([row.priorityBand.startsWith("P0") ? "Selected-document blocker" : "", row.priorityBand.startsWith("P1") ? "Citation cleanup" : ""]),
+    createCopyableNote("record-action-note", row.nextAction, "Copy action", actionCopyText(row)),
     createSourceDetails("Why now", row.whyNow, [row.evidence, row.sourceArtifacts].filter(Boolean).join(" "))
   );
 
