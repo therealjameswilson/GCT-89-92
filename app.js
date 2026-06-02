@@ -348,6 +348,16 @@ function exportItems() {
       detail: "FRUS-style persons list working copy generated from the Bush names authority file."
     },
     {
+      href: "reports/compiler-persons-document-index.md",
+      label: "Persons document index",
+      detail: "Participant-to-document matrix for checking persons-list coverage against selected records."
+    },
+    {
+      href: "reports/compiler-persons-document-index.csv",
+      label: "Persons document spreadsheet",
+      detail: "Sortable participant coverage index with chapters, dates, document details, and review notes."
+    },
+    {
       href: "data/records.json",
       label: "Chronology JSON",
       detail: "Structured source data for downstream compiler tooling."

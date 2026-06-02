@@ -8,7 +8,7 @@
       name="description"
       content="A FRUS research assistant for Greece, Cyprus, Turkey, and regional Eastern Mediterranean records in the George H. W. Bush administration."
     />
-    <link rel="stylesheet" href="styles.css?v=chapter-dossiers-20260601" />
+    <link rel="stylesheet" href="styles.css?v=persons-index-20260601" />
     <style id="compiler-network-style">
       .compiler-network {
         border-bottom: 1px solid rgba(31, 41, 51, 0.14);
@@ -57,6 +57,32 @@
         border-color: #0b5cab;
         background: #edf6ff;
       }
+
+      .compiler-network__links button {
+        display: inline-flex;
+        align-items: center;
+        min-height: 30px;
+        border: 1px solid #b8c7d9;
+        border-radius: 7px;
+        padding: 0 9px;
+        color: #1f2933;
+        background: #ffffff;
+        font: inherit;
+        font-size: 0.82rem;
+        font-weight: 900;
+        line-height: 1;
+        cursor: pointer;
+      }
+      .compiler-network__links button:hover,
+      .compiler-network__links button:focus-visible {
+        border-color: #0b5cab;
+        background: #edf6ff;
+        outline: none;
+      }
+      .compiler-network__links button[data-copied="true"] {
+        border-color: #2f675f;
+        color: #2f675f;
+      }
       @media (max-width: 640px) {
         .compiler-network__inner {
           align-items: flex-start;
@@ -77,6 +103,7 @@
           <a href="https://history.state.gov/historicaldocuments/status-of-the-series" rel="noreferrer">FRUS Status</a>
           <a href="https://therealjameswilson.github.io/nara-scout/" rel="noreferrer">NARA Scout</a>
           <a href="https://therealjameswilson.github.io/strobe-talbott-foia/" rel="noreferrer">Strobe FOIA</a>
+          <button class="compiler-network__copy" type="button" data-compiler-handoff>Copy Handoff</button>
         </div>
       </div>
     </div>
@@ -558,13 +585,63 @@
       <p>Published with GitHub Pages.</p>
       <a href="https://github.com/therealjameswilson/GCT-89-92">Repository</a>
     </footer>
-    <script src="data/records.js?v=chapter-dossiers-20260601"></script>
-    <script src="data/nara-scout-leads.js?v=chapter-dossiers-20260601"></script>
-    <script src="data/central-chronology-files.js?v=chapter-dossiers-20260601"></script>
-    <script src="data/blackwill-files.js?v=chapter-dossiers-20260601"></script>
-    <script src="data/blackwill-chron-files.js?v=chapter-dossiers-20260601"></script>
-    <script src="data/gates-chron-files.js?v=chapter-dossiers-20260601"></script>
-    <script src="data/requested-source-series.js?v=chapter-dossiers-20260601"></script>
-    <script src="app.js?v=chapter-dossiers-20260601"></script>
+    <script src="data/records.js?v=persons-index-20260601"></script>
+    <script src="data/nara-scout-leads.js?v=persons-index-20260601"></script>
+    <script src="data/central-chronology-files.js?v=persons-index-20260601"></script>
+    <script src="data/blackwill-files.js?v=persons-index-20260601"></script>
+    <script src="data/blackwill-chron-files.js?v=persons-index-20260601"></script>
+    <script src="data/gates-chron-files.js?v=persons-index-20260601"></script>
+    <script src="data/requested-source-series.js?v=persons-index-20260601"></script>
+    <script src="app.js?v=persons-index-20260601"></script>
+    <script id="compiler-network-script">
+      (() => {
+        const button = document.querySelector("[data-compiler-handoff]");
+        if (!button) return;
+
+        function fallbackCopy(text) {
+          const area = document.createElement("textarea");
+          area.value = text;
+          area.setAttribute("readonly", "");
+          area.style.position = "fixed";
+          area.style.left = "-9999px";
+          document.body.append(area);
+          area.select();
+          try { document.execCommand("copy"); } finally { area.remove(); }
+        }
+
+        function handoffText() {
+          const title = document.querySelector("h1")?.textContent.trim() || document.title || "FRUS compiler page";
+          return [
+            "# " + title,
+            "",
+            "Page: " + window.location.href,
+            "Compiler Assist: https://therealjameswilson.github.io/Compiler-Assist/",
+            "FRUS Status: https://history.state.gov/historicaldocuments/status-of-the-series",
+            "NARA Scout: https://therealjameswilson.github.io/nara-scout/",
+            "Strobe FOIA: https://therealjameswilson.github.io/strobe-talbott-foia/",
+            "",
+            "Use this note as the starting point for a pull request, source-note check, or compiler handoff."
+          ].join("\n");
+        }
+
+        button.addEventListener("click", async () => {
+          const text = handoffText();
+          try {
+            if (navigator.clipboard?.writeText) await navigator.clipboard.writeText(text);
+            else fallbackCopy(text);
+            button.textContent = "Copied";
+            button.dataset.copied = "true";
+            window.setTimeout(() => {
+              button.textContent = "Copy Handoff";
+              delete button.dataset.copied;
+            }, 1800);
+          } catch (error) {
+            fallbackCopy(text);
+            button.textContent = "Copied";
+            button.dataset.copied = "true";
+          }
+        });
+      })();
+    </script>
   </body>
 </html>

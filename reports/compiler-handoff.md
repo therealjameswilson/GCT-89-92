@@ -16,7 +16,8 @@ This is the start-here packet for the Eastern Mediterranean research assistant. 
 4. Open [Declassification Packet](compiler-declassification-review.md) before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.
 5. Open [Data-Quality Audit](compiler-data-quality-audit.md) before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.
 6. Use [Selection Worksheet](compiler-selection-worksheet.csv) as the master working spreadsheet for review status, compiler decisions, and notes.
-7. Use [Persons List](persons-list.md) when drafting or checking FRUS-style identifications.
+7. Use [Persons Document Index](compiler-persons-document-index.md) to connect selected documents to persons-list entries and participant variants.
+8. Use [Persons List](persons-list.md) when drafting or checking FRUS-style identifications.
 
 ## Current Inventory
 
@@ -30,6 +31,7 @@ This is the start-here packet for the Eastern Mediterranean research assistant. 
 | [Gap audit](compiler-gap-audit.md) | Chapter coverage and risk register | 4 chapter rows |
 | [Declassification packet](compiler-declassification-review.md) | Release-status and marker follow-up queue | 14 rows |
 | [Data-quality audit](compiler-data-quality-audit.md) | Metadata, date, title, and schedule-caveat cleanup queue | 45 rows |
+| [Persons document index](compiler-persons-document-index.md) | Participant-to-document coverage index for selected chronology records | 13 rows |
 | [Persons list](persons-list.md) | FRUS-style persons list working copy | 41 entries |
 
 ## Source-Lane Counts

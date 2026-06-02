@@ -49,6 +49,8 @@ The script writes:
 - `reports/compiler-declassification-review.csv`
 - `reports/compiler-data-quality-audit.md`
 - `reports/compiler-data-quality-audit.csv`
+- `reports/compiler-persons-document-index.md`
+- `reports/compiler-persons-document-index.csv`
 
 ## NARA Scout
 

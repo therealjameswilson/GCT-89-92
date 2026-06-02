@@ -948,6 +948,7 @@ function buildCompilerHandoff(records, data, persons) {
   const sourceRows = sourceLeadWorksheetRows(data);
   const reviewRows = reviewQueueRows(data);
   const dossierRows = chapterDossierRows(records, data);
+  const personRows = personDocumentRows(records, persons);
   const declassRows = declassificationReviewRows(records);
   const qualityRows = dataQualityRows(records, data);
   const qualityFixRows = qualityRows.filter((row) => row.severity === "fix before citation");
@@ -973,7 +974,8 @@ function buildCompilerHandoff(records, data, persons) {
     `4. Open ${reportLink("Declassification Packet", "compiler-declassification-review.md")} before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.`,
     `5. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
     `6. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
-    `7. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
+    `7. Use ${reportLink("Persons Document Index", "compiler-persons-document-index.md")} to connect selected documents to persons-list entries and participant variants.`,
+    `8. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
     "",
     "## Current Inventory",
     "",
@@ -988,6 +990,7 @@ function buildCompilerHandoff(records, data, persons) {
         [reportLink("Gap audit", "compiler-gap-audit.md"), "Chapter coverage and risk register", `${CHAPTER_ORDER.length} chapter rows`],
         [reportLink("Declassification packet", "compiler-declassification-review.md"), "Release-status and marker follow-up queue", `${declassRows.length} rows`],
         [reportLink("Data-quality audit", "compiler-data-quality-audit.md"), "Metadata, date, title, and schedule-caveat cleanup queue", `${qualityRows.length} rows`],
+        [reportLink("Persons document index", "compiler-persons-document-index.md"), "Participant-to-document coverage index for selected chronology records", `${personRows.length} rows`],
         [reportLink("Persons list", "persons-list.md"), "FRUS-style persons list working copy", `${persons.length} entries`]
       ]
     ),
@@ -1261,6 +1264,194 @@ function buildChapterDossiersCsv(records, data) {
   return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
 }
 
+function normalizePersonText(value) {
+  return clean(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function personEntryNameParts(entry) {
+  const [last = "", rest = ""] = entry.split(",", 2);
+  const given = rest.split(/[;,]/)[0] || "";
+  return {
+    last: normalizePersonText(last),
+    givenTokens: normalizePersonText(given)
+      .split(" ")
+      .filter((token) => token.length > 1)
+  };
+}
+
+function participantMatchesPersonEntry(participant, entry) {
+  const participantText = normalizePersonText(participant);
+  const { last, givenTokens } = personEntryNameParts(entry);
+  if (!last || !participantText.includes(last)) return false;
+  if (!givenTokens.length) return true;
+  return givenTokens.some((token) => participantText.includes(token));
+}
+
+function personEntryForParticipant(persons, participant) {
+  return persons.find((person) => participantMatchesPersonEntry(participant, person.entry)) || null;
+}
+
+function personDocumentRows(records, persons) {
+  const groups = new Map();
+  for (const record of records) {
+    for (const participant of record.participants || []) {
+      const match = personEntryForParticipant(persons, participant);
+      const key = match ? `entry:${match.id}` : `review:${participant}`;
+      if (!groups.has(key)) {
+        groups.set(key, {
+          personsListStatus: match ? "Matched" : "Review",
+          personKey: match ? match.entry.split(",").slice(0, 2).join(",").trim() : participant,
+          participantVariants: new Set(),
+          personsListEntry: match?.entry || "",
+          documents: []
+        });
+      }
+      const group = groups.get(key);
+      group.participantVariants.add(participant);
+      group.documents.push(record);
+    }
+  }
+  return [...groups.values()]
+    .map((group) => {
+      const sortedDocs = [...group.documents].sort(
+        (a, b) =>
+          clean(a.sortDate || a.date).localeCompare(clean(b.sortDate || b.date)) ||
+          a.chapter.number - b.chapter.number ||
+          clean(a.title).localeCompare(clean(b.title))
+      );
+      const chapters = CHAPTER_ORDER.filter((chapterName) => sortedDocs.some((record) => record.chapter.name === chapterName));
+      const docsByChapter = Object.fromEntries(
+        CHAPTER_ORDER.map((chapterName) => [
+          chapterName,
+          sortedDocs
+            .filter((record) => record.chapter.name === chapterName)
+            .map((record) => `Doc ${record.compilerNumber} (${record.date})`)
+            .join("; ")
+        ])
+      );
+      return {
+        ...group,
+        participantVariants: [...group.participantVariants].sort().join("; "),
+        documentCount: sortedDocs.length,
+        chapters: chapters.join("; "),
+        firstDate: sortedDocs[0]?.date || "",
+        lastDate: sortedDocs.at(-1)?.date || "",
+        docsByChapter,
+        documentDetails: sortedDocs
+          .map((record) => `Doc ${record.compilerNumber} - ${record.date} - ${record.documentTitle || record.title}`)
+          .join(" || "),
+        reviewNote: group.personsListStatus === "Review" ? "No clear persons-list match; verify whether this should be an organizational/collective entry or excluded from persons list." : ""
+      };
+    })
+    .sort((a, b) => a.personsListStatus.localeCompare(b.personsListStatus) || a.personKey.localeCompare(b.personKey));
+}
+
+function buildPersonsDocumentIndexMarkdown(records, persons) {
+  const rows = personDocumentRows(records, persons);
+  const reviewRows = rows.filter((row) => row.personsListStatus === "Review");
+  const lines = [
+    "# FRUS 1989-1992 Volume VI Persons Document Index",
+    "",
+    "This index ties selected chronology participants to the working FRUS-style persons list. It is intended for apparatus checking: confirm coverage, identify variant participant strings, and locate the documents in which each person appears.",
+    "",
+    "## Snapshot",
+    "",
+    `- Participant/person rows: ${rows.length}`,
+    `- Matched to persons list: ${rows.filter((row) => row.personsListStatus === "Matched").length}`,
+    `- Needs review: ${reviewRows.length}`,
+    "",
+    "## Coverage Summary",
+    "",
+    markdownTable(
+      ["Status", "Person", "Participant variant(s)", "Docs", "Chapters", "First date", "Last date"],
+      rows.map((row) => [
+        row.personsListStatus,
+        row.personKey,
+        row.participantVariants,
+        row.documentCount,
+        row.chapters,
+        row.firstDate,
+        row.lastDate
+      ])
+    ),
+    "",
+    "## Chapter Document Matrix",
+    "",
+    markdownTable(
+      ["Person", ...CHAPTER_ORDER],
+      rows.map((row) => [
+        row.personKey,
+        ...CHAPTER_ORDER.map((chapterName) => row.docsByChapter[chapterName] || "")
+      ])
+    ),
+    "",
+    "## Persons List Entries",
+    "",
+    markdownTable(
+      ["Person", "Persons-list entry"],
+      rows
+        .filter((row) => row.personsListEntry)
+        .map((row) => [row.personKey, row.personsListEntry])
+    ),
+    "",
+    "## Coverage Review",
+    "",
+    reviewRows.length
+      ? markdownTable(
+          ["Participant", "Docs", "Review note"],
+          reviewRows.map((row) => [row.personKey, row.documentCount, row.reviewNote])
+        )
+      : "All participant strings have a clear persons-list match.",
+    ""
+  ];
+  return `${lines.join("\n")}\n`;
+}
+
+function buildPersonsDocumentIndexCsv(records, persons) {
+  const rows = personDocumentRows(records, persons);
+  const header = [
+    "personsListStatus",
+    "personKey",
+    "participantVariants",
+    "documentCount",
+    "chapters",
+    "firstDate",
+    "lastDate",
+    "greeceDocs",
+    "cyprusDocs",
+    "turkeyDocs",
+    "regionalDocs",
+    "documentDetails",
+    "personsListEntry",
+    "reviewNote"
+  ];
+  return `${csvRow(header)}\n${rows
+    .map((row) =>
+      csvRow([
+        row.personsListStatus,
+        row.personKey,
+        row.participantVariants,
+        row.documentCount,
+        row.chapters,
+        row.firstDate,
+        row.lastDate,
+        row.docsByChapter.Greece,
+        row.docsByChapter.Cyprus,
+        row.docsByChapter.Turkey,
+        row.docsByChapter.Regional,
+        row.documentDetails,
+        row.personsListEntry,
+        row.reviewNote
+      ])
+    )
+    .join("\n")}\n`;
+}
+
 function declassificationAction(record) {
   const status = `${record.releaseStatus || ""} ${record.type || ""}`;
   if (/denied/i.test(status)) return "Request denial review and capture agency/referral rationale.";
@@ -1508,6 +1699,8 @@ function main() {
   fs.writeFileSync(path.join(ROOT, "reports/compiler-declassification-review.csv"), buildDeclassificationCsv(records));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-data-quality-audit.md"), buildDataQualityMarkdown(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-data-quality-audit.csv"), buildDataQualityCsv(records, data));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-persons-document-index.md"), buildPersonsDocumentIndexMarkdown(records, persons));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-persons-document-index.csv"), buildPersonsDocumentIndexCsv(records, persons));
   console.log(`Wrote compiler exports for ${records.length} records.`);
 }
 
