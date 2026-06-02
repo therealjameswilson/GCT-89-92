@@ -1528,6 +1528,7 @@ function reportLink(label, filename) {
 
 function buildCompilerHandoff(records, data, persons) {
   const pages = records.reduce((sum, record) => sum + (record.pageCount || 0), 0);
+  const coverageRows = sourceCoverageRows(records, data, persons);
   const sourceRows = sourceLeadWorksheetRows(data);
   const reviewRows = reviewQueueRows(data);
   const documentRegisterRowsCount = documentRegisterRows(records, data).length;
@@ -1556,17 +1557,18 @@ function buildCompilerHandoff(records, data, persons) {
     "## Recommended Opening Order",
     "",
     "1. Start with the live chronology. It is the first section of the page and is organized into Greece, Cyprus, Turkey, and Regional chapters.",
-    `2. Open ${reportLink("Draft Document Register", "compiler-document-register.md")} to translate the selected chronology into continuous draft document numbers, source-note drafts, and publication-apparatus cleanup flags.`,
-    `3. Open ${reportLink("Chapter Dossiers", "compiler-chapter-dossiers.md")} when working one chapter at a time; it gathers selected chronology rows, top source leads, release follow-ups, and citation issues.`,
-    `4. Open ${reportLink("Gap-Fill Candidate Worksheet", "compiler-gap-fill-candidates.md")} to work the Cyprus and Regional selection gaps from a narrowed candidate-addition shortlist.`,
-    `5. Open ${reportLink("Selected Document Source Crosswalk", "compiler-source-crosswalk.md")} to see likely Central/Blackwill/Scowcroft/source-pool packets for each selected document.`,
-    `6. Open ${reportLink("Next Review Queue", "compiler-next-review-queue.md")} for the cross-chapter source-lane packets most worth opening next.`,
-    `7. Open ${reportLink("Declassification Packet", "compiler-declassification-review.md")} before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.`,
-    `8. Use ${reportLink("Declassification Request Worksheet", "compiler-declassification-requests.md")} to turn those release-status risks into assignable request language and MDR/search follow-up rows.`,
-    `9. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
-    `10. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
-    `11. Use ${reportLink("Persons Document Index", "compiler-persons-document-index.md")} to connect selected documents to persons-list entries and participant variants.`,
-    `12. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
+    `2. Open ${reportLink("Source Coverage Matrix", "compiler-source-coverage.md")} to verify which requested collections and compiler deliverables are covered, with counts and caveats.`,
+    `3. Open ${reportLink("Draft Document Register", "compiler-document-register.md")} to translate the selected chronology into continuous draft document numbers, source-note drafts, and publication-apparatus cleanup flags.`,
+    `4. Open ${reportLink("Chapter Dossiers", "compiler-chapter-dossiers.md")} when working one chapter at a time; it gathers selected chronology rows, top source leads, release follow-ups, and citation issues.`,
+    `5. Open ${reportLink("Gap-Fill Candidate Worksheet", "compiler-gap-fill-candidates.md")} to work the Cyprus and Regional selection gaps from a narrowed candidate-addition shortlist.`,
+    `6. Open ${reportLink("Selected Document Source Crosswalk", "compiler-source-crosswalk.md")} to see likely Central/Blackwill/Scowcroft/source-pool packets for each selected document.`,
+    `7. Open ${reportLink("Next Review Queue", "compiler-next-review-queue.md")} for the cross-chapter source-lane packets most worth opening next.`,
+    `8. Open ${reportLink("Declassification Packet", "compiler-declassification-review.md")} before final selection; it isolates partial releases, denials, marker sheets, and no-document rows.`,
+    `9. Use ${reportLink("Declassification Request Worksheet", "compiler-declassification-requests.md")} to turn those release-status risks into assignable request language and MDR/search follow-up rows.`,
+    `10. Open ${reportLink("Data-Quality Audit", "compiler-data-quality-audit.md")} before citation cleanup; it flags title variants, date mismatches, schedule caveats, and Catalog harvest issues.`,
+    `11. Use ${reportLink("Selection Worksheet", "compiler-selection-worksheet.csv")} as the master working spreadsheet for review status, compiler decisions, and notes.`,
+    `12. Use ${reportLink("Persons Document Index", "compiler-persons-document-index.md")} to connect selected documents to persons-list entries and participant variants.`,
+    `13. Use ${reportLink("Persons List", "persons-list.md")} when drafting or checking FRUS-style identifications.`,
     "",
     "## Current Inventory",
     "",
@@ -1575,6 +1577,7 @@ function buildCompilerHandoff(records, data, persons) {
       [
         [reportLink("Working chronology pack", "compiler-chronology.md"), "Selected declassified chronology with source notes and schedule references", `${records.length} records / ${pages} PDF pages`],
         [reportLink("Source-note spreadsheet", "compiler-source-notes.csv"), "Sortable source-note and schedule-reference export", `${records.length} rows`],
+        [reportLink("Source coverage matrix", "compiler-source-coverage.md"), "Requirement-to-artifact provenance matrix for requested source coverage and caveats", `${coverageRows.length} rows`],
         [reportLink("Draft document register", "compiler-document-register.md"), "Continuous draft document numbers, heading drafts, source-note drafts, and apparatus cleanup flags", `${documentRegisterRowsCount} rows`],
         [reportLink("Chapter dossiers", "compiler-chapter-dossiers.md"), "Per-chapter workbench combining chronology, top leads, declassification, and data-quality issues", `${dossierRows.length} dossier rows`],
         [reportLink("Gap-fill candidate worksheet", "compiler-gap-fill-candidates.md"), "Ranked candidate-addition shortlist focused on Cyprus and Regional selection gaps", `${gapFillCandidateRows.length} rows`],
@@ -2535,6 +2538,243 @@ function buildDocumentRegisterCsv(records, data) {
   return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
 }
 
+function requestedSourceByLabel(data, label) {
+  return data.requested.find((source) => source.label === label);
+}
+
+function sourceCoverageStatus(source) {
+  if (!source) return "missing";
+  if (source.childHarvestError || source.queryHarvestErrors || source.rootHarvestError) return "covered with caveat";
+  return "covered";
+}
+
+function requestedSourceCoverageRow(data, label, requirement) {
+  const source = requestedSourceByLabel(data, label);
+  const leadCount = source?.leads?.length || 0;
+  const caveats = [source?.childHarvestError, source?.onlineChildHarvestError, source?.rootHarvestError, source?.queryHarvestErrors ? `${source.queryHarvestErrors} query harvest error(s)` : ""]
+    .filter(Boolean)
+    .join(" | ");
+  return {
+    area: "User-requested source pool",
+    requirement,
+    sourceOrArtifact: label,
+    naid: source?.naid || "",
+    status: sourceCoverageStatus(source),
+    evidenceCount: leadCount,
+    evidence: source ? `${leadCount} EastMed leads retained; ${source.queryHitFiles || 0} query-hit files; online child total ${source.onlineChildTotal || "unknown"}.` : "No source data found.",
+    keyArtifacts: [
+      "data/requested-source-series.json",
+      "reports/requested-source-series-eastmed.json",
+      "reports/compiler-next-review-queue.md",
+      "reports/compiler-gap-fill-candidates.md"
+    ].join(" | "),
+    remainingFollowUp: caveats || "Open retained leads and record compiler decisions in the selection worksheet.",
+    catalogUrl: source?.requestedUrl || source?.searchWithinUrl || source?.catalogUrl || ""
+  };
+}
+
+function sourceCoverageRows(records, data, persons) {
+  const pages = records.reduce((sum, record) => sum + (record.pageCount || 0), 0);
+  const restrictions = records.filter(releaseNeedsAttention);
+  const qualityRows = dataQualityRows(records, data);
+  const scheduleCovered = records.filter((record) => (record.scheduleReferences || []).length).length;
+  const requestedTotal = data.requested.reduce((sum, source) => sum + (source.leads || []).length, 0);
+  const rows = [
+    {
+      area: "Site structure",
+      requirement: "Make the research assistant live with the declassified chronology as the first page section and four chapters: Greece, Cyprus, Turkey, Regional.",
+      sourceOrArtifact: "GitHub Pages site",
+      naid: "",
+      status: "covered",
+      evidenceCount: records.length,
+      evidence: `${records.length} selected records / ${pages} PDF pages; chapter counts ${CHAPTER_ORDER.map((chapter) => `${chapter} ${records.filter((record) => record.chapter.name === chapter).length}`).join(", ")}.`,
+      keyArtifacts: "index.html | app.js | reports/compiler-chronology.md",
+      remainingFollowUp: "Keep cache key fresh after future data changes.",
+      catalogUrl: "https://therealjameswilson.github.io/GCT-89-92/"
+    },
+    {
+      area: "NARA Scout",
+      requirement: "Use NARA Scout to find documents and leads for the volume.",
+      sourceOrArtifact: "NARA Scout leads",
+      naid: "",
+      status: "covered",
+      evidenceCount: data.scout.length,
+      evidence: `${data.scout.length} Scout leads retained and exposed in the public page/source queues.`,
+      keyArtifacts: "data/nara-scout-leads.json | reports/nara-scout-eastmed-search.json | reports/compiler-selection-worksheet.csv",
+      remainingFollowUp: "Open leads marked high-value or MDR/restriction before final selection.",
+      catalogUrl: "https://therealjameswilson.github.io/nara-scout/"
+    },
+    {
+      area: "Core selected chronology",
+      requirement: "Preserve selected memcons/telcons with source notes, direct Catalog/PDF links, and schedule corroboration.",
+      sourceOrArtifact: "Selected declassified chronology",
+      naid: "",
+      status: "covered",
+      evidenceCount: records.length,
+      evidence: `${records.length} selected rows; ${scheduleCovered}/${records.length} have Daily Diary/Backup schedule references.`,
+      keyArtifacts: "data/records.json | reports/compiler-chronology.md | reports/compiler-source-notes.csv | reports/compiler-document-register.md",
+      remainingFollowUp: restrictions.length ? `${restrictions.length} release/marker rows require declassification or search follow-up.` : "No release/marker rows pending.",
+      catalogUrl: "https://history.state.gov/historicaldocuments/frus1989-92v06"
+    },
+    {
+      area: "Daily Diary/Backup",
+      requirement: "Incorporate references to pertinent meetings and calls from Catalog NAID 186322.",
+      sourceOrArtifact: "Presidential Daily Diary and Daily Backup Materials",
+      naid: "186322",
+      status: "covered",
+      evidenceCount: scheduleCovered,
+      evidence: `${scheduleCovered}/${records.length} selected chronology rows have schedule corroboration; requested-source lane also retains ${(requestedSourceByLabel(data, "Presidential Daily Diary and Backup")?.leads || []).length} source-pool leads.`,
+      keyArtifacts: "reports/daily-diary-references-186322-eastmed.json | reports/compiler-source-notes.csv | reports/compiler-document-register.md",
+      remainingFollowUp: "Rows with [EMPTY] diary titles remain schedule corroboration only until PDFs are checked.",
+      catalogUrl: "https://catalog.archives.gov/id/186322"
+    },
+    {
+      area: "User-requested source series",
+      requirement: "Go through Robert D. Blackwill's Subject Files, Catalog NAID 2554653.",
+      sourceOrArtifact: "Blackwill Subject Files",
+      naid: "2554653",
+      status: "complete-series harvested",
+      evidenceCount: data.blackwill.length,
+      evidence: `${data.blackwill.length} file units retained from complete-series review.`,
+      keyArtifacts: "data/blackwill-files.json | reports/compiler-selection-worksheet.csv | reports/compiler-next-review-queue.md",
+      remainingFollowUp: "Screen retained files for final selection decisions.",
+      catalogUrl: "https://catalog.archives.gov/id/2554653"
+    },
+    {
+      area: "User-requested source series",
+      requirement: "Search within European and Eurasian Directorate Central Chronological Files, Catalog NAID 374000108.",
+      sourceOrArtifact: "Central Chronological Files",
+      naid: "374000108",
+      status: "covered",
+      evidenceCount: data.central.length,
+      evidence: `${data.central.length} Central Chronological file leads retained; OCR signals captured for priority packets.`,
+      keyArtifacts: "data/central-chronology-files.json | reports/central-chronology-374000108-eastmed.json | reports/compiler-source-crosswalk.md",
+      remainingFollowUp: "Open packet PDFs before treating any packet lead as selected.",
+      catalogUrl: "https://catalog.archives.gov/search-within/374000108"
+    },
+    {
+      area: "User-requested source series",
+      requirement: "Go through Robert D. Blackwill Chronological Files, Catalog NAID 2554659.",
+      sourceOrArtifact: "Blackwill Chronological Files",
+      naid: "2554659",
+      status: "complete-series harvested",
+      evidenceCount: data.blackwillChron.length,
+      evidence: `${data.blackwillChron.length} file units retained from complete-series review with OCR sampling for priority packets.`,
+      keyArtifacts: "data/blackwill-chron-files.json | reports/blackwill-chronology-2554659-eastmed.json | reports/compiler-next-review-queue.md",
+      remainingFollowUp: "Open high-signal packets and record inclusion/exclusion in the selection worksheet.",
+      catalogUrl: "https://catalog.archives.gov/id/2554659"
+    },
+    {
+      area: "User-requested source series",
+      requirement: "Go through Robert M. Gates Chronological Files, Catalog NAID 2554841.",
+      sourceOrArtifact: "Gates Chronological Files",
+      naid: "2554841",
+      status: "complete-series harvested",
+      evidenceCount: data.gates.length,
+      evidence: `${data.gates.length} file units retained; current hits are sparse/peripheral but preserved in the source queue.`,
+      keyArtifacts: "data/gates-chron-files.json | reports/gates-chronology-2554841-eastmed.json | reports/compiler-selection-worksheet.csv",
+      remainingFollowUp: "Screen for copied or staff-context records before final exclusion.",
+      catalogUrl: "https://catalog.archives.gov/id/2554841"
+    },
+    requestedSourceCoverageRow(data, "Scowcroft Papers", "Include all Scowcroft Papers source leads requested by the user."),
+    requestedSourceCoverageRow(data, "Presidential Daily File", "Include Presidential Daily File online source-pool leads."),
+    requestedSourceCoverageRow(data, "NSC", "Include H-Files National Security Council meeting/source leads."),
+    requestedSourceCoverageRow(data, "NSC/DC Meetings", "Include NSC/DC Meetings source leads."),
+    requestedSourceCoverageRow(data, "NSC/DC Meetings Follow-Up", "Include NSC/DC Meetings Follow-Up source leads."),
+    requestedSourceCoverageRow(data, "NSR", "Include National Security Review source leads."),
+    requestedSourceCoverageRow(data, "NSD", "Include National Security Directives source leads."),
+    requestedSourceCoverageRow(data, "IF Transition", "Include NSC Institutional Files Transition source leads."),
+    {
+      area: "Selection risk",
+      requirement: "Assume compiler risk and identify gaps.",
+      sourceOrArtifact: "Gap and selection audits",
+      naid: "",
+      status: "covered",
+      evidenceCount: qualityRows.length,
+      evidence: `${qualityRows.length} data-quality rows; ${restrictions.length} declassification/release rows; ${requestedTotal} requested-source leads.`,
+      keyArtifacts: "reports/compiler-gap-audit.md | reports/compiler-gap-fill-candidates.md | reports/compiler-data-quality-audit.md | reports/compiler-declassification-requests.md",
+      remainingFollowUp: "Compiler should clear fix-before-citation and release/marker rows before final document list.",
+      catalogUrl: ""
+    },
+    {
+      area: "Persons apparatus",
+      requirement: "Generate a FRUS-style persons list from the attached Bush comprehensive names list and connect it to selected documents.",
+      sourceOrArtifact: "Persons list and participant index",
+      naid: "",
+      status: "covered",
+      evidenceCount: persons.length,
+      evidence: `${persons.length} persons-list entries; ${personDocumentRows(records, persons).length} participant/person index rows.`,
+      keyArtifacts: "persons.html | reports/persons-list.md | reports/compiler-persons-document-index.md",
+      remainingFollowUp: "Review unmatched/collective participant strings before final apparatus.",
+      catalogUrl: "https://history.state.gov/historicaldocuments/frus1989-92v31/persons"
+    }
+  ];
+  return rows;
+}
+
+function buildSourceCoverageMarkdown(records, data, persons) {
+  const rows = sourceCoverageRows(records, data, persons);
+  const statusCounts = countBy(rows, (row) => row.status);
+  const caveatRows = rows.filter((row) => /caveat|missing/i.test(row.status));
+  const lines = [
+    "# FRUS 1989-1992 Volume VI Source Coverage and Provenance Matrix",
+    "",
+    "This matrix maps the user's requested source coverage and compiler-facing deliverables to the current evidence in the repository. It is intended as a quick audit trail: what was covered, where the proof lives, and what the compiler still needs to verify manually.",
+    "",
+    "## Snapshot",
+    "",
+    `- Coverage rows: ${rows.length}`,
+    `- Rows with caveats or missing coverage: ${caveatRows.length}`,
+    "",
+    markdownTable(["Status", "Rows"], statusCounts),
+    "",
+    "## Coverage Matrix",
+    "",
+    markdownTable(
+      ["Area", "Requirement", "Source/Artifact", "NAID", "Status", "Evidence", "Key Artifacts", "Remaining Follow-Up", "Link"],
+      rows.map((row) => [
+        row.area,
+        row.requirement,
+        row.sourceOrArtifact,
+        row.naid,
+        row.status,
+        row.evidence,
+        row.keyArtifacts,
+        row.remainingFollowUp,
+        row.catalogUrl
+      ])
+    ),
+    "",
+    "## Caveats To Keep Visible",
+    "",
+    caveatRows.length
+      ? markdownTable(
+          ["Source/Artifact", "Status", "Follow-Up"],
+          caveatRows.map((row) => [row.sourceOrArtifact, row.status, row.remainingFollowUp])
+        )
+      : "No coverage caveats recorded.",
+    ""
+  ];
+  return `${lines.join("\n")}\n`;
+}
+
+function buildSourceCoverageCsv(records, data, persons) {
+  const rows = sourceCoverageRows(records, data, persons);
+  const header = [
+    "area",
+    "requirement",
+    "sourceOrArtifact",
+    "naid",
+    "status",
+    "evidenceCount",
+    "evidence",
+    "keyArtifacts",
+    "remainingFollowUp",
+    "catalogUrl"
+  ];
+  return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
+}
+
 function buildMarkdown(records) {
   const pages = records.reduce((sum, record) => sum + (record.pageCount || 0), 0);
   const restrictions = records.filter(releaseNeedsAttention);
@@ -2649,6 +2889,8 @@ function main() {
   fs.writeFileSync(path.join(ROOT, "reports/compiler-handoff.md"), buildCompilerHandoff(records, data, persons));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-chronology.md"), buildMarkdown(records));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-source-notes.csv"), buildCsv(records));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-source-coverage.md"), buildSourceCoverageMarkdown(records, data, persons));
+  fs.writeFileSync(path.join(ROOT, "reports/compiler-source-coverage.csv"), buildSourceCoverageCsv(records, data, persons));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-document-register.md"), buildDocumentRegisterMarkdown(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-document-register.csv"), buildDocumentRegisterCsv(records, data));
   fs.writeFileSync(path.join(ROOT, "reports/compiler-gap-audit.md"), buildGapAudit(records, data));

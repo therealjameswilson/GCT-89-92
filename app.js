@@ -278,6 +278,16 @@ function exportItems() {
       detail: "Start-here packet with live links, clone command, workflow, report inventory, and risk snapshot."
     },
     {
+      href: "reports/compiler-source-coverage.md",
+      label: "Source coverage matrix",
+      detail: "Requirement-to-artifact audit for requested collections, coverage counts, and source-pool caveats."
+    },
+    {
+      href: "reports/compiler-source-coverage.csv",
+      label: "Source coverage spreadsheet",
+      detail: "Sortable provenance matrix mapping requested sources to evidence, artifacts, and follow-up work."
+    },
+    {
       href: "reports/compiler-chapter-dossiers.md",
       label: "Chapter dossiers",
       detail: "Per-chapter workbench with selected records, source leads, release follow-ups, and citation issues."
