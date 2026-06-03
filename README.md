@@ -1,7 +1,10 @@
-# FRUS 1989-1992 Volume VI Research Assistant
+# FRUS 1989-1992 Volume VI Source Workbench
 
-GitHub Pages research assistant for *Foreign Relations of the United States,
-1989-1992, Volume VI, Eastern Mediterranean*.
+GitHub Pages source workbench for *Foreign Relations of the United States,
+1989-1992, Volume VI, Eastern Mediterranean*. The site is designed to keep
+compiler judgment in front: every surfaced lead, action, source note, and gap
+flag is tied back to a Catalog record, PDF, schedule reference, or generated
+report for human review.
 
 The page is organized into four chronological chapters:
 

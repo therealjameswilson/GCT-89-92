@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FRUS 1989-1992 Volume VI Research Assistant</title>
+    <title>FRUS 1989-1992 Volume VI Source Workbench</title>
     <meta
       name="description"
-      content="A FRUS research assistant for Greece, Cyprus, Turkey, and regional Eastern Mediterranean records in the George H. W. Bush administration."
+      content="A source-led FRUS compiler workbench for Greece, Cyprus, Turkey, and regional Eastern Mediterranean records in the George H. W. Bush administration."
     />
-    <link rel="stylesheet" href="styles.css?v=action-copy-20260602" />
+    <link rel="stylesheet" href="styles.css?v=source-first-20260602" />
     <style id="compiler-network-style">
       .compiler-network {
         border-bottom: 1px solid rgba(31, 41, 51, 0.14);
@@ -140,6 +140,14 @@
           release status, page counts, FRUS-style source notes, and Presidential
           Daily Diary/Backup schedule references.
         </p>
+        <div class="trust-note" aria-label="Research method">
+          <p>
+            <strong>Source-first and compiler-controlled.</strong> This desk
+            surfaces records, citations, and review queues; it does not make
+            selection decisions. Every suggested action is tied to a Catalog
+            record, PDF, source note, or report for human review.
+          </p>
+        </div>
         <div class="records-tools" aria-label="Search and filter records">
           <label class="search-field">
             <span>Search records</span>
@@ -181,9 +189,10 @@
           <h2 id="actions-title">Ranked Action Queue</h2>
         </div>
         <p class="records-intro">
-          This is the live version of the compiler action queue: declassification
-          blockers, citation cleanup, gap-fill packets, source-pool caveats,
-          schedule checks, and apparatus review in one sortable workbench.
+          This source-led queue keeps declassification blockers, citation
+          cleanup, gap-fill packets, source-pool caveats, schedule checks, and
+          apparatus review in one sortable workbench. Each row states what needs
+          human confirmation and why.
         </p>
         <div class="records-tools action-tools" aria-label="Search and filter compiler actions">
           <label class="search-field">
@@ -211,7 +220,7 @@
           <p class="kicker">FRUS 1989-1992, Volume VI</p>
           <h2 id="hero-title">Greece, Cyprus, Turkey, and Regional Files</h2>
           <p class="lede">
-            A companion research assistant for the compiler of
+            A source-led companion desk for the compiler of
             <em>Foreign Relations of the United States, 1989-1992, Volume VI,
             Eastern Mediterranean</em>. The working structure follows four
             chronological chapters: Greece, Cyprus, Turkey, and Regional.
@@ -617,15 +626,15 @@
       <p>Published with GitHub Pages.</p>
       <a href="https://github.com/therealjameswilson/GCT-89-92">Repository</a>
     </footer>
-    <script src="data/records.js?v=action-copy-20260602"></script>
-    <script src="data/nara-scout-leads.js?v=action-copy-20260602"></script>
-    <script src="data/central-chronology-files.js?v=action-copy-20260602"></script>
-    <script src="data/blackwill-files.js?v=action-copy-20260602"></script>
-    <script src="data/blackwill-chron-files.js?v=action-copy-20260602"></script>
-    <script src="data/gates-chron-files.js?v=action-copy-20260602"></script>
-    <script src="data/requested-source-series.js?v=action-copy-20260602"></script>
-    <script src="data/compiler-action-queue.js?v=action-copy-20260602"></script>
-    <script src="app.js?v=action-copy-20260602"></script>
+    <script src="data/records.js?v=source-first-20260602"></script>
+    <script src="data/nara-scout-leads.js?v=source-first-20260602"></script>
+    <script src="data/central-chronology-files.js?v=source-first-20260602"></script>
+    <script src="data/blackwill-files.js?v=source-first-20260602"></script>
+    <script src="data/blackwill-chron-files.js?v=source-first-20260602"></script>
+    <script src="data/gates-chron-files.js?v=source-first-20260602"></script>
+    <script src="data/requested-source-series.js?v=source-first-20260602"></script>
+    <script src="data/compiler-action-queue.js?v=source-first-20260602"></script>
+    <script src="app.js?v=source-first-20260602"></script>
     <script id="compiler-network-script">
       (() => {
         const button = document.querySelector("[data-compiler-handoff]");

@@ -411,6 +411,25 @@ footer {
   font-size: 1.04rem;
 }
 
+.trust-note {
+  max-width: 880px;
+  margin: -8px 0 28px;
+  padding-top: 13px;
+  border-top: 1px solid rgba(22, 58, 89, 0.16);
+}
+
+.trust-note p {
+  margin: 0;
+  color: var(--ink);
+  font-size: 0.98rem;
+  font-weight: 720;
+  line-height: 1.6;
+}
+
+.trust-note strong {
+  color: var(--navy);
+}
+
 .compiler-root {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, 0.72fr);
