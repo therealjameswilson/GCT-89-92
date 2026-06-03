@@ -25,9 +25,10 @@ copyable next-action language with links and evidence.
 ## Source Notes
 
 Public source notes use a FRUS-style archival citation: repository, collection,
-series/file path, document or file-unit title, then release/access and NAID
-metadata. Search terms, OCR samples, child-counts, and endpoint caveats are
-kept separately as `researchNote` compiler breadcrumbs.
+series/file path, and document or file-unit title. Public Catalog release/access
+status, NAIDs, digital-object filenames, search terms, OCR samples, child-counts,
+and endpoint caveats are kept separately as `researchNote` or
+`sourceNoteProvenance` compiler breadcrumbs.
 
 After re-running any harvest, normalize the source-note fields:
 
@@ -39,6 +40,12 @@ Build the compiler-ready chronology and source-note exports:
 
 ```bash
 node scripts/build-compiler-exports.js
+```
+
+Then audit the provenance split:
+
+```bash
+node scripts/audit-source-notes.js
 ```
 
 The script writes:

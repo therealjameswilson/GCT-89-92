@@ -23,8 +23,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Blackwill Miscellaneous]. Access restriction: Restricted - Possibly. NAID 453248120.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-012.pdf. Catalog: https://catalog.archives.gov/id/453248120."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Blackwill Miscellaneous].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248120. PDF extent: 3 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-012.pdf. Catalog: https://catalog.archives.gov/id/453248120."
   },
   {
     "id": "blackwill-453248117",
@@ -50,8 +50,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Blackwill - Publications / Publication Agreements] [2]. Access restriction: Restricted - Possibly. NAID 453248117.",
-    "researchNote": "PDF extent: 51 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-009.pdf. Catalog: https://catalog.archives.gov/id/453248117."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Blackwill - Publications / Publication Agreements] [2].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248117. PDF extent: 51 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-009.pdf. Catalog: https://catalog.archives.gov/id/453248117."
   },
   {
     "id": "blackwill-453248124",
@@ -77,8 +77,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Cables 1-6/89 (CSCE [Conference on Security and Cooperation in Europe], CFE, Eastern Europe)]. Access restriction: Restricted - Possibly. NAID 453248124.",
-    "researchNote": "PDF extent: 54 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-016.pdf. Catalog: https://catalog.archives.gov/id/453248124."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Cables 1-6/89 (CSCE [Conference on Security and Cooperation in Europe], CFE, Eastern Europe)].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248124. PDF extent: 54 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-016.pdf. Catalog: https://catalog.archives.gov/id/453248124."
   },
   {
     "id": "blackwill-453248129",
@@ -104,8 +104,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [German Reunification 11/89-6/90] [3]. Access restriction: Restricted - Possibly. NAID 453248129.",
-    "researchNote": "PDF extent: 15 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-022.pdf. Catalog: https://catalog.archives.gov/id/453248129."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [German Reunification 11/89-6/90] [3].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248129. PDF extent: 15 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-022.pdf. Catalog: https://catalog.archives.gov/id/453248129."
   },
   {
     "id": "blackwill-453248119",
@@ -131,8 +131,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Mary Kay Appointment Calendar 1989]. Access restriction: Restricted - Possibly. NAID 453248119.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-011.pdf. Catalog: https://catalog.archives.gov/id/453248119."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Mary Kay Appointment Calendar 1989].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248119. PDF extent: 3 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-011.pdf. Catalog: https://catalog.archives.gov/id/453248119."
   },
   {
     "id": "blackwill-453248121",
@@ -158,8 +158,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Memcon: POTUS and Helmut Kohl 2/24-25/90]. Access restriction: Restricted - Possibly. NAID 453248121.",
-    "researchNote": "PDF extent: 21 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-013.pdf. Catalog: https://catalog.archives.gov/id/453248121."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Memcon: POTUS and Helmut Kohl 2/24-25/90].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248121. PDF extent: 21 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-013.pdf. Catalog: https://catalog.archives.gov/id/453248121."
   },
   {
     "id": "blackwill-453248116",
@@ -185,8 +185,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Blackwill - Publications / Publication Agreements] [1]. Access restriction: Restricted - Possibly. NAID 453248116.",
-    "researchNote": "PDF extent: 85 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-008.pdf. Catalog: https://catalog.archives.gov/id/453248116."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Blackwill - Publications / Publication Agreements] [1].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248116. PDF extent: 85 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-008.pdf. Catalog: https://catalog.archives.gov/id/453248116."
   },
   {
     "id": "blackwill-453248126",
@@ -212,8 +212,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Memcon: Malta Summit - Luncheon Meeting between POTUS and Mikhail Gorbachev 12/2/89]. Access restriction: Restricted - Possibly. NAID 453248126.",
-    "researchNote": "PDF extent: 6 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-018.pdf. Catalog: https://catalog.archives.gov/id/453248126."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Memcon: Malta Summit - Luncheon Meeting between POTUS and Mikhail Gorbachev 12/2/89].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248126. PDF extent: 6 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-018.pdf. Catalog: https://catalog.archives.gov/id/453248126."
   },
   {
     "id": "blackwill-453248125",
@@ -239,8 +239,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Memcon: Malta Summit - First Expanded Bilateral Session between POTUS and Mikhail Gorbachev 12/2/89]. Access restriction: Restricted - Possibly. NAID 453248125.",
-    "researchNote": "PDF extent: 13 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-017.pdf. Catalog: https://catalog.archives.gov/id/453248125."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Memcon: Malta Summit - First Expanded Bilateral Session between POTUS and Mikhail Gorbachev 12/2/89].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248125. PDF extent: 13 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-017.pdf. Catalog: https://catalog.archives.gov/id/453248125."
   },
   {
     "id": "blackwill-453248127",
@@ -266,8 +266,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Memcon: Malta Summit - Second Expanded Bilateral Session between POTUS and Mikhail Gorbachev 12/3/89]. Access restriction: Restricted - Possibly. NAID 453248127.",
-    "researchNote": "PDF extent: 16 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-019.pdf. Catalog: https://catalog.archives.gov/id/453248127."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Memcon: Malta Summit - Second Expanded Bilateral Session between POTUS and Mikhail Gorbachev 12/3/89].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248127. PDF extent: 16 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-019.pdf. Catalog: https://catalog.archives.gov/id/453248127."
   },
   {
     "id": "blackwill-453248111",
@@ -293,8 +293,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Resumes to Blackwill - NSC Staff Positions] [2]. Access restriction: Restricted - Possibly. NAID 453248111.",
-    "researchNote": "PDF extent: 31 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-003.pdf. Catalog: https://catalog.archives.gov/id/453248111."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Resumes to Blackwill - NSC Staff Positions] [2].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248111. PDF extent: 31 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-003.pdf. Catalog: https://catalog.archives.gov/id/453248111."
   },
   {
     "id": "blackwill-453248110",
@@ -320,8 +320,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Resumes to Blackwill - NSC Staff Positions] [1]. Access restriction: Restricted - Possibly. NAID 453248110.",
-    "researchNote": "PDF extent: 89 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-002.pdf. Catalog: https://catalog.archives.gov/id/453248110."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Resumes to Blackwill - NSC Staff Positions] [1].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248110. PDF extent: 89 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-002.pdf. Catalog: https://catalog.archives.gov/id/453248110."
   },
   {
     "id": "blackwill-453248113",
@@ -347,8 +347,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Resumes to Blackwill - NSC Staff Positions] [4]. Access restriction: Restricted - Possibly. NAID 453248113.",
-    "researchNote": "PDF extent: 36 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-005.pdf. Catalog: https://catalog.archives.gov/id/453248113."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Resumes to Blackwill - NSC Staff Positions] [4].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248113. PDF extent: 36 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-005.pdf. Catalog: https://catalog.archives.gov/id/453248113."
   },
   {
     "id": "blackwill-453248128",
@@ -374,8 +374,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [German Reunification 11/89-6/90] [2]. Access restriction: Restricted - Possibly. NAID 453248128.",
-    "researchNote": "PDF extent: 198 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-021.pdf. Catalog: https://catalog.archives.gov/id/453248128."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [German Reunification 11/89-6/90] [2].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248128. PDF extent: 198 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-021.pdf. Catalog: https://catalog.archives.gov/id/453248128."
   },
   {
     "id": "blackwill-453248114",
@@ -401,8 +401,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Resumes to Blackwill - NSC Staff Positions] [5]. Access restriction: Restricted - Possibly. NAID 453248114.",
-    "researchNote": "PDF extent: 34 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-006.pdf. Catalog: https://catalog.archives.gov/id/453248114."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Resumes to Blackwill - NSC Staff Positions] [5].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248114. PDF extent: 34 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-006.pdf. Catalog: https://catalog.archives.gov/id/453248114."
   },
   {
     "id": "blackwill-453248118",
@@ -428,8 +428,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Robert Blackwill Appointment Calendar 1989]. Access restriction: Restricted - Possibly. NAID 453248118.",
-    "researchNote": "PDF extent: 3 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-010.pdf. Catalog: https://catalog.archives.gov/id/453248118."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Robert Blackwill Appointment Calendar 1989].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248118. PDF extent: 3 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-010.pdf. Catalog: https://catalog.archives.gov/id/453248118."
   },
   {
     "id": "blackwill-453248109",
@@ -455,8 +455,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [European Strategy Steering Group (ESSG) Meetings 3-6/89]. Access restriction: Restricted - Possibly. NAID 453248109.",
-    "researchNote": "PDF extent: 75 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-001.pdf. Catalog: https://catalog.archives.gov/id/453248109."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [European Strategy Steering Group (ESSG) Meetings 3-6/89].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248109. PDF extent: 75 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-001.pdf. Catalog: https://catalog.archives.gov/id/453248109."
   },
   {
     "id": "blackwill-453248112",
@@ -482,8 +482,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Resumes to Blackwill - NSC Staff Positions] [3]. Access restriction: Restricted - Possibly. NAID 453248112.",
-    "researchNote": "PDF extent: 88 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-004.pdf. Catalog: https://catalog.archives.gov/id/453248112."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Resumes to Blackwill - NSC Staff Positions] [3].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248112. PDF extent: 88 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-004.pdf. Catalog: https://catalog.archives.gov/id/453248112."
   },
   {
     "id": "blackwill-453248136",
@@ -509,8 +509,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Robert] Blackwill - [Handwritten Meeting] Notes [3]. Access restriction: Restricted - Possibly. NAID 453248136.",
-    "researchNote": "PDF extent: 26 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf01952-008.pdf. Catalog: https://catalog.archives.gov/id/453248136."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Robert] Blackwill - [Handwritten Meeting] Notes [3].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248136. PDF extent: 26 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf01952-008.pdf. Catalog: https://catalog.archives.gov/id/453248136."
   },
   {
     "id": "blackwill-453248134",
@@ -536,8 +536,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Robert] Blackwill - [Handwritten Meeting] Notes [1]. Access restriction: Restricted - Possibly. NAID 453248134.",
-    "researchNote": "PDF extent: 60 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf01952-006.pdf. Catalog: https://catalog.archives.gov/id/453248134."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Robert] Blackwill - [Handwritten Meeting] Notes [1].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248134. PDF extent: 60 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf01952-006.pdf. Catalog: https://catalog.archives.gov/id/453248134."
   },
   {
     "id": "blackwill-453248123",
@@ -563,8 +563,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Telcon: POTUS and Margaret Thatcher 2/24/90]. Access restriction: Restricted - Possibly. NAID 453248123.",
-    "researchNote": "PDF extent: 10 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-015.pdf. Catalog: https://catalog.archives.gov/id/453248123."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Telcon: POTUS and Margaret Thatcher 2/24/90].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248123. PDF extent: 10 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-015.pdf. Catalog: https://catalog.archives.gov/id/453248123."
   },
   {
     "id": "blackwill-453248122",
@@ -590,8 +590,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Telcon: POTUS and Mikhail Gorbachev 2/28/90]. Access restriction: Restricted - Possibly. NAID 453248122.",
-    "researchNote": "PDF extent: 6 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-014.pdf. Catalog: https://catalog.archives.gov/id/453248122."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Telcon: POTUS and Mikhail Gorbachev 2/28/90].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248122. PDF extent: 6 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-014.pdf. Catalog: https://catalog.archives.gov/id/453248122."
   },
   {
     "id": "blackwill-453248130",
@@ -617,8 +617,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, Malta / Brussels Items - Hold for Trip. Access restriction: Restricted - Possibly. NAID 453248130.",
-    "researchNote": "PDF extent: 23 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf01952-002.pdf. Catalog: https://catalog.archives.gov/id/453248130."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, Malta / Brussels Items - Hold for Trip.",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248130. PDF extent: 23 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf01952-002.pdf. Catalog: https://catalog.archives.gov/id/453248130."
   },
   {
     "id": "blackwill-453248131",
@@ -644,8 +644,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, Non-Summit - December 2-3, 1989 [1]. Access restriction: Restricted - Possibly. NAID 453248131.",
-    "researchNote": "PDF extent: 49 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf01952-003.pdf. Catalog: https://catalog.archives.gov/id/453248131."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, Non-Summit - December 2-3, 1989 [1].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248131. PDF extent: 49 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf01952-003.pdf. Catalog: https://catalog.archives.gov/id/453248131."
   },
   {
     "id": "blackwill-453248115",
@@ -671,8 +671,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Resumes to Blackwill - NSC Staff Positions] [6]. Access restriction: Restricted - Possibly. NAID 453248115.",
-    "researchNote": "PDF extent: 51 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-007.pdf. Catalog: https://catalog.archives.gov/id/453248115."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Resumes to Blackwill - NSC Staff Positions] [6].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248115. PDF extent: 51 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-007.pdf. Catalog: https://catalog.archives.gov/id/453248115."
   },
   {
     "id": "blackwill-453248133",
@@ -698,8 +698,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, Non-Summit - December 2-3, 1989 [3]. Access restriction: Restricted - Possibly. NAID 453248133.",
-    "researchNote": "PDF extent: 70 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf01952-005.pdf. Catalog: https://catalog.archives.gov/id/453248133."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, Non-Summit - December 2-3, 1989 [3].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248133. PDF extent: 70 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf01952-005.pdf. Catalog: https://catalog.archives.gov/id/453248133."
   },
   {
     "id": "blackwill-453248132",
@@ -725,8 +725,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, Non-Summit - December 2-3, 1989 [2]. Access restriction: Restricted - Possibly. NAID 453248132.",
-    "researchNote": "PDF extent: 63 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf01952-004.pdf. Catalog: https://catalog.archives.gov/id/453248132."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, Non-Summit - December 2-3, 1989 [2].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248132. PDF extent: 63 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf01952-004.pdf. Catalog: https://catalog.archives.gov/id/453248132."
   },
   {
     "id": "blackwill-360766708",
@@ -752,8 +752,8 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [German Reunification 11/89-6/90] [1]. Access restriction: Undetermined. NAID 360766708.",
-    "researchNote": "PDF extent: 146 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-020.pdf. Catalog: https://catalog.archives.gov/id/360766708."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [German Reunification 11/89-6/90] [1].",
+    "researchNote": "Catalog provenance: Catalog access Undetermined; NAID 360766708. PDF extent: 146 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf00182-020.pdf. Catalog: https://catalog.archives.gov/id/360766708."
   },
   {
     "id": "blackwill-453248135",
@@ -779,7 +779,7 @@ window.BLACKWILL_FILES = [
       "series": "Robert D. Blackwill's Subject Files",
       "seriesNaid": "2554653"
     },
-    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Robert] Blackwill - [Handwritten Meeting] Notes [2]. Access restriction: Restricted - Possibly. NAID 453248135.",
-    "researchNote": "PDF extent: 70 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf01952-007.pdf. Catalog: https://catalog.archives.gov/id/453248135."
+    "sourceNote": "Source: George H.W. Bush Library, Bush Presidential Records, National Security Council, Robert D. Blackwill's Subject Files, [Robert] Blackwill - [Handwritten Meeting] Notes [2].",
+    "researchNote": "Catalog provenance: Catalog access Restricted - Possibly; NAID 453248135. PDF extent: 70 pages. Digital object: 41-bpr-nsc-blackwill_subj-cf01952-007.pdf. Catalog: https://catalog.archives.gov/id/453248135."
   }
 ];

@@ -107,16 +107,32 @@ function buildFrusSourceNote(item) {
   ]);
   const citation = `Source: ${parts.join(", ")}`;
   const details = [];
+  const classification = clean(item.classification || item.classificationMarking || item.originalClassification);
+  const handling = clean(item.handling || item.handlingRestriction);
+  const distribution = clean(item.distribution || item.distributionStatus);
+  const drafting = clean(item.draftingInfo || item.preparedBy || item.draftedBy);
+  if (classification) details.push(classification);
+  if (handling) details.push(handling);
+  if (distribution) details.push(distribution);
+  if (drafting) details.push(drafting);
+  return [sentence(citation), ...details.map(sentence)].filter(Boolean).join(" ");
+}
+
+function catalogProvenanceNote(item) {
+  const parts = [];
   const releaseStatus = usableStatus(item.releaseStatus);
   const accessRestriction = usableStatus(item.accessRestriction);
-  if (releaseStatus) details.push(`Release status: ${releaseStatus}`);
-  if (!releaseStatus && accessRestriction) details.push(`Access restriction: ${accessRestriction}`);
-  if (item.naid) details.push(`NAID ${clean(item.naid)}`);
-  return [sentence(citation), ...details.map(sentence)].filter(Boolean).join(" ");
+  if (releaseStatus) parts.push(`public Catalog release status ${releaseStatus}`);
+  if (accessRestriction) parts.push(`Catalog access ${accessRestriction}`);
+  if (item.naid) parts.push(`NAID ${clean(item.naid)}`);
+  if (!parts.length) return "";
+  return `Catalog provenance: ${parts.join("; ")}.`;
 }
 
 function buildResearchNote(item) {
   const parts = [];
+  const provenance = catalogProvenanceNote(item);
+  if (provenance) parts.push(provenance);
   if (item.matchBasis) parts.push(`Match basis: ${item.matchBasis}.`);
   if (item.queryLabels?.length) parts.push(`Query hit(s): ${item.queryLabels.join(", ")}.`);
   if (item.queryTotals?.length) {

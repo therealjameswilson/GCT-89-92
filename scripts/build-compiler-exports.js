@@ -2095,6 +2095,7 @@ function declassificationReviewRows(records) {
     pageCount: record.pageCount,
     naid: record.naid,
     sourceNote: record.sourceNote,
+    sourceNoteProvenance: sourceNoteProvenance(record),
     researchNote: record.researchNote,
     scheduleReferences: scheduleReferenceLinks(record),
     catalogUrl: record.catalogUrl,
@@ -2182,6 +2183,7 @@ function declassificationRequestRows(records, data) {
       sourcePacketLinks: packets.map(sourcePacketLinks).filter(Boolean).join(" || "),
       suggestedAction: declassificationAction(record),
       sourceNote: record.sourceNote,
+      sourceNoteProvenance: sourceNoteProvenance(record),
       researchNote: record.researchNote
     };
   });
@@ -2252,6 +2254,7 @@ function buildDeclassificationCsv(records) {
     "pageCount",
     "naid",
     "sourceNote",
+    "sourceNoteProvenance",
     "researchNote",
     "scheduleReferences",
     "catalogUrl",
@@ -2342,6 +2345,7 @@ function buildDeclassificationRequestsCsv(records, data) {
     "sourcePacketLinks",
     "suggestedAction",
     "sourceNote",
+    "sourceNoteProvenance",
     "researchNote"
   ];
   return `${csvRow(header)}\n${rows.map((row) => csvRow(header.map((field) => row[field]))).join("\n")}\n`;
@@ -2371,11 +2375,21 @@ function catalogDerivedSourceNote(record) {
     source.series || "",
     record.documentTitle || record.title
   ].filter(Boolean);
+  return `Source: ${pathParts.join(", ")}.`;
+}
+
+function sourceNoteProvenance(item) {
+  const catalogBits = [
+    item.releaseStatus ? `public Catalog release status: ${item.releaseStatus}` : "",
+    item.accessRestriction ? `Catalog access: ${item.accessRestriction}` : "",
+    item.naid ? `NAID ${item.naid}` : "",
+    item.pageCount ? `PDF extent: ${item.pageCount} pages` : "",
+    item.objectFilename ? `digital object: ${item.objectFilename}` : ""
+  ].filter(Boolean);
   return [
-    `Source: ${pathParts.join(", ")}.`,
-    record.accessRestriction ? `Catalog access: ${record.accessRestriction}.` : "",
-    record.releaseStatus ? `Release status: ${record.releaseStatus}.` : "",
-    record.naid ? `NAID ${record.naid}.` : ""
+    "FRUS source-note draft is Catalog-derived and limited to repository, record group/collection, series, and title.",
+    catalogBits.length ? `Catalog provenance retained separately: ${catalogBits.join("; ")}.` : "",
+    "Final publication check: confirm original classification marking, drafting/clearance/distribution details, marginalia, and exact archival container/OA-ID against the PDF or Library metadata."
   ]
     .filter(Boolean)
     .join(" ");
@@ -2389,7 +2403,7 @@ function sourceNoteGaps(record, qualityRows) {
   const gaps = [
     "Confirm classification marking from PDF",
     "Confirm place/time and drafting/clearance details from text",
-    "Replace Catalog-only release/access wording with final FRUS editorial wording where needed"
+    "Keep Catalog release/access/NAID in provenance fields, not final FRUS source-note text"
   ];
   if (releaseNeedsAttention(record)) gaps.push("Resolve release/marker status before final selection");
   if (!(record.scheduleReferences || []).length) gaps.push("Attach Presidential Daily Diary/Backup schedule corroboration");
@@ -2427,6 +2441,7 @@ function documentRegisterRows(records, data) {
     pageCount: record.pageCount,
     naid: record.naid,
     catalogDerivedSourceNote: catalogDerivedSourceNote(record),
+    sourceNoteProvenance: sourceNoteProvenance(record),
     currentSourceNote: record.sourceNote,
     sourceNoteGaps: sourceNoteGaps(record, qualityRows),
     scheduleEvidence: scheduleEvidenceCompact(record),
@@ -2447,7 +2462,7 @@ function buildDocumentRegisterMarkdown(records, data) {
     "## Source-Note Guardrails",
     "",
     "- Published FRUS source notes begin with the repository/collection/file path and then add verified classification and editorial details; do not treat Catalog release status or NAID as a substitute for final source-note work.",
-    "- Official style examples checked: https://history.state.gov/historicaldocuments/frus1989-92v31/d60 and https://history.state.gov/historicaldocuments/frus1989-92v31/d61.",
+    "- Official style examples checked: https://history.state.gov/historicaldocuments/frus1989-92v31/d69, https://history.state.gov/historicaldocuments/frus1989-92v31/d23, https://history.state.gov/historicaldocuments/frus1989-92v31/d90, and https://history.state.gov/historicaldocuments/frus1989-92v31/d172.",
     "- Use this register to draft and triage; verify final wording against each PDF and any archival container/file metadata before publication.",
     "",
     "## Snapshot",
@@ -2505,6 +2520,8 @@ function buildDocumentRegisterMarkdown(records, data) {
       "",
       `**Catalog-derived source note:** ${row.catalogDerivedSourceNote}`,
       "",
+      `**Source-note provenance:** ${row.sourceNoteProvenance}`,
+      "",
       `**Schedule evidence:** ${row.scheduleEvidence || "No schedule corroboration attached."}`,
       "",
       `**Source-note gaps:** ${row.sourceNoteGaps}`,
@@ -2532,6 +2549,7 @@ function buildDocumentRegisterCsv(records, data) {
     "pageCount",
     "naid",
     "catalogDerivedSourceNote",
+    "sourceNoteProvenance",
     "currentSourceNote",
     "sourceNoteGaps",
     "scheduleEvidence",
@@ -3105,6 +3123,8 @@ function buildMarkdown(records) {
         "",
         `**Source Note:** ${record.sourceNote || "Source note pending."}`,
         "",
+        `**Source-Note Provenance:** ${sourceNoteProvenance(record)}`,
+        "",
         `**Research Note:** ${record.researchNote || "Research note pending."}`,
         "",
         `**Schedule References:** ${scheduleSummary(record) || "No same-date Daily Diary/Backup reference attached."}`,
@@ -3130,6 +3150,7 @@ function buildCsv(records) {
     "pageCount",
     "naid",
     "sourceNote",
+    "sourceNoteProvenance",
     "researchNote",
     "scheduleReferences",
     "catalogUrl",
@@ -3147,6 +3168,7 @@ function buildCsv(records) {
       record.pageCount,
       record.naid,
       record.sourceNote,
+      sourceNoteProvenance(record),
       record.researchNote,
       scheduleSummary(record),
       record.catalogUrl,
